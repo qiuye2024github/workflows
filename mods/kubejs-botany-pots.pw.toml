@@ -1,0 +1,15 @@
+filename = "kubejsbotanypots-1.2.2.jar"
+name = "KubeJS Botany Pots"
+side = "both"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "2b6ec634199736b6632ae04586427189c91e7931"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/4920/458/kubejsbotanypots-1.2.2.jar"
+
+[update.curseforge]
+file-id = 4920458
+project-id = 832870

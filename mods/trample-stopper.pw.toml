@@ -1,0 +1,15 @@
+filename = "TrampleStopper-Forge-5.0.0+mc1.20.1.jar"
+name = "Trample Stopper"
+side = "both"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "beta"
+
+[download]
+hash = "abd4ff311e9fc43030005f1c6d35a60874c27847"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/4584/844/TrampleStopper-Forge-5.0.0+mc1.20.1.jar"
+
+[update.curseforge]
+file-id = 4584844
+project-id = 297028

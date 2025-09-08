@@ -1,0 +1,15 @@
+filename = "ProjectExpansion-1.20.1-1.1.2.jar"
+name = "Project Expansion"
+side = "both"
+x-prismlauncher-loaders = ["neoforge", "forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "58248e2ab9fe5aede55a9d323e66321eca6236aa"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/5772/569/ProjectExpansion-1.20.1-1.1.2.jar"
+
+[update.curseforge]
+file-id = 5772569
+project-id = 579177

@@ -1,0 +1,15 @@
+filename = "cpapireforged-1.0.4.jar"
+name = "Custom Portal API Reforged"
+side = "both"
+x-prismlauncher-loaders = ["neoforge", "forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "687eb7776b582f7c388fe9ee69545f06d814fa4a"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/5487/230/cpapireforged-1.0.4.jar"
+
+[update.curseforge]
+file-id = 5487230
+project-id = 902717

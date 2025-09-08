@@ -1,0 +1,15 @@
+filename = "industrial-foregoing-1.20.1-3.5.20.jar"
+name = "Industrial Foregoing"
+side = "both"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "beta"
+
+[download]
+hash = "09f14a60d5d945a8de428fa3766f788d3c333a5e"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6626/653/industrial-foregoing-1.20.1-3.5.20.jar"
+
+[update.curseforge]
+file-id = 6626653
+project-id = 266515

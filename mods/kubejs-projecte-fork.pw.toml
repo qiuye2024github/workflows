@@ -1,0 +1,15 @@
+filename = "kjsprojecte-1.20.1-1.0.jar"
+name = "KubeJS ProjectE Fork"
+side = "both"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "c1745dc84b78d251dee16c24d3f7399c6a329ae3"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/5529/566/kjsprojecte-1.20.1-1.0.jar"
+
+[update.curseforge]
+file-id = 5529566
+project-id = 1063228

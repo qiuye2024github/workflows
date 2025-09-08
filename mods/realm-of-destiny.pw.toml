@@ -1,0 +1,15 @@
+filename = "realmofdestiny-1.20.1-3.0.0.jar"
+name = "Realm of Destiny"
+side = "both"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "beta"
+
+[download]
+hash = "d7fe5b80e9a31648d32a952b055321fb92d985ff"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6743/225/realmofdestiny-1.20.1-3.0.0.jar"
+
+[update.curseforge]
+file-id = 6743225
+project-id = 1088657

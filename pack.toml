@@ -1,0 +1,12 @@
+name = "Realm-of-Destiny"
+version = "2.2.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "06b48498243114401c5467b86891f0bb49ef96c4c3537abce44ae821c406059f"
+
+[versions]
+forge = "47.4.0"
+minecraft = "1.20.1"

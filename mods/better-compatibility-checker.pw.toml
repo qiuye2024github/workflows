@@ -1,0 +1,15 @@
+filename = "BetterCompatibilityChecker-3.0.1-build.58+mc1.20.jar"
+name = "Better Compatibility Checker"
+side = "both"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20", "1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "5c63ec18176fdf072c3b8d0fb7e8445ed73b9b86"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/4573/949/BetterCompatibilityChecker-3.0.1-build.58+mc1.20.jar"
+
+[update.curseforge]
+file-id = 4573949
+project-id = 551894

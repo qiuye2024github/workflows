@@ -1,0 +1,15 @@
+filename = "throughput_quest-1.20.1-1.0.0.jar"
+name = "Throughput Quest"
+side = "both"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "8b40e5f9dabb015cfc5ed80e4bab6b20a72b588b"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6338/547/throughput_quest-1.20.1-1.0.0.jar"
+
+[update.curseforge]
+file-id = 6338547
+project-id = 1226673

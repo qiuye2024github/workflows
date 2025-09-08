@@ -1,0 +1,15 @@
+filename = "Super Factory Manager (SFM)-MC1.20.1-4.23.0.jar"
+name = "Super Factory Manager ( SFM )"
+side = "both"
+x-prismlauncher-loaders = ["neoforge", "forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "1b6d91f81fcf58bfbf0a2b0849ff79cc2596bbf6"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6849/465/Super Factory Manager (SFM)-MC1.20.1-4.23.0.jar"
+
+[update.curseforge]
+file-id = 6849465
+project-id = 306935

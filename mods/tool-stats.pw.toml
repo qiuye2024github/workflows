@@ -1,0 +1,15 @@
+filename = "ToolStats-Forge-1.20.1-16.0.9.jar"
+name = "Tool Stats"
+side = "client"
+x-prismlauncher-loaders = ["neoforge", "forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "8d3b590f6b16a149d19e406571e5a6a33db30074"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/5727/383/ToolStats-Forge-1.20.1-16.0.9.jar"
+
+[update.curseforge]
+file-id = 5727383
+project-id = 377109

@@ -1,0 +1,15 @@
+filename = "InventoryProfilesNext-forge-1.20-1.10.18.jar"
+name = "Inventory Profiles Next"
+side = "both"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20", "1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "e19a747d75338884b3b5fcc76e0feed3986749f2"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6870/340/InventoryProfilesNext-forge-1.20-1.10.18.jar"
+
+[update.curseforge]
+file-id = 6870340
+project-id = 495267
