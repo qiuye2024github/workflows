@@ -17,8 +17,6 @@
         pack = builtins.fromTOML (builtins.readFile ./pack.toml);
         inherit (packwiz2nix.packages.${system}) buildPackwizModpack;
         patchFilesCommon = ''
-          rm -rf config/ftbquests/quests
-          cp -r .github/localization/quests config/ftbquests/quests
         '';
       in {
         devShells.default =
