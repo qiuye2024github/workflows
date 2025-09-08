@@ -1368,10 +1368,6 @@ hash = "45cccfdf62d8ee93f99b0242d34dd389d75fd17a7d405db44d9cffbda5435f37"
 metafile = true
 
 [[files]]
-file = "mods/arseng-1.2.0.jar"
-hash = "02850730d3535afeb19d94311c31693ee1986d07795934e4dc50282f7956e827"
-
-[[files]]
 file = "mods/athena.pw.toml"
 hash = "33b589f8adf9464b0a0bd101ae6057645b60e01bc8c50bb63afd61d8e6affafd"
 metafile = true
