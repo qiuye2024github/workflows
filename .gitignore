@@ -29,7 +29,6 @@
 /config/spark/
 /config/fabric/
 /mods/.index/
-/mods/*.jar
 /gtceu/
 /patchouli_books/
 /knownkeys.txt
