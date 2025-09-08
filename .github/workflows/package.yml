@@ -85,7 +85,7 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: GregTech-Engineering-server
+        name: Realm-of-Destiny-server
         path: ./Realm-of-Destiny-server-${{ env.VERSION }}.zip
 
   
