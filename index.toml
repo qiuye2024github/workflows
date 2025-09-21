@@ -2987,9 +2987,8 @@ hash = "416f9ea91d82049c2e9056d5ea163375828079b2db10b888675544a2506e5807"
 metafile = true
 
 [[files]]
-file = "mods/born-in-chaos.pw.toml"
-hash = "cff3370007e463c5fd5f407f59de45f39792167a821208985bd0020ce3099cd0"
-metafile = true
+file = "mods/born_in_chaos_[Forge]1.20.1_1.7.2.jar"
+hash = "72bd70ea07a5685818b89d293cc3cd99ae50411ad7a8a6625281380f2e3d54de"
 
 [[files]]
 file = "mods/bosses-of-mass-destruction-forge.pw.toml"
