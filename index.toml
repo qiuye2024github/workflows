@@ -2837,6 +2837,10 @@ file = "mods/Never-Enough-Currenecy[Forge]1.20.1.jar"
 hash = "5e1520adc3289687b4ef7bd87d7f8fe284741d92c8fe38d6c3b5d36f7f16011d"
 
 [[files]]
+file = "mods/[Forge] mythsandlegends-0.0.6.3.jar"
+hash = "db9b43ccb9efb29222bea50f55014879245d77d8f533f16c239df3a0903c9d29"
+
+[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "359e45a74be77a2e22b9e190493bd01b2b9b628fc02ad6a38f8904b9412144f4"
 metafile = true
@@ -3718,11 +3722,6 @@ metafile = true
 [[files]]
 file = "mods/mutant-monsters.pw.toml"
 hash = "c4d57029ade24cb43a68dc0e227d480e3380c6d2b9bb6f798343845f5beeef09"
-metafile = true
-
-[[files]]
-file = "mods/myths-n-legends.pw.toml"
-hash = "47741cf7c5d86936d0ab88268ad3ab610cde322182703cf76b64ac89d981a73c"
 metafile = true
 
 [[files]]
