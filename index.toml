@@ -2833,6 +2833,10 @@ file = "kubejs/startup_scripts/example.js"
 hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
+file = "mods/Never-Enough-Currenecy[Forge]1.20.1.jar"
+hash = "5e1520adc3289687b4ef7bd87d7f8fe284741d92c8fe38d6c3b5d36f7f16011d"
+
+[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "359e45a74be77a2e22b9e190493bd01b2b9b628fc02ad6a38f8904b9412144f4"
 metafile = true
@@ -3730,11 +3734,6 @@ metafile = true
 [[files]]
 file = "mods/nethers-delight.pw.toml"
 hash = "00822f19ac42ca58b4f94b67441997eaeb7da4679ce7ac197b79ad8475556be3"
-metafile = true
-
-[[files]]
-file = "mods/never-enough-currency-2.pw.toml"
-hash = "83ff575e7603ba4fa398c16290ed1c1c6e212793bfc7d88361e19f66481d9e69"
 metafile = true
 
 [[files]]
