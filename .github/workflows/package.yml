@@ -45,20 +45,6 @@ jobs:
         echo "VERSION=$VERSION" >> $GITHUB_ENV
         echo "Extracted version from pack.toml: $VERSION"
     - run: nix build .#curseforge -o curseforge
-    - name: Build Server Modpack
-      run: |
-        nix build .#modpack
-        mkdir modpack
-        cp -r result/* modpack/
-        chmod -R +w modpack/config/ modpack/defaultconfigs/
-        zip -r Realm-of-Destiny-server-mods.zip modpack/*
-    - name: Build Client Modpack
-      run: |
-        nix build .#modpack-client
-        mkdir modpack-client
-        cp -r result/* modpack-client/
-        chmod -R +w modpack-client/config/ modpack-client/defaultconfigs/
-        zip -r Realm-of-Destiny-client-mods.zip modpack-client/*
     - name: Build Server
       run: |
         nix build .#server
@@ -66,22 +52,6 @@ jobs:
         cp -r result/* server/
         chmod -R +w server/config/ server/defaultconfigs/
         cd server && zip -r ../Realm-of-Destiny-server-${{ env.VERSION }}.zip ./*
-    - name: Upload artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: Realm-of-Destiny
-        path: |
-          ./curseforge/**.zip
-    - name: Upload artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: Realm-of-Destiny-server-mods
-        path: ./Realm-of-Destiny-server-mods.zip
-    - name: Upload artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: Realm-of-Destiny-client-mods
-        path: ./Realm-of-Destiny-client-mods.zip
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
@@ -123,4 +93,4 @@ jobs:
           git push origin :$TAG_NAME || true 
       - name: Publish release
         run: |
-          gh release create $TAG_NAME $PRERELEASE --title "$SUBJECT" --target $GITHUB_SHA Realm-of-Destiny/* Realm-of-Destiny-server-mods/* Realm-of-Destiny-client-mods/* Realm-of-Destiny-server/* 
+          gh release create $TAG_NAME $PRERELEASE --title "$SUBJECT" --target $GITHUB_SHA Realm-of-Destiny-server/* 
