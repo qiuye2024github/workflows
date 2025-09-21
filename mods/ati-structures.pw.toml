@@ -1,4 +1,4 @@
-filename = "Pati_structures_1.3.0_forge_1.20.jar"
+filename = "ATi Structures V1.4.0 (1.20+).jar"
 name = "ATi Structures"
 side = "both"
 x-prismlauncher-loaders = ["neoforge", "forge", "quilt", "fabric"]
@@ -6,10 +6,10 @@ x-prismlauncher-mc-versions = ["1.20", "1.20.1", "1.20.2", "1.20.3", "1.20.4"]
 x-prismlauncher-release-type = "release"
 
 [download]
-hash = "bd318a7ad0efe7a639301ee8ea17821caa32ddf0"
+hash = "41dc7d34e0a23ce46995501b26f4e0fe549c478d"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/6730/813/Pati_structures_1.3.0_forge_1.20.jar"
+url = "https://edge.forgecdn.net/files/6660/912/ATi Structures V1.4.0 (1.20+).jar"
 
 [update.curseforge]
-file-id = 6730813
+file-id = 6660912
 project-id = 964608

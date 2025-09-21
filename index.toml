@@ -2933,7 +2933,7 @@ metafile = true
 
 [[files]]
 file = "mods/ati-structures.pw.toml"
-hash = "4d51ac211eadf09fb61c124235545829eb4fb7c4987b23f11ea0e1251f112d9b"
+hash = "c209984d434561a6e48ee62228e6ca414e9674687d0531fd7c39243347a1309e"
 metafile = true
 
 [[files]]
