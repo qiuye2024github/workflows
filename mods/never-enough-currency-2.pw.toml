@@ -1,4 +1,4 @@
-filename = "Never-Enough-Currenecy1.20.1.jar"
+filename = "Never-Enough-Currenecy[Forge]1.20.1.jar"
 name = "Never Enough Currency 2 (FORGE/NEOFORGE)"
 side = "both"
 x-prismlauncher-loaders = ["forge"]
@@ -8,7 +8,7 @@ x-prismlauncher-release-type = "release"
 [download]
 hash = "fa7d8754d0feda679b07b0294389e96bdadd815a"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/4636/534/Never-Enough-Currenecy1.20.1.jar"
+url = "https://edge.forgecdn.net/files/4636/534/Never-Enough-Currenecy[Forge]1.20.1.jar"
 
 [update.curseforge]
 file-id = 4636534
