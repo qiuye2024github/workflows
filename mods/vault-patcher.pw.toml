@@ -1,4 +1,4 @@
-filename = "[淇濋櫓搴撹ˉ涓乚vaultpatcher-all-1.4.4+3.jar"
+filename = "vaultpatcher-all-1.4.4+3.jar"
 name = "Vault Patcher"
 side = "both"
 x-prismlauncher-loaders = ["neoforge", "forge", "quilt", "fabric"]
@@ -8,7 +8,7 @@ x-prismlauncher-release-type = "release"
 [download]
 hash = "eff60719a0518d3785a7aa789457b35d4a9ae328"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/6482/746/[鍥藉垱][淇濋櫓搴撹ˉ涓乚vaultpatcher-all-1.4.4+3.jar"
+url = "https://edge.forgecdn.net/files/6482/746/vaultpatcher-all-1.4.4+3.jar"
 
 [update.curseforge]
 file-id = 6482746

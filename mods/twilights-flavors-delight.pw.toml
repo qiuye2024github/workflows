@@ -1,1 +1,15 @@
+filename = "twilightdelight-2.0.16.jar"
+name = "Twilight's Flavors & Delight"
+side = "both"
+x-prismlauncher-loaders = ["neoforge", "forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
 
+[download]
+hash = "c03c9a8c4dc39c14f829433433ee210a60e4c954"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6732/421/twilightdelight-2.0.16.jar"
+
+[update.curseforge]
+file-id = 6732421
+project-id = 871735

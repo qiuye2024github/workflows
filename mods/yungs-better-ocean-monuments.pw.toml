@@ -1,4 +1,4 @@
-filename = "[YUNG鐨勬捣搴曠�炴�夸紭鍖朷 YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar"
+filename = "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar"
 name = "YUNG's Better Ocean Monuments (Forge/NeoForge)"
 side = "both"
 x-prismlauncher-loaders = ["forge"]
@@ -8,7 +8,7 @@ x-prismlauncher-release-type = "release"
 [download]
 hash = "d8e74ed19903752a97ed0e1d2b1a8bf378bc252f"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/4883/003/[YUNG鐨勬捣搴曠�炴�夸紭鍖朷 YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar"
+url = "https://edge.forgecdn.net/files/4883/003/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar"
 
 [update.curseforge]
 file-id = 4883003

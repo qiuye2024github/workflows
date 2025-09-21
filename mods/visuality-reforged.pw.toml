@@ -8,7 +8,7 @@ x-prismlauncher-release-type = "release"
 [download]
 hash = "1f0547f3ba508156cd4630bf793df464230e04f3"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/4684/840/[鍙�瑙嗘�э細閲嶉摳] visuality-forge-2.0.2.jar"
+url = "https://edge.forgecdn.net/files/4684/840/visuality-forge-2.0.2.jar"
 
 [update.curseforge]
 file-id = 4684840

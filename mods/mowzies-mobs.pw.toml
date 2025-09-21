@@ -8,7 +8,7 @@ x-prismlauncher-release-type = "release"
 [download]
 hash = "690f2134241544b3f6c38ff895d8e5a2aa77aa4d"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/6586/086/[Mowzie鐨勭敓鐗�] mowziesmobs-1.7.3.jar"
+url = "https://edge.forgecdn.net/files/6586/086/mowziesmobs-1.7.3.jar"
 
 [update.curseforge]
 file-id = 6586086

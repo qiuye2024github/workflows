@@ -1,1 +1,15 @@
+filename = "l2backpack-2.5.3.jar"
+name = "L2 Backpack"
+side = "both"
+x-prismlauncher-loaders = ["neoforge", "forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
 
+[download]
+hash = "7bb68ff278e0688784d8d36ebf7472390593cbf8"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6689/259/l2backpack-2.5.3.jar"
+
+[update.curseforge]
+file-id = 6689259
+project-id = 620229

@@ -8,7 +8,7 @@ x-prismlauncher-release-type = "release"
 [download]
 hash = "11ae4c94aa94b38b78cf9b901dad4612b679f8ac"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/5114/579/[澧撳洯] The_Graveyard_3.1_(FORGE)_for_1.20.1.jar"
+url = "https://edge.forgecdn.net/files/5114/579/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar"
 
 [update.curseforge]
 file-id = 5114579

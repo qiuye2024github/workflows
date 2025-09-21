@@ -1,4 +1,4 @@
-filename = "[鏇村�氱敓鐗╁彉绉峕 moremobvariants-forge+1.20.1-1.3.0.1.jar"
+filename = "moremobvariants-forge+1.20.1-1.3.0.1.jar"
 name = "More Mob Variants"
 side = "both"
 x-prismlauncher-loaders = ["forge"]
@@ -8,7 +8,7 @@ x-prismlauncher-release-type = "release"
 [download]
 hash = "0fad563c9d66e421b0b0d4541b33d18516446c58"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/5280/609/[鏇村�氱敓鐗╁彉绉峕 moremobvariants-forge+1.20.1-1.3.0.1.jar"
+url = "https://edge.forgecdn.net/files/5280/609/moremobvariants-forge+1.20.1-1.3.0.1.jar"
 
 [update.curseforge]
 file-id = 5280609

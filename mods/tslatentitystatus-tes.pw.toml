@@ -1,4 +1,4 @@
-filename = "[浼ゅ�虫樉绀篯TES-forge-1.20.1-1.5.1.jar"
+filename = "TES-forge-1.20.1-1.5.1.jar"
 name = "TslatEntityStatus (TES)"
 side = "both"
 x-prismlauncher-loaders = ["forge"]
@@ -8,7 +8,7 @@ x-prismlauncher-release-type = "release"
 [download]
 hash = "807395de176732e65ddbff176707c1c27ad4d92e"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/5271/600/[浼ゅ�虫樉绀篯TES-forge-1.20.1-1.5.1.jar"
+url = "https://edge.forgecdn.net/files/5271/600/TES-forge-1.20.1-1.5.1.jar"
 
 [update.curseforge]
 file-id = 5271600

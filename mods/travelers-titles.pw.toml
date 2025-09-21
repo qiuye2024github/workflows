@@ -1,4 +1,4 @@
-filename = "[鏃呰�屾爣棰榏TravelersTitles-1.20-Forge-4.0.2.jar"
+filename = "TravelersTitles-1.20-Forge-4.0.2.jar"
 name = "Traveler's Titles (Forge/NeoForge)"
 side = "both"
 x-prismlauncher-loaders = ["forge"]
@@ -8,7 +8,7 @@ x-prismlauncher-release-type = "release"
 [download]
 hash = "64a435eaa6e08fff5af2c720c3b6a40fe292f2f7"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/5065/825/[鏃呰�屾爣棰榏TravelersTitles-1.20-Forge-4.0.2.jar"
+url = "https://edge.forgecdn.net/files/5065/825/TravelersTitles-1.20-Forge-4.0.2.jar"
 
 [update.curseforge]
 file-id = 5065825
