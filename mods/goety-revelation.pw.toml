@@ -1,4 +1,4 @@
-filename = "Goety路Revelation-2.2.6fix.jar"
+filename = "Goety-Revelation-2.2.6fix.jar"
 name = "Goety Revelation"
 side = "both"
 x-prismlauncher-loaders = ["forge"]
@@ -8,7 +8,7 @@ x-prismlauncher-release-type = "release"
 [download]
 hash = "294ac3654ea57e02a8330c1aa6c92ea0b9ceac26"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/6791/619/Goety路Revelation-2.2.6fix.jar"
+url = "https://edge.forgecdn.net/files/6791/619/Goety-Revelation-2.2.6fix.jar"
 
 [update.curseforge]
 file-id = 6791619
