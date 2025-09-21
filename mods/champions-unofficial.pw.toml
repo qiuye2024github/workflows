@@ -1,0 +1,15 @@
+filename = "champions-forge-1.20.1-2.1.7.0-beta+0.jar"
+name = "Champions Unofficial"
+side = "both"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "beta"
+
+[download]
+hash = "244302b6ec08e7c2f886b6a7ffe897263ce6426b"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/5893/428/champions-forge-1.20.1-2.1.7.0-beta+0.jar"
+
+[update.curseforge]
+file-id = 5893428
+project-id = 1074990

@@ -1,0 +1,15 @@
+filename = "astemirlib-1.20.1-1.11.jar"
+name = "AstemirLib"
+side = "both"
+x-prismlauncher-loaders = ["neoforge", "forge"]
+x-prismlauncher-mc-versions = ["1.20", "1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "c3c46433d1c7f014e884e458dc95eb3bd9a58144"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/5006/638/astemirlib-1.20.1-1.11.jar"
+
+[update.curseforge]
+file-id = 5006638
+project-id = 933306

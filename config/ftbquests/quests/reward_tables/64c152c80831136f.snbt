@@ -1,0 +1,130 @@
+{
+	id: "64C152C80831136F"
+	loot_size: 1
+	order_index: 46
+	rewards: [
+		{ item: "icarus:white_mechanical_feathered_wings" }
+		{
+			item: {
+				Count: 1
+				id: "icarus:magenta_mechanical_feathered_wings"
+				tag: { }
+			}
+		}
+		{ item: "icarus:pink_mechanical_feathered_wings" }
+		{ item: "icarus:gray_mechanical_feathered_wings" }
+		{ item: "icarus:blue_mechanical_feathered_wings" }
+		{ item: "icarus:black_mechanical_feathered_wings" }
+		{ item: "icarus:white_mechanical_leather_wings" }
+		{ item: "icarus:light_blue_mechanical_leather_wings" }
+		{ item: "icarus:pink_mechanical_leather_wings" }
+		{
+			item: {
+				Count: 1
+				id: "icarus:white_feathered_wings"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "icarus:pink_feathered_wings"
+				tag: { }
+			}
+		}
+		{ item: "icarus:gray_feathered_wings" }
+		{ item: "icarus:black_feathered_wings" }
+		{ item: "icarus:magenta_dragon_wings" }
+		{ item: "icarus:light_blue_dragon_wings" }
+		{ item: "icarus:pink_dragon_wings" }
+		{ item: "icarus:gray_dragon_wings" }
+		{ item: "icarus:light_gray_dragon_wings" }
+		{ item: "icarus:blue_dragon_wings" }
+		{
+			item: {
+				Count: 1
+				id: "icarus:black_dragon_wings"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "icarus:black_mechanical_leather_wings"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "icarus:light_blue_light_wings"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "icarus:gray_mechanical_leather_wings"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "icarus:white_light_wings"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "icarus:magenta_light_wings"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "icarus:gray_light_wings"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "icarus:blue_light_wings"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "icarus:pink_light_wings"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "icarus:black_light_wings"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "icarus:flandres_wings"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "icarus:discords_wings"
+				tag: { }
+			}
+		}
+		{ item: "icarus:zanzas_wings" }
+	]
+	title: "翅膀"
+}

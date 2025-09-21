@@ -1,0 +1,15 @@
+filename = "enchantedlib-0.3.11.jar"
+name = "Enchanted Lib"
+side = "both"
+x-prismlauncher-loaders = ["fabric"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "73a7fd208ee56e6f0fcab20b90ffec31b01d111e"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/5352/611/enchantedlib-0.3.11.jar"
+
+[update.curseforge]
+file-id = 5352611
+project-id = 856527

@@ -1,0 +1,203 @@
+{
+	id: "507889C7F7B77621"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ item: "terramity:archangel_halo" }
+		{ item: "terramity:void_glasses" }
+		{ item: "terramity:cyber_glasses" }
+		{ item: "terramity:ancient_stone_mask" }
+		{ item: "terramity:pearls_of_persephone" }
+		{ item: "terramity:builder_mitts" }
+		{ item: "terramity:gold_medal" }
+		{ item: "terramity:nyxs_necklace" }
+		{ item: "terramity:exodium_shield_amulet" }
+		{ item: "terramity:purity_pendant" }
+		{ item: "terramity:rebound_scarf" }
+		{ item: "terramity:stillness_scarf" }
+		{ item: "terramity:holy_heart_necklace" }
+		{ item: "terramity:voidguard_pendant" }
+		{ item: "terramity:flameguard_pendant" }
+		{ item: "terramity:focus_scarf" }
+		{ item: "terramity:swag_glasses" }
+		{ item: "terramity:diamond_earrings" }
+		{ item: "terramity:scuba_gear" }
+		{ item: "terramity:null_scarf" }
+		{ item: "terramity:concealment_scarf" }
+		{ item: "terramity:all_seeing_scarf" }
+		{ item: "terramity:anxiety_amulet" }
+		{ item: "terramity:blastguard_pendant" }
+		{ item: "terramity:honey_necklace" }
+		{ item: "terramity:poisonguard_pendant" }
+		{ item: "terramity:solar_safeguard_pendant" }
+		{ item: "terramity:diamond_pendant" }
+		{ item: "terramity:eyepatch" }
+		{ item: "terramity:eyeglasses" }
+		{ item: "terramity:prismatic_scarf" }
+		{ item: "terramity:seafarer_scarf" }
+		{ item: "terramity:lava_locket" }
+		{ item: "terramity:steady_pendant" }
+		{ item: "terramity:gold_necklace" }
+		{ item: "terramity:cardboard_necklace" }
+		{ item: "terramity:prismatic_gauntlet" }
+		{ item: "terramity:hellrok_gauntlet" }
+		{
+			item: {
+				Count: 1
+				id: "terramity:glass_ring"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "terramity:chaos_heart_ring" }
+		{ item: "terramity:life_ring_plus" }
+		{ item: "terramity:ruby_ring_plus" }
+		{ item: "terramity:ruby_ring" }
+		{ item: "terramity:sapphire_ring_plus" }
+		{ item: "terramity:sacred_speed_bracelets" }
+		{ item: "terramity:exodium_twin_bracelets" }
+		{ item: "terramity:malediction_bracelets" }
+		{ item: "terramity:experience_sapping_gauntlet" }
+		{ item: "terramity:gravity_gauntlet" }
+		{ item: "terramity:gauntlet_of_decay" }
+		{ item: "terramity:life_ring" }
+		{ item: "terramity:ring_of_rejuvenation_plus" }
+		{ item: "terramity:ring_of_rejuvenation" }
+		{ item: "terramity:sapphire_ring" }
+		{ item: "terramity:diamond_ring" }
+		{ item: "terramity:empty_ring" }
+		{ item: "terramity:electron_bracelets" }
+		{ item: "terramity:chthonic_curse_bracelets" }
+		{ item: "terramity:poker_chip_bracelets" }
+		{ item: "terramity:famine_gauntlet" }
+		{ item: "terramity:diamond_gauntlet" }
+		{ item: "terramity:piston_cuffs" }
+		{ item: "terramity:express_ring" }
+		{ item: "terramity:rush_ring_plus" }
+		{ item: "terramity:leap_ring" }
+		{ item: "terramity:terawatt_bracers" }
+		{ item: "terramity:power_bracelets" }
+		{ item: "terramity:guardians_hand" }
+		{ item: "terramity:giant_sniffers_hoof" }
+		{ item: "terramity:lava_gauntlet" }
+		{ item: "terramity:rainbow_ring" }
+		{ item: "terramity:prismatic_ring" }
+		{ item: "terramity:agility_ring" }
+		{ item: "terramity:adrenaline_tablets" }
+		{ item: "terramity:melatonin_gummies" }
+		{ item: "terramity:morphine_pills" }
+		{ item: "terramity:sacrificial_sash" }
+		{ item: "terramity:shinobi_sash" }
+		{ item: "terramity:hurricane_belt" }
+		{ item: "terramity:anti_gravity_belt" }
+		{ item: "terramity:asteroid_belt" }
+		{ item: "terramity:kuiper_belt" }
+		{ item: "terramity:burning_spirit_ring" }
+		{ item: "terramity:gnome_ring" }
+		{ item: "terramity:tearstone_ring" }
+		{ item: "terramity:ultra_sniffers_pelt" }
+		{ item: "terramity:super_sniffers_pelt" }
+		{ item: "terramity:fragile_divinity" }
+		{ item: "terramity:flameburst_belt" }
+		{ item: "terramity:belt_of_the_gnome_king" }
+		{ item: "terramity:sarashi" }
+		{ item: "terramity:slam_belt" }
+		{ item: "terramity:diamond_studded_belt" }
+		{ item: "terramity:leather_belt" }
+		{ item: "terramity:band_of_power_plus" }
+		{ item: "terramity:band_of_power" }
+		{
+			item: {
+				Count: 1
+				id: "terramity:daemonium_glass_ring"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "terramity:hubris_of_icarus" }
+		{ item: "terramity:shadowflame_sash" }
+		{ item: "terramity:blink_belt" }
+		{ item: "terramity:prismatic_sarashi" }
+		{ item: "terramity:inverse_sarashi" }
+		{ item: "terramity:dragon_band" }
+		{ item: "terramity:xp_remedy_ring" }
+		{ item: "terramity:band_of_drifting" }
+		{ item: "terramity:swordsmans_sarashi" }
+		{ item: "terramity:phantom_amulet" }
+		{ item: "terramity:forbidden_fruit" }
+		{ item: "terramity:gaias_grace" }
+		{ item: "terramity:dr_binty" }
+		{ item: "terramity:steel_shell" }
+		{ item: "terramity:crystal_heart" }
+		{ item: "terramity:prismatic_feather" }
+		{ item: "terramity:gilded_feather" }
+		{ item: "terramity:flippers" }
+		{ item: "terramity:eternal_shadowflame" }
+		{ item: "terramity:acidic_ampoule" }
+		{ item: "terramity:pot_of_hot_coals" }
+		{ item: "terramity:bomb_charm" }
+		{ item: "terramity:ball_n_chain" }
+		{ item: "terramity:spring" }
+		{ item: "terramity:crest_of_the_void" }
+		{ item: "terramity:projectile_defense_talisman" }
+		{ item: "terramity:bottomless_ammo_box" }
+		{ item: "terramity:extremely_thick_oil" }
+		{ item: "terramity:ultrabright_ink_sac" }
+		{ item: "terramity:carton_of_glowberry_milk" }
+		{ item: "terramity:chthonic_nectar" }
+		{ item: "terramity:ambrosia" }
+		{ item: "terramity:celestial_brew" }
+		{ item: "terramity:the_pill" }
+		{ item: "terramity:fermented_apple_cider" }
+		{ item: "terramity:ibuprofen_capsules" }
+		{ item: "terramity:ammo_box" }
+		{ item: "terramity:forbidden_chalice" }
+		{ item: "terramity:holy_chalice" }
+		{ item: "terramity:carton_of_sweetberry_milk" }
+		{ item: "terramity:carton_of_chocolate_milk" }
+		{ item: "terramity:carton_of_milk" }
+		{ item: "terramity:radiant_honey" }
+		{ item: "terramity:shinobis_substitute" }
+		{ item: "terramity:cardboard_pop_up_fort" }
+		{ item: "terramity:hover_charm" }
+		{ item: "terramity:hover_charm_plus" }
+		{ item: "terramity:chthonic_cursemark" }
+		{ item: "terramity:chthonic_shell_casing" }
+		{ item: "terramity:weighted_die" }
+		{ item: "terramity:warp_whistle" }
+		{ item: "terramity:ultra_sniffer_fur" }
+		{ item: "terramity:die_of_revival" }
+		{ item: "terramity:lucky_dice" }
+		{ item: "terramity:stygian_safety_talisman" }
+		{ item: "terramity:proximity_badge" }
+		{ item: "terramity:ethereal_eclipse_emblem" }
+		{ item: "terramity:headhunter_talisman_plus" }
+		{ item: "terramity:headhunter_talisman" }
+		{ item: "terramity:neutron_star" }
+		{
+			item: {
+				Count: 1
+				id: "terramity:antimatter_pacemaker"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "terramity:fateful_coin" }
+		{ item: "terramity:shadowflame_stone" }
+		{ item: "terramity:magma_stone" }
+		{ item: "terramity:amp_shield" }
+		{ item: "terramity:hurricane_in_a_jar" }
+		{ item: "terramity:energized_core" }
+		{ item: "terramity:sharpening_stone" }
+		{ item: "terramity:anvil_talisman" }
+		{ item: "terramity:analeptic_amphora" }
+		{ item: "terramity:cloud_in_a_bottle" }
+		{ item: "terramity:nullifying_dice" }
+		{ item: "terramity:hover_charm_plus_plus" }
+		{ item: "lethality:flowey" }
+	]
+	title: "土地之力"
+}

@@ -1,0 +1,6161 @@
+{
+	autofocus_id: "209A09AA8CB6A354"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2F59D90CB2C7491A"
+	group: ""
+	icon: "modifiers:reforge_template"
+	id: "2F59D90CB2C7491A"
+	images: [{
+		height: 55.0d
+		image: "enigmaticlegacy:textures/unused/astral_hammer.png"
+		rotation: 0.0d
+		width: 55.0d
+		x: 0.5d
+		y: -8.5d
+	}]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			id: "49E22B834725B9C1"
+			rewards: [{
+				id: "65DC0AA079794B98"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "727B55DCE8C64FB7"
+				type: "checkmark"
+			}]
+			title: "&6T1装备"
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "l2complements:sculkium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3572A109B7118E06"
+			rewards: [{
+				id: "5040632F7DE3D0F8"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "47AC23E8CBEB9BEC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 15.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1503475153
+											2001618405
+											-1668016133
+											4920047
+										]
+									}
+								}
+								heavy: 15.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "l2complements:sculkium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58369C5DCD5224AA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 25.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1839919752
+											1262306410
+											-1817436973
+											1190861803
+										]
+									}
+								}
+								heavy: 25.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "l2complements:sculkium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D744B896929D262"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 22.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1982697713
+											76565116
+											-2050486751
+											-1123881890
+										]
+									}
+								}
+								heavy: 22.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "l2complements:sculkium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13195A81E6DA9E27"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 12.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-967724283
+											-1795600579
+											-2008857697
+											785936055
+										]
+									}
+								}
+								heavy: 12.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "l2complements:sculkium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6幽匿"
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:ghost_warrior_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5391A903D97D19C1"
+			rewards: [{
+				id: "50F98857DB69751B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&d套装效果：力量5、抗性提升1、急迫3、速度1、水下呼吸3"
+			tasks: [
+				{
+					id: "33EE44665E3864AE"
+					item: {
+						Count: 1
+						id: "eeeabsmobs:ghost_warrior_helmet"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 48
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										1
+									]
+								}
+								{
+									Amount: 8
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										2
+									]
+								}
+							]
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·幽冥头盔\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14FBCEFBA0A47EC5"
+					item: {
+						Count: 1
+						id: "eeeabsmobs:ghost_warrior_chestplate"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 66
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										1
+									]
+								}
+								{
+									Amount: 9
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										2
+									]
+								}
+							]
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·幽冥胸甲\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "577DFA8558DC2D87"
+					item: {
+						Count: 1
+						id: "eeeabsmobs:ghost_warrior_leggings"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 48
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										1
+									]
+								}
+								{
+									Amount: 8
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										2
+									]
+								}
+							]
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+							affix_data: {
+								sockets: 0
+							}
+							display: {
+								Name: "{\"text\":\"真·幽冥护腿\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "47C071192E7722D1"
+					item: {
+						Count: 1
+						id: "eeeabsmobs:ghost_warrior_boots"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 45
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										1
+									]
+								}
+								{
+									Amount: 9
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										2
+									]
+								}
+							]
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·幽冥靴\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e真·幽冥"
+			x: 1.0d
+			y: -14.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:dark_metal_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4AC1AE213542E750"
+			rewards: [{
+				id: "23D8682BB76086D7"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6F21C2C9C17A2BD7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 10.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											840298764
+											-1196144945
+											-1643358730
+											-319624791
+										]
+									}
+								}
+								heavy: 10.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "born_in_chaos_v1:dark_metal_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65DAF46B8CEC697C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 25.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-992549118
+											260392597
+											-1935353636
+											471016856
+										]
+									}
+								}
+								heavy: 25.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "born_in_chaos_v1:dark_metal_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "079AB525C495A3F2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 17.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1668496142
+											-67287799
+											-1567460040
+											-1596056162
+										]
+									}
+								}
+								heavy: 17.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "born_in_chaos_v1:dark_metal_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DAC592504F0876E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 7.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1604906218
+											-1443609276
+											-1151084907
+											247908509
+										]
+									}
+								}
+								heavy: 7.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "born_in_chaos_v1:dark_metal_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6暗金属"
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C593047B7B698CB"
+			rewards: [{
+				id: "17B079E0F6413DE0"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&d套装效果：抗性提升5、生命恢复2、吸收3、水下呼吸3"
+			tasks: [
+				{
+					id: "7E2B6559EB156494"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_helmet"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 44
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										1
+									]
+								}
+								{
+									Amount: 6
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真.以太头盔\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7959E62E37226C4A"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_chestplate"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 56
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										1
+									]
+								}
+								{
+									Amount: 4
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·以太胸甲\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0742B96A402EA879"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_leggings"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 45
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										1
+									]
+								}
+								{
+									Amount: 8
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							display: {
+								Name: "{\"text\":\"真·以太护腿\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "259C758CD1DBB9E1"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_boots"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 40
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										1
+									]
+								}
+								{
+									Amount: 8
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·以太靴\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e真·以太"
+			x: -3.0d
+			y: -14.5d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "cataclysm:ignitium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7B354014E76AEC94"
+			rewards: [{
+				id: "288069573C60C1CA"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&d套装效果：力量2、抗性提升3、急迫3、跳跃提升2、水下呼吸3"
+			tasks: [
+				{
+					id: "7BEEF78F0A57EE5F"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 42
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										1
+									]
+								}
+								{
+									Amount: 8
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·腾炎头盔\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CD06E4C037A6FAE"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 60
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										1
+									]
+								}
+								{
+									Amount: 6
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·腾炎胸甲\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6714120172DBEC42"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 54
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										1
+									]
+								}
+								{
+									Amount: 4
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							display: {
+								Name: "{\"text\":\"真·腾炎护腿\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11EB0A3959848E8A"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 42
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										1
+									]
+								}
+								{
+									Amount: 6
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·腾炎靴\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e真·腾炎"
+			x: -1.0d
+			y: -14.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "jinghui:jrtzj_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "111F091D664252B5"
+			rewards: [{
+				id: "4F38283DD4E70F31"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "432FC8E76D4DF5F1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 10.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1599191789
+											-810726288
+											-1841383529
+											-1294777991
+										]
+									}
+								}
+								heavy: 10.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "jinghui:jrtzj_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1512B1E81508318F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 25.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											109941592
+											-633451958
+											-1899297412
+											2142964319
+										]
+									}
+								}
+								heavy: 25.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "jinghui:jrtzj_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3068DCA283048345"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 20.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1084361216
+											-602583307
+											-1911747910
+											568549051
+										]
+									}
+								}
+								heavy: 20.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "jinghui:jrtzj_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3081DB022BA63357"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 10.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1020076056
+											1945257171
+											-2032958758
+											1495753722
+										]
+									}
+								}
+								heavy: 10.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "jinghui:jrtzj_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6玄黑重甲"
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "cataclysm:cursium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0990181C96E6BA0C"
+			rewards: [{
+				id: "2B1D66AC3952801F"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&d套装效果：抗性提升2、力量3、速度3、吸收2、水下呼吸3"
+			tasks: [
+				{
+					id: "757B0D2D4A9020A3"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_helmet"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 40
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										1
+									]
+								}
+								{
+									Amount: 8
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·咒魂头盔\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28C132986A759739"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_chestplate"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 60
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										1
+									]
+								}
+								{
+									Amount: 4
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·咒魂胸甲\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20E6912BB93033D5"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_leggings"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 48
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										1
+									]
+								}
+								{
+									Amount: 8
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							display: {
+								Name: "{\"text\":\"真·咒魂护腿\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E20B05E74F9A9BD"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_boots"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 40
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										1
+									]
+								}
+								{
+									Amount: 8
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·咒魂靴\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e真·咒魂"
+			x: 3.0d
+			y: -14.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "macabre:blood_clot_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72815883F648EFA2"
+			rewards: [{
+				id: "6CBDFF975A08031A"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6B5F6F9093215E71"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 27.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1066739171
+											-380220067
+											-1208289166
+											1000570616
+										]
+									}
+								}
+								heavy: 27.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:blood_clot_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A495E1AE023AC6F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 40.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1915069943
+											766331259
+											-1144709072
+											-114293129
+										]
+									}
+								}
+								heavy: 40.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:blood_clot_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55B89EAEC8DAA6D8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 37.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-883901219
+											-2016657270
+											-1522854412
+											-1943857556
+										]
+									}
+								}
+								heavy: 37.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:blood_clot_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76638F74EF40092E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 27.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											470059942
+											-592494425
+											-1597817965
+											-1736799247
+										]
+									}
+								}
+								heavy: 27.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:blood_clot_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6血块"
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_lightning_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D63CD342017E484"
+			rewards: [{
+				id: "3B326506CB5B2111"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&d套装效果：生命恢复2、力量3、防火2、急迫3、水下呼吸3"
+			tasks: [
+				{
+					id: "32A45AF93463A548"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 75.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-116971301
+											357122936
+											-1526088983
+											455771539
+										]
+									}
+								}
+								heavy: 75.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "iceandfire:dragonsteel_lightning_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24525D3571505582"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 87.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-945478631
+											761874439
+											-2132904012
+											1392713696
+										]
+									}
+								}
+								heavy: 87.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "iceandfire:dragonsteel_lightning_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AA8CF744AE837FA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 80.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											743133177
+											1703627461
+											-1543896680
+											-1714408359
+										]
+									}
+								}
+								heavy: 80.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "iceandfire:dragonsteel_lightning_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25A9BF9E25A21648"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 72.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1152427523
+											782387878
+											-1637319926
+											240919455
+										]
+									}
+								}
+								heavy: 72.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "iceandfire:dragonsteel_lightning_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e龙霆钢"
+			x: -1.0d
+			y: -12.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "macabre:plasma_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "20CA12C35447B096"
+			rewards: [{
+				id: "3BA7397517F63EEE"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1CF8BFBB28533E9E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 25.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1458908519
+											624380316
+											-1736415021
+											400839048
+										]
+									}
+								}
+								heavy: 25.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:plasma_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B6634B29F348DE3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 37.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1270141061
+											-370458412
+											-1284599497
+											280320054
+										]
+									}
+								}
+								heavy: 37.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:plasma_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72EA549A877C7DA9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 35.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-237200147
+											-1396027952
+											-1661986783
+											1148540649
+										]
+									}
+								}
+								heavy: 35.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:plasma_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "246CACF5098D68A4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 25.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											970710027
+											-1186183635
+											-1617256468
+											-1687376665
+										]
+									}
+								}
+								heavy: 25.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:plasma_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6等离子"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "gobber2:gobber2_helmet_end"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "455C258CEBDAEFCB"
+			rewards: [{
+				id: "5294E470F505CB5B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7B1DAC5CDF7F40E4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 20.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1632976799
+											1017597516
+											-2010413033
+											-1777858965
+										]
+									}
+								}
+								heavy: 20.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "gobber2:gobber2_helmet_end"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37993748CD9509AC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 32.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-712922375
+											595216400
+											-1394670288
+											-1861226419
+										]
+									}
+								}
+								heavy: 32.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "gobber2:gobber2_chestplate_end"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "616A63FB78E0EAFE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 27.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1654530507
+											875972279
+											-1107704359
+											1854076415
+										]
+									}
+								}
+								heavy: 27.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "gobber2:gobber2_leggings_end"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7640767C99218351"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 20.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1557116883
+											-1712109857
+											-1308942323
+											-1705199789
+										]
+									}
+								}
+								heavy: 20.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "gobber2:gobber2_boots_end"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6末影"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "the_awakening_of_the_elder_souls:emerald_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "17FAEC51CB6A3AAB"
+			rewards: [{
+				id: "5CB81C233EF9329B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "4D81ACE85AA1719E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 12.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											528844453
+											785730984
+											-1689019435
+											1452605765
+										]
+									}
+								}
+								heavy: 12.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:emerald_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "619B7A99CEAF1EBC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 25.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-280380350
+											1937522694
+											-1465297194
+											-1173852899
+										]
+									}
+								}
+								heavy: 25.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:emerald_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13EE55DA232776F1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 20.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1449433143
+											680676662
+											-1454669223
+											-1947656602
+										]
+									}
+								}
+								heavy: 20.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:emerald_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B7585F96143DBB1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 12.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-614257476
+											-892449569
+											-1880712237
+											1993083437
+										]
+									}
+								}
+								heavy: 12.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:emerald_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6翡翠"
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "the_awakening_of_the_elder_souls:rainbow_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4902572CE644F3DD"
+			rewards: [{
+				id: "0E001ED7CDC44C65"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "121C334A99B0219E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 25.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-483066551
+											1721846066
+											-2065571593
+											406452324
+										]
+									}
+								}
+								heavy: 25.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:rainbow_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F03F408D0ED9C9E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 37.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-2010100260
+											-2128392960
+											-1421401708
+											-730746848
+										]
+									}
+								}
+								heavy: 37.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:rainbow_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "337835CFA3735588"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 32.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-353649634
+											-1857861066
+											-1564218508
+											-1275969743
+										]
+									}
+								}
+								heavy: 32.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:rainbow_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EC8F8DEB04EDE09"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 25.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-916479888
+											781273076
+											-1311816258
+											507569325
+										]
+									}
+								}
+								heavy: 25.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:rainbow_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6彩虹"
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "the_awakening_of_the_elder_souls:ultrarite_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5D54878B841D9E6C"
+			rewards: [{
+				id: "7E363DC86DDCC956"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6E1F6FCB7BC03B86"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 47.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1653770002
+											584926681
+											-1352433507
+											1469479365
+										]
+									}
+								}
+								heavy: 47.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:ultrarite_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DEF5402C959F97E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 60.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-870831114
+											921912358
+											-1225353941
+											1428410977
+										]
+									}
+								}
+								heavy: 60.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:ultrarite_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17F13579D7BD2DC5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 55.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-25196569
+											-61587188
+											-1974644870
+											547427588
+										]
+									}
+								}
+								heavy: 55.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:ultrarite_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "495BFB0992EB8B1F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 47.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1956992241
+											-662355567
+											-1121492032
+											736717126
+										]
+									}
+								}
+								heavy: 47.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:ultrarite_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6超合金"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "the_awakening_of_the_elder_souls:bronze_ultrarite_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B72B50E3295B4B7"
+			rewards: [{
+				id: "5CB5BCC5C0A1DD6E"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7BAD5E7406E12121"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 47.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-553812750
+											-1141684362
+											-1154659532
+											-1380094087
+										]
+									}
+								}
+								heavy: 47.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:bronze_ultrarite_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "364EDFFD5CB76BB5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 60.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-2056431706
+											-2062858297
+											-1328189705
+											-1300855412
+										]
+									}
+								}
+								heavy: 60.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:bronze_ultrarite_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AEA2418C6F856EA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 55.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-2001573849
+											-1287896052
+											-1357196522
+											-1718931041
+										]
+									}
+								}
+								heavy: 55.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:bronze_ultrarite_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11A2C7E5AF730CB6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 47.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											661529920
+											-683127014
+											-1332178822
+											-171098727
+										]
+									}
+								}
+								heavy: 47.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:bronze_ultrarite_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6青铜超合金"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "the_awakening_of_the_elder_souls:sapphire_ultrarite_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4576601E47AC1114"
+			rewards: [{
+				id: "5D8778AA95CF1B8D"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3D6374AD998E8DB8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 47.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-54008234
+											1565279006
+											-1639059653
+											-915303399
+										]
+									}
+								}
+								heavy: 47.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:sapphire_ultrarite_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7496252D4D584293"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 60.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-152618262
+											745359985
+											-1222406647
+											-216963141
+										]
+									}
+								}
+								heavy: 60.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:sapphire_ultrarite_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "680649107ADF6873"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 55.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											396832931
+											1657687196
+											-1104460598
+											1010930677
+										]
+									}
+								}
+								heavy: 55.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:sapphire_ultrarite_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "158A2AE931956FE1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 47.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1825782495
+											-1683603174
+											-1932474922
+											417143145
+										]
+									}
+								}
+								heavy: 47.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:sapphire_ultrarite_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6蓝宝石超合金"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "the_awakening_of_the_elder_souls:eclipse_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1680CB262310E4E5"
+			rewards: [{
+				id: "217B12B42FB7FD18"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "0AD562195D4B9D4C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 32.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											126763867
+											792282522
+											-1590968945
+											-2138829643
+										]
+									}
+								}
+								heavy: 32.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:eclipse_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16E624953DAF2495"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 45.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1560934077
+											-19379500
+											-1536620564
+											-1800207124
+										]
+									}
+								}
+								heavy: 45.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:eclipse_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09740B0335A10DE5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 40.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1623141606
+											349389344
+											-1603280415
+											873746770
+										]
+									}
+								}
+								heavy: 40.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:eclipse_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "762CF4B56B7F4022"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 32.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1015806298
+											923225759
+											-2005386442
+											-6252076
+										]
+									}
+								}
+								heavy: 32.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "the_awakening_of_the_elder_souls:eclipse_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6日食"
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "terramity:void_mage_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C344F1F26FF5880"
+			rewards: [{
+				id: "1C83E86458DD2C33"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "346A1E31983D583C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 12.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-2076226647
+											-240696962
+											-1397324702
+											-945553481
+										]
+									}
+								}
+								heavy: 12.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "terramity:void_mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FA2E3D8749FE21B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 25.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											437008073
+											-1140699224
+											-1087581918
+											-1950847875
+										]
+									}
+								}
+								heavy: 25.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "terramity:void_mage_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7798F8C9CFC80D75"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 20.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											466314988
+											2141012613
+											-1304670888
+											1911558760
+										]
+									}
+								}
+								heavy: 20.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "terramity:void_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DDD66FB216DCAA5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 12.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1898013710
+											1257783800
+											-1622779567
+											960696364
+										]
+									}
+								}
+								heavy: 12.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "terramity:void_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6虚空学者"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "terramity:nyxium_knight_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "30C69F5EFFD6912A"
+			rewards: [{
+				id: "658E7FE3714BF868"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "41C7BBF5FE7EF1B3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 15.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1712590154
+											1667515848
+											-1257387615
+											-1413487137
+										]
+									}
+								}
+								heavy: 15.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "terramity:nyxium_knight_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0272AE59819A1314"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 30.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1580824868
+											-1330494401
+											-1659267853
+											2051250779
+										]
+									}
+								}
+								heavy: 30.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "terramity:nyxium_knight_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35C3D26D30656CC0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 25.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-596463181
+											-910080344
+											-1839632280
+											516432537
+										]
+									}
+								}
+								heavy: 25.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "terramity:nyxium_knight_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0623E11433280053"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 15.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											351406607
+											-536327118
+											-1449499195
+											-37557955
+										]
+									}
+								}
+								heavy: 15.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "terramity:nyxium_knight_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6冥河夜神骑士"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "terramity:exodium_warlock_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "19059756299EC799"
+			rewards: [{
+				id: "3C5BF98B845D07F5"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "0EB9663E3F575B9A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 15.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-861292154
+											-1562555923
+											-1567526733
+											-412395557
+										]
+									}
+								}
+								heavy: 15.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "terramity:exodium_warlock_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "679D0122DD2E94B0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 30.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1631707754
+											1846888418
+											-1976377032
+											-2139230026
+										]
+									}
+								}
+								heavy: 30.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "terramity:exodium_warlock_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "122CBF9730684A53"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 25.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-993404702
+											-5619691
+											-2094441923
+											-2101417212
+										]
+									}
+								}
+								heavy: 25.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "terramity:exodium_warlock_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B00461346707547"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 15.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-571835042
+											-1799403166
+											-1530023430
+											-1155116273
+										]
+									}
+								}
+								heavy: 15.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "terramity:exodium_warlock_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6异维术士"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "gobber2:gobber2_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5BC317D0ABCF3189"
+			rewards: [{
+				id: "0E60203344E1FEA8"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3A335CF22AEF83E0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 15.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1166533440
+											559235595
+											-1576285486
+											-653507679
+										]
+									}
+								}
+								heavy: 15.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "gobber2:gobber2_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AF7BEF8D45B2DE6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 27.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											73476631
+											2060011050
+											-1782967649
+											-770547445
+										]
+									}
+								}
+								heavy: 27.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "gobber2:gobber2_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D473A367C5456FF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 22.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1074175015
+											135745422
+											-1141775736
+											-155293323
+										]
+									}
+								}
+								heavy: 22.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "gobber2:gobber2_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CECE63C197174F8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 15.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-731739087
+											1512982531
+											-1257516323
+											-1682047098
+										]
+									}
+								}
+								heavy: 15.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "gobber2:gobber2_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6戈伯"
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "terramity:reverium_paladin_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "173E5F7EC46A1584"
+			rewards: [{
+				id: "1465E31449A3ECBA"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "29CF6600872749FA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 15.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											2062506057
+											-1142076997
+											-1115972321
+											-890544234
+										]
+									}
+								}
+								heavy: 15.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "terramity:reverium_paladin_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46AFF9FA45139C5E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 12.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1099553753
+											-1382987120
+											-1876921909
+											-1440657114
+										]
+									}
+								}
+								heavy: 12.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "terramity:reverium_paladin_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1599A774B096CAF0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 25.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											212782750
+											-1887221988
+											-1396817164
+											1094852200
+										]
+									}
+								}
+								heavy: 25.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "terramity:reverium_paladin_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E33FCFFAFE67C14"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 15.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1758095469
+											1711621287
+											-1487137429
+											303062652
+										]
+									}
+								}
+								heavy: 15.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "terramity:reverium_paladin_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6尊神圣堂武士"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "gobber2:gobber2_helmet_nether"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7A6D64DEDF538878"
+			rewards: [{
+				id: "79EBAB5624012C96"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "245639D4301CA6D9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 17.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1634927923
+											486491208
+											-1349049420
+											911530057
+										]
+									}
+								}
+								heavy: 17.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "gobber2:gobber2_helmet_nether"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FA10069E403050A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 30.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1814834757
+											-419741311
+											-1216856705
+											1652444625
+										]
+									}
+								}
+								heavy: 30.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "gobber2:gobber2_chestplate_nether"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BC8687C5FF3942A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 25.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-471903934
+											-2037300860
+											-1474043008
+											433013222
+										]
+									}
+								}
+								heavy: 25.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "gobber2:gobber2_leggings_nether"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7668A9188D630579"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 17.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1931762442
+											-1286648697
+											-1606350269
+											-1772284184
+										]
+									}
+								}
+								heavy: 17.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "gobber2:gobber2_boots_nether"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6下界"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "macabre:abhorrent_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "134DBE6A7A8223FB"
+			rewards: [{
+				id: "5F5ADFEF5EB05923"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "57BCB6A8F74B6CC7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 37.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1295557432
+											386221744
+											-1793228970
+											-1605383107
+										]
+									}
+								}
+								heavy: 37.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:abhorrent_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CEA7C8ADD0D4D23"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 52.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											2121654781
+											-1692121991
+											-1159656865
+											-1380239456
+										]
+									}
+								}
+								heavy: 52.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:abhorrent_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13D79060D218D8FE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 50.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1403332760
+											-668581198
+											-1503962227
+											1188361707
+										]
+									}
+								}
+								heavy: 50.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:abhorrent_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FF4A8F02954B277"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 37.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1597578872
+											-1727184287
+											-1108563902
+											1347182919
+										]
+									}
+								}
+								heavy: 37.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:abhorrent_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6憎恶"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "macabre:baal_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7F2ED9CE54F40D57"
+			rewards: [{
+				id: "3D32A06AEAD1E82D"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "152A279233CDBDE3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 45.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-559468938
+											1572097032
+											-1205344165
+											-671643796
+										]
+									}
+								}
+								heavy: 45.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:baal_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CD194AF40EEAF84"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 80.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1462936856
+											466174790
+											-1810997030
+											-2090437578
+										]
+									}
+								}
+								heavy: 80.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:baal_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06282105FFE82063"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 62.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1143290837
+											-2035464287
+											-2089174897
+											-2027024609
+										]
+									}
+								}
+								heavy: 62.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:baal_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E0A788AE72C9E2F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 40.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-655576109
+											-1610069051
+											-1602653762
+											-1528515453
+										]
+									}
+								}
+								heavy: 40.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:baal_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6巴尔诅咒"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "macabre:gomoria_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5F863262194D05E7"
+			rewards: [{
+				id: "49D44B83305FE5F4"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5384498B7AF1ECC2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 37.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1991975897
+											467814610
+											-1631156325
+											-137249723
+										]
+									}
+								}
+								heavy: 37.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:gomoria_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "354D3A36E5EA238D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 65.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-2146720082
+											873941674
+											-1993695170
+											364794208
+										]
+									}
+								}
+								heavy: 65.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:gomoria_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48DB5F14E8F10A53"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 77.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-406153278
+											24724062
+											-1643505464
+											1686625960
+										]
+									}
+								}
+								heavy: 77.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:gomoria_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A0DC48805D4245C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 47.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-631830613
+											-278050109
+											-1932499122
+											1742173728
+										]
+									}
+								}
+								heavy: 47.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:gomoria_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6戈莫利亚"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "macabre:valamon_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "66C1E9167F352CD5"
+			rewards: [{
+				id: "03C510CC7FE49F26"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2FD392306EC3FF5A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 57.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1736281128
+											640499804
+											-1558198525
+											311919270
+										]
+									}
+								}
+								heavy: 57.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:valamon_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BB5963C43DA6285"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 62.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1223036762
+											896025604
+											-1402008759
+											-1582060414
+										]
+									}
+								}
+								heavy: 62.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:valamon_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54302F4065D2ABDD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 52.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											838066384
+											134366428
+											-1467392759
+											-953569969
+										]
+									}
+								}
+								heavy: 52.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:valamon_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E4A562EC014A2C0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 55.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											419172558
+											821316553
+											-1111506390
+											-1204389228
+										]
+									}
+								}
+								heavy: 55.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:valamon_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6瓦拉蒙"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "macabre:morphegor_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B63555324597370"
+			rewards: [{
+				id: "041E5F401A4715A5"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5308399D68E7057E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 40.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1184073507
+											-371047640
+											-2031205743
+											149633077
+										]
+									}
+								}
+								heavy: 40.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:morphegor_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B178EE7E13980B4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 72.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-382383818
+											63455659
+											-1626291583
+											-428176373
+										]
+									}
+								}
+								heavy: 72.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:morphegor_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A64244D43D7E1FD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 67.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-2011685919
+											-1125495591
+											-1574716004
+											911047806
+										]
+									}
+								}
+								heavy: 67.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:morphegor_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5125512E53C5BE71"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 42.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1232385604
+											288968488
+											-1717109436
+											1232640878
+										]
+									}
+								}
+								heavy: 42.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:morphegor_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6摩斐格分裂"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "macabre:gargamaw_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "48B64E9B7DCB1E63"
+			rewards: [{
+				id: "0DC0341FF833B7B8"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5DA72153EE126FC1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 77.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1790708951
+											1637893858
+											-1073998035
+											-1975062843
+										]
+									}
+								}
+								heavy: 77.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:gargamaw_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26805989682EE242"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 67.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1789045987
+											917587348
+											-1187198411
+											-1750504050
+										]
+									}
+								}
+								heavy: 67.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:gargamaw_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B75BF390416F7B6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 60.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1014730402
+											-426555013
+											-2089944342
+											1588843596
+										]
+									}
+								}
+								heavy: 60.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:gargamaw_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B68B6A3A384DB34"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 65.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1939805818
+											-939637380
+											-1302656622
+											-1409423349
+										]
+									}
+								}
+								heavy: 65.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "macabre:gargamaw_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6伽尔伽魔"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "jinghui:dashengceshi_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0E5E58541B1B2BC2"
+			rewards: [{
+				id: "5FD4E3A48FE514C2"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3C25D85DAE811EA1"
+					item: {
+						Count: 1
+						id: "jinghui:dashengceshi_helmet"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 44
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										1
+									]
+								}
+								{
+									Amount: 9
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·凤翅紫金冠\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52135BC2B2F4EA2C"
+					item: {
+						Count: 1
+						id: "jinghui:dashengceshi_chestplate"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 60
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										1
+									]
+								}
+								{
+									Amount: 9
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·锁子黄金甲\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BDD09C9945A143F"
+					item: {
+						Count: 1
+						id: "jinghui:dashengceshi_leggings"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 48
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										1
+									]
+								}
+								{
+									Amount: 9
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							display: {
+								Name: "{\"text\":\"真·锁子黄金裙甲\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AAA8B05FC5F95CB"
+					item: {
+						Count: 1
+						id: "jinghui:dashengceshi_boots"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 44
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										1
+									]
+								}
+								{
+									Amount: 9
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·藕丝步云履\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e真·齐天"
+			x: 5.0d
+			y: -14.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "jinghui:yangjian_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "739BE754858DEDAE"
+			rewards: [{
+				id: "12F80AF2ABBD9FE8"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "303FC4BB77EE4205"
+					item: {
+						Count: 1
+						id: "jinghui:yangjian_helmet"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 44
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										1
+									]
+								}
+								{
+									Amount: 9
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·清源妙灵二郎显圣头冠\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6328BB1975246CCC"
+					item: {
+						Count: 1
+						id: "jinghui:yangjian_chestplate"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 60
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										1
+									]
+								}
+								{
+									Amount: 9
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: { }
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3494EA57547DB8F0"
+					item: {
+						Count: 1
+						id: "jinghui:yangjian_leggings"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 48
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										1
+									]
+								}
+								{
+									Amount: 9
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							display: {
+								Name: "{\"text\":\"真·清源妙灵二郎显圣裙甲\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "465DE721477594A3"
+					item: {
+						Count: 1
+						id: "jinghui:yangjian_boots"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 44
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										1
+									]
+								}
+								{
+									Amount: 9
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·清源妙灵二郎显圣道靴\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e真·清源妙灵"
+			x: 5.0d
+			y: -12.5d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_fire_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "480899F789F5FA34"
+			rewards: [{
+				id: "254ACC8A8DB93317"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&d套装效果：抗性3、力量3、速度2、跳跃2、水下呼吸3"
+			tasks: [
+				{
+					id: "08DC00F72FB68C2E"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "163FA7B400EA72B7"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2122A33E0E2C8BD7"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "361A6EB15E87E6BD"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e龙炎钢"
+			x: -3.0d
+			y: -12.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_ice_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "3388E388414EA766"
+			rewards: [{
+				id: "3FF399A640741D53"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&d套装效果：生命恢复4、力量2、防火2、急迫2、水下呼吸3"
+			tasks: [
+				{
+					id: "1CCBD35F06FC5FDC"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7522A86E3FA08B96"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61F1EBA232D23AE4"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3281E64289A3C8E5"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e龙霜钢"
+			x: 1.0d
+			y: -12.5d
+		}
+		{
+			description: ["&d这部分的盔甲并不是真正的T0，需要在真我显现里进阶之后才是它们原本的样貌"]
+			id: "1A324BE6B31400F0"
+			rewards: [{
+				id: "0AAF8ECCA56A56BD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "138BD5CF748A767F"
+				type: "checkmark"
+			}]
+			title: "&6T0装备"
+			x: 1.0d
+			y: -19.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "gobber2:gobber2_helmet_dragon"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: 42
+							AttributeName: "generic.armor"
+							Operation: 0
+							Slot: "head"
+							UUID: [I;
+								1
+								1
+								1
+								1
+							]
+						}
+						{
+							Amount: 6
+							AttributeName: "generic.armor_toughness"
+							Operation: 0
+							Slot: "head"
+							UUID: [I;
+								1
+								1
+								1
+								2
+							]
+						}
+					]
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					display: {
+						Name: "{\"text\":\"真·龙之星头盔\",\"color\":\"gold\",\"bold\":true}"
+					}
+				}
+			}
+			id: "2BB076E74CD453E0"
+			rewards: [{
+				id: "59E7A444DABBF9F7"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&d套装效果：纯化抗性3、力量3、急迫1、吸收3、水下呼吸3"
+			tasks: [
+				{
+					id: "0D79E18F4B7C6AD5"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_helmet_dragon"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 46
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										1
+									]
+								}
+								{
+									Amount: 9
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·龙之星头盔\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0866768876B89257"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_chestplate_dragon"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 65
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										1
+									]
+								}
+								{
+									Amount: 9
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·龙之星胸甲\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74FDF2BCBB5B8EA9"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_leggings_dragon"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 55
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										1
+									]
+								}
+								{
+									Amount: 9
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							display: {
+								Name: "{\"text\":\"真·龙之星护腿\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78B09053FEB22B3A"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_boots_dragon"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 48
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										1
+									]
+								}
+								{
+									Amount: 9
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·龙之星靴\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e真·龙之星"
+			x: 3.0d
+			y: -12.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "goety_revelation:spectre_helmet"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: 42
+							AttributeName: "generic.armor"
+							Name: "Armor Boost"
+							Operation: 0
+							Slot: "head"
+							UUID: [I;
+								1
+								1
+								1
+								1
+							]
+						}
+						{
+							Amount: 4
+							AttributeName: "generic.armor_toughness"
+							Name: "Toughness Boost"
+							Operation: 0
+							Slot: "head"
+							UUID: [I;
+								1
+								1
+								1
+								2
+							]
+						}
+					]
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					display: {
+						Name: "{\"text\":\"真·幽魂覆面\",\"color\":\"gold\",\"bold\":true}"
+					}
+					itemModifier: "modifiers:none"
+				}
+			}
+			id: "5B0C3AC0889A19B5"
+			rewards: [{
+				id: "19DF543F561C2A22"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "21FEFAFF1918E528"
+					item: {
+						Count: 1
+						id: "goety_revelation:spectre_helmet"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 42
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										1
+									]
+								}
+								{
+									Amount: 4
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·幽魂覆面\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E5A654A9F18DE7C"
+					item: {
+						Count: 1
+						id: "goety_revelation:spectre_chestplate"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 64
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										1
+									]
+								}
+								{
+									Amount: 4
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: { }
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6647A7B17C58534E"
+					item: {
+						Count: 1
+						id: "goety_revelation:spectre_leggings"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 54
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										1
+									]
+								}
+								{
+									Amount: 4
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							display: {
+								Name: "{\"text\":\"真·幽魂绑腿\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A9B315E022C030F"
+					item: {
+						Count: 1
+						id: "goety_revelation:spectre_boots"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 42
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										1
+									]
+								}
+								{
+									Amount: 6
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·幽魂靴\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e真·幽魂"
+			x: -3.0d
+			y: -16.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "goety:dark_helmet"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: 21
+							AttributeName: "generic.armor"
+							Name: "Armor Boost"
+							Operation: 0
+							Slot: "head"
+							UUID: [I;
+								1
+								1
+								1
+								1
+							]
+						}
+						{
+							Amount: 7
+							AttributeName: "generic.armor_toughness"
+							Name: "Toughness Boost"
+							Operation: 0
+							Slot: "head"
+							UUID: [I;
+								1
+								1
+								1
+								2
+							]
+						}
+					]
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					display: {
+						Name: "{\"text\":\"真·黑暗头盔\",\"color\":\"gold\",\"bold\":true}"
+					}
+					itemModifier: "modifiers:none"
+				}
+			}
+			id: "7B11E830A48F9503"
+			rewards: [{
+				id: "5B170084C54C5A3C"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "19CF10FD3EC8D264"
+					item: {
+						Count: 1
+						id: "goety:dark_helmet"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 21
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										1
+									]
+								}
+								{
+									Amount: 7
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·黑暗头盔\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62E13AA8B17958C1"
+					item: {
+						Count: 1
+						id: "goety:dark_chestplate"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 32
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										1
+									]
+								}
+								{
+									Amount: 7
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·黑暗胸甲\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0428CE79086290D1"
+					item: {
+						Count: 1
+						id: "goety:dark_leggings"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 28
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										1
+									]
+								}
+								{
+									Amount: 7
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							display: {
+								Name: "{\"text\":\"真·黑暗护腿\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BC508AEAAA55400"
+					item: {
+						Count: 1
+						id: "goety:dark_boots"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 24
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										1
+									]
+								}
+								{
+									Amount: 7
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·黑暗靴\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e真·黑暗"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "goety_revelation:spider_helmet"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: 42
+							AttributeName: "generic.armor"
+							Name: "Armor Boost"
+							Operation: 0
+							Slot: "head"
+							UUID: [I;
+								1
+								1
+								1
+								1
+							]
+						}
+						{
+							Amount: 6
+							AttributeName: "generic.armor_toughness"
+							Name: "Toughness Boost"
+							Operation: 0
+							Slot: "head"
+							UUID: [I;
+								1
+								1
+								1
+								2
+							]
+						}
+					]
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					display: {
+						Name: "{\"text\":\"真·蜘蛛头盔\",\"color\":\"gold\",\"bold\":true}"
+					}
+				}
+			}
+			id: "7AE39661C2EC5973"
+			rewards: [{
+				id: "7AF7DD42F2228CE8"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "34004903D6CF5D20"
+					item: {
+						Count: 1
+						id: "goety_revelation:spider_helmet"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 42
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										1
+									]
+								}
+								{
+									Amount: 6
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·蜘蛛头盔\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DD2DDB5E92EFC1A"
+					item: {
+						Count: 1
+						id: "goety_revelation:spider_chestplate"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 56
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										1
+									]
+								}
+								{
+									Amount: 6
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·蜘蛛胸甲\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "042BFA46C810D2AB"
+					item: {
+						Count: 1
+						id: "goety_revelation:spider_leggings"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 48
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										1
+									]
+								}
+								{
+									Amount: 8
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							display: {
+								Name: "{\"text\":\"真·蜘蛛护腿\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F0A30140869F43F"
+					item: {
+						Count: 1
+						id: "goety_revelation:spider_boots"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 42
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										1
+									]
+								}
+								{
+									Amount: 6
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·蜘蛛靴\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e真·蜘蛛"
+			x: 1.0d
+			y: -16.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "goety_revelation:apocalyptium_helmet"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: 54
+							AttributeName: "generic.armor"
+							Name: "Armor Boost"
+							Operation: 0
+							Slot: "head"
+							UUID: [I;
+								1
+								1
+								1
+								1
+							]
+						}
+						{
+							Amount: 6
+							AttributeName: "generic.armor_toughness"
+							Name: "Toughness Boost"
+							Operation: 0
+							Slot: "head"
+							UUID: [I;
+								1
+								1
+								1
+								2
+							]
+						}
+					]
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					display: {
+						Name: "{\"text\":\"真·神灵王冠\",\"color\":\"gold\",\"bold\":true}"
+					}
+					itemModifier: "modifiers:none"
+				}
+			}
+			id: "73EF8D69D446B4CA"
+			rewards: [{
+				id: "12DF722B47B2B4E8"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "280697811B02F4B4"
+					item: {
+						Count: 1
+						id: "goety_revelation:apocalyptium_helmet"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 54
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										1
+									]
+								}
+								{
+									Amount: 12
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "head"
+									UUID: [I;
+										1
+										1
+										1
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·神灵王冠\",\"color\":\"gold\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "762E2BA2CDD3ED2C"
+					item: {
+						Count: 1
+						id: "goety_revelation:apocalyptium_chestplate"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 77
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										1
+									]
+								}
+								{
+									Amount: 12
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "chest"
+									UUID: [I;
+										2
+										2
+										2
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·神灵胸甲\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6ADCA1FB7AD2039E"
+					item: {
+						Count: 1
+						id: "goety_revelation:apocalyptium_leggings"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 63
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										1
+									]
+								}
+								{
+									Amount: 12
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "legs"
+									UUID: [I;
+										3
+										3
+										3
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+							display: {
+								Name: "{\"text\":\"真·神灵腿甲\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "620A3BA8262D9454"
+					item: {
+						Count: 1
+						id: "goety_revelation:apocalyptium_boots"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 48
+									AttributeName: "generic.armor"
+									Name: "Armor Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										1
+									]
+								}
+								{
+									Amount: 16
+									AttributeName: "generic.armor_toughness"
+									Name: "Toughness Boost"
+									Operation: 0
+									Slot: "feet"
+									UUID: [I;
+										4
+										4
+										4
+										2
+									]
+								}
+							]
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·神灵靴\",\"color\":\"gold\",\"bold\":true}"
+							}
+							itemModifier: "modifiers:none"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e真·神灵"
+			x: 5.0d
+			y: -16.5d
+		}
+	]
+	title: "&6盔甲锻造"
+}

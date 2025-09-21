@@ -1,0 +1,66 @@
+{
+	id: "1C146B1EDF1343FF"
+	loot_size: 1
+	order_index: 49
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "torchesbecomesunlight:winter_scratch"
+				tag: {
+					Enchantments: [
+						{
+							id: "minecraft:protection"
+							lvl: 8s
+						}
+						{
+							id: "more_enchantments:armoring"
+							lvl: 9s
+						}
+						{
+							id: "apotheosis:icy_thorns"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:projectile_protection"
+							lvl: 7s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "torchesbecomesunlight:rosmontis_embrace"
+				tag: {
+					Enchantments: [
+						{
+							id: "minecraft:protection"
+							lvl: 8s
+						}
+						{
+							id: "more_enchantments:armoring"
+							lvl: 9s
+						}
+						{
+							id: "apotheosis:icy_thorns"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:projectile_protection"
+							lvl: 7s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+	]
+	title: "方舟盔甲"
+}

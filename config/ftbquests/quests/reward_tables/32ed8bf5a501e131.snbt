@@ -1,0 +1,31 @@
+{
+	id: "32ED8BF5A501E131"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ count: 4, item: "macabre:flesh" }
+		{ count: 4, item: "macabre:eye" }
+		{ count: 4, item: "macabre:grilled_flesh" }
+		{ count: 4, item: "macabre:heart" }
+		{ count: 4, item: "macabre:brain" }
+		{ count: 4, item: "macabre:tooth" }
+		{ count: 4, item: "macabre:gums_item" }
+		{ count: 4, item: "macabre:toothcarrot" }
+		{ count: 4, item: "macabre:wormyummy" }
+		{ count: 4, item: "macabre:kidneys" }
+		{ count: 4, item: "macabre:lungs" }
+		{ count: 4, item: "macabre:intestines" }
+		{ count: 4, item: "macabre:liver" }
+		{ count: 4, item: "macabre:stomach" }
+		{ count: 4, item: "macabre:eyeball_cocktail" }
+		{ count: 4, item: "macabre:brain_soup" }
+		{ count: 4, item: "macabre:heartburger" }
+		{ count: 4, item: "macabre:bloodloaf" }
+		{ count: 4, item: "macabre:fernrot_item" }
+		{ count: 4, item: "macabre:blindbaloon_item" }
+		{ count: 4, item: "macabre:flatcap_fruit" }
+		{ count: 4, item: "macabre:flatcap_fruit" }
+		{ count: 4, item: "macabre:horn_fruit" }
+	]
+	title: "诡异美食"
+}

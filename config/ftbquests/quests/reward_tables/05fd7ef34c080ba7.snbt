@@ -1,0 +1,114 @@
+{
+	id: "05FD7EF34C080BA7"
+	loot_size: 1
+	order_index: 44
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "alshanex_familiars:forest_trinket"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alshanex_familiars:illusionist_trinket"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alshanex_familiars:hunter_trinket"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alshanex_familiars:mage_trinket"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alshanex_familiars:archmage_trinket"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alshanex_familiars:necromancer_trinket"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alshanex_familiars:summoner_trinket"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alshanex_familiars:scorcher_trinket"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alshanex_familiars:cleric_trinket"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alshanex_familiars:bard_harp"
+				tag: { }
+			}
+		}
+	]
+	title: "魔宠"
+}

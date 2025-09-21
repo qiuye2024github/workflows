@@ -1,0 +1,15 @@
+filename = "attributizer-2.1.jar"
+name = "Attributizer"
+side = "server"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "1990a436e7ccd17f9f654d02f1089a41803601eb"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/5313/631/attributizer-2.1.jar"
+
+[update.curseforge]
+file-id = 5313631
+project-id = 838573

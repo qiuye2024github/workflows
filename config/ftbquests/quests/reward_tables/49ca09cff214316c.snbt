@@ -1,0 +1,13 @@
+{
+	id: "49CA09CFF214316C"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{ count: 4, item: "apotheosis:sigil_of_enhancement" }
+		{ count: 6, item: "apotheosis:sigil_of_unnaming", weight: 5.0f }
+		{ item: "apotheosis:sigil_of_socketing" }
+		{ count: 5, item: "apotheosis:sigil_of_rebirth", weight: 5.0f }
+		{ item: "apotheosis:sigil_of_withdrawal" }
+	]
+	title: "浮板"
+}

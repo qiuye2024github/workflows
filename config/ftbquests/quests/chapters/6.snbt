@@ -1,0 +1,1753 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6"
+	group: ""
+	icon: "born_in_chaos_v1:bone_heart"
+	id: "41C854AD8DAB1498"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["258B58EF5BEA535F"]
+			description: ["&6通过击杀本模组中的部分怪物掉落，也可以从本模组中的遗迹战利品箱中找到。"]
+			id: "149590A7216D88FE"
+			rewards: [
+				{
+					count: 3
+					id: "0BECFB1F6394AB23"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "501853DCFB7CE36E"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+				{
+					id: "620C9AAB5D2272BE"
+					item: "born_in_chaos_v1:transmuting_elixir"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7B33CEF838CF4F82"
+				item: "born_in_chaos_v1:dark_metal_ingot"
+				type: "item"
+			}]
+			title: "&4暗金属锭"
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["149590A7216D88FE"]
+			description: [""]
+			icon: "born_in_chaos_v1:fire_dust"
+			id: "371AAA9E4F588E86"
+			rewards: [
+				{
+					count: 15
+					id: "156224D3D4DCC920"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D21551AAF0D8346"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A09CD1C41AF5F30"
+					table_id: 3763260092074821840L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e攻击会使目标点燃，这对于七咒之戒的佩戴者十分不友好，掉落物焰芒尘作为材料非常好用。"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "2DB71AA978369E14"
+					item: "born_in_chaos_v1:fire_dust"
+					type: "item"
+				}
+				{
+					entity: "born_in_chaos_v1:firelight"
+					id: "198D300866A4894F"
+					type: "kill"
+					value: 4L
+				}
+			]
+			title: "&4焰芒尘"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["149590A7216D88FE"]
+			description: [
+				"&6是召唤南瓜领主的必要道具，同时手持转化试剂对某些方块或生物右键使用，将会对目标方块或生物进行转化，如："
+				""
+				"&6粗金块 → 远古残骸"
+				"&6铁块 → 暗金属块"
+				"&6紫水晶块 → 钻石块"
+				"&6炽魂南瓜人 → 邪魂南瓜人"
+				"&d恶魔南瓜 → 南瓜领主"
+			]
+			icon: "born_in_chaos_v1:transmuting_elixir"
+			id: "07513E6C62D156D3"
+			rewards: [
+				{
+					count: 27
+					id: "222DAA4B1D37D596"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "4C7C775292033123"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33A3FA10B0042874"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e在主世界手持绿宝石块右击南瓜（普通）即可召唤出克朗普斯"
+			tasks: [
+				{
+					id: "0EFD818BB270252C"
+					item: "born_in_chaos_v1:transmuting_elixir"
+					type: "item"
+				}
+				{
+					entity: "born_in_chaos_v1:krampus"
+					id: "085ADA91FD9A6BB5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&4转化试剂"
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["149590A7216D88FE"]
+			description: [""]
+			icon: "born_in_chaos_v1:dark_rod"
+			id: "307F6D4A69299B43"
+			rewards: [
+				{
+					count: 13
+					id: "1B7D8F16E4A8A299"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1262274DFD9DE11B"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B5F4414D67BF655"
+					table_id: 3763260092074821840L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e只能在暗处出现，若所处位置被阳光直射，则暗影漩涡会立刻化作一股黑烟消失，并且不会留下任何掉落物。"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "7A739BD691111A5D"
+					item: "born_in_chaos_v1:dark_rod"
+					type: "item"
+				}
+				{
+					entity: "born_in_chaos_v1:dark_vortex"
+					id: "50AEFE0ABF83CB24"
+					type: "kill"
+					value: 4L
+				}
+			]
+			title: "&4暗影棒"
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["149590A7216D88FE"]
+			description: [""]
+			icon: "born_in_chaos_v1:nightmare_claw"
+			id: "2ECC2B3ABC9ADA3C"
+			rewards: [
+				{
+					count: 9
+					id: "0A66C8019968C385"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "298774872A944088"
+					table_id: 3763260092074821840L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "066040FE22247075"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e会在游戏的第三日夜中随着聊天栏警告开始刷新在光照等或低于8的环境下&d（You feel like something is chasing you）。&e攻击会对玩家产生失明，黑暗，恐惧凝视，魔力耗尽，凋零III效果。在阳光直射下会化为烟尘消失，不会产生任何掉落物。"
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				id: "06CE4D869D9DCDD6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4梦魇循踪兽"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["149590A7216D88FE"]
+			description: [""]
+			icon: "born_in_chaos_v1:monster_skin"
+			id: "2EC0420BF8A69C2C"
+			rewards: [
+				{
+					count: 17
+					id: "12CD574917A94E61"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B697597F2F34B9B"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43BE679A7FEA821C"
+					table_id: 3763260092074821840L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e骇狼的掉落物兽皮是本模组中重要的素材，骇狼的肉作为烹饪食材也是非常不错的。"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "3974D0CB785ACDAD"
+					item: "born_in_chaos_v1:monster_skin"
+					type: "item"
+				}
+				{
+					entity: "born_in_chaos_v1:dread_hound"
+					id: "1BE1A25EE864805C"
+					type: "kill"
+					value: 4L
+				}
+			]
+			title: "&4骇狼"
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2EC0420BF8A69C2C"]
+			description: ["&6穿戴全套梦魇套时在白天会获得力量1效果，在夜晚会额外获得迅捷2的效果。"]
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7B5DA5F0F6167BE3"
+			rewards: [
+				{
+					count: 15
+					id: "5AFA42961F518A58"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29E89AC293BBAACE"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "4ED6D3C6D6C97FB2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 10.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-2103401163
+											434127242
+											-1950632275
+											-589903926
+										]
+									}
+								}
+								heavy: 10.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B3A45CB7811C20D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 17.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-1322168862
+											1418543318
+											-1243188969
+											-829388854
+										]
+									}
+								}
+								heavy: 17.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73B702DF41ECD20F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 15.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-677709316
+											2071348343
+											-1431919787
+											1478734991
+										]
+									}
+								}
+								heavy: 15.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3359E25F169B668F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 5.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											1244480829
+											-1225502854
+											-2085812090
+											1872632674
+										]
+									}
+								}
+								heavy: 5.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&4梦魇套"
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["149590A7216D88FE"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0512150FCE0C3B75"
+			rewards: [
+				{
+					id: "570E105487751290"
+					item: "born_in_chaos_v1:dark_upgrade"
+					type: "item"
+				}
+				{
+					count: 11
+					id: "0BE6CA575A50C654"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DFF98670AB6198E"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e能够免疫并反弹箭矢，并且可以穿戴装备和武器（但外表不会显示出来），攻击会对玩家造成咒印II效果。能够掉落暗金属锭与暗金属盔甲的锻造模板，十分珍贵。咒印的效果：在BUFF结束时会在玩家周围生成几只猩红幽灵。"
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				id: "235A5AF9A2BC3D5E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4混沌骑士"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2ECC2B3ABC9ADA3C"]
+			description: [""]
+			id: "0F09E072579B76FC"
+			rewards: [
+				{
+					count: 9
+					id: "19F1AF1B6EB21371"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "518187254BD820BE"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e右键动物可以将其献祭并短暂强化自身,获得持续时间14秒的 生命恢复I 和 力量I。"
+			tasks: [{
+				id: "0A86A7775EC7079D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 10.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-835399529
+										862864398
+										-1954511022
+										1239424570
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":12}]"
+							heavy: 10.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "born_in_chaos_v1:dark_ritual_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&4暗黑仪式"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["149590A7216D88FE"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:dark_metal_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C5D9CCB6F4F8D79"
+			rewards: [
+				{
+					count: 21
+					id: "437A91C1F72CAB2F"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "62BADEE39C0D2661"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "643069DEB7EB29ED"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e穿戴整套暗金属装备时，生命值低于6点时会获得暴怒的效果，血量越少，这套铠甲的主人就会越强。并且使穿戴者免疫凋零效果。"
+			tasks: [
+				{
+					id: "469DA3027D0AC39D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 10.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-702861807
+											808340254
+											-1457821773
+											177560937
+										]
+									}
+								}
+								heavy: 10.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "born_in_chaos_v1:dark_metal_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CA84C5D5E68F201"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 25.0d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-954621322
+											64832334
+											-1940238998
+											1662221153
+										]
+									}
+								}
+								heavy: 25.0d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "born_in_chaos_v1:dark_metal_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D561A7174155047"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 17.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											2067169121
+											-863616702
+											-1651695112
+											-1142331477
+										]
+									}
+								}
+								heavy: 17.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "born_in_chaos_v1:dark_metal_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5478994CBD1A64C4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"lhmiracleroad:punishment_cap": {
+								attribute: {
+									heavy: {
+										Amount: 7.5d
+										Name: ""
+										Operation: 0
+										UUID: [I;
+											-680956752
+											-161330340
+											-1120141090
+											1212990550
+										]
+									}
+								}
+								heavy: 7.5d
+								recordPunishmentAttributeModifier: { }
+							}
+						}
+						id: "born_in_chaos_v1:dark_metal_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&4暗金属套"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["149590A7216D88FE"]
+			description: [""]
+			id: "450DB9B3A929A5E8"
+			rewards: [
+				{
+					count: 7
+					id: "6B60BCFF71A32A63"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "488144438DF329F5"
+					table_id: 3763260092074821840L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E3432068E44CF3F"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e攻击时给予目标眩晕，缓慢和虚弱效果。受到一定伤害时有几率举盾给予自己抗性提升VI。其头骨可以做成死灵图腾，十分好用。"
+			tasks: [{
+				consume_items: true
+				id: "7639C9E50A17BABA"
+				item: "born_in_chaos_v1:shattered_skull"
+				type: "item"
+			}]
+			title: "&4重击者"
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["450DB9B3A929A5E8"]
+			description: [""]
+			id: "60FB04102BBCE3F4"
+			rewards: [
+				{
+					count: 9
+					id: "452086E345A9B0E5"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "774C59F5FF694FA9"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e持有该武器跳跃攻击敌人时，给予目标持续时间为1秒的眩晕。"
+			tasks: [{
+				id: "096EE1973379886B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 20.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-1225546764
+										165038300
+										-1408573823
+										-1114057064
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":25}]"
+							heavy: 20.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "born_in_chaos_v1:skullbreaker_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&4重击锤"
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["149590A7216D88FE"]
+			description: [""]
+			id: "0FC290981D469C33"
+			rewards: [
+				{
+					count: 9
+					id: "54756942E2F131F5"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F77BE1C716B77AB"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e在玩家没有力量的状态效果的情况下，手持该武器的会给予玩家虚弱III和缓慢III的负面效果，且攻击无法触发武器特殊效果。只有当玩家拥有任意等级的力量效果时才能正常使用该武器，攻击敌人给予对方持续时间10秒的骨折II效果。"
+			tasks: [{
+				id: "14A6020EA3FAF912"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 38.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										615355465
+										563037400
+										-1724909346
+										199224236
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":47}]"
+							heavy: 38.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "born_in_chaos_v1:darkwarblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&4暗黑大剑"
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["450DB9B3A929A5E8"]
+			description: [""]
+			id: "5E4CA6EEEA8D0EFC"
+			rewards: [
+				{
+					count: 9
+					id: "07F6ECBD159263CF"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A8D4D9754A297B6"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e当玩家死亡并且死灵图腾在玩家物品栏时，将免疫此次死亡并给予玩家生命恢复与力量的效果，一次性物品，使用后将会消失。"
+			tasks: [{
+				id: "2C680C9B9DDE9771"
+				item: "born_in_chaos_v1:death_totem"
+				type: "item"
+			}]
+			title: "&4死灵图腾"
+			x: 7.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["149590A7216D88FE"]
+			description: [""]
+			icon: "born_in_chaos_v1:ethereal_spirit"
+			id: "50EC4A7D7776A607"
+			rewards: [
+				{
+					count: 25
+					id: "70AC9DA1F86A00BA"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "01D0D3912BD3AF14"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36EF0E3E71116333"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					id: "249C682AE51EE631"
+					item: "enigmaticlegacy:etherium_scraps"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28B9C801F73177FF"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e会自然生成在夜晚的主世界，击杀它后会随机掉落五种符咒中的其中一种。"
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				id: "71AF066051CDBA02"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4恶魔在人间的使者"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["50EC4A7D7776A607"]
+			description: [""]
+			id: "5E8E43CDA43D5087"
+			rewards: [
+				{
+					count: 19
+					id: "7EB8E98761497473"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "14D5BC9C7AA1B47A"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34ED9468DADBAEB5"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e通过击杀本模组中的部分怪物掉落，也可以从本模组中的遗迹战利品箱中找到。"
+			tasks: [
+				{
+					id: "6E00D8C53A61CA64"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_power"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FBA7D4FAE3909C5"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_resistance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E48A9A36E714BB6"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_stealth"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12D8FB0176BE6956"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_endurance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42A4299F8EBE31C1"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_fury"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&45种符咒"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["07513E6C62D156D3"]
+			description: ["&6手持转化试剂对着蜡烛中间的恶魔南瓜右键即可召唤南瓜领主。"]
+			icon: "born_in_chaos_v1:infernal_evil_pumpkin"
+			id: "764819736ABD32E3"
+			rewards: [
+				{
+					count: 5
+					id: "465F36211E8A316F"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6813E76508355153"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索恶魔南瓜即可找到"
+			tasks: [{
+				id: "5A7F51A16C3DBBE5"
+				structure: "born_in_chaos_v1:infernal_pumpkin"
+				type: "structure"
+			}]
+			title: "&4封印恶魔之地"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["764819736ABD32E3"]
+			description: [
+				"&6南瓜领主作为BOSS极其难缠，想要击杀他需要耗费一番功夫，但击杀他后会掉落其使用的武器，伤害客观。"
+				""
+				"&6南瓜领主技能列表："
+				""
+				"&6冲向目标攻击并造成伤害，同时会附带7秒灵魂剥离I、7秒狱火I、1秒缓慢II效果。"
+				"&6南瓜领主受到攻击时，有概率传送至周围，并在原地释放一个自爆南瓜头。"
+				"&6南瓜领主受到攻击时，有概率传送至周围，并在原地召唤两只南瓜绅士。"
+				""
+				"&6南瓜领主免疫岩浆和溺水伤害，但接触这些液体时仍然会让它释放自爆南瓜头或者南瓜绅士；"
+				"&6南瓜领主会将脚下的水源方块或岩浆方块转化为邪恶污土；"
+				"&6南瓜领主死后会召唤一个没有马的南瓜领主和领主的恶魔马作为第二阶段。"
+			]
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72D0F685CA3AA25B"
+			rewards: [
+				{
+					count: 20
+					id: "424005376F242280"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "7AC7236B960295AE"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04AF805E9EB28044"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FD26E9775EC5947"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					id: "0296AB666F774458"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					command: "/curios add head @p 1"
+					id: "4FA8B7BFD72608D2"
+					title: "添加一个头饰"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "630870DBA1341B18"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B822E22B3F63691"
+					table_id: 9166668972117515358L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead"
+				id: "2DCA485E6349EA19"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4南瓜领主"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&6高阶骷髅召唤师会生成在顶层。第一层被重击者把守着，包含小骷髅刷怪笼；第二层包含僵尸刷怪笼和骨架刷怪笼；第三层包含蜘蛛刷怪笼和凋零水黾刷怪笼；第四层包含流浪者刷怪笼和恼鬼刷怪笼；第五层包含2个骷髅召唤师和急躁幽灵刷怪笼；第六层包含1个高阶骷髅召唤师和1个骷髅小鬼。"
+				""
+				"&6你可以从这座塔的战利品箱中找到本模组中的许多材料与暗金属。"
+			]
+			icon: "goety:dark_metal_block"
+			id: "5A9C4B7A3005BE45"
+			rewards: [
+				{
+					count: 9
+					id: "219B8B5E5AFFACB7"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39C13B9DEF14CBCC"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索黑暗高塔即可找到。"
+			tasks: [{
+				id: "3F62F7435AA32FF0"
+				structure: "born_in_chaos_v1:dark_tower_forest"
+				type: "structure"
+			}]
+			title: "&4黑暗高塔"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			description: ["&6你可以从这座塔的战利品箱中找到本模组中的许多材料与暗金属。"]
+			icon: "minecraft:mossy_cobblestone"
+			id: "1BD1400B2B019A38"
+			rewards: [
+				{
+					count: 9
+					id: "5FCCCF0730922945"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EBC88D7FF784D5D"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索Observation Tower Forest即可找到。"
+			tasks: [{
+				id: "2404B90DF3C030A4"
+				structure: "born_in_chaos_v1:observation_tower_forest"
+				type: "structure"
+			}]
+			title: "&4瞭望塔"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2F8DCA93D9E09C57"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "alexscaves:sugar_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5944BF86CEFD2205"
+			rewards: [
+				{
+					count: 25
+					id: "635D5EEDDE202EEE"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4EDF0B250157C0AB"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67F35E315E39289D"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e超级棒棒糖"
+			tasks: [{
+				id: "0CCA26CA65DA2788"
+				item: "born_in_chaos_v1:eternal_candy"
+				type: "item"
+			}]
+			title: "&4永恒糖果"
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["72D0F685CA3AA25B"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "bloxysstructures:adventure_realm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "30A883AB5438FA3C"
+			rewards: [{
+				id: "5806F9502DCF63D8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			subtitle: "&e使用煤炭块按照地狱门的方式摆出框架并使用火石和钻石激活传送门，如果缺绿宝石可以来冒险领域刷"
+			tasks: [{
+				dimension: "bloxysstructures:adventure_realm"
+				id: "6759C3B9C223A6D9"
+				type: "dimension"
+			}]
+			title: "&4冒险领域（容易崩端）"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["72D0F685CA3AA25B"]
+			description: ["&6“斩下一颗头，升起两颗怒火。”"]
+			icon: {
+				Count: 1
+				id: "bloxysstructures:shield_of_inferno"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5BE5F7A3AE815EED"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F2019362B5E0C73"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					count: 20
+					id: "49AF7DAD25962BB0"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "58D669B7BF1ED0F8"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02D3BEC70B89E533"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "322ED4E135512D25"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e在主世界手持钻石块右击草方块即可召唤"
+			tasks: [{
+				entity: "bloxysstructures:inferno_hydra"
+				id: "598F60121715B0AC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4地狱九头蛇"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["72D0F685CA3AA25B"]
+			description: ["&6“他不是恶魔，也不是神。他是被世界遗忘的王子，是黑暗的审判者，是光明的守护者”"]
+			icon: {
+				Count: 1
+				id: "bloxysstructures:darkness_arm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "52F5F56C8AAA72B7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3ED1F9F59FEC1184"
+					table_id: 2882031472378092046L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64B5C48BF0065D0D"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					count: 20
+					id: "37A3D8D60622A015"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "14190F61B4F98F8C"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2726E8B2B927DFE1"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CF8A7019CBF7A65"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e在主世界手持下界合金块右击草方块即可召唤"
+			tasks: [{
+				entity: "bloxysstructures:prince_of_darkness"
+				id: "20C0AA0352025FDB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4黑暗王子"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72D0F685CA3AA25B"]
+			description: ["&6“你们称我们为腐烂，却不知我们才是真正的延续。”"]
+			icon: "iceandfire:pixie_house_mushroom_red"
+			id: "7D589EEECF568015"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13D93F4D2CDF6517"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					count: 20
+					id: "4EB12ED170D629FE"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "741E5C516B498BD8"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7415432405039715"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74ACB185FFF7DD1A"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e在主世界手持金块右击草方块即可召唤"
+			tasks: [{
+				entity: "bloxysstructures:mushroom_king"
+				id: "4C112E59E39803D7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4蘑菇王"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F8DCA93D9E09C57"]
+			description: [""]
+			id: "1543A2E7F04E12FB"
+			rewards: [
+				{
+					count: 30
+					id: "09ED2B2257CBF4F0"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "243AD5F760AEBB6C"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5760C72A7EEEFD71"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "7B241170BFDBF97D"
+					item: "l2complements:totemic_apple"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e各种口味的冰糖块在糖果洞穴内随处可见，使用镐子挖掘掉落。"
+			tasks: [
+				{
+					consume_items: true
+					id: "620763EC410EAAB6"
+					item: "alexscaves:rock_candy_white"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "103F1E458642DCB8"
+					item: "alexscaves:rock_candy_orange"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "41B0C0825B7CB6DA"
+					item: "alexscaves:rock_candy_magenta"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2BA0DF86CA122F07"
+					item: "alexscaves:rock_candy_light_blue"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3BDB5F1CCEFDDA85"
+					item: "alexscaves:rock_candy_yellow"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "04C427B088C90ECA"
+					item: "alexscaves:rock_candy_lime"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3D8E21E442427EB6"
+					item: "alexscaves:rock_candy_pink"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "78FCF395FD28D44B"
+					item: "alexscaves:rock_candy_gray"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3811A339E4E3A96E"
+					item: "alexscaves:rock_candy_light_gray"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "316047CBCE2AB387"
+					item: "alexscaves:rock_candy_cyan"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "09A819459C355D1B"
+					item: "alexscaves:rock_candy_purple"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "31DD3886DF135E5E"
+					item: "alexscaves:rock_candy_blue"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "55AD17602AB31233"
+					item: "alexscaves:rock_candy_green"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "550F7AFBC336BAB2"
+					item: "alexscaves:rock_candy_brown"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7F85C2298FE9AAD8"
+					item: "alexscaves:rock_candy_red"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7DD6B5DFEF99C77D"
+					item: "alexscaves:rock_candy_black"
+					type: "item"
+				}
+			]
+			title: "&4冰糖块"
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72D0F685CA3AA25B"]
+			description: ["&6糖果洞穴内几乎所有可以看到的东西都可以吃，并且里面怪物强度很低，如果你在前期找到了糖果洞穴，那么恭喜你，可以开吃了，洞穴内的所有可食用物品吃完能够增加不少血量上限。"]
+			id: "2F8DCA93D9E09C57"
+			rewards: [
+				{
+					id: "6704A8D9553B114A"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "6F4C5C0AD764B670"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "3791BBF06E1ACD3D"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EC4C7FE7C328566"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索蛋糕洞穴即可找到"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_candy_cavity"
+				criterion: ""
+				id: "2A67829C81353DA7"
+				type: "advancement"
+			}]
+			title: "&4糖果洞穴"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["593BCC9AB35E7354"]
+			description: [
+				"&6苍白而不详的残缺骨骼，似乎呼唤着它的躯体。它让我感到不安，低声的絮语围绕着我。但是它的力量又如此诱人..."
+				""
+				"&6将3个骨杖残片按人体结构的顺序摆放好后，手持血瓶右键中间的祭坛来召唤腐化英雄&d（必须是在夜晚才可以召唤！）。"
+				""
+				"&d但请注意，该结构只会生成在海洋群系的250米以上的高空中。"
+			]
+			icon: "graveyard:white_bone_staff"
+			id: "258B58EF5BEA535F"
+			rewards: [
+				{
+					count: 25
+					id: "3A9CC9EEA55CF317"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "4DBF1ABABF483D1F"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3270F2C8EC229F62"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "736D5078440ED3AA"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C0A2825A91E1833"
+					table_id: 1242374370907836078L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D46AA41B84E3EBD"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+				{
+					command: "/curios add spellbook @p 1"
+					id: "4C53D61A7C696363"
+					title: "添加一个魔法书栏位"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索英雄监狱即可找到"
+			tasks: [
+				{
+					id: "61DB53E3B33559E5"
+					item: "graveyard:upper_bone_staff"
+					type: "item"
+				}
+				{
+					id: "5E94F1F60BFC4DFF"
+					item: "graveyard:middle_bone_staff"
+					type: "item"
+				}
+				{
+					id: "02FD1750D954F1FD"
+					item: "graveyard:lower_bone_staff"
+					type: "item"
+				}
+				{
+					entity: "graveyard:lich"
+					id: "7E9063B9626C3CCE"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "33CD1A57073E5B59"
+					item: {
+						Count: 1
+						id: "graveyard:vial_of_blood"
+						tag: {
+							Blood: 0.8000001f
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&4腐化英雄"
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"5BE5F7A3AE815EED"
+				"52F5F56C8AAA72B7"
+				"7D589EEECF568015"
+			]
+			description: ["&6“我以石为骨，以光为心，以时间为誓。”"]
+			icon: {
+				Count: 1
+				id: "bloxysstructures:bloxys_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "45EFE857E6EDC826"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "04E040808F288F54"
+					table_id: 2882031472378092046L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CEFF9DC36446D2C"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					count: 35
+					id: "069F934F35C32B9D"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6767399A633EAE30"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "208F786A6F8FDF21"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C6D1B9B5E652E69"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+				{
+					command: "/curios add ring @p 1"
+					id: "1869E87305001A06"
+					title: "添加一个戒指栏位"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "2E1CDCA97B7E71C9"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "l2hostility:split_suppressor"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "514BA50C40CDE090"
+					table_id: 9166668972117515358L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e在主世界手持绿宝石块右击草方块即可召唤"
+			tasks: [{
+				entity: "bloxysstructures:bloxy"
+				id: "5DB75DF6763E382F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4布洛克西—完成此任务后可开启下一章"
+			x: 3.5d
+			y: 1.5d
+		}
+	]
+	title: "&6亡骸游戏（第二章）"
+}

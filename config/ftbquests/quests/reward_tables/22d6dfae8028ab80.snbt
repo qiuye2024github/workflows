@@ -1,0 +1,1078 @@
+{
+	id: "22D6DFAE8028AB80"
+	loot_size: 1
+	order_index: 36
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "jinghui:qingtongjian"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:tanghengdao"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:xuejian"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:zhujian"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:shizujian"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:fthj"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:blj"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:hld"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:fxd"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:xiqiang"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:hongwu"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:longyad"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:guyunjian"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:xbj"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:hbj"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:jxq"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:jmb"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:ssj"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:cmjjd"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:wjj"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "jinghui:xhj"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "goety:soul_eater"
+							lvl: 5s
+						}
+						{
+							id: "more_enchantments:restoration"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+						{
+							id: "more_enchantments:furor"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			weight: 2.0f
+		}
+	]
+	title: "初始武器"
+}

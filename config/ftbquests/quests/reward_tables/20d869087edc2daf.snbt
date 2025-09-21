@@ -1,0 +1,39 @@
+{
+	id: "20D869087EDC2DAF"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ count: 3, item: "terramity:ruby", weight: 5.0f }
+		{ item: "terramity:ruby_block", weight: 5.0f }
+		{ count: 3, item: "terramity:topaz", weight: 5.0f }
+		{ item: "terramity:topaz_block", weight: 5.0f }
+		{ count: 3, item: "terramity:onyx", weight: 5.0f }
+		{ item: "terramity:onyx_block", weight: 5.0f }
+		{ count: 3, item: "terramity:sapphire", weight: 5.0f }
+		{ item: "terramity:sapphire_block", weight: 5.0f }
+		{ count: 3, item: "terramity:dimlite_ingot", weight: 4.0f }
+		{ item: "terramity:dimlite_block", weight: 2.0f }
+		{ count: 3, item: "terramity:gaianite_cluster", weight: 4.0f }
+		{ count: 2, item: "terramity:virentium_alloy_ingot", weight: 4.0f }
+		{ item: "terramity:virentium_alloy_block", weight: 2.0f }
+		{ count: 3, item: "terramity:raw_cosmilite", weight: 4.0f }
+		{ count: 2, item: "terramity:cosmilite_ingot" }
+		{ item: "terramity:cosmilite_block", weight: 2.0f }
+		{ count: 3, item: "terramity:iridium_chunk", weight: 4.0f }
+		{ count: 2, item: "terramity:iridium", weight: 4.0f }
+		{ item: "terramity:iridium_block", weight: 2.0f }
+		{ count: 3, item: "terramity:empty_essence", weight: 3.0f }
+		{ count: 2, item: "terramity:void_alloy", weight: 3.0f }
+		{ item: "terramity:void_alloy_block", weight: 2.0f }
+		{ count: 3, item: "terramity:conductite", weight: 3.0f }
+		{ count: 3, item: "terramity:hellspec_alloy", weight: 2.0f }
+		{ item: "terramity:hellspec_alloy_block" }
+		{ count: 3, item: "terramity:nyxium", weight: 2.0f }
+		{ item: "terramity:nyxium_block" }
+		{ count: 3, item: "terramity:exodium_superalloy", weight: 2.0f }
+		{ item: "terramity:exodium_block" }
+		{ count: 3, item: "terramity:reverium", weight: 2.0f }
+		{ item: "terramity:reverium_block" }
+	]
+	title: "土地"
+}

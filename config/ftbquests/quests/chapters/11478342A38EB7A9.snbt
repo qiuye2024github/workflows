@@ -1,0 +1,2280 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "11478342A38EB7A9"
+	group: ""
+	icon: "born_in_chaos_v1:rotten_infernal_pumpkin"
+	id: "11478342A38EB7A9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6EBC7B963207808A"]
+			description: [""]
+			icon: "cardinal_sins:sinsencyclopedia"
+			id: "1E9F7C68D54FB563"
+			rewards: [
+				{
+					id: "6E0A7964BE81AF6F"
+					item: "cardinal_sins:sinsencyclopedia"
+					type: "item"
+				}
+				{
+					id: "7E55AB4864C21777"
+					item: "cardinal_sins:soulweaver_orb"
+					type: "item"
+				}
+				{
+					id: "61A1487200801BC3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DC05421D5434950"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e这本书会帮助你更好的了解七大罪，召唤神殿均可在哆啦A梦的口袋购买，各种灵魂球用相应精华与末影之眼在锻造台上合成"
+			tasks: [{
+				id: "4051B7CFC44B69D7"
+				title: "&4原罪"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E9F7C68D54FB563"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "cardinal_sins:scytheofsloth"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "742493E0BB85D5F3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23B3AD21BEBA129B"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58FB757BEA879CC7"
+					table_id: 5798536012187006497L
+					type: "random"
+				}
+				{
+					count: 17
+					id: "6E8112572CB85152"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "616CA5A1C477043A"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e“不是我不愿前行，而是世界早已不再值得我前行。”"
+			tasks: [{
+				entity: "cardinal_sins:linneausofsloth"
+				id: "4AFA37084E0D6A7D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4懒惰"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["742493E0BB85D5F3"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "cardinal_sins:greataxeofgluttony"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1381AF1537D0D9F1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B0DAC245B5E52BA"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2454EFBAD6666A87"
+					table_id: 5798536012187006497L
+					type: "random"
+				}
+				{
+					count: 19
+					id: "41D9E0892878DF69"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66FB15F3B0F5FE97"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e“我吃下一切，包括你曾是谁。”"
+			tasks: [{
+				entity: "cardinal_sins:sinofgluttony"
+				id: "5C2E0337EAD9BD03"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4暴食"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1381AF1537D0D9F1"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "cardinal_sins:spearoflust"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "24FAA4A406F1246F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C501BE15D387FCC"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77EFC4786FAF79DF"
+					table_id: 1242374370907836078L
+					type: "random"
+				}
+				{
+					count: 21
+					id: "7B1E27C4909BDD59"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D2BD2B72675962D"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e“我不会强迫你爱我……但你会自愿献上一切。”"
+			tasks: [{
+				entity: "cardinal_sins:sinoflust"
+				id: "73E02A64FB2BE5E8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4欲望"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["24FAA4A406F1246F"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "cardinal_sins:daggerofgreed"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "480BF54151D7DFDB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1AF955B6DBD27036"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23CF15244D432B18"
+					table_id: 1242374370907836078L
+					type: "random"
+				}
+				{
+					count: 22
+					id: "1153FE6EB74119BD"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "07E3F7AA41791F18"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54D4BD4C99930D7D"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e“我不会夺走你的生命……我会让你亲手毁掉它。”"
+			tasks: [{
+				entity: "cardinal_sins:sinofgreed"
+				id: "1E29EE1B88DA28DB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4贪婪"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["480BF54151D7DFDB"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "cardinal_sins:sickleofenvy"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "38A926EB81A01111"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EDF2E749FA72875"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C0E33CC582DB2B6"
+					table_id: 2882031472378092046L
+					type: "random"
+				}
+				{
+					count: 22
+					id: "6AB085D97B8224ED"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "0146213079E385D6"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60297A66ADF008DF"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e“你拥有的一切，我都配得拥有。"
+			tasks: [{
+				entity: "cardinal_sins:sinofenvyphase_1"
+				id: "76B38FB3C1BC9A17"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4嫉妒"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["38A926EB81A01111"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "cardinal_sins:greatswordofwrath"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "67223652F632CF69"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F118080592D5FFF"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1363154B90ACCAE7"
+					table_id: 2882031472378092046L
+					type: "random"
+				}
+				{
+					count: 23
+					id: "34869DF44BFFB54E"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6CC411FBA64CB49C"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DF64B15CF996A39"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e“我不是愤怒……我是你压抑太久的吼声。”"
+			tasks: [{
+				entity: "cardinal_sins:sinofwrathphase_1"
+				id: "56C4264431D27307"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4愤怒"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["67223652F632CF69"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "cardinal_sins:halberdofpride"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "670721428D161E93"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "748C58FA087ADF7F"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "654C46E8E7F5FF40"
+					table_id: 2806212401027650285L
+					type: "random"
+				}
+				{
+					count: 23
+					id: "12B7390BD5F033CB"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "3E4560AC0C73304E"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26946E53390E4DEB"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e“你不过是一只蝼蚁……竟敢挑战我？"
+			tasks: [{
+				entity: "cardinal_sins:sinofpridephase_1"
+				id: "42FB7C16E0937E0E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4傲慢"
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["670721428D161E93"]
+			icon: "cardinal_sins:essenceofatrocity"
+			id: "0D990ADF37FB6E00"
+			rewards: [{
+				id: "4F3B19B15D5E9076"
+				item: "cardinal_sins:atrocity_shrine"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					id: "006428D4D082EF1F"
+					item: "cardinal_sins:essenceofsloth"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4EB72D4B54DB9CB1"
+					item: "cardinal_sins:essenceofgluttony"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4DEAB0445A812EAD"
+					item: "cardinal_sins:essenceoflust"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4343A7DA39BBA4E6"
+					item: "cardinal_sins:essenceofgreed"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "05EC8755D3CB42DF"
+					item: "cardinal_sins:essenceofenvy"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7BF16BD7594197CF"
+					item: "cardinal_sins:essenceofwrath"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "67B9F6A72FCDBC78"
+					item: "cardinal_sins:essenceofpride"
+					type: "item"
+				}
+			]
+			title: "&4暴行"
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D990ADF37FB6E00"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "cardinal_sins:holydemonicsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5A30E6C0FCAE670B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1405E71201D768F6"
+					table_id: 3022341840274845282L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C436CA8EE1AD9F5"
+					table_id: 7284244888969370118L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08F40C4362BA31A2"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2772BA7C490A1CB9"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					count: 35
+					id: "1CE644ED24E935A7"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3CEF3CB8702AE8EA"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					command: "/curios add necklace @p 1"
+					id: "3FF07CD999F1FADD"
+					title: "添加一个项链栏位"
+					type: "command"
+				}
+				{
+					id: "23EBAF8CA17A2BEF"
+					item: "enigmaticlegacy:etherium_scraps"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41664881E907F49F"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e“我不服侍，也不臣服。我宁愿在地狱称王，也不愿在天堂做奴。”"
+			tasks: [{
+				entity: "cardinal_sins:lucifer"
+				id: "3B961C32E55DB630"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4路西法"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["726933F7DE8ACEA8"]
+			description: [""]
+			icon: "callfromthedepth_:soulenergycrystall"
+			id: "44A073633095BBAB"
+			rewards: [
+				{
+					id: "5F49B1BCEECA4459"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "782D93336D4CE161"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用用指南针搜索远古城市即可找到"
+			tasks: [
+				{
+					id: "2820DD33B8F4C8B6"
+					title: "&4深渊召唤"
+					type: "checkmark"
+				}
+				{
+					id: "7CB92FD0447F7359"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+			]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["44A073633095BBAB"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "callfromthedepth_:depth"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3B38CD6FA81CD082"
+			rewards: [
+				{
+					count: 7
+					id: "04BADFFC60DC6A54"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "5DCC78A73F06FEAC"
+					item: "callfromthedepth_:soulinagony"
+					type: "item"
+				}
+				{
+					id: "3057CF610584F537"
+					item: "callfromthedepth_:weepingsoul"
+					type: "item"
+				}
+				{
+					id: "2AC4F21A365993AF"
+					item: "callfromthedepth_:deadblindsoul"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32ADC33E999F9386"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用深渊钥匙开启传送门：前往未知的维度"
+			tasks: [
+				{
+					dimension: "callfromthedepth_:depth"
+					id: "03CB58CF78C45BE2"
+					type: "dimension"
+				}
+				{
+					id: "3C1D2BEA5B521A7C"
+					item: {
+						Count: 1
+						id: "callfromthedepth_:depth"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&4前往古城"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B38CD6FA81CD082"]
+			description: ["&6使用哭泣之魂右键哭泣之石召唤boss"]
+			icon: {
+				Count: 1
+				id: "callfromthedepth_:marblearmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "24F767C1C2802F58"
+			rewards: [
+				{
+					count: 30
+					id: "2CCF6C396EC65EB0"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "101ECA00B1E31D9D"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "649BB81F7875A823"
+					table_id: 2882031472378092046L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01C914D23878DFE2"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					id: "7B0D47017BC9AA1C"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					command: "/curios add hands @p 1"
+					id: "7487591E3B714C6E"
+					title: "添加一个手饰"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E2022B4E0E5B739"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "331F75A252190334"
+					table_id: 7468670195317994501L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17FACAF5CA2A8FDD"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e指南针搜索Marblesoulforge即可找到"
+			tasks: [{
+				entity: "callfromthedepth_:injuredmarbleguard"
+				id: "04874164723A9969"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4璞石守卫"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["24F767C1C2802F58"]
+			description: ["&6使用混沌使者之魂右键邪眸石召唤boss"]
+			icon: {
+				Count: 1
+				id: "callfromthedepth_:depth_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E2C42B135E3087E"
+			rewards: [
+				{
+					count: 36
+					id: "78CD6017F30004B0"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "677CD9D335916BAA"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E78C0CD8DCCE143"
+					table_id: 2882031472378092046L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3600792BD70D96DA"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DF0A950A30EBBC1"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					command: "/curios add feet @p 1"
+					id: "0E851276D9692D23"
+					title: "添加一个足部"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BBDDDE25B6121F6"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E1C3BF37141F8CC"
+					table_id: 7468670195317994501L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B8DD94429217697"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e指南针搜索Deepdarkestaltar即可找到"
+			tasks: [{
+				entity: "callfromthedepth_:deepdarkestspawn"
+				id: "7F6282DEA947A509"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4深层黑暗"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["527B5AF0130B66B5"]
+			description: ["&6提示：返回主世界必须要用血晶，否则会锁定背包"]
+			icon: "macabre:rootofinfestation"
+			id: "4B6E9C8D0985C103"
+			rewards: [
+				{
+					id: "31F82D7D6393A1F5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A0E5D94CA475AFE"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e这个维度对电脑配置有较高的要求，配置低可不玩"
+			tasks: [{
+				id: "11854B8FD940F729"
+				title: "&4诡异"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4B6E9C8D0985C103"]
+			description: [
+				"&6获得晶化血液后右击前往维度"
+				""
+				"&6再次使用可返回主世界"
+			]
+			id: "3D57DF3CDFA5B704"
+			rewards: [
+				{
+					id: "0E1782BA5B31981B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A050E9FFD0ACA23"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e右击使用匕首，用己身之血肉浸透此匕首，献上诚意"
+			tasks: [
+				{
+					id: "3A4D69034929632A"
+					item: "macabre:sacrificial_dirk"
+					type: "item"
+				}
+				{
+					id: "3FBE67ED05D0A809"
+					item: {
+						Count: 1
+						id: "macabre:crystalized_blood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&4祭品短剑"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3D57DF3CDFA5B704"]
+			icon: "macabre:eye"
+			id: "2E297D38FF369142"
+			rewards: [
+				{
+					count: 9
+					id: "28A50557696754AC"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B5EC33A92489C32"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "macabre:the_pit"
+				id: "3AF4A38C2AA7E6A6"
+				type: "dimension"
+			}]
+			title: "&4诡异世界"
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2E297D38FF369142"]
+			description: [
+				"&6“我曾有名字……可它随风散去了。”"
+				""
+				"&6在世界的尽头，有一座被称为“回音谷”的废墟，那里没有阳光，也没有时间的流动。只有风穿过石柱间的低语，像是谁在回忆过去。"
+				""
+				"&6在这片死寂之地，住着一个存在—人们称他为：空心人。"
+			]
+			icon: "macabre:skull"
+			id: "68C836E222436284"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54CE427305404A2E"
+					table_id: 8469721501915484933L
+					type: "random"
+				}
+				{
+					count: 29
+					id: "7BE01487808F5986"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "6DF2438394EA57FF"
+					item: {
+						Count: 1
+						id: "macabre:blood_clot_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "314C20C72A5D067D"
+					item: {
+						Count: 1
+						id: "macabre:blood_clot_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "582E106514AB19E4"
+					item: {
+						Count: 1
+						id: "macabre:blood_clot_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1336BBBFC38FFEAF"
+					item: {
+						Count: 1
+						id: "macabre:blood_clot_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/curios add necklace @p 1"
+					id: "7A1CD3B215A1D56A"
+					title: "添加一个项链栏位"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35161F7772A6674D"
+					table_id: 4960437888609954914L
+					type: "all_table"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e手持铁块右击活土即可召唤"
+			tasks: [{
+				entity: "macabre:the_hollow_man"
+				id: "60F151F96EBA8A9A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4空心人"
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["68C836E222436284"]
+			description: ["&6“生命终将腐烂……但艺术永存。”"]
+			icon: "macabre:valamon_heart"
+			id: "7EAC7AEF12AC3BF3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DE4C0A14DAFF637"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41523CA1929FDC29"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22F02C5DA0806F38"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "69738102B9C5CBD7"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					id: "65A3F5CD80AD30A0"
+					item: {
+						Count: 1
+						id: "macabre:valamon_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0425425C63F35DF2"
+					item: {
+						Count: 1
+						id: "macabre:valamon_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E35F448FCA46C02"
+					item: {
+						Count: 1
+						id: "macabre:valamon_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DE41892DE4CEF22"
+					item: {
+						Count: 1
+						id: "macabre:valamon_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FF13CD2841455A1"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e手持钻石块右击活土即可召唤"
+			tasks: [{
+				entity: "macabre:valamon"
+				id: "4FE620E297427CEE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4瓦拉蒙"
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["68C836E222436284"]
+			description: ["&6“时间停了……可我还在呼吸。”"]
+			icon: "macabre:baal_heart"
+			id: "04C1953715DAF4FB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F515D954DF68CF3"
+					table_id: 5798536012187006497L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13C2FE8589D31DB3"
+					table_id: 3022341840274845282L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10D2BD2127BD74FD"
+					table_id: 7284244888969370118L
+					type: "random"
+				}
+				{
+					id: "141FAD0FD9627DBE"
+					item: {
+						Count: 1
+						id: "macabre:baal_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25A7484895BC8D3A"
+					item: {
+						Count: 1
+						id: "macabre:baal_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "233685461886733C"
+					item: {
+						Count: 1
+						id: "macabre:baal_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3087828780B691F6"
+					item: {
+						Count: 1
+						id: "macabre:baal_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51489F2C1E11A959"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+				{
+					count: 37
+					id: "589B7088A6A2E879"
+					item: "currency:can50"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e手持下界合金块右击活土即可召唤"
+			tasks: [{
+				entity: "macabre:baal"
+				id: "06CF19CE460DBBF4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4巴尔"
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["68C836E222436284"]
+			description: ["&6“我吃下的不只是食物……还有你们的欲望。”"]
+			icon: "macabre:gargamaw_heart"
+			id: "79EC056DDBF9647E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "172820AC57D027B6"
+					table_id: 5798536012187006497L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3743DE0011850EF0"
+					table_id: 3022341840274845282L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "795298150866D948"
+					table_id: 7284244888969370118L
+					type: "random"
+				}
+				{
+					id: "713C6AC9168AD86B"
+					item: {
+						Count: 1
+						id: "macabre:gargamaw_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "432BD9AC295BDED2"
+					item: {
+						Count: 1
+						id: "macabre:gargamaw_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D192C21AFBE92AA"
+					item: {
+						Count: 1
+						id: "macabre:gargamaw_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E8F3EEBE9F649EA"
+					item: {
+						Count: 1
+						id: "macabre:gargamaw_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "311B248B45C13565"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+				{
+					count: 37
+					id: "057678D8402DAECA"
+					item: "currency:can50"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e手持石英块右击活土即可召唤"
+			tasks: [{
+				entity: "macabre:gargamaw"
+				id: "20F3EB47C8651A7C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4加尔加魔"
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["68C836E222436284"]
+			description: ["&6“我们的主赐予我们肉身……所以我们吃掉祂。”"]
+			icon: "macabre:gomoria_heart"
+			id: "4F2F3A3D3CA30EEE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F06CC121222D696"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "693B99681089B9BE"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "257CF7A44D3F5861"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					id: "435057D6D5FFE6A0"
+					item: {
+						Count: 1
+						id: "macabre:gomoria_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08416FA0A310597E"
+					item: {
+						Count: 1
+						id: "macabre:gomoria_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D67F0FDC9FF4A27"
+					item: {
+						Count: 1
+						id: "macabre:gomoria_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "232EF61DC1D9D61D"
+					item: {
+						Count: 1
+						id: "macabre:gomoria_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 42
+					id: "1183E27A91527B3B"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3ACFB2C61EC69EF5"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EBE25211B81DFEE"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e手持绿宝石块右击活土即可召唤"
+			tasks: [{
+				entity: "macabre:gomoria"
+				id: "30A5D6AF7B6B4C3E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4戈莫里"
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["68C836E222436284"]
+			description: ["&6“我不是一个人……我是所有人的恐惧。”"]
+			icon: "macabre:morphegor_heart"
+			id: "40FB5E01201ECD01"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "775E4A901CE916E8"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52A25E0E0444A89F"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B9F0D3C59CC66E4"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "554F31E11B15EFA5"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					id: "668173EF9DD2B825"
+					item: {
+						Count: 1
+						id: "macabre:morphegor_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41C20D1D1118F039"
+					item: {
+						Count: 1
+						id: "macabre:morphegor_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48A66F024EC965B2"
+					item: {
+						Count: 1
+						id: "macabre:morphegor_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44A188A4A1EC6E17"
+					item: {
+						Count: 1
+						id: "macabre:morphegor_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D7239BCBC4C72F7"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e手持金块右击活土即可召唤"
+			tasks: [{
+				entity: "macabre:morphegor"
+				id: "57351FA64B771539"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4摩斐尔"
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5A30E6C0FCAE670B"]
+			description: ["&6原始洞穴位于主世界地下，自数百年乃至更长时间以来一直与世隔绝，这种与世隔绝的状态造就了这些富含着石灰岩的洞穴拥有着独一无二的地质结构、动植物群，而这些物种在世界的其它地方早已不见踪影。"]
+			icon: "alexscaves:flytrap"
+			id: "726933F7DE8ACEA8"
+			rewards: [
+				{
+					count: 3
+					id: "2EAFE1462B595EA0"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "3EB007BEADD0EC25"
+					item: {
+						Count: 1
+						id: "alexscaves:primitive_club"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "08CC7822EB6022D8"
+					item: "alexscaves:serene_salad"
+					type: "item"
+				}
+				{
+					id: "14A3DAA00FBC9FB6"
+					item: "alexscaves:ominous_catalyst"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索恐龙碗即可找到"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_primordial_caves"
+				criterion: ""
+				id: "5FB78754F25EDA7D"
+				type: "advancement"
+			}]
+			title: "&4原始洞穴"
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["726933F7DE8ACEA8"]
+			description: [""]
+			icon: "alexscaves:tectonic_shard"
+			id: "78B45FE46ED38C88"
+			rewards: [
+				{
+					count: 18
+					id: "5179A99CE5C4CF8F"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "3ECD1D113158B474"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B1FC8FFE2DAAD0B"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F4870BC0C1044D6"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6294BF9CF1D78EFB"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					id: "44317C0B84672E42"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					command: "/curios add accessory @p 1"
+					id: "3E8851665BE53C11"
+					title: "添加一个配饰栏位"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DA961F8BD1C0C5A"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "5409A03BFA41D06F"
+					item: "alexscaves:volcanic_core"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e将灾厄触媒投入原始洞穴中的火山口用于召唤暝煌龙"
+			tasks: [
+				{
+					id: "65E46FFE9469A8EF"
+					item: "alexscaves:ominous_catalyst"
+					type: "item"
+				}
+				{
+					entity: "alexscaves:luxtructosaurus"
+					id: "671C95ACCE944A89"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&4远古天灾的化身"
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["78B45FE46ED38C88"]
+			description: [""]
+			id: "06B78F655CA8484E"
+			rewards: [
+				{
+					count: 9
+					id: "61DB8C15B77FA901"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CF76A2EEBE31789"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e自带忠诚效果，且有特殊技能。"
+			tasks: [{
+				id: "5A08545929E60E62"
+				item: {
+					Count: 1
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&4灭绝长矛"
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["78B45FE46ED38C88"]
+			description: [""]
+			id: "128F79E84C9B1F9B"
+			rewards: [
+				{
+					count: 10
+					id: "60FDA4BB8F5AFBA0"
+					item: "alexscaves:waste_drum"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40195C08611B0CA5"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "570955984525DE14"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e将撼地斯拉的蛋放在地上，随后用核弹炸即可完成孵化，孵化出来后玩家需要喂食废料桶来驯服它。"
+			tasks: [{
+				id: "63078C3FCBFD0333"
+				item: "alexscaves:tremorzilla_egg"
+				type: "item"
+			}]
+			title: "&4基因突变的撼地斯拉"
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["45EFE857E6EDC826"]
+			description: ["&6异寂空谷位于主世界的地下，里面各种原生物种均已被黑暗力量所扭曲，有少数甚至被更深层次的黑暗力量所侵蚀，然而即使是现在，仍然有异教徒正不断地尝试召唤那些来自更黑暗异界的同类......"]
+			icon: "alexscaves:peering_coprolith"
+			id: "6A54C0340A200DBB"
+			rewards: [{
+				count: 3
+				id: "1F5713F06CFA5603"
+				item: "currency:can50"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索幽寂峡谷即可找到"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_forlorn_hollows"
+				criterion: ""
+				id: "0303579BB422FD6B"
+				type: "advancement"
+			}]
+			title: "&4异静空谷"
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6A54C0340A200DBB"]
+			description: [""]
+			icon: "alexscaves:pure_darkness"
+			id: "6EBC7B963207808A"
+			rewards: [
+				{
+					count: 35
+					id: "16553937760ED277"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "33983AB9DA20AC42"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					id: "510D07AAC5DB41C9"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:void_stone"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "103779ABC0275E03"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F385CEF77B90B46"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E483BC2E47E6941"
+					table_id: 7284244888969370118L
+					type: "random"
+				}
+				{
+					id: "766ECCF8D095C44A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F37794D5322677C"
+					table_id: 9166668972117515358L
+					type: "random"
+				}
+				{
+					command: "/curios add necklace @p 1"
+					id: "24A315834773625D"
+					title: "添加一个项链栏位"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "022E30E168D858AB"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e不会自然生成，而是由地底异教徒抓住夜行蝠后举行邪恶仪式后生成，&d你也可以手持黑暗布条右键泥坯来召唤遗弃者，&e遗弃者是迄今为止在异寂空谷发现的最为强大的怪物，会对任何不属于异寂空谷的生物都怀有强烈的敌意。"
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				id: "63691CBB9B122935"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4生于黑暗中血腥疯狂的魔兽"
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["68C836E222436284"]
+			description: [""]
+			icon: "macabre:raw_blood_clot"
+			id: "25E13EE84E099C4A"
+			rewards: [
+				{
+					count: 45
+					id: "1C18955E485749F6"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					command: "/curios add necklace @p 1"
+					id: "7FF14B604024C89A"
+					title: "添加一个项链栏位"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DDC3BC8FD5FE5D7"
+					table_id: 4960437888609954914L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FC334F1519A33A4"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "254052A53C5269C7"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CAA1EA68520B364"
+					table_id: 2896710079607495094L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B10A55655329F32"
+					table_id: 2810096709669237329L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46DF69B65C91C702"
+					table_id: 3712192765376618827L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09AA9F57A21AB14F"
+					table_id: 1648072819859889580L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					entity: "macabre:marrow"
+					id: "3A9C62E017B57750"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "macabre:cave_dweller"
+					id: "0E89829D73E7F140"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "macabre:monolith"
+					id: "76A7A1A722D43953"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "macabre:fatty"
+					id: "284EE10F6BB6C1D4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "macabre:giant"
+					id: "2499FE17A8362F1E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "macabre:trunk"
+					id: "6D0EEF52E5F25B37"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "macabre:brainhemoth"
+					id: "0F2A543F3C41F62B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&4王下七武海"
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			icon: "cardinal_sins:malevolichite_shrine"
+			id: "6A07310D401F90C3"
+			rewards: [{
+				id: "2FAED74534A189E9"
+				item: "cardinal_sins:malevolichite_shrine"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "79660E8E01E9539B"
+					item: { Count: 64, id: "currency:can50" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1446FE4A392408C1"
+					item: "cardinal_sins:soulweaver_orb"
+					type: "item"
+				}
+			]
+			title: "&6懒惰神殿"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: "cardinal_sins:lustshrine"
+			id: "77745A40AB415E7B"
+			rewards: [{
+				id: "438B51DB7E3A8D15"
+				item: "cardinal_sins:lustshrine"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "38F5395E0A735CFA"
+					item: { Count: 64, id: "currency:can50" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3DB6F39ACBD05E7E"
+					item: "cardinal_sins:gluttony_soul_orb"
+					type: "item"
+				}
+			]
+			title: "&6欲望神殿"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: "cardinal_sins:gluttonyshrine"
+			id: "4A3CCCC3B787521C"
+			rewards: [{
+				id: "773B0C2C2AC7A476"
+				item: "cardinal_sins:gluttonyshrine"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "1363F31C2F270ECF"
+					item: { Count: 64, id: "currency:can50" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "74EBA43D522FFA16"
+					item: "cardinal_sins:sloth_soul_orb"
+					type: "item"
+				}
+			]
+			title: "&6暴食神殿"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: "cardinal_sins:greedshrine"
+			id: "0EBE7F2CFCE00DF8"
+			rewards: [{
+				id: "0620E1EAF2D6040B"
+				item: "cardinal_sins:greedshrine"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "607A6829FAC494FB"
+					item: { Count: 64, id: "currency:can50" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "73EF46C5E7DF01F9"
+					item: "cardinal_sins:lust_soul_orb"
+					type: "item"
+				}
+			]
+			title: "&6贪婪神殿"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: "cardinal_sins:envyshrine"
+			id: "442E95AE6E99054F"
+			rewards: [{
+				id: "14513E77614BDF6F"
+				item: "cardinal_sins:envyshrine"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "3E41B40D9D75D447"
+					item: { Count: 64, id: "currency:can50" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "75AD2219A6DB734D"
+					item: "cardinal_sins:greed_soul_orb"
+					type: "item"
+				}
+			]
+			title: "&6嫉妒神殿"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: "cardinal_sins:wrath_shrine"
+			id: "4BF2D90FC51A6D89"
+			rewards: [{
+				id: "3324CB260E21188D"
+				item: "cardinal_sins:wrath_shrine"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "6CA3C487B0582EF0"
+					item: { Count: 64, id: "currency:can50" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0178D726D6D537E4"
+					item: "cardinal_sins:envy_soul_orb"
+					type: "item"
+				}
+			]
+			title: "&6愤怒神殿"
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: "cardinal_sins:pride_shrine"
+			id: "6A1A14929463650E"
+			rewards: [{
+				id: "663D1599AC967EF8"
+				item: "cardinal_sins:pride_shrine"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "35AFF37C01210D15"
+					item: { Count: 64, id: "currency:can50" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6284410F4D36782A"
+					item: "cardinal_sins:wrath_soul_orb"
+					type: "item"
+				}
+			]
+			title: "&6傲慢神殿"
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1E9F7C68D54FB563"]
+			icon: "cardinal_sins:soulweaver_orb"
+			id: "4C1F110413CE0140"
+			rewards: [{
+				id: "6CCFA85E059243DD"
+				item: "cardinal_sins:soulweaver_orb"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "3D0ABF6E68871100"
+				item: { Count: 32, id: "currency:can50" }
+				type: "item"
+			}]
+			title: "&6灵魂编织球"
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E2C42B135E3087E"]
+			description: ["&6使用痛苦灵魂右键祭坛召唤boss"]
+			icon: {
+				Count: 1
+				id: "callfromthedepth_:soularmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "527B5AF0130B66B5"
+			rewards: [
+				{
+					count: 40
+					id: "1025162AEE6CB1C1"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "64AC3C23283D257E"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DB1B8BAA96C8382"
+					table_id: 2882031472378092046L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "173DE399E1C62686"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					id: "3EC656FDA75BFB4C"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					command: "/curios add head @p 1"
+					id: "115BBC9D2179FF4B"
+					title: "添加一个头饰"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "483C478533532CE6"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					id: "7156C053A442725A"
+					item: "twilightforest:uncrafting_table"
+					type: "item"
+				}
+				{
+					id: "23062427E2B32DF4"
+					table_id: 3946534405964350697L
+					type: "random"
+				}
+				{
+					id: "79CA2A06F58627C9"
+					item: {
+						Count: 1
+						id: "l2hostility:abrahadabra"
+						tag: {
+							Enchantments: [{
+								id: "enigmaticlegacy:eternal_binding"
+								lvl: 1s
+							}]
+							RepairCost: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77B193B887940A0F"
+					table_id: 4960437888609954914L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04DF6752589CB4E6"
+					table_id: 9166668972117515358L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e指南针搜索Ancientsacrificialbastion即可找到"
+			tasks: [{
+				entity: "callfromthedepth_:agonysoul"
+				id: "12AC56C8D70F0AF7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4痛苦灵魂—完成此任务后可开启下一章"
+			x: 0.5d
+			y: 3.5d
+		}
+	]
+	title: "&6腐月盛宴（第三章）"
+}

@@ -1,0 +1,8189 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "32DAF0691C030B47"
+	group: ""
+	icon: "goety_revelation:quietus_star"
+	id: "32DAF0691C030B47"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7AB75293F22DC54D"
+			rewards: [{
+				id: "52A31382A2920605"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1B0376A086470E82"
+				title: "&6完成进化后武器装备都会发生质变"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -15.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "gobber2:gobber2_helmet_dragon"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "64FEC34DAD7148CF"
+			rewards: [{
+				id: "246144355072C3DF"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_helmet_dragon"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 46
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									1
+								]
+							}
+							{
+								Amount: 9
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·龙之星头盔\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·龙显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "6C978D980BA8503A"
+					item: "gobber2:dragon_star"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7E7A60034BEE292A"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_helmet_dragon"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·龙之星头盔"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "gobber2:gobber2_chestplate_dragon"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "30526C413C5D43C6"
+			rewards: [{
+				id: "56B548F2D6B4277D"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_chestplate_dragon"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 65
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									1
+								]
+							}
+							{
+								Amount: 9
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·龙之星胸甲\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·龙显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "7D6D8B0CCC12EFA7"
+					item: "gobber2:dragon_star"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1C25F20C48C694BC"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_chestplate_dragon"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·龙之星胸甲"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "gobber2:gobber2_leggings_dragon"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "2DB0BA59337D4C39"
+			rewards: [{
+				id: "7FB37ED3BAD74233"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_leggings_dragon"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 55
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									1
+								]
+							}
+							{
+								Amount: 9
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						display: {
+							Name: "{\"text\":\"真·龙之星护腿\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·龙显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "695040E11FC86085"
+					item: "gobber2:dragon_star"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4AFC8816AD35A8BE"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_leggings_dragon"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·龙之星护腿"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "gobber2:gobber2_boots_dragon"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "23BAD52633DFEAA6"
+			rewards: [{
+				id: "4F699FDE0D8BFAE8"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_boots_dragon"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 48
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									1
+								]
+							}
+							{
+								Amount: 9
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·龙之星靴\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·龙显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "2AB6C7E129CA2CA8"
+					item: "gobber2:dragon_star"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "618A7BCA4ECF10D2"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_boots_dragon"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·龙之星靴"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:ignitium_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "08B627A60E196D33"
+			rewards: [{
+				id: "5C9DE23D277EE4A4"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 42
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									1
+								]
+							}
+							{
+								Amount: 8
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·腾炎头盔\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·腾炎显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "6E7D5D403469AAE9"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "62B6BEFDAADF1C61"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "726E5432F08BBFC9"
+					item: { Count: 60, id: "cataclysm:ignitium_upgrade_smithing_template" }
+					type: "item"
+				}
+			]
+			title: "&6真·腾炎头盔"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:ignitium_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "22A3F40176E94504"
+			rewards: [{
+				id: "137CF07BFDC9FD8E"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_chestplate"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 60
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									1
+								]
+							}
+							{
+								Amount: 6
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·腾炎胸甲\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·腾炎显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "60ECC561E21D1882"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "63C79234DE64BF64"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1C1CDBEEA8FBA204"
+					item: { Count: 60, id: "cataclysm:ignitium_upgrade_smithing_template" }
+					type: "item"
+				}
+			]
+			title: "&6真·腾炎胸甲"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:ignitium_leggings"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "34AF41E2B7A6B90D"
+			rewards: [{
+				id: "3A04AC400715FAB8"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_leggings"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 54
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									1
+								]
+							}
+							{
+								Amount: 4
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						display: {
+							Name: "{\"text\":\"真·腾炎护腿\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·腾炎显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "1553C321485A370A"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "034BD54610894D14"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "33524AFC87EF451E"
+					item: { Count: 60, id: "cataclysm:ignitium_upgrade_smithing_template" }
+					type: "item"
+				}
+			]
+			title: "&6真·腾炎护腿"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:ignitium_boots"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "0F3A17E1263E0DE2"
+			rewards: [{
+				id: "0BD5E1E2968DA55D"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_boots"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 42
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									1
+								]
+							}
+							{
+								Amount: 6
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·腾炎靴\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·腾炎显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "0F91D0CCD6292FDC"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2ED4448D2E87FD5F"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6C6E4F0B9D8F2E87"
+					item: { Count: 60, id: "cataclysm:ignitium_upgrade_smithing_template" }
+					type: "item"
+				}
+			]
+			title: "&6真·腾炎靴"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jinghui:dashengceshi_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "11C5F030C9730577"
+			rewards: [{
+				id: "18D3DFA9D12E39DE"
+				item: {
+					Count: 1
+					id: "jinghui:dashengceshi_chestplate"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 60
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									1
+								]
+							}
+							{
+								Amount: 9
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·锁子黄金甲\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·齐天显现—配合金箍棒可打出特殊效果"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "7F8C800B8C6AE947"
+					item: "jinghui:ssztn"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1345CF882F5B7F04"
+					item: {
+						Count: 1
+						id: "jinghui:dashengceshi_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·锁子黄金甲"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jinghui:dashengceshi_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "44EBFF535B09B86D"
+			rewards: [{
+				id: "46089F8845CDF8BF"
+				item: {
+					Count: 1
+					id: "jinghui:dashengceshi_helmet"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 44
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									1
+								]
+							}
+							{
+								Amount: 9
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·凤翅紫金冠\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·齐天显现—配合金箍棒可打出特殊效果"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "6F595B0F36E303EB"
+					item: "jinghui:ssztn"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "03680F38A0FA8519"
+					item: {
+						Count: 1
+						id: "jinghui:dashengceshi_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·凤翅紫金冠"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jinghui:dashengceshi_leggings"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "38C0DA2712446248"
+			rewards: [{
+				id: "704783FD04D38FD3"
+				item: {
+					Count: 1
+					id: "jinghui:dashengceshi_leggings"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 48
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									1
+								]
+							}
+							{
+								Amount: 9
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						display: {
+							Name: "{\"text\":\"真·锁子黄金裙甲\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·齐天显现—配合金箍棒可打出特殊效果"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "679704DC8493A63A"
+					item: "jinghui:ssztn"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "70625D70B787AE59"
+					item: {
+						Count: 1
+						id: "jinghui:dashengceshi_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·锁子黄金裙甲"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jinghui:dashengceshi_boots"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "4C6AF89A2564CF3D"
+			rewards: [{
+				id: "4ECA73B5A1FCFDA5"
+				item: {
+					Count: 1
+					id: "jinghui:dashengceshi_boots"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 44
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									1
+								]
+							}
+							{
+								Amount: 9
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·藕丝步云履\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·齐天显现—配合金箍棒可打出特殊效果"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "30EF92AF22A1CC94"
+					item: "jinghui:ssztn"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4A047130C9277CED"
+					item: {
+						Count: 1
+						id: "jinghui:dashengceshi_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·藕丝步云履"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jinghui:yangjian_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "33399E416C769440"
+			rewards: [{
+				id: "4700E573B8BE8930"
+				item: {
+					Count: 1
+					id: "jinghui:yangjian_helmet"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 44
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									1
+								]
+							}
+							{
+								Amount: 9
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·清源妙灵二郎显圣头冠\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·清源妙灵显现—按R键召唤追踪飞剑"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "78DDCE0E33A0470A"
+					item: "jinghui:ssztn"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "568E07B7638C91A1"
+					item: "jinghui:szxh"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3A6B1D6C0EE1B2A4"
+					item: {
+						Count: 1
+						id: "jinghui:yangjian_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·清源妙灵二郎显圣头冠"
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jinghui:yangjian_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "7A536ADD68C75507"
+			rewards: [{
+				id: "3B9CED16D5DAAF22"
+				item: {
+					Count: 1
+					id: "jinghui:yangjian_chestplate"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 60
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									1
+								]
+							}
+							{
+								Amount: 9
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·清源妙灵二郎显圣袍甲\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·清源妙灵显现—按R键召唤追踪飞剑"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "41CCC5533B89105D"
+					item: "jinghui:ssztn"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "6D8B0565F406A943"
+					item: "jinghui:szxh"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "541333D4207F6A27"
+					item: {
+						Count: 1
+						id: "jinghui:yangjian_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真.清源妙灵二郎显圣袍甲"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jinghui:yangjian_leggings"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "120942C03A8FBD80"
+			rewards: [{
+				id: "3F4D9C768AE39D0D"
+				item: {
+					Count: 1
+					id: "jinghui:yangjian_leggings"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 48
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									1
+								]
+							}
+							{
+								Amount: 9
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						display: {
+							Name: "{\"text\":\"真·清源妙灵二郎显圣裙甲\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·清源妙灵显现—按R键召唤追踪飞剑"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "138F6B0F120334C2"
+					item: "jinghui:ssztn"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "12E2CB909F1ADC6A"
+					item: "jinghui:szxh"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "79F4E1B003AA19A6"
+					item: {
+						Count: 1
+						id: "jinghui:yangjian_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·清源妙灵二郎显圣裙甲"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jinghui:yangjian_boots"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "5CCCBEF05A6E6748"
+			rewards: [{
+				id: "4582FF2F25008F1C"
+				item: {
+					Count: 1
+					id: "jinghui:yangjian_boots"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 44
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									1
+								]
+							}
+							{
+								Amount: 9
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·清源妙灵二郎显圣道靴\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·清源妙灵显现—按R键召唤追踪飞剑"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "7D07F3D7D7BF5365"
+					item: "jinghui:ssztn"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "7E2538F969F791C6"
+					item: "jinghui:szxh"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "65843F13FD8DB71C"
+					item: {
+						Count: 1
+						id: "jinghui:yangjian_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·清源妙灵二郎显圣道靴"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:ghost_warrior_helmet"
+				tag: {
+					CodeAddFlag: 1b
+					Damage: 0
+					Unbreakable: 1b
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "0C0AFC9B8CC7DA48"
+			rewards: [{
+				id: "2A4A5730677EBFA3"
+				item: {
+					Count: 1
+					id: "eeeabsmobs:ghost_warrior_helmet"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 48
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									1
+								]
+							}
+							{
+								Amount: 8
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									2
+								]
+							}
+						]
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·幽冥头盔\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·幽冥显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "1B0F3D954B60A1B9"
+					item: "eeeabsmobs:ghost_steel_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7961B062AC910900"
+					item: {
+						Count: 1
+						id: "eeeabsmobs:ghost_warrior_helmet"
+						tag: {
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·幽冥头盔"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:ghost_warrior_chestplate"
+				tag: {
+					CodeAddFlag: 1b
+					Damage: 0
+					Unbreakable: 1b
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "61086AD7EC97009B"
+			rewards: [{
+				id: "1AF015F5EE642091"
+				item: {
+					Count: 1
+					id: "eeeabsmobs:ghost_warrior_chestplate"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 66
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									1
+								]
+							}
+							{
+								Amount: 9
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									2
+								]
+							}
+						]
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·幽冥胸甲\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·幽冥显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "335BAEAAC2229FF9"
+					item: "eeeabsmobs:ghost_steel_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7DFA8A16EFF647F9"
+					item: {
+						Count: 1
+						id: "eeeabsmobs:ghost_warrior_chestplate"
+						tag: {
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·幽冥胸甲"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:ghost_warrior_leggings"
+				tag: {
+					CodeAddFlag: 1b
+					Damage: 0
+					Unbreakable: 1b
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "364D2A9964E93C87"
+			rewards: [{
+				id: "21CD800506D2DCCB"
+				item: {
+					Count: 1
+					id: "eeeabsmobs:ghost_warrior_leggings"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 48
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									1
+								]
+							}
+							{
+								Amount: 8
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									2
+								]
+							}
+						]
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
+						affix_data: {
+							sockets: 0
+						}
+						display: {
+							Name: "{\"text\":\"真·幽冥护腿\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·幽冥显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "391CF6183674824A"
+					item: "eeeabsmobs:ghost_steel_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "50F853EFDF8AA384"
+					item: {
+						Count: 1
+						id: "eeeabsmobs:ghost_warrior_leggings"
+						tag: {
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·幽冥护腿"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:ghost_warrior_boots"
+				tag: {
+					CodeAddFlag: 1b
+					Damage: 0
+					Unbreakable: 1b
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "2DF40CBE72E69166"
+			rewards: [{
+				id: "4D82C77F3F3392EF"
+				item: {
+					Count: 1
+					id: "eeeabsmobs:ghost_warrior_boots"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 45
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									1
+								]
+							}
+							{
+								Amount: 9
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									2
+								]
+							}
+						]
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·幽冥靴\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·幽冥显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "25D551FE81C20C93"
+					item: "eeeabsmobs:ghost_steel_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4CD7E84CCD837FEF"
+					item: {
+						Count: 1
+						id: "eeeabsmobs:ghost_warrior_boots"
+						tag: {
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·幽冥靴"
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_helmet"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: 40
+							AttributeName: "generic.armor"
+							Name: "Armor Boost"
+							Operation: 0
+							Slot: "head"
+							UUID: [I;
+								1
+								1
+								1
+								1
+							]
+						}
+						{
+							Amount: 8
+							AttributeName: "generic.armor_toughness"
+							Name: "Toughness Boost"
+							Operation: 0
+							Slot: "head"
+							UUID: [I;
+								1
+								1
+								1
+								2
+							]
+						}
+					]
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+					display: {
+						Name: "{\"text\":\"真·以太头盔\",\"color\":\"gold\",\"bold\":true}"
+					}
+				}
+			}
+			id: "40B69ED6609769CE"
+			rewards: [{
+				id: "504E64B5865FFD24"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_helmet"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 40
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									1
+								]
+							}
+							{
+								Amount: 8
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·以太头盔\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·以太显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "70F67FF8A6ED5B60"
+					item: "enigmaticlegacy:etherium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2FA740A427B1E658"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·以太头盔"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "280F9B751A80D7FB"
+			rewards: [{
+				id: "06547D35781C5F6A"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_chestplate"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 56
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									1
+								]
+							}
+							{
+								Amount: 4
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·以太胸甲\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·以太显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "34F43E76646591D6"
+					item: "enigmaticlegacy:etherium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "36B85C277FC2654B"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·以太胸甲"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_leggings"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "40577E547AC3ED6C"
+			rewards: [{
+				id: "5A1B307CC5E52FA8"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_leggings"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 45
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									1
+								]
+							}
+							{
+								Amount: 8
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						display: {
+							Name: "{\"text\":\"真·以太护腿\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·以太显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "366B1D6DC188D645"
+					item: "enigmaticlegacy:etherium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4156077511974DC4"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·以太护腿"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_boots"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "3996A2A7D26C74E7"
+			rewards: [{
+				id: "2FCF506BCD87AF9D"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_boots"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 40
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									1
+								]
+							}
+							{
+								Amount: 8
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·以太靴\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·以太显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "1B469962E6D0D0EA"
+					item: "enigmaticlegacy:etherium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7403D23AE22D6406"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·以太靴"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "goety_revelation:apocalyptium_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "2D3914A30804ED6A"
+			rewards: [{
+				id: "6169E5824BB38F40"
+				item: {
+					Count: 1
+					id: "goety_revelation:apocalyptium_helmet"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 54
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									1
+								]
+							}
+							{
+								Amount: 12
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·神灵王冠\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·神灵显现"
+			tasks: [
+				{
+					consume_items: true
+					id: "572F5264D0B8A6FE"
+					item: "goety_revelation:apocalyptium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "35469917C5226832"
+					item: "goety_revelation:apocalyptium_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "64A0A6BB080C5888"
+					item: {
+						Count: 1
+						id: "goety_revelation:apocalyptium_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·神灵王冠"
+			x: -3.5d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "goety_revelation:apocalyptium_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "0E5E5AB2C4E10292"
+			rewards: [{
+				id: "0FDC82E4B2998D1F"
+				item: {
+					Count: 1
+					id: "goety_revelation:apocalyptium_chestplate"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 77
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									1
+								]
+							}
+							{
+								Amount: 12
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·神灵胸甲\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·神灵显现"
+			tasks: [
+				{
+					consume_items: true
+					id: "18224FDDCEC4D12D"
+					item: "goety_revelation:apocalyptium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "057281E1B9F85883"
+					item: "goety_revelation:apocalyptium_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "15D7ECCA2396B050"
+					item: {
+						Count: 1
+						id: "goety_revelation:apocalyptium_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·神灵胸甲"
+			x: 0.5d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "goety_revelation:apocalyptium_leggings"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "1206DD61F9644953"
+			rewards: [{
+				id: "5A57235368EF3E83"
+				item: {
+					Count: 1
+					id: "goety_revelation:apocalyptium_leggings"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 63
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									1
+								]
+							}
+							{
+								Amount: 12
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						display: {
+							Name: "{\"text\":\"真·神灵腿甲\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·神灵显现"
+			tasks: [
+				{
+					consume_items: true
+					id: "419B99A028C484EA"
+					item: "goety_revelation:apocalyptium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "0500C3CE4D03E6AD"
+					item: "goety_revelation:apocalyptium_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "20C50C6B297C3B07"
+					item: {
+						Count: 1
+						id: "goety_revelation:apocalyptium_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·神灵腿甲"
+			x: 4.5d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "goety_revelation:apocalyptium_boots"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "649842DEB3E83FEF"
+			rewards: [{
+				id: "71E856F4D698D2D7"
+				item: {
+					Count: 1
+					id: "goety_revelation:apocalyptium_boots"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 48
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									1
+								]
+							}
+							{
+								Amount: 16
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·神灵靴\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·神灵显现"
+			tasks: [
+				{
+					consume_items: true
+					id: "1A570DA1116CA485"
+					item: "goety_revelation:apocalyptium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "0CE2EA46265001D7"
+					item: "goety_revelation:apocalyptium_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "760DA49967F1ACE9"
+					item: {
+						Count: 1
+						id: "goety_revelation:apocalyptium_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·神灵靴"
+			x: 8.5d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "goety_revelation:spider_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "18A2CB2903075E9F"
+			rewards: [{
+				id: "17E818DEA7CF5CC7"
+				item: {
+					Count: 1
+					id: "goety_revelation:spider_helmet"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 42
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									1
+								]
+							}
+							{
+								Amount: 6
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·蜘蛛头盔\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·蜘蛛显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "3A01858B2B216D7B"
+					item: "goety:occult_fabric"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "332BA081ABD0E228"
+					item: "goety_revelation:spider_fang"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "54418EEA241F90EB"
+					item: {
+						Count: 1
+						id: "goety_revelation:spider_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·蜘蛛头盔"
+			x: -3.5d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "goety_revelation:spider_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "0AD10E84E12CF964"
+			rewards: [{
+				id: "50E17AFEE4FE51E1"
+				item: {
+					Count: 1
+					id: "goety_revelation:spider_chestplate"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 56
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									1
+								]
+							}
+							{
+								Amount: 6
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·蜘蛛胸甲\",\"color\":\"gold\",\"bold\":true}"
+						}
+						itemModifier: "modifiers:none"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·蜘蛛显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "4D277682E4DDBA50"
+					item: "goety:occult_fabric"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "04514996A1292CDC"
+					item: "goety_revelation:spider_fang"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "40CD2E08344A32E6"
+					item: {
+						Count: 1
+						id: "goety_revelation:spider_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·蜘蛛胸甲"
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "goety_revelation:spider_leggings"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "01E133A4008D4F11"
+			rewards: [{
+				id: "33D71D38F6C64F8F"
+				item: {
+					Count: 1
+					id: "goety_revelation:spider_leggings"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 48
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									1
+								]
+							}
+							{
+								Amount: 8
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						display: {
+							Name: "{\"text\":\"真·蜘蛛护腿\",\"color\":\"gold\",\"bold\":true}"
+						}
+						itemModifier: "modifiers:fleeting"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·蜘蛛显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "5C242440F5D25D55"
+					item: "goety:occult_fabric"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "54978155E9A420EA"
+					item: "goety_revelation:spider_fang"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4E4ADBCB7B37175C"
+					item: {
+						Count: 1
+						id: "goety_revelation:spider_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·蜘蛛护腿"
+			x: 0.5d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "goety_revelation:spider_boots"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "4EC76BDDC1A50F78"
+			rewards: [{
+				id: "53EEFC17D378FDA8"
+				item: {
+					Count: 1
+					id: "goety_revelation:spider_boots"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 42
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									1
+								]
+							}
+							{
+								Amount: 6
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·蜘蛛靴\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·蜘蛛显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "0B75BEB3AAF59AA9"
+					item: "goety:occult_fabric"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "37BAC6226D8AE5F6"
+					item: "goety_revelation:spider_fang"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7163301103C24F2F"
+					item: {
+						Count: 1
+						id: "goety_revelation:spider_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·蜘蛛靴"
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "goety_revelation:spectre_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "64076D7E3B4F77D1"
+			rewards: [{
+				id: "671DE5AE5C074357"
+				item: {
+					Count: 1
+					id: "goety_revelation:spectre_helmet"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 42
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									1
+								]
+							}
+							{
+								Amount: 4
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·幽魂覆面\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·幽魂显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "413F9F15AC0E4F18"
+					item: "goety:spirit_fabric"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2197A4909FC2E29C"
+					item: "goety:soul_ruby"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "257BE9F7558BC93C"
+					item: {
+						Count: 1
+						id: "goety_revelation:spectre_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·幽魂覆面"
+			x: 4.5d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "goety_revelation:spectre_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "611B420A007EBDEC"
+			rewards: [{
+				id: "2D2C08C9A80D941E"
+				item: {
+					Count: 1
+					id: "goety_revelation:spectre_chestplate"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 64
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									1
+								]
+							}
+							{
+								Amount: 4
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: { }
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·幽魂显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "08AA9FD5CA513938"
+					item: "goety:spirit_fabric"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0BBF140BB510C566"
+					item: "goety:soul_ruby"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2AD8A89539DF4916"
+					item: {
+						Count: 1
+						id: "goety_revelation:spectre_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·幽魂胸甲"
+			x: 6.5d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "goety_revelation:spectre_leggings"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "185A97CAFCFE15DF"
+			rewards: [{
+				id: "27BA5510431B3057"
+				item: {
+					Count: 1
+					id: "goety_revelation:spectre_leggings"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 54
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									1
+								]
+							}
+							{
+								Amount: 4
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						display: {
+							Name: "{\"text\":\"真·幽魂绑腿\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·幽魂显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "7133921766526995"
+					item: "goety:spirit_fabric"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "45428EB89A320E19"
+					item: "goety:soul_ruby"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5A0245DB9E1D9AD3"
+					item: {
+						Count: 1
+						id: "goety_revelation:spectre_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·幽魂绑腿"
+			x: 8.5d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "goety_revelation:spectre_boots"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "5F4D5F709A166D85"
+			rewards: [{
+				id: "73331B9EF9E70E95"
+				item: {
+					Count: 1
+					id: "goety_revelation:spectre_boots"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 42
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									1
+								]
+							}
+							{
+								Amount: 6
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·幽魂靴\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·幽魂显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "13DCC8157D26C53B"
+					item: "goety:spirit_fabric"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "268A2FC9903F62BC"
+					item: "goety:soul_ruby"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "36BC96E075088EF6"
+					item: {
+						Count: 1
+						id: "goety_revelation:spectre_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·幽魂靴"
+			x: -3.5d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "goety:dark_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "2E5C28C881542A5C"
+			rewards: [{
+				id: "0E43E7C4F89F1584"
+				item: {
+					Count: 1
+					id: "goety:dark_helmet"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 21
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									1
+								]
+							}
+							{
+								Amount: 7
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·黑暗头盔\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·黑暗显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "210AAF1CF48C1361"
+					item: "goety:spirit_fabric"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "54CF78910205047F"
+					item: "goety:dark_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2EF0D86653556E84"
+					item: {
+						Count: 1
+						id: "goety:dark_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·黑暗头盔"
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "goety:dark_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "63C2BE3FA6E2AE17"
+			rewards: [{
+				id: "787199FDB3EBA932"
+				item: {
+					Count: 1
+					id: "goety:dark_chestplate"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 32
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									1
+								]
+							}
+							{
+								Amount: 7
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·黑暗胸甲\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·黑暗显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "4BD9911E90143F22"
+					item: "goety:spirit_fabric"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "3EB2835ECE57DF77"
+					item: "goety:dark_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0749427CD9F51C6F"
+					item: {
+						Count: 1
+						id: "goety:dark_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·黑暗胸甲"
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "goety:dark_leggings"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "5266A67218862741"
+			rewards: [{
+				id: "2812F7DCF56625E2"
+				item: {
+					Count: 1
+					id: "goety:dark_leggings"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 28
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									1
+								]
+							}
+							{
+								Amount: 7
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						display: {
+							Name: "{\"text\":\"真·黑暗护腿\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·黑暗显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "04512FBB5BE1380C"
+					item: "goety:spirit_fabric"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "4C6F7BB1AB8F604C"
+					item: "goety:dark_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "65AF96DAF583131F"
+					item: {
+						Count: 1
+						id: "goety:dark_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·黑暗护腿"
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "goety:dark_boots"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "6C4CCF3B6940A3F3"
+			rewards: [{
+				id: "6055BDBEAAB21C23"
+				item: {
+					Count: 1
+					id: "goety:dark_boots"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 24
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									1
+								]
+							}
+							{
+								Amount: 7
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·黑暗靴\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·黑暗显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "15A2FF114FF78C18"
+					item: "goety:spirit_fabric"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "352821077F052478"
+					item: "goety:dark_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4CC045904B43EC4C"
+					item: {
+						Count: 1
+						id: "goety:dark_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·黑暗靴"
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:monstrous_helm"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "32EBE32186EC522A"
+			rewards: [{
+				id: "49C94702A9FE8856"
+				item: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 54
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									1
+								]
+							}
+							{
+								Amount: 9
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·恶兽头盔\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·恶兽显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "595F75D41AF09312"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1B561F75EB06E560"
+					item: {
+						Count: 1
+						id: "cataclysm:monstrous_helm"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·恶兽头盔"
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:bloom_stone_pauldrons"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "644709BE800DAF71"
+			rewards: [{
+				id: "48E7A05AA7656DC1"
+				item: {
+					Count: 1
+					id: "cataclysm:bloom_stone_pauldrons"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 56
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									1
+								]
+							}
+							{
+								Amount: 6
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·花岩胸甲\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·紫水晶显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 20L
+					id: "2E7FBDA2D272596A"
+					item: "cataclysm:amethyst_crab_shell"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "79FE87EBFDF240A4"
+					item: {
+						Count: 1
+						id: "cataclysm:bloom_stone_pauldrons"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·花岩肩甲"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:bone_reptile_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "4403D3456198B83A"
+			rewards: [{
+				id: "2BE5AFCC4BF187B9"
+				item: {
+					Count: 1
+					id: "cataclysm:bone_reptile_helmet"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 48
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									1
+								]
+							}
+							{
+								Amount: 6
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·骸龙头骨\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·骸龙显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "6AFFFA68DDB11903"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "514817437A5D46DA"
+					item: {
+						Count: 1
+						id: "cataclysm:bone_reptile_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "2297CE428454BF4E"
+					item: { Count: 60, id: "minecraft:netherite_block" }
+					type: "item"
+				}
+			]
+			title: "&6真·骸龙头骨"
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:bone_reptile_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "2AE295417B188764"
+			rewards: [{
+				id: "0A031F05F20B0C99"
+				item: {
+					Count: 1
+					id: "cataclysm:bone_reptile_chestplate"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 66
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									1
+								]
+							}
+							{
+								Amount: 12
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·骸龙骨架\",\"color\":\"gold\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·骸龙显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "1D96ED45402F12AF"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7DB95277A499DACF"
+					item: {
+						Count: 1
+						id: "cataclysm:bone_reptile_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "3D0AB2BB10544C34"
+					item: { Count: 60, id: "minecraft:netherite_block" }
+					type: "item"
+				}
+			]
+			title: "&6真·骸龙骨架"
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:soul_render"
+				tag: { }
+			}
+			id: "17DEA4E1230C31CF"
+			rewards: [{
+				id: "1D20FDF807ADCEC5"
+				item: {
+					Count: 1
+					id: "cataclysm:soul_render"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 68
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·断魂战戟\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·断魂战戟显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "7EF7396708DA90F3"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4ACEFF7A34AC2B98"
+					item: {
+						Count: 1
+						id: "cataclysm:soul_render"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·断魂战戟"
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:the_annihilator"
+				tag: { }
+			}
+			id: "46D50A89F677ECE6"
+			rewards: [{
+				id: "63EE7F01467BB07E"
+				item: {
+					Count: 1
+					id: "cataclysm:the_annihilator"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 70
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·歼灭战锤\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·断魂战戟显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "1A030CF32EECA812"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "112AA6028828E135"
+					item: {
+						Count: 1
+						id: "cataclysm:the_annihilator"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·歼灭战锤"
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:infernal_forge"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "3A9AAE6865FFF69A"
+			rewards: [{
+				id: "2335977255608EE3"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 64
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						affix_data: {
+							sockets: 0
+						}
+						display: {
+							Name: "{\"text\":\"真·炼狱锻锤\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·炼狱锻锤显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "384B63C5E2F271AC"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2123B16853CCE251"
+					item: {
+						Count: 1
+						id: "cataclysm:infernal_forge"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·炼狱锻锤"
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:ancient_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "37A58D9D820BEFBD"
+			rewards: [{
+				id: "52A2C802F7332A5A"
+				item: {
+					Count: 1
+					id: "cataclysm:ancient_spear"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 85
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·远古之矛\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·远古之矛显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "6A3FB748C034996F"
+					item: "cataclysm:ancient_metal_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7209988A0660476D"
+					item: {
+						Count: 1
+						id: "cataclysm:ancient_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·远古之矛"
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:tidal_claws"
+				tag: { }
+			}
+			id: "61D0A422D34DDF06"
+			rewards: [{
+				id: "735AF4F616F1CD75"
+				item: {
+					Count: 1
+					id: "cataclysm:tidal_claws"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 60
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·潮汐利爪\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·潮汐利爪显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "17FF41F413F93F81"
+					item: "cataclysm:abyssal_sacrifice"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3B6342B58C47E99C"
+					item: {
+						Count: 1
+						id: "cataclysm:tidal_claws"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&6真.潮汐利爪"
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:the_incinerator"
+				tag: { }
+			}
+			id: "6743B430086A9CB7"
+			rewards: [{
+				id: "5E2A511108E91E3A"
+				item: {
+					Count: 1
+					id: "cataclysm:the_incinerator"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 100
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·炎葬\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·炎葬显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "4A7F729C9798C121"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2162F1C9534C85FF"
+					item: {
+						Count: 1
+						id: "cataclysm:the_incinerator"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·炎葬"
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:gauntlet_of_guard"
+				tag: { }
+			}
+			id: "7D7A55576C8D4BB3"
+			rewards: [{
+				id: "68522AAA210E152D"
+				item: {
+					Count: 1
+					id: "cataclysm:gauntlet_of_guard"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 62
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·守卫者护手\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·守卫者护手显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "7D84C5474019D479"
+					item: "enigmaticlegacy:etherium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4B3679E4F23A7350"
+					item: {
+						Count: 1
+						id: "cataclysm:gauntlet_of_guard"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·守卫者护手"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:cursed_bow"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "20BEC89F27571000"
+			rewards: [{
+				id: "184B404C13B1CCE3"
+				item: {
+					Count: 1
+					id: "cataclysm:cursed_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 60
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 14
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·咒魂弓\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·咒魂弓显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "6F5DE67A6CB22F74"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "62640AAC31BF7757"
+					item: {
+						Count: 1
+						id: "cataclysm:cursed_bow"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真.咒魂弓"
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:bulwark_of_the_flame"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "187983325C086BB9"
+			rewards: [{
+				id: "5A239A1A76E7709C"
+				item: {
+					Count: 1
+					id: "cataclysm:bulwark_of_the_flame"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 15
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 20
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 4
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+						]
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·火焰壁垒\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·火焰壁垒显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "50770F32B24C8D63"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2E6CA1F2BB82BB26"
+					item: {
+						Count: 1
+						id: "cataclysm:bulwark_of_the_flame"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·火焰壁垒"
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:netherworld_katana"
+				tag: {
+					CodeAddFlag: 1b
+					Damage: 0
+					Unbreakable: 1b
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "3E02ED1D9019AB50"
+			rewards: [{
+				id: "3581F2E5BDC735AB"
+				item: {
+					Count: 1
+					id: "eeeabsmobs:netherworld_katana"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 100
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.3d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·黯雷炼狱太刀\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·幽冥显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "45F4609D1C098885"
+					item: "eeeabsmobs:ghost_steel_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "537E3FB3EBF65A69"
+					item: {
+						Count: 1
+						id: "eeeabsmobs:netherworld_katana"
+						tag: {
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·黯雷炼狱太刀"
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "101FCFDB63AB3F76"
+			rewards: [{
+				id: "1B4E785AC51E7708"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_sword"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 68
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.3d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·以太阔剑\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·以太阔剑显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					id: "617F77932CF162AE"
+					item: "enigmaticlegacy:etherium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "501E40E43E26A2E9"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·以太阔剑"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:ceraunus"
+				tag: { }
+			}
+			id: "749AC95E423D53E4"
+			rewards: [{
+				id: "070BD22031AAACD3"
+				item: {
+					Count: 1
+					id: "cataclysm:ceraunus"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 64
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·霆浪锚戟\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·霆浪锚戟显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "51B187AC28B5BD66"
+					item: "cataclysm:essence_of_the_storm"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7026C03B67E942A8"
+					item: {
+						Count: 1
+						id: "cataclysm:ceraunus"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·霆浪锚戟"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "cataclysm:astrape"
+				tag: { }
+			}
+			id: "41539AFEC4FDF193"
+			rewards: [{
+				id: "73005A5ED40DBB77"
+				item: {
+					Count: 1
+					id: "cataclysm:astrape"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 64
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·神怒长槊\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·神怒长槊显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "7944CF1557BBE26A"
+					item: "cataclysm:essence_of_the_storm"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2AE0A12334D61AA5"
+					item: {
+						Count: 1
+						id: "cataclysm:astrape"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·神怒长槊"
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "l2archery:master_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "32C5DCDA89D89B9D"
+			rewards: [{
+				id: "777D9D4298FA1CDC"
+				item: {
+					Count: 1
+					id: "l2archery:master_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 30
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 14
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Damage: 0
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·宗师之弓\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·宗师显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "77F437155F3A6C5A"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "71A62A59B2ACD430"
+					item: {
+						Count: 1
+						id: "l2archery:master_bow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·宗师之弓"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "l2archery:eagle_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "3649767517835708"
+			rewards: [{
+				id: "6761BA5496B5EA75"
+				item: {
+					Count: 1
+					id: "l2archery:eagle_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 30
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 14
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Damage: 0
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·鹰之号角\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·鹰之号角显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "023B101FAE41E240"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "15D167F3D92F606C"
+					item: {
+						Count: 1
+						id: "l2archery:eagle_bow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·鹰之号角"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "l2archery:flame_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "0C6195C1F67D4138"
+			rewards: [{
+				id: "657FBFA88B88E532"
+				item: {
+					Count: 1
+					id: "l2archery:flame_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 30
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 14
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Damage: 0
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·炎怒圆弧\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·炎怒圆弧显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "4DB81BF38DB90AEE"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3CC922B266046868"
+					item: {
+						Count: 1
+						id: "l2archery:flame_bow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·炎怒圆弧"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "l2archery:storm_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "0E0155AD4F8F18CE"
+			rewards: [{
+				id: "38E254FD11BE78DC"
+				item: {
+					Count: 1
+					id: "l2archery:storm_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 30
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 14
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Damage: 0
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·岚征风暴\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·岚征暴风显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "00781C3D0C9B4C5F"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "65F115A326AB14FD"
+					item: {
+						Count: 1
+						id: "l2archery:storm_bow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·岚征暴风"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "l2archery:slow_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "3AFBEBFCCA2F8656"
+			rewards: [{
+				id: "7CC6E24B07CAFD2A"
+				item: {
+					Count: 1
+					id: "l2archery:slow_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 30
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 14
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Damage: 0
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·黑石灾祸\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·黑石灾祸显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "6947E72253C33DD3"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7460A678EE72F205"
+					item: {
+						Count: 1
+						id: "l2archery:slow_bow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·黑石灾祸"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "l2archery:froze_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "4EF39ED03384107F"
+			rewards: [{
+				id: "250A4993C225B39C"
+				item: {
+					Count: 1
+					id: "l2archery:froze_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 30
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 14
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Damage: 0
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·白夜零冰\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·白夜零冰显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "03B6B247BE050B4A"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "238910AAB225BDE8"
+					item: {
+						Count: 1
+						id: "l2archery:froze_bow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·白夜零冰"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "l2archery:turtle_bow"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: 30
+							AttributeName: "generic.attack_damage"
+							Operation: 0
+							Slot: "offhand"
+							UUID: [I;
+								1
+								0
+								0
+								1
+							]
+						}
+						{
+							Amount: 0.2d
+							AttributeName: "generic.movement_speed"
+							Operation: 1
+							Slot: "offhand"
+							UUID: [I;
+								1
+								0
+								0
+								2
+							]
+						}
+						{
+							Amount: 14
+							AttributeName: "generic.max_health"
+							Operation: 0
+							Slot: "offhand"
+							UUID: [I;
+								1
+								0
+								0
+								3
+							]
+						}
+						{
+							Amount: 10
+							AttributeName: "generic.armor"
+							Operation: 0
+							Slot: "offhand"
+							UUID: [I;
+								1
+								0
+								0
+								4
+							]
+						}
+						{
+							Amount: 5
+							AttributeName: "generic.armor_toughness"
+							Operation: 0
+							Slot: "offhand"
+							UUID: [I;
+								1
+								0
+								0
+								5
+							]
+						}
+						{
+							Amount: 0.5d
+							AttributeName: "generic.attack_speed"
+							Operation: 1
+							Slot: "mainhand"
+							UUID: [I;
+								1
+								0
+								0
+								6
+							]
+						}
+						{
+							Amount: 0.5d
+							AttributeName: "generic.attack_speed"
+							Operation: 1
+							Slot: "offhand"
+							UUID: [I;
+								1
+								0
+								0
+								7
+							]
+						}
+					]
+					Damage: 0
+					Unbreakable: 1
+					affix_data: {
+						sockets: 1
+					}
+					display: {
+						Name: "{\"text\":\"真·刚地重锤\",\"color\":\"dark_red\",\"bold\":true}"
+					}
+				}
+			}
+			id: "119ADDF3BB490144"
+			rewards: [{
+				id: "47E980F2BA364AF6"
+				item: {
+					Count: 1
+					id: "l2archery:turtle_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 30
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 14
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Damage: 0
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·刚地重锤\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·刚地重锤显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "242786FBA296F695"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "48EA8E01A7801FA2"
+					item: {
+						Count: 1
+						id: "l2archery:turtle_bow"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 30
+									AttributeName: "generic.attack_damage"
+									Operation: 0
+									Slot: "offhand"
+									UUID: [I;
+										1
+										0
+										0
+										1
+									]
+								}
+								{
+									Amount: 0.2d
+									AttributeName: "generic.movement_speed"
+									Operation: 1
+									Slot: "offhand"
+									UUID: [I;
+										1
+										0
+										0
+										2
+									]
+								}
+								{
+									Amount: 14
+									AttributeName: "generic.max_health"
+									Operation: 0
+									Slot: "offhand"
+									UUID: [I;
+										1
+										0
+										0
+										3
+									]
+								}
+								{
+									Amount: 10
+									AttributeName: "generic.armor"
+									Operation: 0
+									Slot: "offhand"
+									UUID: [I;
+										1
+										0
+										0
+										4
+									]
+								}
+								{
+									Amount: 5
+									AttributeName: "generic.armor_toughness"
+									Operation: 0
+									Slot: "offhand"
+									UUID: [I;
+										1
+										0
+										0
+										5
+									]
+								}
+								{
+									Amount: 0.5d
+									AttributeName: "generic.attack_speed"
+									Operation: 1
+									Slot: "mainhand"
+									UUID: [I;
+										1
+										0
+										0
+										6
+									]
+								}
+								{
+									Amount: 0.5d
+									AttributeName: "generic.attack_speed"
+									Operation: 1
+									Slot: "offhand"
+									UUID: [I;
+										1
+										0
+										0
+										7
+									]
+								}
+							]
+							Damage: 0
+							Unbreakable: 1
+							affix_data: {
+								sockets: 1
+							}
+							display: {
+								Name: "{\"text\":\"真·刚地重锤\",\"color\":\"dark_red\",\"bold\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·刚地重锤"
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "l2archery:sun_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "0A36F1B64749CEC1"
+			rewards: [{
+				id: "694E151C2E6D30CB"
+				item: {
+					Count: 1
+					id: "l2archery:sun_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 50
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 16
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Damage: 0
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·神威烈焰\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·神威显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 7L
+					id: "16B69969B77B082B"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "40A16953F409C796"
+					item: {
+						Count: 1
+						id: "l2archery:sun_bow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·神威烈焰"
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "l2archery:master_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "1B73F49DA9E98D5B"
+			rewards: [{
+				id: "5574AFF7B7F134C1"
+				item: {
+					Count: 1
+					id: "l2archery:gaia_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 45
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 16
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 4
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Damage: 0
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·破天巨岩\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·破岩显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 7L
+					id: "6C0ECC18CC4E69A2"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "114E216C6A4E9DB0"
+					item: {
+						Count: 1
+						id: "l2archery:gaia_bow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·破天巨岩"
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "l2archery:earth_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "2B053B069EA3D19D"
+			rewards: [{
+				id: "4AEEBD4FDF09EC9C"
+				item: {
+					Count: 1
+					id: "l2archery:earth_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 30
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 14
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Damage: 0
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·撼地荒神\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·刚地重锤显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "2DF4725F5191E7DA"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0E008694654C8784"
+					item: {
+						Count: 1
+						id: "l2archery:earth_bow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·刚地重锤"
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "l2archery:explosion_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "08468049CBBDDFC9"
+			rewards: [{
+				id: "75BA6646B5A987CB"
+				item: {
+					Count: 1
+					id: "l2archery:explosion_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 30
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 14
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Damage: 0
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·日珥\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·日珥显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "4434DBC72C16D530"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4FA81FD759949AED"
+					item: {
+						Count: 1
+						id: "l2archery:explosion_bow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·日珥"
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "l2archery:wind_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "1928F3D8D451F5F6"
+			rewards: [{
+				id: "221A24EACA405B3F"
+				item: {
+					Count: 1
+					id: "l2archery:wind_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 30
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 14
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Damage: 0
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·逐风\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·刚地重锤显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "2EA609CD2EB655E5"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "54F0CA3F3BDBF709"
+					item: {
+						Count: 1
+						id: "l2archery:wind_bow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·逐风"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "l2archery:ender_aim_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "29B16890C1BFF577"
+			rewards: [{
+				id: "7318AE1110A5BC54"
+				item: {
+					Count: 1
+					id: "l2archery:ender_aim_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 30
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 14
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Damage: 0
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·末影弓\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·末影弓显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "2E2E011A674D7B90"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7E1372AA8068DBEC"
+					item: {
+						Count: 1
+						id: "l2archery:ender_aim_bow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·末影弓"
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "l2archery:magnify_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "4098F6BAC62332CF"
+			rewards: [{
+				id: "49449C5B2CD73AA7"
+				item: {
+					Count: 1
+					id: "l2archery:magnify_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 30
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 14
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Damage: 0
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·放大弓\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·放大弓显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "4C100C72F537C71D"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6EDE385150BB57C0"
+					item: {
+						Count: 1
+						id: "l2archery:magnify_bow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·放大弓"
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "l2archery:winter_bow"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "5ED3925E91929BD0"
+			rewards: [{
+				id: "42B4D1677696CDE4"
+				item: {
+					Count: 1
+					id: "l2archery:winter_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 40
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 14
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Damage: 0
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·霜夜\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·霜夜显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "6DB075F4EEA0DA71"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1BEE997A943C2A03"
+					item: {
+						Count: 1
+						id: "l2archery:winter_bow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6真·霜夜"
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "cataclysm:cursium_leggings"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "0E0F48547EECF752"
+			rewards: [{
+				id: "5C9747657BFB3A3E"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_leggings"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 48
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									1
+								]
+							}
+							{
+								Amount: 8
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									3
+									3
+									3
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+						display: {
+							Name: "{\"text\":\"真·咒魂护腿\",\"color\":\"gold\",\"bold\":true}"
+						}
+						itemModifier: "modifiers:none"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·咒魂显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "2348F9DDAC4D7020"
+					item: { Count: 3, id: "cataclysm:cursium_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "78D469D870380B73"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7110D6C8FA768911"
+					item: "cataclysm:cursium_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "&6真·咒魂护腿"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "cataclysm:cursium_boots"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "5B7A3BBDC3634C7C"
+			rewards: [{
+				id: "6C87C9D0568D5D11"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_boots"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 40
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									1
+								]
+							}
+							{
+								Amount: 8
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									4
+									4
+									4
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·咒魂靴\",\"color\":\"gold\",\"bold\":true}"
+						}
+						itemModifier: "modifiers:none"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·咒魂显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "74D02498D6865A53"
+					item: { Count: 3, id: "cataclysm:cursium_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4B8AA0DC1FD11265"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "288574C31CBC706F"
+					item: "cataclysm:cursium_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "&6真·咒魂靴"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "cataclysm:cursium_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "59B861E9713BB229"
+			rewards: [{
+				id: "0A0A08CCF2B57C53"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_helmet"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 40
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									1
+								]
+							}
+							{
+								Amount: 8
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									1
+									1
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·咒魂头盔\",\"color\":\"gold\",\"bold\":true}"
+						}
+						itemModifier: "modifiers:none"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·咒魂显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "66C555004B4E8BE2"
+					item: { Count: 3, id: "cataclysm:cursium_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "74B7B545D72F9D17"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "63BF08A834650BA3"
+					item: "cataclysm:cursium_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "&6真·咒魂头盔"
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "cataclysm:cursium_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "14A84E45C6DEB825"
+			rewards: [{
+				id: "3D36125DF48E4C20"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_chestplate"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 60
+								AttributeName: "generic.armor"
+								Name: "Armor Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									1
+								]
+							}
+							{
+								Amount: 4
+								AttributeName: "generic.armor_toughness"
+								Name: "Toughness Boost"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									2
+									2
+									2
+									2
+								]
+							}
+						]
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·咒魂胸甲\",\"color\":\"gold\",\"bold\":true}"
+						}
+						itemModifier: "modifiers:none"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&4真·咒魂显现"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "5F2D03CB2BE1BB1C"
+					item: { Count: 3, id: "cataclysm:cursium_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "11ED8037D786430A"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5F231E48B38805DF"
+					item: "cataclysm:cursium_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "&6真·咒魂胸甲"
+			x: 8.5d
+			y: -3.0d
+		}
+	]
+	title: "&6神艺锻造—真我显现"
+}

@@ -1,0 +1,15 @@
+filename = "the_awakening_of_the_elder_souls-0.0.6.jar"
+name = "The Awakening of the Elder Souls"
+side = "both"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "1ad2526bf1a90856ba18adeaadcbf6fc75890221"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/5111/720/the_awakening_of_the_elder_souls-0.0.6.jar"
+
+[update.curseforge]
+file-id = 5111720
+project-id = 962250

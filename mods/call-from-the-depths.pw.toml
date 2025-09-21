@@ -1,0 +1,15 @@
+filename = "callfromthedepth_-1.17-forge-1.20.1.jar"
+name = "Call from the depths - Sculk Dimencion"
+side = "both"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "dc15689c40c7b9b22b810c86ef0c24ba339b8817"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6293/706/callfromthedepth_-1.17-forge-1.20.1.jar"
+
+[update.curseforge]
+file-id = 6293706
+project-id = 1013658

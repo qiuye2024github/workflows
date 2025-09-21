@@ -49,6 +49,7 @@ packwiz
 /*.mrpack
 /*.lock
 fixup.sh
+fix.py
 /.github
 /result
 config/flywheel-client.toml

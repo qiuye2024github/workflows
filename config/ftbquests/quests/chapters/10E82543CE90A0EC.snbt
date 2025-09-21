@@ -1,0 +1,1540 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "10E82543CE90A0EC"
+	group: "4B900E5177C2D185"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:wandering_magician_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "10E82543CE90A0EC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "terramity:fireball_sceptre"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "400D67BCBBAC86A0"
+			rewards: [{
+				id: "3C8AEB575CF936B7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "square"
+			subtitle: "&e自身的恶意难度会提示雇佣兵的强度，但也会提示Boss的强度"
+			tasks: [{
+				id: "423A2A1E9F56EE95"
+				type: "checkmark"
+			}]
+			title: "&6雇佣兵"
+			x: 7.0d
+			y: -23.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:necromancer_servant_spawn_egg"
+			id: "5F1C2FDC6675FB98"
+			rewards: [{
+				id: "0A151560F854DAC0"
+				item: "goety:necromancer_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 180L
+					id: "29148A231701CFCF"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2DBB5191829ABE98"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6高级雇佣兵"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:cairn_necromancer_servant_spawn_egg"
+			id: "1F14563FAFEEFCFC"
+			rewards: [{
+				id: "0FC599C35DD143D5"
+				item: "goety:cairn_necromancer_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 180L
+					id: "7541B322CB28431E"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6E810D5BDE45B5F0"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6高级雇佣兵"
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:drowned_necromancer_servant_spawn_egg"
+			id: "4DF4B3DA7DF10291"
+			rewards: [{
+				id: "62714B8003ECE845"
+				item: "goety:drowned_necromancer_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 180L
+					id: "554D712568A67E0B"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "01EAB7D0603326FF"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6高级雇佣兵"
+			x: 11.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:wither_necromancer_servant_spawn_egg"
+			id: "120AFA627992630E"
+			rewards: [{
+				id: "5E99A3FCF8FEF3AF"
+				item: "goety:wither_necromancer_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 180L
+					id: "4D92A0C2EBA8C3E2"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7D3D750D32876D1B"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6高级雇佣兵"
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:wraith_servant_spawn_egg"
+			id: "3C2F6DEAA3764319"
+			rewards: [{
+				id: "36693BEE3A6E0A80"
+				item: "goety:wraith_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 180L
+					id: "0CE5870EE2D5541E"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "75DC9CCB4B0446B0"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6高级雇佣兵"
+			x: 13.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:border_wraith_servant_spawn_egg"
+			id: "366DBF40843B9AB3"
+			rewards: [{
+				id: "6C29EEE8B7E0116A"
+				item: "goety:border_wraith_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 180L
+					id: "33ECB2A1B76DD5B8"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "03B74DD365FC0468"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6高级雇佣兵"
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:muck_wraith_servant_spawn_egg"
+			id: "79C3FFEF9FBA7112"
+			rewards: [{
+				id: "5A0B5B952C225678"
+				item: "goety:muck_wraith_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 180L
+					id: "202373D75F75DFF8"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "09643618D72DBCC9"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6高级雇佣兵"
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:brood_mother_servant_spawn_egg"
+			id: "17E84DD9E1FB15A3"
+			rewards: [{
+				id: "0AA60987F29D2E41"
+				item: "goety:brood_mother_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 260L
+					id: "0B2A85211F051588"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "377502526BDCFA32"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6灭世级雇佣兵"
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:black_beast_spawn_egg"
+			id: "2BF77CC1500DDC4F"
+			rewards: [{
+				id: "02E01C5B934D190A"
+				item: "goety:black_beast_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 180L
+					id: "3F230438CEB5E20F"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "746C223EB5C81CD5"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6高级雇佣兵"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:leapleaf_spawn_egg"
+			id: "28A7440AA36EFE43"
+			rewards: [{
+				id: "710702C2E541CAE5"
+				item: "goety:leapleaf_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 300L
+					id: "3B01A9FC1DAF1F3C"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4E47FF78FC9EC788"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6灭世级雇佣兵"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:ice_golem_spawn_egg"
+			id: "4EA11FB86776A40B"
+			rewards: [{
+				id: "2C38C2A7F90C7B3F"
+				item: "goety:ice_golem_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "3A812B7B9188B530"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 11.0d
+			y: -15.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:squall_golem_spawn_egg"
+			id: "2563C29E1A5CB058"
+			rewards: [{
+				id: "7FBEB43921002C30"
+				item: "goety:squall_golem_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 260L
+					id: "2F4B8399297D9CE9"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "6D48D9810786E0A0"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6灭世级雇佣兵"
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:redstone_golem_spawn_egg"
+			id: "2F3CDFD8E883C0CF"
+			rewards: [{
+				id: "076AC5AA734A12A9"
+				item: "goety:redstone_golem_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 180L
+					id: "0F137EE9C14F87C3"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4DEA40EBB3057C3C"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6高级雇佣兵"
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:grave_golem_spawn_egg"
+			id: "0CF5510027D688A7"
+			rewards: [{
+				id: "5E34086D524F89A9"
+				item: "goety:grave_golem_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 260L
+					id: "7342B52B95457EE1"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "53AAFC694D0681C1"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6灭世级雇佣兵"
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:poison_quill_vine_spawn_egg"
+			id: "773C9FD5954B6C78"
+			rewards: [{
+				id: "7913A10965BF0C84"
+				item: "goety:poison_quill_vine_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 150L
+				id: "3CAD891C60A43A58"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6高级雇佣兵"
+			x: 13.0d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:zombie_servant_spawn_egg"
+			id: "3A6B1042165B7292"
+			rewards: [{
+				id: "287B988028D0973C"
+				item: "goety:zombie_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "2C9581E6D7311248"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6低级雇佣兵"
+			x: 5.0d
+			y: -21.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety_revelation:maverick_servant_spawn_egg"
+			id: "3C531965FAE738B9"
+			rewards: [{
+				id: "01A0182FED6812DC"
+				item: "goety_revelation:maverick_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "31B81BBA06307147"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6低级雇佣兵"
+			x: 3.0d
+			y: -21.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety_revelation:heretic_servant_spawn_egg"
+			id: "3B30ABE808CD6E7D"
+			rewards: [{
+				id: "1A0D5CC07ADCEBF4"
+				item: "goety_revelation:heretic_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "1C7BFE9501538168"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6低级雇佣兵"
+			x: 1.0d
+			y: -21.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:zombie_villager_servant_spawn_egg"
+			id: "740D4B04D4AAE5D0"
+			rewards: [{
+				id: "2EF55E2F7CEFDE4B"
+				item: "goety:zombie_villager_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "340B06DD04AEFAA6"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6低级雇佣兵"
+			x: 7.0d
+			y: -21.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:husk_servant_spawn_egg"
+			id: "0ED0DE05D0F243C1"
+			rewards: [{
+				id: "1333196E893EF52D"
+				item: "goety:husk_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "68058DBC57A90E22"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6低级雇佣兵"
+			x: 9.0d
+			y: -21.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:drowned_servant_spawn_egg"
+			id: "388A2A6F613F6946"
+			rewards: [{
+				id: "5662ED574390A4DA"
+				item: "goety:drowned_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "64A1C25144A0969D"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6低级雇佣兵"
+			x: 11.0d
+			y: -21.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:frozen_zombie_servant_spawn_egg"
+			id: "17A2841B795B57DD"
+			rewards: [{
+				id: "0254A4D501DDDED3"
+				item: "goety:frozen_zombie_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "3F96C6C35F1D18FA"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6低级雇佣兵"
+			x: 5.0d
+			y: -19.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:stray_servant_spawn_egg"
+			id: "54B74B12AF8589A8"
+			rewards: [{
+				id: "3319A8B9B09EDB29"
+				item: "goety:stray_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "74F49857B7907937"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 5.0d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:mossy_skeleton_servant_spawn_egg"
+			id: "7465069258AA7927"
+			rewards: [{
+				id: "6F0C0D3BDFF2D88B"
+				item: "goety:mossy_skeleton_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "6C17E716B4A1DA06"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 1.0d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:skeleton_servant_spawn_egg"
+			id: "5E5510A90890D073"
+			rewards: [{
+				id: "23504C586EA50E3D"
+				item: "goety:skeleton_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "30A35D61BA73BA2F"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 3.0d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:blackguard_servant_spawn_egg"
+			id: "3637BB75DCB80FDD"
+			rewards: [{
+				id: "3069AB24E189F9BE"
+				item: "goety:blackguard_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "3AFCE38391CA1228"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 13.0d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:zombie_vindicator_servant_spawn_egg"
+			id: "26959663D253E684"
+			rewards: [{
+				id: "127CF5DEC598793A"
+				item: "goety:zombie_vindicator_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "5CD5633B183A6F2D"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 13.0d
+			y: -15.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:sunken_skeleton_servant_spawn_egg"
+			id: "3325F4F248D5E10E"
+			rewards: [{
+				id: "017AD820EFEC6A32"
+				item: "goety:sunken_skeleton_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "0F435B64E158D1C3"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:skeleton_pillager_servant_spawn_egg"
+			id: "159FB22B304A70F8"
+			rewards: [{
+				id: "3FF09CADC09AD9E4"
+				item: "goety:skeleton_pillager_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "7A266FED4727BF64"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 11.0d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:vanguard_servant_spawn_egg"
+			id: "17DA39418CB7986D"
+			rewards: [{
+				id: "61D8685C9A3579B5"
+				item: "goety:vanguard_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "337B253A6D9C8FC7"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:phantom_servant_spawn_egg"
+			id: "1E59DA9976BA5276"
+			rewards: [{
+				id: "7E709C270AB9A89B"
+				item: "goety:phantom_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "505BAC1A6B051A7B"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:jungle_zombie_servant_spawn_egg"
+			id: "66205D6FE30CE7F2"
+			rewards: [{
+				id: "0C66FC0A68220846"
+				item: "goety:jungle_zombie_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "79DF6E4DFB6122C8"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 9.0d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:bound_evoker_spawn_egg"
+			id: "3B722B46928B1F3C"
+			rewards: [{
+				id: "36AF30156AAD18DA"
+				item: "goety:bound_evoker_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "2F369FE977FCF61F"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 5.0d
+			y: -17.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:bound_iceologer_spawn_egg"
+			id: "45AF4AA23F483D17"
+			rewards: [{
+				id: "74786C6BD66EDAF3"
+				item: "goety:bound_iceologer_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "4F67E5F4D89AB5DA"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 7.0d
+			y: -17.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:blaze_servant_spawn_egg"
+			id: "628EE470CF6EAA40"
+			rewards: [{
+				id: "79AF61F46DAC5E8E"
+				item: "goety:blaze_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "1724C7F11D6C0981"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 9.0d
+			y: -17.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:cave_spider_servant_spawn_egg"
+			id: "4E5F5BFFC079C6BA"
+			rewards: [{
+				id: "3CCFE5B5E36535AE"
+				item: "goety:cave_spider_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "37F129F0DFA368E2"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 11.0d
+			y: -17.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:spider_servant_spawn_egg"
+			id: "6050BFE4A2DCF05A"
+			rewards: [{
+				id: "5D1CB2F9ADA6468C"
+				item: "goety:spider_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "6743733995BD7AE1"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 13.0d
+			y: -17.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:mini_ghast_spawn_egg"
+			id: "4FA63132F5698817"
+			rewards: [{
+				id: "306750DA76D0E591"
+				item: "goety:mini_ghast_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "0C205371DB866675"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6低级雇佣兵"
+			x: 13.0d
+			y: -21.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:ghast_servant_spawn_egg"
+			id: "7D8FEE57779AE37A"
+			rewards: [{
+				id: "68261C4C1D376D24"
+				item: "goety:ghast_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "3BA13C0097EB84E3"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6低级雇佣兵"
+			x: 3.0d
+			y: -19.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:wildfire_servant_spawn_egg"
+			id: "1168C74D241C7D2F"
+			rewards: [{
+				id: "16D65112B35B94E7"
+				item: "goety:wildfire_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 180L
+					id: "71F167E85DCC98ED"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1D10AAB29D6A9FC0"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6高级雇佣兵"
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:web_spider_servant_spawn_egg"
+			id: "249B262B10548BDD"
+			rewards: [{
+				id: "0751D7A5D5DA8521"
+				item: "goety:web_spider_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "21B51C792D310B84"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 1.0d
+			y: -15.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:ice_golem_spawn_egg"
+			id: "0317E6EF9A515B45"
+			rewards: [{
+				id: "7C1555036A52118A"
+				item: "goety:icy_spider_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 180L
+					id: "4E2ECC47DF5E950B"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7365318E95342C74"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6高级雇佣兵"
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:bone_spider_servant_spawn_egg"
+			id: "1B1D5EDF91F5C4D8"
+			rewards: [{
+				id: "4FBFA3E05D76D5C3"
+				item: "goety:bone_spider_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 180L
+					id: "03DCD6648843AE93"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1645BF5303BC44C8"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6高级雇佣兵"
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:black_wolf_spawn_egg"
+			id: "5F61E8A9E135CE22"
+			rewards: [{
+				id: "59A1C19D3E88190E"
+				item: "goety:black_wolf_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "37CA6E4CD942410A"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6低级雇佣兵"
+			x: 1.0d
+			y: -19.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:skeleton_wolf_spawn_egg"
+			id: "22B1D23EB2959F72"
+			rewards: [{
+				id: "3F9DDEBAC7706E6B"
+				item: "goety:skeleton_wolf_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "4458E28741FCA1D2"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6低级雇佣兵"
+			x: 7.0d
+			y: -19.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:twilight_goat_spawn_egg"
+			id: "656E5DB1980FC8BC"
+			rewards: [{
+				id: "4AAE0B831BA1E18F"
+				item: "goety:twilight_goat_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "7D6B66121F75822B"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6低级雇佣兵"
+			x: 1.0d
+			y: -17.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:snapper_spawn_egg"
+			id: "7AE8B85EC9261FFC"
+			rewards: [{
+				id: "47AA64503E77802C"
+				item: "goety:snapper_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "42AF44196F6BC478"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6低级雇佣兵"
+			x: 9.0d
+			y: -19.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:bear_servant_spawn_egg"
+			id: "2053FDDD1E2EF5E5"
+			rewards: [{
+				id: "6DC69CBD2823F029"
+				item: "goety:bear_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "63C56F21026287DD"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 3.0d
+			y: -15.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:polar_bear_servant_spawn_egg"
+			id: "27C185A152C1C8C0"
+			rewards: [{
+				id: "146BDB0673287C3A"
+				item: "goety:polar_bear_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "35A7CD3C694EC30F"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 5.0d
+			y: -15.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:whisperer_spawn_egg"
+			id: "5047CFA5A08EE757"
+			rewards: [{
+				id: "25BB699C52736AB1"
+				item: "goety:whisperer_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "50893C525FD03222"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 9.0d
+			y: -15.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:hoglin_servant_spawn_egg"
+			id: "617D65B75B0A3CE2"
+			rewards: [{
+				id: "550D8BA7BA29A9A8"
+				item: "goety:hoglin_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 110L
+				id: "1744FACB4F3FD519"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 7.0d
+			y: -15.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:ice_golem_spawn_egg"
+			id: "097B989A293FC821"
+			rewards: [{
+				id: "04BAEC14CBF88601"
+				item: "goety:wavewhisperer_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 150L
+				id: "08AA4171F02FF23C"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6高级雇佣兵"
+			x: 11.0d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:haunt_spawn_egg"
+			id: "5609C390FCD305CB"
+			rewards: [{
+				id: "216FCCF1BAB33F87"
+				item: "goety:haunt_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "225968265BF503C0"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6低级雇佣兵"
+			x: 13.0d
+			y: -19.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:zpiglin_brute_servant_spawn_egg"
+			id: "2CABC059CFDFA5A6"
+			rewards: [{
+				id: "7B7EFD02B2B289B0"
+				item: "goety:zpiglin_brute_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "2B4ABD7C8CA609B2"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 7.0d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:zpiglin_servant_spawn_egg"
+			id: "13BD66933ED26553"
+			rewards: [{
+				id: "29DDFA7DC7A55FD0"
+				item: "goety:zpiglin_servant_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "166FD6D79201DAF5"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:quick_growing_vine_spawn_egg"
+			id: "1BAB6533525F4CBE"
+			rewards: [{
+				id: "5C56B08E3887F228"
+				item: "goety:quick_growing_vine_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "3ED58DE09F9A83E0"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6低级雇佣兵"
+			x: 11.0d
+			y: -19.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:quick_growing_kelp_spawn_egg"
+			id: "0A3C396C388DBE66"
+			rewards: [{
+				id: "3F31463B2A02FAF8"
+				item: "goety:quick_growing_kelp_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "4C77E7909FA5239E"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6低级雇佣兵"
+			x: 3.0d
+			y: -17.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:poison_anemone_spawn_egg"
+			id: "6BB547FD48AFDB7D"
+			rewards: [{
+				id: "062AFBA4730F2789"
+				item: "goety:poison_anemone_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "47BF2926A10C9164"
+				item: "currency:can50"
+				type: "item"
+			}]
+			title: "&6中级雇佣兵"
+			x: 7.0d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: "goety:redstone_monstrosity_spawn_egg"
+			id: "2C7D50ACD87584DB"
+			rewards: [{
+				id: "5685E2032DDDAC81"
+				item: "goety:redstone_monstrosity_spawn_egg"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6绝对的物超所值"
+			tasks: [
+				{
+					consume_items: true
+					count: 260L
+					id: "1C93A01B5CA02912"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5827902BE3AA71C5"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+			]
+			title: "&6灭世级雇佣兵"
+			x: 13.0d
+			y: -5.0d
+		}
+	]
+	title: "&6法师专属—召唤流"
+}

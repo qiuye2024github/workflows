@@ -1,0 +1,645 @@
+{
+	id: "26F1AB4F8F8C92ED"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "relics:amphibian_boot"
+				tag: {
+					abilities: {
+						gills: {
+							points: 0
+							stats: {
+								chance: 0.08944d
+							}
+						}
+						slipping: {
+							points: 0
+							stats: {
+								duration: 17.01173d
+								speed: 0.00821d
+							}
+						}
+						swimming: {
+							points: 0
+							stats: {
+								duration: 20.31746d
+								speed: 0.00766d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:aqua_walker"
+				tag: {
+					abilities: {
+						walking: {
+							points: 0
+							stats: {
+								time: 54.55891d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:horse_flute"
+				tag: {
+					abilities: {
+						heal: {
+							points: 0
+							stats: {
+								amount: 0.03196d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:midnight_robe"
+				tag: {
+					abilities: {
+						backstab: {
+							points: 0
+							stats: {
+								damage: 1.4356d
+								distance: 19.91763d
+							}
+						}
+						vanish: {
+							points: 0
+							stats: {
+								light: 1.28573d
+								speed: 0.1413d
+							}
+							temp: {
+								ticking: 1b
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:holy_locket"
+				tag: {
+					abilities: {
+						belief: {
+							points: 0
+							stats: {
+								amount: 0.19965d
+								capacity: 8.46373d
+								count: 2.49578d
+								radius: 5.01062d
+							}
+						}
+						blessing: {
+							points: 0
+							stats: {
+								consumption: 7.79094d
+							}
+							temp: {
+								ticking: 1b
+							}
+						}
+						repentance: {
+							points: 0
+							stats: {
+								damage: 0.17291d
+								radius: 3.93943d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:wool_mitten"
+				tag: {
+					abilities: {
+						mold: {
+							points: 0
+							stats: {
+								damage: 0.15363d
+								freeze: 1.12328d
+								size: 16.79358d
+								stun: 0.02896d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:spatial_sign"
+				tag: {
+					abilities: {
+						seal: {
+							points: 0
+							stats: {
+								time: 3.59529d
+							}
+						}
+					}
+					pos: "[\"332.2,69.0,-82.5\",\"329.5,69.0,-82.3\"]"
+					world: "minecraft:overworld"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:space_dissector"
+				tag: {
+					abilities: {
+						dissection: {
+							points: 0
+							stats: {
+								distance: 25.94501d
+								time: 9.33699d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:arrow_quiver"
+				tag: {
+					abilities: {
+						agility: {
+							points: 0
+							stats: {
+								modifier: 1.0d
+							}
+						}
+						leap: {
+							points: 0
+							stats: {
+								cooldown: 14.67326d
+								duration: 4.49736d
+								multiplier: 0.43659d
+							}
+						}
+						rain: {
+							points: 0
+							stats: {
+								delay: 0.84665d
+								duration: 10.40933d
+								radius: 3.66534d
+							}
+						}
+						receptacle: {
+							points: 0
+							stats: {
+								slots: 3.43389d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:bastion_ring"
+				tag: {
+					abilities: {
+						trade: {
+							points: 0
+							stats: {
+								rolls: 0.29045d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:spore_sack"
+				tag: {
+					abilities: {
+						buffer: {
+							points: 0
+							stats: {
+								capacity: 3.53886d
+								chance: 0.04399d
+							}
+						}
+						explosion: {
+							points: 0
+							stats: {
+								size: 0.09858d
+							}
+						}
+						multiplying: {
+							points: 0
+							stats: {
+								amount: 0.0597d
+								chance: 0.0883d
+								size: 0.07096d
+							}
+						}
+						spore: {
+							points: 0
+							stats: {
+								cooldown: 11.09141d
+								damage: 0.25237d
+								duration: 3.42332d
+								size: 0.21934d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:reflection_necklace"
+				tag: {
+					abilities: {
+						explode: {
+							points: 0
+							stats: {
+								capacity: 50.69113d
+								damage: 0.37092d
+								stun: 0.11381d
+							}
+						}
+					}
+				}
+			}
+		}
+		{ item: "relics:relic_experience_bottle" }
+		{
+			item: {
+				Count: 1
+				id: "relics:hunter_belt"
+				tag: {
+					abilities: {
+						slots: {
+							points: 0
+							stats: {
+								charm: 1.00235d
+							}
+						}
+						training: {
+							points: 0
+							stats: {
+								damage: 1.94254d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:blazing_flask"
+				tag: {
+					abilities: {
+						bonfire: {
+							points: 0
+							stats: {
+								height: 3.78588d
+								speed: 0.02104d
+								step: 2.3801d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:chorus_inhibitor"
+				tag: {
+					abilities: {
+						blink: {
+							points: 0
+							stats: {
+								cooldown: 9.91756d
+								distance: 20.30686d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:infinity_ham"
+				tag: {
+					abilities: {
+						autophagy: {
+							points: 0
+							stats: {
+								feed: 1.73924d
+							}
+						}
+						infusion: {
+							points: 0
+							stats: {
+								duration: 1.42969d
+							}
+						}
+					}
+					pieces: 10
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:magic_mirror"
+				tag: {
+					abilities: {
+						teleport: {
+							points: 0
+							stats: {
+								cooldown: 83.20596d
+								distance: 802.45303d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:rage_glove"
+				tag: {
+					abilities: {
+						phlebotomy: {
+							points: 0
+							stats: {
+								attack_speed: 0.00535d
+								heal: 1.3E-4d
+								movement_speed: 0.01786d
+							}
+						}
+						rage: {
+							points: 0
+							stats: {
+								dealt_damage: 0.06504d
+								duration: 3.97733d
+								incoming_damage: 0.03549d
+							}
+						}
+						spurt: {
+							points: 0
+							stats: {
+								cooldown: 16.57074d
+								damage: 0.19954d
+								distance: 5.6012d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:jellyfish_necklace"
+				tag: {
+					abilities: {
+						paralysis: {
+							points: 0
+							stats: {
+								duration: 1.33585d
+							}
+						}
+						shock: {
+							points: 0
+							stats: {
+								damage: 1.55219d
+							}
+							temp: {
+								ticking: 1b
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:drowned_belt"
+				tag: {
+					abilities: {
+						anchor: {
+							points: 0
+							stats: {
+								sinking: 3.64087d
+								slowness: 0.27822d
+							}
+						}
+						pressure: {
+							points: 0
+							stats: {
+								damage: 1.67761d
+							}
+						}
+						riptide: {
+							points: 0
+							stats: {
+								cooldown: 8.7243d
+							}
+						}
+						slots: {
+							points: 0
+							stats: {
+								charm: 0.99502d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:enders_hand"
+				tag: {
+					abilities: {
+						swap: {
+							points: 0
+							stats: {
+								distance: 25.92402d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:leather_belt"
+				tag: {
+					abilities: {
+						slots: {
+							points: 0
+							stats: {
+								charm: 2.02572d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:magma_walker"
+				tag: {
+					abilities: {
+						pace: {
+							points: 0
+							stats: {
+								time: 43.63531d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:elytra_booster"
+				tag: {
+					abilities: {
+						boost: {
+							points: 0
+							stats: {
+								capacity: 92.76898d
+								speed: 1.46088d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:ice_breaker"
+				tag: {
+					abilities: {
+						impact: {
+							points: 0
+							stats: {
+								damage: 3.67147d
+								size: 3.68103d
+							}
+						}
+						sustainability: {
+							points: 0
+							stats: {
+								modifier: 0.59649d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:roller_skates"
+				tag: {
+					abilities: {
+						skating: {
+							points: 0
+							stats: {
+								duration: 23.35893d
+								speed: 0.00274d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:ice_skates"
+				tag: {
+					abilities: {
+						ram: {
+							points: 0
+							stats: {
+								damage: 0.16754d
+							}
+						}
+						skating: {
+							points: 0
+							stats: {
+								duration: 46.70221d
+								speed: 0.03235d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:shadow_glaive"
+				tag: {
+					abilities: {
+						glaive: {
+							points: 0
+							stats: {
+								bounces: 3.80819d
+								damage: 3.6087d
+								radius: 3.65316d
+								recharge: 20.47089d
+							}
+						}
+						saw: {
+							points: 0
+							stats: {
+								damage: 0.76215d
+								speed: 15.47655d
+							}
+						}
+					}
+					charges: 8
+				}
+			}
+		}
+	]
+	title: "遗物"
+}

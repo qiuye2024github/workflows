@@ -1,0 +1,400 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_5"
+	group: ""
+	icon: "faded_conquest_2:mysterious_crown"
+	id: "16E8344BDF5C49EE"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6这章的boss都不难打，但部分有特殊机制，需要多加小心。"
+				""
+				"&6击败这章的所有boss后可去挑战任务领取丰厚的奖励"
+			]
+			icon: "faded_conquest_2:abyssal_device"
+			id: "5995651A31A863C0"
+			rewards: [{
+				id: "2FA34DE031D23557"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "646D96B2B375D612"
+				title: "&4褪色征服"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5995651A31A863C0"]
+			description: [""]
+			icon: "faded_conquest_2:aero_guardian_spawn_egg"
+			id: "433E2C021DF162FC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C31454C32B31315"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "787993C7FAAEA2F6"
+					table_id: 1648072819859889580L
+					type: "random"
+				}
+				{
+					count: 40
+					id: "1409D910FF145867"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "362A83AFBD717D55"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					id: "21B53874726D6820"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30C17064C37FF25C"
+					table_id: 7389854958743960998L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e探险家指南针搜索苍穹守护者神殿即可找到"
+			tasks: [{
+				entity: "faded_conquest_2:aero_guardian"
+				id: "0A2AE83F88C0A244"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4风之守护者"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5995651A31A863C0"]
+			description: [""]
+			icon: "faded_conquest_2:terrible_ten_spawn_egg"
+			id: "21595DD3B0015A85"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0AF629DD0550F6BE"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					id: "10954F7A8AB9ACD5"
+					table_id: 2882031472378092046L
+					type: "random"
+				}
+				{
+					count: 40
+					id: "0EFB0A02BB6BA626"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "5C00A79DA35A69AA"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					id: "1B8A4784D963380B"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21EFB9C685D20052"
+					table_id: 7389854958743960998L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索征服要塞即可找到"
+			tasks: [{
+				entity: "faded_conquest_2:puny_juggernaut"
+				id: "6FA501AC0A0CF291"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4恐怖十人众"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5995651A31A863C0"]
+			description: [""]
+			icon: "faded_conquest_2:faded_kingegg"
+			id: "5A2EF5D8056B2990"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51CD582F2A5B483E"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DD9641C429A4564"
+					table_id: 1648072819859889580L
+					type: "random"
+				}
+				{
+					count: 45
+					id: "06B1866DFE6A3274"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "7019A8015D923256"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4130EF19876DCCE8"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "515D78CD81573A7E"
+					table_id: 7389854958743960998L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索前线作战室即可找到"
+			tasks: [{
+				entity: "faded_conquest_2:faded_kingp_2"
+				id: "3F38B33A4828E507"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4褪色之王"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5995651A31A863C0"]
+			icon: "faded_conquest_2:lich_1_spawnegg"
+			id: "63333DA45C122633"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "628CDECEFCEAC5A9"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					id: "6DC88D447508E0E3"
+					table_id: 5317073098788581740L
+					type: "random"
+				}
+				{
+					count: 40
+					id: "4D9163E3F36C08EF"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "2CF983106C6B1381"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					id: "1C7D80713AA52760"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E33862F4E76DAA2"
+					table_id: 7389854958743960998L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索巫妖塔（第一个）即可找到"
+			tasks: [{
+				entity: "faded_conquest_2:lich_phase_2"
+				id: "75310CD5BC402495"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4末日港巫妖"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5995651A31A863C0"]
+			description: [""]
+			icon: "faded_conquest_2:summon_calamity_vessel_1"
+			id: "2C5D19CCB917848F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15C72B53B406AF2A"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					id: "2D7E1B986742F9D8"
+					table_id: 2806212401027650285L
+					type: "random"
+				}
+				{
+					count: 40
+					id: "6ECEFBEE005E48BD"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "09349AEE8402CDCA"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					id: "0AD2D6AAF6D25C95"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "175B7A0737CF09F3"
+					table_id: 7389854958743960998L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e在主世界手持石英块右击强化深板岩即可召唤"
+			tasks: [{
+				entity: "faded_conquest_2:vessel_shield"
+				id: "743272405C9FFCEB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4灾难容器"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5995651A31A863C0"]
+			description: [""]
+			icon: "faded_conquest_2:plague_bringer_p_1_spawn_egg"
+			id: "5C6294156EEFA31A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "719A6DA4CC04594C"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					id: "4BDE28B8D728E2F9"
+					table_id: 3022341840274845282L
+					type: "random"
+				}
+				{
+					count: 40
+					id: "749F31CC50C36311"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "7BD78B2E0F76940E"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					id: "02C589001DA4E37B"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6459EE77B10C9FD5"
+					table_id: 7389854958743960998L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索炼金术士的巢穴即可找到"
+			tasks: [{
+				entity: "faded_conquest_2:the_plauge_bringerp_2"
+				id: "1AE92A19B2BC050D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4瘟疫使者"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5995651A31A863C0"]
+			icon: "faded_conquest_2:radiance_guardian_spawnegg"
+			id: "4C4769D54B6CC1CA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "621DA911B8DC46CC"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					id: "7C4F1C669C80B768"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					count: 40
+					id: "61947CB966A4B86B"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "2547569365B5BED2"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					id: "347506BAA56C89E4"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79F3FAB439C32092"
+					table_id: 7389854958743960998L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e在主世界手持石英块右击深板岩即可召唤"
+			tasks: [{
+				entity: "faded_conquest_2:radiance_guardian"
+				id: "07774990DEE59BE0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4光辉守卫"
+			x: -1.0d
+			y: 1.5d
+		}
+	]
+	title: "&6褪色君主（番外）"
+}

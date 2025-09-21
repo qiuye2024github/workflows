@@ -1,0 +1,2007 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_2"
+	group: ""
+	icon: "born_in_chaos_v1:smoldering_infernal_ember"
+	id: "278CB24DEA0873FF"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["27087F1B6719CD62"]
+			description: [
+				"&6每层都有试炼，击败高塔中机枪和魔像，破解机关后找到钥匙进行解谜以获取宝藏，试炼守护者会在塔的最深处等待你的到来"
+				""
+				"&6他不是凡人，而是诸神设下的最后一道考验。"
+				""
+				"&6任何试图穿越命运之门的人，都必须面对他的审判。"
+				""
+				"&6他会读取你的记忆、你的恐惧、你的欲望，并化作幻象，逼你直面内心最深处的黑暗。"
+				""
+				"&6“若你无法战胜自己……就别妄想征服世界。”"
+				""
+				"&6他是守护者，也是折磨者。"
+				""
+				"&6他是终点，也是起点。"
+			]
+			icon: "terramity:music_sheet_of_the_trial_guardian"
+			id: "6BA3E8CA1A31D467"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54C2894CA845F817"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49725F29519B17AC"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					id: "26E24F63A3C802A4"
+					table_id: 5798536012187006497L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "786BEF0C476C444D"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					count: 40
+					id: "2148C9A6F23FC472"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0AFAFA6BDF34564F"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1DD34D196EE03D93"
+					item: "enigmaticaddons:ichor_droplet"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18BDF2A653369593"
+					table_id: 7468670195317994501L
+					type: "random"
+				}
+				{
+					id: "23D655A2711D4D66"
+					item: {
+						Count: 1
+						id: "terramity:unholy_lance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "423D027504A6E560"
+					table_id: 2810096709669237329L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索试炼尖塔即可找到"
+			tasks: [{
+				entity: "terramity:trial_guardian"
+				id: "08EC46F4D61F5E7B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4试炼守护者"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["27087F1B6719CD62"]
+			description: [
+				"&6用红色地精帽子右击雕像即可召唤"
+				""
+				"&6“金石为骨，烈火为心。只要炉火未熄，我便永存。”"
+				""
+				"&6他已活过千载，却从未老去。"
+				""
+				"&6因为他将灵魂铸入王座，将自己的生命与山脉融为一体。"
+				""
+				"&6如今，当敌人再次觊觎矮人宝藏时，那沉睡的王座开始震动，古老的号角再度响起：“谁敢踏足矮人王国？”"
+			]
+			icon: "terramity:belt_of_the_gnome_king"
+			id: "42D4108178F07163"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "263F2A4038D25E32"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A369C6989583391"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0887C7056D46E86C"
+					table_id: 1242374370907836078L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CF24807912D9E13"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					count: 40
+					id: "2E031D93C7CA1972"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "683F70CAE3BED15D"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1C21F9B25556DE3D"
+					item: "enigmaticlegacy:etherium_scraps"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E37751F095CECFC"
+					table_id: 7468670195317994501L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51EE9B90225A7CB5"
+					table_id: 1062271624698288440L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索地精王宫即可找到"
+			tasks: [{
+				entity: "terramity:gob"
+				id: "71E356EA347F382F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4矮人之王"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27087F1B6719CD62"]
+			description: [
+				"&6它拥有犬类的外形，却覆盖着金属般的鳞片，鼻腔中流淌着能解析气味的魔法液体。"
+				""
+				"&6它的能力远超寻常猎手——它不仅能追踪气味，还能通过气味“读取”目标的记忆、情绪，甚至预知其行动轨迹。"
+				""
+				"&6它是被古代法师制造出来的战争武器，但最终失控，成为森林的恐怖传说。"
+				""
+				"&6有人说它已经疯了，也有人说它只是太聪明。"
+				""
+				"&6唯一确定的是：一旦它盯上你，你就无处可逃。"
+			]
+			icon: "terramity:ultra_sniffer_fur"
+			id: "2620247897BE2577"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F2054500B897A0E"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CFD03BFDEB47E2D"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					id: "563BCA67805C1D58"
+					table_id: 2882031472378092046L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B7059DCD60DB59F"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					count: 45
+					id: "4FCD9296F3F43911"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0575287BEEC0A54B"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "47E6A088D045279E"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:earth_heart"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54A62E355B5A0CBA"
+					table_id: 3946534405964350697L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0659D0B7395259C6"
+					table_id: 2896710079607495094L
+					type: "random"
+				}
+				{
+					id: "5143F52B08AD1E5B"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e嗅探兽被雷劈中后变异而来"
+			tasks: [{
+				entity: "terramity:super_sniffer"
+				id: "070F373A2CF5F963"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4超级嗅探兽"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6BA3E8CA1A31D467"
+				"42D4108178F07163"
+				"2620247897BE2577"
+				"34AC5358A999B7CA"
+				"266673FDB7966309"
+			]
+			description: [
+				"&6一个是亚瑟王的导师，智慧与预言的化身；一个是流放的女巫，精通变化与幻术。"
+				""
+				"&6他们本该是敌人，却因共同的命运而联手。"
+				""
+				"&6他们发现了一个惊人的秘密：时间正在崩塌，魔法正从世界中流失。"
+				""
+				"&6于是，他们踏上旅程，穿越诸界，寻找“源之书”——传说中记录一切魔法起源的典籍。"
+				""
+				"&6一路上，他们既是盟友，又是对手。"
+				""
+				"&6他们相爱，又彼此怀疑。"
+				""
+				"&6最终，在时间尽头，他们做出了选择：“要么拯救魔法……要么成为它的墓碑。”"
+				""
+				"{@pagebreak}"
+				""
+				"&6“即使是最渺小的人，也能改变世界的命运。”"
+				""
+				"&6甘道夫—中土世界的守护者之一。"
+				""
+				"&6他在漫长的旅途中见证了太多生死，也背负了太多责任。"
+				""
+				"&6他曾在摩瑞亚击败炎魔，也在黑门之战中领导自由民奋起反抗。"
+				""
+				"&6然而，随着索伦的阴影彻底消散，他也感到自己的使命即将终结。"
+				""
+				"&6他站在灰港之畔，望着远方的海洋，低声说道："
+				""
+				"&6“是时候了……我要回到最初的地方。”"
+				""
+				"&6他乘船离去，留下一句话：“光明不会永远闪耀，但希望，永不熄灭。”"
+			]
+			icon: "terramity:tome_of_ascension"
+			id: "7E5AD9115B2F1026"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DAAAF0E9D14A377"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CAA3328E8BA030A"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					id: "65A15EBAFC081CEC"
+					table_id: 3022341840274845282L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D08E7F1C3D86DE6"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					count: 80
+					id: "2070DBB0F341CBE4"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1BA459A5C6DE53BB"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "670AAF31D69437B1"
+					item: "enigmaticlegacy:evil_essence"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5F93DC77A657AD10"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "377C96E00F95C568"
+					table_id: 1062271624698288440L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13AE199A4E317780"
+					table_id: 8703198605496827056L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EDC1A918F61015C"
+					table_id: 1635416420709743112L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67F44466E3AD345D"
+					table_id: 2810096709669237329L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "608EEEF4FD7E7FA5"
+					table_id: 9166668972117515358L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索幽冥教堂即可找到，用神秘面纱召唤"
+			tasks: [
+				{
+					entity: "terramity:enchanter_merlin"
+					id: "1541D6AC44992728"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "terramity:sorceress_circe"
+					id: "6E58EC3B05CF34A7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "terramity:gundalf"
+					id: "70177B149B0049A0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&4影之法师"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27087F1B6719CD62"]
+			description: [
+				"&6在混乱与邪恶之间，寻找救赎的可能。"
+				""
+				"&6她的羽翼半黑半白，象征着她的矛盾与挣扎。"
+				""
+				"&6她手持圣剑“誓约终焉”，既能净化灵魂，也能撕裂恶魔。"
+				""
+				"&6“我不是天使……也不是恶魔。”"
+				""
+				"&6“我是那个不愿屈服于命运的人。”"
+			]
+			icon: "terramity:archangel_halo"
+			id: "34AC5358A999B7CA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4612C63A227BE957"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B50F2F5A43F3690"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35FAE56D29E25010"
+					table_id: 1242374370907836078L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "245B8F1220C24ADC"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					count: 40
+					id: "201DCDD89F1964FE"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2AEB30B998861E43"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D36DC50842BDA39"
+					item: "enigmaticaddons:pure_heart"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1325CBA44E597F81"
+					table_id: 7468670195317994501L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0634B8ED37412556"
+					table_id: 5317073098788581740L
+					type: "choice"
+				}
+				{
+					id: "75C9219CC708321B"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e将渎圣长矛投射到天上即可召唤"
+			tasks: [{
+				entity: "terramity:virtue"
+				id: "520E1D31481E9DD3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4德天使"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E5AD9115B2F1026"]
+			icon: {
+				Count: 1
+				id: "legendary_monsters:dinosaur_bone_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "251AC47AC17AE407"
+			rewards: [{
+				id: "3EBB7D37A3377D3D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "64ED956C18A9CB04"
+				title: "&4传奇怪物"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["251AC47AC17AE407"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "legendary_monsters:shulker_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1BACEE645E4904F2"
+			rewards: [
+				{
+					id: "4E51452B3619A76B"
+					item: "legendary_monsters:shulker_mimic_spawn_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71E14A17DE12E7C6"
+					table_id: 2882031472378092046L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B487A6AAB62F0E7"
+					table_id: 8469721501915484933L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6026982CE29C8376"
+					table_id: 7284244888969370118L
+					type: "random"
+				}
+				{
+					count: 35
+					id: "2F91902DB5A4038B"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0725AEFDDE57CDB5"
+					table_id: 1062271624698288440L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索潜黑暗高塔即可找到"
+			tasks: [{
+				entity: "legendary_monsters:shulker_mimic"
+				id: "6728A164A3C755A7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4潜影拟态者"
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["251AC47AC17AE407"]
+			description: [""]
+			icon: "legendary_monsters:entity_warper"
+			id: "032E582032947CAC"
+			rewards: [
+				{
+					id: "70DCF5F9A89FC529"
+					item: "legendary_monsters:warped_fungussus_spawn_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11BDEBB7EC273D15"
+					table_id: 2806212401027650285L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D9F237037421BF3"
+					table_id: 8469721501915484933L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F0921D265CCA868"
+					table_id: 7284244888969370118L
+					type: "random"
+				}
+				{
+					count: 30
+					id: "30645481423FD56A"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14DEF4A52A8102AC"
+					table_id: 1062271624698288440L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家搜索苔藓真菌巢穴即可找到"
+			tasks: [{
+				entity: "legendary_monsters:warped_fungussus"
+				id: "74876878946D179F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4诡异菌花兽"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["251AC47AC17AE407"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "legendary_monsters:monstrous_anchor"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "29BBADA6CFAE8F2F"
+			rewards: [
+				{
+					id: "31ADBF60A7E6B1FE"
+					item: "legendary_monsters:ancient_guardian_spawn_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "417E0DA11D93D115"
+					table_id: 1242374370907836078L
+					type: "random"
+				}
+				{
+					id: "199F8A614A21D3C2"
+					table_id: 7284244888969370118L
+					type: "random"
+				}
+				{
+					count: 35
+					id: "100DF7E6D16DA55D"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "30F3226DDBE12E70"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "071F46D063F5D91C"
+					table_id: 1062271624698288440L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针中搜索古老要塞（第二个）即可找到"
+			tasks: [{
+				entity: "legendary_monsters:ancient_guardian"
+				id: "2E730BE223D46D78"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4上古守卫者"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["251AC47AC17AE407"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "legendary_monsters:mossy_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4FE6656A8A2CE79D"
+			rewards: [
+				{
+					id: "5CBC724863CD171B"
+					item: "legendary_monsters:overgrown_colossus_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "42D6D3A4B89DAD23"
+					table_id: 5798536012187006497L
+					type: "random"
+				}
+				{
+					id: "6194C38423397326"
+					table_id: 7284244888969370118L
+					type: "random"
+				}
+				{
+					count: 35
+					id: "1997D02E038B1D57"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "6D6FDE428B18AD22"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01AA00C3C2918F85"
+					table_id: 1062271624698288440L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针中搜索苔藓庙宇即可找到"
+			tasks: [{
+				entity: "legendary_monsters:overgrown_colossus"
+				id: "2E28322AF84A5E52"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4蔓生魔像"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["251AC47AC17AE407"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "legendary_monsters:the_great_frost"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "739ADE51B8F12014"
+			rewards: [
+				{
+					id: "3DF6E982FD205845"
+					item: "legendary_monsters:frostbitten_golem_spawn_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17236E7E4DB51AC6"
+					table_id: 5798536012187006497L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62DDE5D8BEA9ECAC"
+					table_id: 7284244888969370118L
+					type: "random"
+				}
+				{
+					count: 35
+					id: "1841A5E28B1A041A"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "3AE12FAB7BCA54D4"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45F48FABF22459A8"
+					table_id: 1062271624698288440L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针中搜索冰冻魔像庙宇即可找到"
+			tasks: [{
+				entity: "legendary_monsters:frostbitten_golem"
+				id: "4384C6156CE38A64"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4霜冻傀儡"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["251AC47AC17AE407"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "legendary_monsters:fiery_jaw"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "18C1269B7AB20CBE"
+			rewards: [
+				{
+					id: "1B46CDE67AE8A787"
+					item: "legendary_monsters:lava_eater_spawn_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0830881B1AE15567"
+					table_id: 5798536012187006497L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04033272F252DD4F"
+					table_id: 7284244888969370118L
+					type: "random"
+				}
+				{
+					count: 35
+					id: "70C226D330139673"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "3CB7CF4BAA9823EE"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "603D536697B17DC0"
+					table_id: 1062271624698288440L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索熔岩食者即可找到"
+			tasks: [{
+				entity: "legendary_monsters:lava_eater"
+				id: "1B4DBAC434183BBE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4熔岩吞噬者"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["251AC47AC17AE407"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "legendary_monsters:knights_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "608D09E076A0FDAA"
+			rewards: [
+				{
+					id: "423CACE1FEBF58E3"
+					item: "legendary_monsters:posessed_paladin_spawn_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "461915AB45B8D57C"
+					table_id: 1242374370907836078L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "238B0A5380688270"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					id: "7B161C1AF83067D2"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					count: 35
+					id: "2AA13A488F698A0D"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7E7E38763E01A1F1"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57F9137AC12DDFDC"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "658573D94FA25E03"
+					table_id: 1062271624698288440L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针中搜索被遗弃的地下室即可找到"
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				id: "635EE69D46E73319"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4被附身的圣骑士"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["251AC47AC17AE407"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "legendary_monsters:sand_cannon"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "67997A44E8A49945"
+			rewards: [
+				{
+					id: "10B18FA011F7B92C"
+					item: "legendary_monsters:dune_sentinel_spawn_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17F9410C453968FC"
+					table_id: 5798536012187006497L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B82A744318BC1CF"
+					table_id: 7284244888969370118L
+					type: "random"
+				}
+				{
+					count: 35
+					id: "726EABB7116EC3D7"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "4FA1F64ADDE32768"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57D84BC76CA162AD"
+					table_id: 1062271624698288440L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针中搜索废墟金字塔即可找到"
+			tasks: [{
+				entity: "legendary_monsters:dune_sentinel"
+				id: "66D2A9D2EC8E9B9D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4沙丘哨兵"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["251AC47AC17AE407"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "legendary_monsters:withered_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "26C7BB5F054417B0"
+			rewards: [
+				{
+					id: "3C8C4B98FCE0A464"
+					item: "legendary_monsters:withered_abomination_spawn_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1344B80896AFD112"
+					table_id: 1242374370907836078L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1248C0C1589BF65F"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					id: "56C9A9EADBAB8C5A"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					count: 37
+					id: "4F4A61F1F722EFED"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5E5E76ACD86585E4"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E7DDA7C8118B023"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18425760ABE1C801"
+					table_id: 1062271624698288440L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针中搜索灵魂堡垒遗迹即可找到"
+			tasks: [{
+				entity: "legendary_monsters:withered_abomination"
+				id: "595837A9EF02072A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4凋零恶煞"
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["251AC47AC17AE407"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "legendary_monsters:dinosaur_bone_club"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "652746C57C021E6A"
+			rewards: [
+				{
+					id: "0398AF1964DC9F39"
+					item: "legendary_monsters:skeletosaurus_spawn_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E548C410378A910"
+					table_id: 1242374370907836078L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "177CB9EFA9B2717D"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					id: "4E64DA14425D66F3"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					count: 37
+					id: "0A9C4CB9AF38727B"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "54AE1605BDB0AF42"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01820BD5FE4C6403"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "261FB942D69E8B0D"
+					table_id: 1062271624698288440L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索骷髅巨龙巢穴即可找到"
+			tasks: [{
+				entity: "legendary_monsters:skeletosaurus"
+				id: "410BF71867371D2B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4骷髅龙兽"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["251AC47AC17AE407"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "legendary_monsters:chorus_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "47A2766C12BF3B4E"
+			rewards: [
+				{
+					id: "2B019FD7D01478A3"
+					item: "legendary_monsters:endersent_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "6A2D65AEB8091E79"
+					table_id: 1242374370907836078L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42FAE3F5422647BA"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					id: "037FCAB2C28AC741"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					count: 37
+					id: "577002C1559117DC"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7BD052B040850E09"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "768996241C5E834D"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A9AC7D145F00BF0"
+					table_id: 1062271624698288440L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索古塔遗迹即可找到"
+			tasks: [{
+				entity: "legendary_monsters:endersent"
+				id: "6B68DFA2BD3B555C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4末影遣使"
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"032E582032947CAC"
+				"47A2766C12BF3B4E"
+				"1BACEE645E4904F2"
+				"26C7BB5F054417B0"
+				"67997A44E8A49945"
+				"652746C57C021E6A"
+				"18C1269B7AB20CBE"
+				"739ADE51B8F12014"
+				"4FE6656A8A2CE79D"
+				"608D09E076A0FDAA"
+				"29BBADA6CFAE8F2F"
+			]
+			description: [""]
+			hide_text_until_complete: false
+			icon: {
+				Count: 1
+				id: "legendary_monsters:wand_of_clouds"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0D5BB8BD20FC16F5"
+			rewards: [
+				{
+					id: "1B6D918359203570"
+					item: "legendary_monsters:cloud_golem_spawn_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "279EAA8977225F13"
+					table_id: 1242374370907836078L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47030BC448BE0A65"
+					table_id: 1288638685160979640L
+					type: "random"
+				}
+				{
+					id: "2BBA1FF4625E108F"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					count: 57
+					id: "3B6D1CC02AE0141F"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7D646CA5CB1E0BFD"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2104D5CEB33068D9"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					command: "/curios add hands @p 1"
+					id: "76904EFA6AF832B6"
+					title: "添加一个手饰栏位"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "5CE9E0CEF4EA4BD5"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E954AB141947A32"
+					table_id: 3946534405964350697L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BBCC346F0BCEBC9"
+					table_id: 9166668972117515358L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针中搜索云之庙宇即可找到"
+			tasks: [{
+				entity: "legendary_monsters:cloud_golem"
+				id: "239C1CBCBA5C75A4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4云傀儡(传奇怪物系列最强)"
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D5BB8BD20FC16F5"]
+			description: [""]
+			icon: "torchesbecomesunlight:test_item"
+			id: "52DF73EE18D570BB"
+			rewards: [{
+				id: "4008FFDB6EC85964"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			subtitle: "&eBoss会随机刷新在一些地形或者通过特殊方式召唤"
+			tasks: [{
+				id: "49B0AF7197702C54"
+				title: "&4粥P来咯"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["52DF73EE18D570BB"]
+			description: [
+				"&d“我只想让孩子们活下去……哪怕这个世界容不下我们。”"
+				""
+				"&6霜星，乌萨斯帝国的感染者，整合运动前领袖之一，一个本应温柔却被迫走上极端之路的灵魂。"
+				""
+				"&6她并非天生冷酷，也不是嗜杀之人。她的理想简单而纯粹："
+				""
+				"&6让所有感染者拥有一个家，一个可以安心生活的地方。"
+			]
+			icon: "torchesbecomesunlight:winter_pass"
+			id: "63E01E3692259DE4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "358E96A106D57198"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					count: 40
+					id: "18D6FE6FA84178D6"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "05ABEBF5796474D8"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4079A17D64CD9650"
+					table_id: 7468670195317994501L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73F25FD48D873650"
+					table_id: 2896710079607495094L
+					type: "random"
+				}
+				{
+					id: "0A1D10C74DBA3300"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e在主世界手持冰右击深板岩即可召唤"
+			tasks: [{
+				entity: "torchesbecomesunlight:frost_nova"
+				id: "31AFE1BD86D47702"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4霜星"
+			x: 17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["52DF73EE18D570BB"]
+			description: [
+				"&d“我不是为了皇帝而战……我是为了乌萨斯的人民。”"
+				""
+				"&6爱国者，原名彼得海姆，是乌萨斯帝国最后的忠诚者之一。"
+				""
+				"&6他曾经是帝国最优秀的军官，一位真正的军人楷模。他不问政治，只知责任；不求功名，只守誓言。"
+				""
+				"&6然而，当帝国开始迫害感染者，将他们视为瘟疫般的存在时，他的信仰动摇了。"
+				""
+				"&6他不愿屠杀无辜，却又无法背叛祖国。"
+				""
+				"&6于是，他选择了另一条路—成为整合运动的盟友，以武力逼迫帝国改变。"
+			]
+			icon: {
+				Count: 1
+				id: "torchesbecomesunlight:halberd"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F5E62F77CB7AF37"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F4732472AAC26E9"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75DBA07475B91DDC"
+					table_id: 5798536012187006497L
+					type: "random"
+				}
+				{
+					count: 41
+					id: "5C181E64F164E5E7"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "5B768942A5CF5D83"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09E4FEB438DC5F41"
+					table_id: 7468670195317994501L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D64B6912B307179"
+					table_id: 1062271624698288440L
+					type: "random"
+				}
+				{
+					id: "50B668F8B174DBD4"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e在主世界手持钻石块右击深板岩即可召唤"
+			tasks: [{
+				entity: "torchesbecomesunlight:patriot"
+				id: "3EB87BC791295854"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4爱国者"
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["52DF73EE18D570BB"]
+			description: [
+				"&d“我存在的意义……就是成为皇权的刀锋。”"
+				""
+				"&6在乌萨斯帝国最隐秘的宫殿深处，有一支传说中的军队——皇帝的利刃。"
+				""
+				"&6他们不是普通的士兵，而是经过特殊训练、植入源石技艺强化的精英刺客，专门执行帝国最危险的任务。"
+				""
+				"&6他们没有名字，只有编号。"
+				""
+				"&6他们不为人所知，只为皇帝一人效命。"
+				""
+				"&6其中最强的一人，被称为“一号利刃”。"
+			]
+			icon: {
+				Count: 1
+				id: "torchesbecomesunlight:ursus_machete"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6257024913351947"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E1CCB696DBF589C"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6896324D506F4101"
+					table_id: 1242374370907836078L
+					type: "random"
+				}
+				{
+					count: 42
+					id: "12F888C59FBB4362"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "78EC2836FC5E49A6"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AC74542C1281030"
+					table_id: 3946534405964350697L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53FDC85EEE74A60B"
+					table_id: 2810096709669237329L
+					type: "random"
+				}
+				{
+					id: "3C27259524D61B7B"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e在主世界手持绿宝石块右击深板岩即可召唤"
+			tasks: [{
+				entity: "torchesbecomesunlight:pursuer"
+				id: "137C27D69DECA50B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4皇帝的利刃"
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"63E01E3692259DE4"
+				"2F5E62F77CB7AF37"
+				"6257024913351947"
+				"45BF2B2745A10136"
+			]
+			description: [
+				"&d“博士……如果你还记得我……那就继续走下去吧。”"
+				""
+				"&6博卓卡斯提，前乌萨斯帝国边境军指挥官，后来成为罗德岛的盟友，也是博士的老战友。"
+				""
+				"&6他性格沉稳、正直，是一位值得信赖的朋友。他曾在博士最虚弱的时候背着他穿越雪原，也曾多次在战场上并肩作战。"
+				""
+				"&6他常说：“博士，你欠我一顿饭。”"
+				""
+				"&6但那顿饭，终究没能兑现。"
+				""
+				"&6在某次对抗整合运动的行动中，他自愿担任后卫，掩护博士和罗德岛主力撤退。"
+				""
+				"&6面对潮水般的敌人，他没有后退一步。"
+				""
+				"&6他挥舞着盾牌与战斧，像一座山般屹立在风雪中。"
+				""
+				"&6最终，他被包围，倒在了雪地里。"
+				""
+				"&6临终前，他低声呢喃：“博士……别停下脚步……”"
+			]
+			icon: {
+				Count: 1
+				id: "torchesbecomesunlight:gun"
+				tag: { }
+			}
+			id: "01E4E98753C0CA2C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CC22A3DB57E112C"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BC6B0A41B4C6375"
+					table_id: 2882031472378092046L
+					type: "random"
+				}
+				{
+					count: 53
+					id: "6629AFD50AD36B08"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					command: "/curios add spellbook @p 1"
+					id: "0326EE4F634C5A5E"
+					title: "添加一个魔法书栏位"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "2FA437D9F55B0493"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CA570AF8407F4E2"
+					table_id: 3946534405964350697L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "102F10601FB57A8C"
+					table_id: 1062271624698288440L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e手持下界合金块右击深板岩即可召唤"
+			tasks: [{
+				entity: "torchesbecomesunlight:gun_knight_patriot"
+				id: "76B9213EFCFF908E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4博卓卡斯替"
+			x: 19.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01E4E98753C0CA2C"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:guardian_core"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "728F46FEDAC509FB"
+			rewards: [
+				{
+					count: 3
+					id: "6D2DD0F4917EACD9"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "556EF138C36E830D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索古陵即可找到"
+			tasks: [{
+				id: "5842BDAF24EA472E"
+				item: "eeeabsmobs:guling_eye"
+				type: "item"
+			}]
+			title: "&4古陵"
+			x: 21.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["728F46FEDAC509FB"]
+			id: "7E33C1DF9DE54DD9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27155F764BD6E337"
+				table_id: 8469721501915484933L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				advancement: "eeeabsmobs:eeeabsmobs/guling"
+				criterion: ""
+				id: "67E924CA70ED707C"
+				type: "advancement"
+			}]
+			x: 23.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E33C1DF9DE54DD9"]
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:demolisher"
+				tag: {
+					Damage: 0
+					accumulatedTime: 307619L
+					lastTime: 9223372036854775807L
+				}
+			}
+			id: "59E98E77AB11A054"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E439C4BCE953CE0"
+					table_id: 2882031472378092046L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32F433E3F1A867E6"
+					table_id: 5798536012187006497L
+					type: "random"
+				}
+				{
+					count: 37
+					id: "33594947F4A86887"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "712E988C0120AA14"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C823E80CFD99282"
+					table_id: 5317073098788581740L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "eeeabsmobs:guling_sentinel_heavy"
+				id: "38B1B4C831A19CAE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4古陵哨兵-重型"
+			x: 25.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["52DF73EE18D570BB"]
+			description: [
+				"&d请定期补充花盆里的土，那是她锚定世界的坐标"
+				""
+				"&6博士递来建筑图纸时，迷迭香正盯着盆栽发呆。那株移植自切尔诺伯格废墟的野草，叶片总朝着龙门港的方向蜷曲。“修复断裂的能源管道，需要你的法术做粘合剂。”"
+				""
+				"&6施术单元在她周身悬浮，如同金属的蒲公英。当源石技艺启动时，钢筋发出痛苦的嗡鸣。碎裂的管道被无形之力托举拼接，焊光中竟浮现出男人防风镜下翘起的嘴角。"
+				""
+				"&6“别怕，你只是拆错了零件。”幻觉中的声音说。她猛然后退，三十吨钢筋轰然坍落。烟尘散尽时，唯有盆栽安然无恙，草叶扎穿了钢板。"
+				""
+				"&6凯尔希的警告刻在医疗报告里：“记忆断层引发的源石失控，随时可能将建构变为毁灭。”"
+			]
+			icon: "torchesbecomesunlight:blessing_of_sami"
+			id: "45BF2B2745A10136"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7ACA81704C56A08E"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					id: "631645C63F68BA25"
+					table_id: 2882031472378092046L
+					type: "random"
+				}
+				{
+					count: 43
+					id: "4978677EF7D0EE74"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					id: "4698B26D3E34E2B5"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					id: "53DE35EEB6CD897A"
+					table_id: 7468670195317994501L
+					type: "random"
+				}
+				{
+					id: "23B4EEC20D02309D"
+					table_id: 2896710079607495094L
+					type: "random"
+				}
+				{
+					id: "57D9C30315FFB706"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e在主世界手持金块右击深板岩即可召唤"
+			tasks: [{
+				entity: "torchesbecomesunlight:rosmontis"
+				id: "64259E6225C08054"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4迷迭香"
+			x: 17.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["27087F1B6719CD62"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "terramity:conjuror_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "266673FDB7966309"
+			rewards: [
+				{
+					count: 25
+					id: "3FE30E5AD06DF8E9"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A8FCBFCAD81C52B"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AE4F99C62DFD24B"
+					table_id: 2308440712146166991L
+					type: "random"
+				}
+				{
+					id: "2A0B38ED4FAE742B"
+					item: "terramity:occult_fabric"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "&e使用探险家指南针搜索幽冥地牢即可找到"
+			tasks: [{
+				entity: "terramity:conjurling"
+				id: "1597B7D0EF24B9A8"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&4幽冥地牢"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["44E28F7B3E8631BC"]
+			icon: "terramity:prismatic_jewel"
+			id: "27087F1B6719CD62"
+			rewards: [{
+				id: "37C6A3DE7C5C97FD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1CF599D0027C2C1A"
+				title: "&4传奇怪物"
+				type: "checkmark"
+			}]
+			title: "&4土地之力"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["59E98E77AB11A054"]
+			description: [
+				"&6没有人知道他是谁，也没有人知道他来自哪里。"
+				""
+				"&6但每当世界陷入危机，总会有一个无名的身影站在最前线。"
+				""
+				"&6因为他明白：真正的守护，不需要被铭记；真正的牺牲，不求回报。"
+				""
+				"&6所以他选择隐藏在历史的阴影中，成为那个永远不会被写进史书的—无名守卫者。"
+			]
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:guardian_axe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "617F6B7E9CF63F1D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "04F2807E984FFDCF"
+					table_id: 7855110692032401008L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FC50D2FAA7EDF16"
+					table_id: 2882031472378092046L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DF9C998E21F12FA"
+					table_id: 7284244888969370118L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "391D2D10F4FE36E7"
+					table_id: 8703198605496827056L
+					type: "random"
+				}
+				{
+					count: 66
+					id: "3D001D23D61C711A"
+					item: "currency:can50"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2E11FEDA9D2E71D2"
+					item: "currency:twenty_pence"
+					type: "item"
+				}
+				{
+					command: "/curios add head @p 1"
+					id: "2BC240DC20AA8B90"
+					title: "添加一个头饰栏位"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "2D99BD1DE0D734EA"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A981C3D48A82ACC"
+					table_id: 1635416420709743112L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24BDE3F3A4FD0BC2"
+					table_id: 1648072819859889580L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3800A5F6434AED20"
+					table_id: 9166668972117515358L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "eeeabsmobs:nameless_guardian"
+				id: "09E1DE51B9F28623"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4无名守卫者—完成此任务后可开启下一章"
+			x: 27.0d
+			y: -2.5d
+		}
+	]
+	title: "&6星火余烬（第五章）"
+}

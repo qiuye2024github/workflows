@@ -1,0 +1,18 @@
+{
+	id: "52DCA6A27476A019"
+	loot_size: 1
+	order_index: 38
+	rewards: [
+		{ count: 4, item: "minecraft:beef" }
+		{ count: 4, item: "minecraft:mutton" }
+		{ count: 4, item: "minecraft:cooked_mutton" }
+		{ count: 4, item: "minecraft:chicken" }
+		{ count: 4, item: "minecraft:cooked_chicken" }
+		{ count: 4, item: "minecraft:rabbit" }
+		{ count: 4, item: "minecraft:cooked_rabbit" }
+		{ count: 4, item: "minecraft:cooked_beef" }
+		{ count: 4, item: "minecraft:porkchop" }
+		{ count: 4, item: "minecraft:cooked_porkchop" }
+	]
+	title: "肉"
+}

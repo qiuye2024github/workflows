@@ -1,0 +1,15 @@
+filename = "goety_spillage-1.20-1.4.2.jar"
+name = "Goety & Spillage"
+side = "both"
+x-prismlauncher-loaders = ["neoforge", "forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "a4b4a6cb79ad839d3dd199d5e29de26673ab2b28"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6668/794/goety_spillage-1.20-1.4.2.jar"
+
+[update.curseforge]
+file-id = 6668794
+project-id = 1108014

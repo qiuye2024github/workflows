@@ -1,0 +1,507 @@
+{
+	id: "78C7F9052A503CB0"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			count: 9
+			item: {
+				Count: 1
+				id: "enigmaticaddons:astral_potion"
+				tag: { }
+			}
+		}
+		{ count: 12, item: "enigmaticlegacy:astral_dust" }
+		{ count: 8, item: "enigmaticlegacy:evil_ingot" }
+		{ count: 16, item: "enigmaticlegacy:evil_essence" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"lhmiracleroad:punishment_cap": {
+						attribute: {
+							heavy: {
+								Amount: 14.0d
+								Name: ""
+								Operation: 0
+								UUID: [I;
+									232957815
+									126570021
+									-1284982937
+									1157513278
+								]
+							}
+						}
+						attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":17}]"
+						heavy: 14.0d
+						recordPunishmentAttributeModifier: { }
+					}
+				}
+				id: "enigmaticlegacy:ender_slayer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 4, item: "enigmaticaddons:totem_of_malice" }
+		{ item: "enigmaticlegacy:astral_block" }
+		{ count: 100, item: "paraglider:heart_container" }
+		{ count: 400, item: "paraglider:spirit_orb" }
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:ascension_amulet"
+				tag: { }
+			}
+		}
+		{ item: "enigmaticaddons:void_tome" }
+		{ item: "enigmaticlegacy:void_pearl" }
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:astral_breaker"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticaddons:etherium_core"
+				tag: { }
+			}
+		}
+		{ item: "goety:unholy_robe" }
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:eldritch_amulet"
+				tag: { }
+			}
+		}
+		{ item: "goety_revelation:ascension_hard_candy" }
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:insignia"
+				tag: { }
+			}
+		}
+		{ item: "goety_revelation:dimensional_will" }
+		{
+			item: {
+				Count: 1
+				id: "goety_revelation:eternal_watch"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{ item: "goety_revelation:blessing_scroll" }
+		{ item: "enigmaticdelicacy:fading_scroll" }
+		{ item: "enigmaticdelicacy:curse_crystal_pendant" }
+		{ item: "enigmaticdelicacy:gluttony_charm" }
+		{
+			item: {
+				Count: 1
+				id: "enigmaticdelicacy:curse_crystal_ring"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{ item: "enigmaticdelicacy:enchantment_duplicator" }
+		{
+			item: {
+				Count: 1
+				id: "enigmaticdelicacy:glistening_heart"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:cosmic_heart"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2hostility:ring_of_reflection"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2hostility:ring_of_divinity"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2hostility:ring_of_life"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2hostility:ring_of_ocean"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{ item: "l2hostility:curse_of_wrath" }
+		{ item: "l2hostility:curse_of_sloth" }
+		{
+			item: {
+				Count: 1
+				id: "alshanex_familiars:familiar_spellbook"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alshanex_familiars:sound_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+		}
+		{ item: "confluence:frozen_turtle_shell" }
+		{ item: "confluence:hero_shield" }
+		{ item: "confluence:paladins_shield" }
+		{ item: "confluence:berserkers_glove" }
+		{ item: "confluence:fire_gauntlet" }
+		{ item: "confluence:mechanical_glove" }
+		{ item: "confluence:power_glove" }
+		{ item: "confluence:destroyer_emblem" }
+		{ item: "confluence:avenger_emblem" }
+		{ item: "confluence:cobalt_shield" }
+		{ item: "confluence:celestial_stone" }
+		{ item: "confluence:moon_stone" }
+		{ item: "l2hostility:imagine_breaker" }
+		{ item: "confluence:sun_stone" }
+		{ item: "l2hostility:platinum_star" }
+		{ item: "l2hostility:infinity_glove" }
+		{ item: "l2hostility:divinity_light" }
+		{ item: "l2hostility:oddeyes_glasses" }
+		{ item: "l2hostility:triple_strip_cape" }
+		{ item: "l2hostility:greed_of_nidhoggur" }
+		{
+			item: {
+				Count: 1
+				id: "l2hostility:pocket_of_restoration"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "confluence:ankh_charm" }
+		{ item: "confluence:ankh_shield" }
+		{ item: "confluence:star_veil" }
+		{ item: "l2hostility:flaming_thorn" }
+		{
+			item: {
+				Count: 1
+				id: "l2hostility:ring_of_healing"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2hostility:ring_of_incarceration"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "terramity:gold_medal"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "terramity:exodium_shield_amulet"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{ item: "terramity:swag_glasses" }
+		{ item: "confluence:worm_scarf" }
+		{ item: "confluence:bundle_of_balloons" }
+		{ item: "confluence:obsidian_shield" }
+		{ item: "confluence:recon_scope" }
+		{ item: "confluence:stalkers_quiver" }
+		{ item: "confluence:frozen_shield" }
+		{ item: "terramity:stygian_safety_talisman" }
+		{ item: "terramity:lucky_dice" }
+		{ item: "terramity:devils_dice" }
+		{ item: "terramity:nullifying_dice" }
+		{ item: "terramity:weighted_die" }
+		{ item: "terramity:energized_core" }
+		{ item: "terramity:ethereal_eclipse_emblem" }
+		{ item: "terramity:fateful_coin" }
+		{ item: "terramity:shadowflame_stone" }
+		{ item: "terramity:chthonic_cursemark" }
+		{ item: "terramity:chthonic_shell_casing" }
+		{
+			item: {
+				Count: 1
+				id: "terramity:supercharged_speed_ring"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{ item: "terramity:proximity_badge" }
+		{
+			item: {
+				Count: 1
+				id: "terramity:gamblers_ring"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "terramity:express_ring"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "terramity:chaos_heart_ring"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "terramity:band_of_power_plus"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "terramity:tearstone_ring"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "terramity:gnome_ring"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "terramity:rainbow_ring"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "terramity:dragon_band"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{ item: "terramity:steel_shell" }
+		{ item: "terramity:amp_shield" }
+		{ item: "terramity:headhunter_talisman_plus" }
+		{ item: "terramity:sacred_speed_bracelets" }
+		{ item: "terramity:lava_gauntlet" }
+		{ item: "terramity:prismatic_gauntlet" }
+		{ item: "gobber2:gobber2_ring_airwalking" }
+		{ item: "gobber2:gobber2_ring_repair" }
+		{ item: "gobber2:gobber2_ring_haste" }
+		{ item: "gobber2:gobber2_ring_curing" }
+		{
+			item: {
+				Count: 1
+				id: "goety_revelation:the_needle"
+				tag: {
+					isRealNeedle: 1b
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "relics:leather_belt"
+				tag: {
+					abilities: {
+						slots: {
+							points: 0
+							stats: {
+								charm: 2.68636d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "darkdoppelganger:summons_necklace"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "darkdoppelganger:elder_necklace"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "darkdoppelganger:doppelganger_ring"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:enigmatic_elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:eternal_steak" }
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:ascension_amulet"
+				tag: { }
+			}
+		}
+		{ item: "enigmaticaddons:illusion_lantern" }
+		{ item: "enigmaticaddons:revival_leaf" }
+		{ item: "l2hostility:bottle_of_sanity" }
+		{
+			item: {
+				Count: 1
+				id: "goety_revelation:eternal_watch"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+	]
+	title: "高级奖励"
+}

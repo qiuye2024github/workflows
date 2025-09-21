@@ -1,0 +1,10 @@
+{
+	id: "25552E56EB16B544"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ item: "goety:warlock_robe_dark" }
+		{ item: "goety:necro_cape" }
+	]
+	title: "长袍"
+}

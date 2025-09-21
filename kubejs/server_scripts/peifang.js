@@ -1,0 +1,10 @@
+ServerEvents.recipes(event => {
+    event.remove({output:'l2hostility:bottle_of_sanity' })
+    event.remove({output:'gobber2:gobber2_ring_phoenix' })
+    event.remove({output:'twilightforest:uncrafting_table' })
+    event.remove({output:'terramity:divergency_gauntlet' })
+    event.remove({output:'l2hostility:curse_of_pride' })
+    event.remove({output:'brutality:the_cloud' })
+    event.remove({output:'terramity:chthonic_curse_bracelets' })
+    event.remove({output:'terramity:chthonic_nectar' })
+})

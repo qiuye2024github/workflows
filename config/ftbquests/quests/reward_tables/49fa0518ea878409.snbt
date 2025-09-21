@@ -1,0 +1,24 @@
+{
+	id: "49FA0518EA878409"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 2, item: "refinedstorage:white_creative_controller" }
+		{ count: 2, item: "refinedstorage:orange_creative_controller" }
+		{ count: 2, item: "refinedstorage:magenta_creative_controller" }
+		{ count: 2, item: "refinedstorage:creative_controller" }
+		{ count: 2, item: "refinedstorage:yellow_creative_controller" }
+		{ count: 2, item: "refinedstorage:lime_creative_controller" }
+		{ count: 2, item: "refinedstorage:pink_creative_controller" }
+		{ count: 2, item: "refinedstorage:gray_creative_controller" }
+		{ count: 2, item: "refinedstorage:light_gray_creative_controller" }
+		{ count: 2, item: "refinedstorage:cyan_creative_controller" }
+		{ count: 2, item: "refinedstorage:purple_creative_controller" }
+		{ count: 2, item: "refinedstorage:blue_creative_controller" }
+		{ count: 2, item: "refinedstorage:brown_creative_controller" }
+		{ count: 2, item: "refinedstorage:green_creative_controller" }
+		{ item: "refinedstorage:red_creative_controller" }
+		{ count: 2, item: "refinedstorage:black_creative_controller" }
+	]
+	title: "存储"
+}

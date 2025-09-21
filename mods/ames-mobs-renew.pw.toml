@@ -1,0 +1,15 @@
+filename = "AME's Mobs 1.5.6 - 1.20.1.jar"
+name = "AME's Mobs Renew"
+side = "both"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "6012e942cedb3e997c5464165b197b04c6737103"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6869/663/AME's Mobs 1.5.6 - 1.20.1.jar"
+
+[update.curseforge]
+file-id = 6869663
+project-id = 1080087

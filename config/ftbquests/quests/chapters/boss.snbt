@@ -1,0 +1,2056 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boss"
+	group: ""
+	icon: "born_in_chaos_v1:tombstone_dark_titan_066"
+	id: "191CC4096A8CD793"
+	images: [{
+		height: 85.0d
+		image: "simplyswords:item/brimstone_claymore"
+		rotation: 0.0d
+		width: 85.0d
+		x: 11.0d
+		y: -6.5d
+	}]
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "cataclysm:cursed_tombstone"
+			id: "78A9A8515898160C"
+			shape: "square"
+			tasks: [{
+				id: "5096A4225E53E0F8"
+				item: "cataclysm:cursed_tombstone"
+				type: "item"
+			}]
+			title: "&6T0（扫码）"
+			x: -12.5d
+			y: -8.5d
+		}
+		{
+			icon: "born_in_chaos_v1:tombstone_derivas"
+			id: "68C4972D7FF5BB2F"
+			shape: "square"
+			tasks: [{
+				id: "12A35BA5E42AF3D1"
+				item: "born_in_chaos_v1:tombstone_derivas"
+				type: "item"
+			}]
+			title: "&6T0.5"
+			x: -12.5d
+			y: -6.5d
+		}
+		{
+			icon: "born_in_chaos_v1:tombstone_orion"
+			id: "5146F889906E321A"
+			shape: "square"
+			tasks: [{
+				id: "48862F0ECC78ECD0"
+				item: "born_in_chaos_v1:tombstone_orion"
+				type: "item"
+			}]
+			title: "&6T1"
+			x: -12.5d
+			y: -4.5d
+		}
+		{
+			icon: "born_in_chaos_v1:tombstone_fubuki_banzai"
+			id: "671691C90DDF3B20"
+			shape: "square"
+			tasks: [{
+				id: "75A0B3BEAD11FA2F"
+				item: "born_in_chaos_v1:tombstone_fubuki_banzai"
+				type: "item"
+			}]
+			title: "&6T2"
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			description: [""]
+			id: "693C993DB742C9EE"
+			shape: "rsquare"
+			tasks: [{
+				id: "7C8000454A01186F"
+				item: {
+					Count: 1
+					id: "goety_revelation:revelation"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6亚波伦（主世界）/亚波伦（下界）"
+			x: -10.5d
+			y: -8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:ghost_warrior_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0F98BB2865C0BE9F"
+			shape: "rsquare"
+			tasks: [{
+				entity: "eeeabsmobs:immortal"
+				id: "27945D5A413C6122"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6不朽.终焉领主"
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			icon: "cataclysm:desert_eye"
+			id: "04FE7FCF10524930"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "0549D1B2C3087ECE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6远古遗魂"
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			description: [""]
+			icon: "cataclysm:monstrous_eye"
+			id: "58986F94A188281A"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "32D332907B904E66"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6下界合金巨兽"
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			icon: "cataclysm:flame_eye"
+			id: "634C46DE05B564B3"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "41B823CFD6A4ACE6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6焰魔"
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			icon: "cataclysm:cursed_eye"
+			id: "1FCF1B8DD325D2DB"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "32F87FF0420C44A8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6咒翼灵骸"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			icon: "cataclysm:mech_eye"
+			id: "152A9872051948DD"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "7383DF4C714A8B0B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6先驱者"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&6本任务章节介绍了各个BOSS在主线任务章节中所对应的强度，不会有特别的奖励，排名没有先后。"
+				""
+				"&6T1及以上的BOSS排名均为与终焉领主测试所得，T2及以下的BOSS各有特点，实战强度与排名会有所出入"
+			]
+			icon: "goety_revelation:ascension_halo"
+			id: "3DAD817D8FC98521"
+			rewards: [{
+				id: "0B87D31CE3498388"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "66BE4FA3D3926542"
+				type: "checkmark"
+			}]
+			title: "&6说明"
+			x: -12.5d
+			y: -10.5d
+		}
+		{
+			icon: "cataclysm:abyss_eye"
+			id: "6A737EBEF5C0B67F"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "0BF70FCDBDF6A766"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6利维坦"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			icon: "cataclysm:void_eye"
+			id: "00E21CA9BD0156E7"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "7FEEB44F6D6A95CD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6末影守卫"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			icon: "goety:unholy_blood"
+			id: "7AEF56C05246918F"
+			shape: "rsquare"
+			tasks: [{
+				advancement: "goety:goety/kill_a_apostle"
+				criterion: ""
+				id: "702137C9A691B36E"
+				type: "advancement"
+			}]
+			title: "&6使徒（主世界）/使徒（下界）"
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:guardian_core"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6332E6542130C694"
+			shape: "rsquare"
+			tasks: [{
+				entity: "eeeabsmobs:nameless_guardian"
+				id: "1AA35A999A800840"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6无名守卫者"
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "aquamirae:maze_rose"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "obscure_api:distance"
+							lvl: 3s
+						}
+						{
+							id: "obscure_api:fast_spin"
+							lvl: 5s
+						}
+					]
+				}
+			}
+			id: "5DD8121AC18D5232"
+			shape: "rsquare"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				id: "73F4519BB73A5A5A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6迷阵之母"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			icon: "alexscaves:tectonic_shard"
+			id: "32C4F43E0347D9FC"
+			shape: "rsquare"
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				id: "1EEFAD9FCABDA1F4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6暝煌龙"
+			x: 25.5d
+			y: -0.5d
+		}
+		{
+			icon: "legendary_monsters:nature_crystal"
+			id: "6163DA96574175B4"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				id: "4037730286317DA6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6紫水晶巨蟹"
+			x: 25.5d
+			y: -2.5d
+		}
+		{
+			icon: "macabre:baal_heart"
+			id: "50FB118FD498A6FE"
+			shape: "rsquare"
+			tasks: [{
+				entity: "macabre:baal"
+				id: "48873769D7728035"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6巴尔"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "bloxysstructures:shield_of_inferno"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "28B18F5B35B81AD9"
+			shape: "rsquare"
+			tasks: [{
+				entity: "bloxysstructures:inferno_hydra"
+				id: "1221F83D571123AB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6地狱九头蛇"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "bloxysstructures:darkness_arm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "64FDA933D8F6D8CE"
+			shape: "rsquare"
+			tasks: [{
+				entity: "bloxysstructures:prince_of_darkness"
+				id: "7C6EC5325572D8DF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6黑暗王子"
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			icon: "aquamirae:shell_horn"
+			id: "3724D8E67B6BD9B0"
+			shape: "rsquare"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "45D60B1865471AB7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6科妮莉亚船长的幽灵"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			icon: "aquamirae:fin"
+			id: "4C5226E07D5610DB"
+			shape: "rsquare"
+			tasks: [{
+				entity: "aquamirae:eel"
+				id: "3A780632B63674E3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6巨鳗"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			id: "2FCEB5C9E8C3C3DC"
+			shape: "square"
+			tasks: [{
+				id: "7CA2967EC2819FE5"
+				item: "born_in_chaos_v1:tombstone_petasi"
+				type: "item"
+			}]
+			title: "&6T3"
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "callfromthedepth_:depth_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0EBC1F2705228591"
+			shape: "rsquare"
+			tasks: [{
+				entity: "callfromthedepth_:deepdarkestspawn"
+				id: "77441FE1629790BD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6深层黑暗"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "callfromthedepth_:soularmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3629B79C802D8C3C"
+			shape: "rsquare"
+			tasks: [{
+				entity: "callfromthedepth_:deepdarkestspawn"
+				id: "5152319A55EF7372"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6痛苦灵魂"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "callfromthedepth_:marblearmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1F2C1D312E80CB0B"
+			shape: "rsquare"
+			tasks: [{
+				entity: "callfromthedepth_:injuredmarbleguard"
+				id: "7C35EC6C505C45D7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6璞石守卫"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			icon: "twilightforest:naga_trophy"
+			id: "3CAEB1A9AE22D948"
+			shape: "rsquare"
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "5707AF8DE983FE0B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6娜迦"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			icon: "twilightforest:lich_trophy"
+			id: "79C5A0363FDB7666"
+			shape: "rsquare"
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "777357B81E122F65"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6巫妖"
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "388AAD1DFD59D9B8"
+			shape: "rsquare"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "5DBDA09E2BB48633"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6幻影骑士"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			icon: "twilightforest:minoshroom_trophy"
+			id: "42404EEEC8AC9570"
+			shape: "rsquare"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "0764DDEB8891A973"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6米诺菇"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			icon: "twilightforest:snow_queen_trophy"
+			id: "25DB6085AA566530"
+			shape: "rsquare"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "05B8ABA171D1848C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6冰雪女王"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "4F6E9B8DD1658850"
+			shape: "rsquare"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "79B9E8E605C4B0E1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6雪怪首领"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			icon: "twilightforest:hydra_trophy"
+			id: "418172310FF3818A"
+			shape: "rsquare"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "66A922E33730A938"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6九头蛇"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "6D6F042C51361279"
+			shape: "rsquare"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "43C0D23C7BE9B4B1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6暮初恶魂"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "07A457CC0FFE91E2"
+			shape: "square"
+			tasks: [{
+				id: "5EE7A3813C95AF55"
+				item: "goety:shade_gravestone"
+				type: "item"
+			}]
+			title: "&6T4"
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			icon: "mokels_boss_mantyd:mantydhelmet_helmet"
+			id: "4EFCFB18BF6448EF"
+			shape: "rsquare"
+			tasks: [{
+				entity: "mokels_boss_mantyd:boss_mantyd"
+				id: "02BA76C97454DD09"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6基诺拉"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "mokels_bossfight_saphyra:saphyras_hat_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "01AE300DA5C6D704"
+			shape: "rsquare"
+			tasks: [{
+				entity: "mokels_witch_boss:witchboss"
+				id: "29D86DB5686E4CA2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6萨菲拉"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "mokels_rpg_two:sunrise_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "45ABBCBB08907B6A"
+			shape: "rsquare"
+			tasks: [{
+				entity: "mokels_rpg_two:blessingsun"
+				id: "7A87303B765379B0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6索拉利亚"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "mokels_rpg_two:dread_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5EB345FC29481B20"
+			shape: "rsquare"
+			tasks: [{
+				entity: "mokels_boss_mantyd:boss_mantyd"
+				id: "5AB6179462DEE439"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6象牙恶魔"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "mokels_rpg_two:crabarmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "584339193D4C4E64"
+			shape: "rsquare"
+			tasks: [{
+				entity: "mokels_rpg_two:statueberserk"
+				id: "4083465D9940BCF8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6狂战士"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "bloxysstructures:bloxys_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5DDAB6349A9FCACF"
+			shape: "rsquare"
+			tasks: [{
+				entity: "bloxysstructures:bloxy"
+				id: "47B8BC237E5F5CFB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6布洛克西"
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			icon: "mowziesmobs:sol_visage"
+			id: "3C3300BE8CE19188"
+			shape: "rsquare"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "016F9E3DF60DED8E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6太阳神鸟"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2BE60E22C7A19960"
+			shape: "rsquare"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "7E6142E6A515D21B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6霜冻巨兽"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			icon: "mowziesmobs:wrought_helmet"
+			id: "16E5C57EBD363EEA"
+			shape: "rsquare"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "5AE9664CB217CF19"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6钢铁守护者"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			icon: "macabre:gargamaw_heart"
+			id: "3A659016ABEBAF55"
+			shape: "rsquare"
+			tasks: [{
+				entity: "macabre:gargamaw"
+				id: "369DB38AAEFE1292"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6加尔加魔"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			icon: "macabre:morphegor_heart"
+			id: "2F0EF44B5A2CA5BE"
+			shape: "rsquare"
+			tasks: [{
+				entity: "macabre:morphegor"
+				id: "759E0A1D125B07F5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6摩斐尔"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			icon: "macabre:gomoria_heart"
+			id: "1EDD78AABC6EE461"
+			shape: "rsquare"
+			tasks: [{
+				entity: "bloxysstructures:mushroom_king"
+				id: "19404D493E907E65"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6戈莫里"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			icon: "macabre:valamon_heart"
+			id: "549B0B88A1EC8E6E"
+			shape: "rsquare"
+			tasks: [{
+				entity: "macabre:valamon"
+				id: "3C5D1EC4399B0DA8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6瓦拉蒙"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "iceandfire:siren_flute"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7C39BAB15A096B34"
+			shape: "rsquare"
+			tasks: [{
+				entity: "iceandfire:siren"
+				id: "69A6050A18F7965C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6塞壬"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "iceandfire:gorgon_head"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1064D06EC81EABE5"
+			shape: "rsquare"
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				id: "176BBC3FC705257E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6蛇发女妖"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			icon: "iceandfire:hydra_heart"
+			id: "617738548EB503F7"
+			shape: "rsquare"
+			tasks: [{
+				entity: "iceandfire:hydra"
+				id: "5C50EB5DDA48C76E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6九头蛇"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "iceandfire:deathworm_gauntlet_yellow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7C262AD9A5C1F48F"
+			shape: "square"
+			tasks: [{
+				entity: "iceandfire:deathworm"
+				id: "5D784CBA0CDB2D97"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6死亡蠕虫"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "iceandfire:cyclops_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B6341046BDE4365"
+			shape: "rsquare"
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				id: "4AEAB05BF2421290"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6独眼巨人"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			icon: "iceandfire:seaserpent_skull"
+			id: "3DF45488F1781B1F"
+			shape: "rsquare"
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				id: "256345CA5711AC11"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6海蟒"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			icon: "legendary_monsters:entity_warper"
+			id: "59381FD905D64083"
+			shape: "rsquare"
+			tasks: [{
+				entity: "legendary_monsters:warped_fungussus"
+				id: "7E1782DDCB4AEF09"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6诡异菌花兽"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "legendary_monsters:shulker_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4DF06247BCCAFE0F"
+			shape: "rsquare"
+			tasks: [{
+				entity: "legendary_monsters:shulker_mimic"
+				id: "211CAD8AD05D5992"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6潜影拟态者"
+			x: 24.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "legendary_monsters:chorus_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3D5CF306AD0CC2BB"
+			shape: "rsquare"
+			tasks: [{
+				entity: "legendary_monsters:endersent"
+				id: "647B17CDE7C33BCC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6末影遣使"
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "legendary_monsters:withered_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3974D89468924A5A"
+			shape: "rsquare"
+			tasks: [{
+				entity: "legendary_monsters:withered_abomination"
+				id: "53CB51DD08AF8B3E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6凋零恶煞"
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "legendary_monsters:dinosaur_bone_club"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E4B1767F7B5B9C1"
+			shape: "rsquare"
+			tasks: [{
+				entity: "legendary_monsters:skeletosaurus"
+				id: "55D16A966EBD333E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6骷髅龙兽"
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "legendary_monsters:knights_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "64F425B99667A33C"
+			shape: "rsquare"
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				id: "5E12B2E0FAA1FFC8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6被附身的圣骑士"
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "legendary_monsters:monstrous_anchor"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C1812ACD87473A5"
+			shape: "rsquare"
+			tasks: [{
+				entity: "legendary_monsters:ancient_guardian"
+				id: "6DA7837522DC76D6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6上古守卫者"
+			x: 16.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "legendary_monsters:fiery_jaw"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6C5DF648654B35F6"
+			shape: "square"
+			tasks: [{
+				entity: "legendary_monsters:lava_eater"
+				id: "20FD951AB5A0518D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6熔岩吞噬者"
+			x: 21.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "legendary_monsters:sand_cannon"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "031497B5A3249316"
+			shape: "rsquare"
+			tasks: [{
+				entity: "legendary_monsters:dune_sentinel"
+				id: "44C84EE47A653567"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6沙丘哨兵"
+			x: 22.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "legendary_monsters:mossy_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0A86ABE61DBC9A02"
+			shape: "rsquare"
+			tasks: [{
+				entity: "legendary_monsters:overgrown_colossus"
+				id: "0DDFA5A938C36F93"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6蔓生魔像"
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "legendary_monsters:the_great_frost"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5899A4C21D0456AA"
+			shape: "rsquare"
+			tasks: [{
+				entity: "legendary_monsters:frostbitten_golem"
+				id: "55BA886D2738C6C1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6霜冻傀儡"
+			x: 19.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "legendary_monsters:wand_of_clouds"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5A11315F2B3031E4"
+			shape: "rsquare"
+			tasks: [{
+				entity: "legendary_monsters:dark_cloud_golem"
+				id: "463730C2DBDC8DB0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6云傀儡"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			icon: "iceandfire:pixie_house_mushroom_red"
+			id: "07AE790457F9F276"
+			shape: "rsquare"
+			tasks: [{
+				entity: "bloxysstructures:mushroom_king"
+				id: "252091A6B504950F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6蘑菇王"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			icon: "eeeabsmobs:soul_summoning_necklace"
+			id: "6D28F228485A46E9"
+			shape: "rsquare"
+			tasks: [{
+				entity: "eeeabsmobs:corpse_warlock"
+				id: "6785A68AB2FCDEC8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6死尸术士"
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:demolisher"
+				tag: {
+					Damage: 0
+					accumulatedTime: 4136760L
+					lastTime: 9223372036854775807L
+				}
+			}
+			id: "631445428095F1E8"
+			shape: "rsquare"
+			tasks: [{
+				entity: "eeeabsmobs:guling_sentinel_heavy"
+				id: "388C0BF31A8C7BB4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6古陵哨兵-重型"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			icon: "macabre:skull"
+			id: "0CD8EB6E373486D1"
+			shape: "rsquare"
+			tasks: [{
+				entity: "macabre:the_hollow_man"
+				id: "7AD0A59E39C41699"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6空心人"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "the_awakening_of_the_elder_souls:impenetrable_guard_of_the_moon_right"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6E35DA85C904C7B2"
+			shape: "rsquare"
+			tasks: [{
+				entity: "the_awakening_of_the_elder_souls:hero_of_the_lunar_homeland"
+				id: "2091C3D3C362B4A5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6月球家园英雄"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "the_awakening_of_the_elder_souls:the_eclipse"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "326A638183D656F7"
+			shape: "rsquare"
+			tasks: [{
+				entity: "the_awakening_of_the_elder_souls:the_guardian_of_the_eclipse"
+				id: "126F3EF9B3D3AC7F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6日食守护者"
+			x: 28.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "the_awakening_of_the_elder_souls:the_sacred_sun_head"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1CADEC5306846887"
+			shape: "square"
+			tasks: [{
+				entity: "the_awakening_of_the_elder_souls:the_sacred_sun_protector"
+				id: "040E38113C0C3C81"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6神圣太阳守护者"
+			x: 30.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "the_awakening_of_the_elder_souls:the_eyeof_the_nightfall"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "09B95BF03448F6DF"
+			shape: "rsquare"
+			tasks: [{
+				entity: "the_awakening_of_the_elder_souls:the_light_of_the_nightfall"
+				id: "64C6B955AD55BD1A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6黄昏之光"
+			x: 31.5d
+			y: -2.5d
+		}
+		{
+			icon: "the_awakening_of_the_elder_souls:flaming_justice_symbol"
+			id: "5E3997B8C1320E23"
+			shape: "rsquare"
+			tasks: [{
+				entity: "the_awakening_of_the_elder_souls:general_of_the_solar_homeland"
+				id: "77181C66A1F349B1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6太阳故乡将军"
+			x: 33.0d
+			y: -2.5d
+		}
+		{
+			icon: "the_awakening_of_the_elder_souls:rust_blade"
+			id: "654E2521DD87812C"
+			shape: "rsquare"
+			tasks: [{
+				entity: "the_awakening_of_the_elder_souls:the_elder_machine_god"
+				id: "3AAA19AAD7B62204"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6古老机械神"
+			x: 34.5d
+			y: -2.5d
+		}
+		{
+			icon: "the_awakening_of_the_elder_souls:infernal_glove_right"
+			id: "768579AA1EE6E48F"
+			shape: "rsquare"
+			tasks: [{
+				entity: "the_awakening_of_the_elder_souls:king_of_the_infernal_octagon"
+				id: "13A7CDFBAE4D1A18"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6地狱八角之王"
+			x: 36.0d
+			y: -2.5d
+		}
+		{
+			icon: "the_awakening_of_the_elder_souls:the_baronof_dragons_heart"
+			id: "7B2BE98A6B912E41"
+			shape: "rsquare"
+			tasks: [{
+				entity: "the_awakening_of_the_elder_souls:the_baron_of_dragons"
+				id: "7352457981F71F1F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6龙之男爵"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			icon: "born_in_chaos_v1:fel_lamp"
+			id: "1A9190A00AD95259"
+			shape: "rsquare"
+			tasks: [{
+				entity: "born_in_chaos_v1:sir_pumpkinhead"
+				id: "119AAF207233F92E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6南瓜伯爵"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:pumpkinhandgun"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7DDF640F992EF387"
+			shape: "rsquare"
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead"
+				id: "04A77DE8CCA5BF06"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6南瓜领主"
+			x: 28.5d
+			y: -0.5d
+		}
+		{
+			icon: "born_in_chaos_v1:krampus_horn"
+			id: "63BD1FB2FB46C036"
+			shape: "rsquare"
+			tasks: [{
+				entity: "born_in_chaos_v1:krampus"
+				id: "1F604C6A5C94C92D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6克朗普斯"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			icon: "goety:jade"
+			id: "18ACB834461B4C0D"
+			shape: "rsquare"
+			tasks: [{
+				entity: "corundumguardian:corundum_guardian"
+				id: "201229E99E81C5E2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6刚玉守护者"
+			x: 30.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "cardinal_sins:scytheofsloth"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4FADCAED5FD829D4"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cardinal_sins:linneausofsloth"
+				id: "21AA1C58D8763A32"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6懒惰"
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "cardinal_sins:greataxeofgluttony"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "471F9FD3FFE308FE"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cardinal_sins:sinofgluttony"
+				id: "719030D48ECD605C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6暴食"
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "cardinal_sins:spearoflust"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B682D8881E28005"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cardinal_sins:sinoflust"
+				id: "0339ED984B0D4413"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6欲望"
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "cardinal_sins:daggerofgreed"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7FF951134E766EA8"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cardinal_sins:sinofgreed"
+				id: "1B853568DE5D36C4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6贪婪"
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "cardinal_sins:sickleofenvy"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "20F28BA43E6F1735"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cardinal_sins:sinofenvyphase_1"
+				id: "0052C6F0EAD5571D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6嫉妒"
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "cardinal_sins:greatswordofwrath"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0C4A849814270C73"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cardinal_sins:sinofwrathphase_1"
+				id: "67020F125964113D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6愤怒"
+			x: 18.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "cardinal_sins:halberdofpride"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "38BA9B4B285E7835"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cardinal_sins:sinofpridephase_1"
+				id: "315E9D8DD2D414C4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6傲慢"
+			x: 19.5d
+			y: -0.5d
+		}
+		{
+			icon: "mokels_bossfight_saphyra:nameless_gatekeeper_remembrance"
+			id: "4164498C237D060F"
+			shape: "rsquare"
+			tasks: [{
+				entity: "mokels_bossfight_saphyra:nameless"
+				id: "3580B76A8C28C664"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6无名守门人"
+			x: 21.0d
+			y: -0.5d
+		}
+		{
+			icon: "alexscaves:twilight_anemone"
+			id: "7021F54438E049B6"
+			shape: "rsquare"
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				id: "3F0A256852A4BC1B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6碎船兽"
+			x: 22.5d
+			y: -0.5d
+		}
+		{
+			icon: "alexscaves:shot_gum"
+			id: "53A5105C2DF1F54E"
+			shape: "rsquare"
+			tasks: [{
+				entity: "alexscaves:gum_worm"
+				id: "1DFAB6C653A2552D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6口香糖蠕虫"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			icon: "alexscaves:pure_darkness"
+			id: "1FA8784B19EDF270"
+			shape: "rsquare"
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				id: "5FB2C9613A1A345C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6遗弃者"
+			x: 24.0d
+			y: -0.5d
+		}
+		{
+			icon: "bosses_of_mass_destruction:void_lily"
+			id: "630F3DB5B71EEFA7"
+			shape: "rsquare"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				id: "301F9A20402CBBDF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6虚空之花"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "2CE123B9B5C894AF"
+			shape: "rsquare"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "14B5EDBBF84E07C1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6黑曜石柱"
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "6D9A1BFCD4EFA7B6"
+			shape: "rsquare"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "6F924E71EDAEA8CA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6下界铁掌"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			icon: "bosses_of_mass_destruction:ancient_anima"
+			id: "0EC548923DDA54B6"
+			shape: "rsquare"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				id: "4810CD45D571BFF6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6暗夜巫妖"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			icon: "terramity:belt_of_the_gnome_king"
+			id: "20CED70F675CAA0F"
+			shape: "rsquare"
+			tasks: [{
+				entity: "terramity:gob"
+				id: "7CCA06192B8BB23C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6矮人之王"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			icon: "terramity:music_sheet_of_the_trial_guardian"
+			id: "1B2BA8B117CB208C"
+			shape: "rsquare"
+			tasks: [{
+				entity: "terramity:trial_guardian"
+				id: "69255AB9DCA8DAD9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6试炼守护者"
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			icon: "terramity:ultra_sniffer_fur"
+			id: "1072C14438BBBED8"
+			shape: "rsquare"
+			tasks: [{
+				entity: "terramity:super_sniffer"
+				id: "16E1D7FB4D5D94E7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6超级嗅探兽"
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			description: [""]
+			icon: "terramity:tome_of_ascension"
+			id: "3C900929374B4622"
+			shape: "rsquare"
+			tasks: [
+				{
+					entity: "terramity:enchanter_merlin"
+					id: "0D266D28DAA37430"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "terramity:sorceress_circe"
+					id: "3C9A2C433CDF2CF5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6法师梅林与女巫喀耳刻"
+			x: 21.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:netherite_mage_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "338B279E9D978DE1"
+			shape: "rsquare"
+			tasks: [{
+				entity: "terramity:gundalf"
+				id: "09E208CD8DE3C111"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6大魔导师"
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "cardinal_sins:holydemonicsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3361ECF3440F1AED"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cardinal_sins:lucifer"
+				id: "42B5B8BAF4CF3A81"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6路西法"
+			x: 27.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "animatedmobsmod:ender_spectre"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "63D4A8B3AAF4CAF2"
+			shape: "rsquare"
+			tasks: [{
+				entity: "animatedmobsmod:ender_king"
+				id: "1EE44350FF7AF47A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6末影之王"
+			x: 27.0d
+			y: -0.5d
+		}
+		{
+			icon: "torchesbecomesunlight:winter_pass"
+			id: "6DB9966B0CCCF526"
+			shape: "rsquare"
+			tasks: [{
+				entity: "torchesbecomesunlight:frost_nova"
+				id: "2D6C209C4570BD4C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6霜星"
+			x: 37.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "torchesbecomesunlight:halberd"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6C6DCE7FBFB2FC74"
+			shape: "rsquare"
+			tasks: [{
+				entity: "torchesbecomesunlight:patriot"
+				id: "2748D77D7C535BE3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6爱国者"
+			x: 39.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "torchesbecomesunlight:ursus_machete"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "672B886C269EA177"
+			shape: "rsquare"
+			tasks: [{
+				entity: "torchesbecomesunlight:pursuer"
+				id: "7F932774D6080D42"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6皇帝的利刃"
+			x: 40.5d
+			y: -2.5d
+		}
+		{
+			icon: "torchesbecomesunlight:blessing_of_sami"
+			id: "0D920237295BF054"
+			shape: "rsquare"
+			tasks: [{
+				entity: "torchesbecomesunlight:rosmontis"
+				id: "2FF006D1800B9DD0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6迷迭香"
+			x: 42.0d
+			y: -2.5d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "terramity:hellrok_gigaton_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5EB51B7E510C53ED"
+			shape: "rsquare"
+			tasks: [{
+				entity: "terramity:hellrok"
+				id: "0C49854980061D05"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6地狱洛克"
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			icon: "terramity:archangel_halo"
+			id: "4E19F29EBCDF68D1"
+			shape: "rsquare"
+			tasks: [{
+				entity: "terramity:virtue"
+				id: "0390A154BDF05B06"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6德天使"
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			icon: "goety:soul_ruby"
+			id: "1B4885BA2DCEDEE8"
+			shape: "rsquare"
+			tasks: [{
+				entity: "goety:vizier"
+				id: "13CD42BD2BFC1564"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6灾厄宰相"
+			x: 25.5d
+			y: -4.5d
+		}
+		{
+			icon: "cataclysm:storm_eye"
+			id: "49F44122960C5626"
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "1D110CE1B1E34E81"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6斯库拉"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			icon: "goety_spillage:misconducted_soul"
+			id: "1A754AE867705402"
+			shape: "rsquare"
+			tasks: [{
+				entity: "goety:minister"
+				id: "4148FE27593272AF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6灾厄教父"
+			x: 24.0d
+			y: -4.5d
+		}
+		{
+			icon: "eeeabsmobs:immortal_staff"
+			id: "6BF9728D27F10154"
+			shape: "rsquare"
+			tasks: [{
+				entity: "eeeabsmobs:immortal_shaman"
+				id: "192ED3135A9547EB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6不朽巫师"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:immortal_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D0536BB8D81B241"
+			shape: "rsquare"
+			tasks: [{
+				entity: "eeeabsmobs:immortal_executioner"
+				id: "117751CD9D24A893"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6不朽斩魂者"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "torchesbecomesunlight:gun"
+				tag: { }
+			}
+			id: "7C2E6B118D63C6B2"
+			shape: "rsquare"
+			tasks: [{
+				entity: "torchesbecomesunlight:gun_knight_patriot"
+				id: "07437B5E4BE4BFB4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6博卓卡斯替"
+			x: 43.5d
+			y: -2.5d
+		}
+		{
+			icon: "arkane_domains:fragmented_totem"
+			id: "7FC28AB77A8021A0"
+			shape: "rsquare"
+			tasks: [{
+				entity: "arkane_domains:dark_shaman"
+				id: "5713D6C376B6F874"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6黑暗萨满"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			icon: "hellstone_golem:hellstone_imp_spawn_egg"
+			id: "38B5F4E87B5FFD87"
+			shape: "rsquare"
+			tasks: [{
+				entity: "hellstone_golem:hellstone_golem"
+				id: "35AD6DCCEF85FB32"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6狱岩魔像"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			icon: "arkane_domains:scaranb_of_rebirth"
+			id: "399B84756ABE7224"
+			shape: "rsquare"
+			tasks: [{
+				entity: "arkane_domains:cursed_pharaoh"
+				id: "4E771067439B9BF4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6诅咒法老"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			icon: "mythsandlegends:soulbinder_amulet"
+			id: "052A5CA2BBC3C2F3"
+			shape: "rsquare"
+			tasks: [{
+				entity: "mythsandlegends:black_charro"
+				id: "6320B3725636C854"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6黑色查罗"
+			x: 21.0d
+			y: 1.5d
+		}
+	]
+	title: "&6BOSS排名"
+}

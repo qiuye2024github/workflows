@@ -1,0 +1,4590 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "285A9E4F57C24697"
+	group: ""
+	icon: "apotheosis:weapon_tome"
+	id: "285A9E4F57C24697"
+	images: [{
+		height: 55.0d
+		image: "enigmaticlegacy:textures/unused/embellished_book.png"
+		rotation: 0.0d
+		width: 55.0d
+		x: 5.0d
+		y: 6.0d
+	}]
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1448CAAB45B95220"
+			rewards: [{
+				id: "611B4B8BAB57C413"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0A406861AEDF0438"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 108.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-1183307841
+										-338739000
+										-1853417387
+										-633332320
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":80}]"
+							heavy: 108.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "iceandfire:dragonsteel_fire_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&e龙炎钢剑"
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			id: "20968DBF229D5AC0"
+			rewards: [{
+				id: "2B6B11CAD3882749"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "681066162E3A2168"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 108.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-1272409905
+										803227595
+										-1399041823
+										1413192252
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":80}]"
+							heavy: 108.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "iceandfire:dragonsteel_ice_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&e龙霜钢剑"
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			id: "1F16FFCF6C938E7D"
+			rewards: [{
+				id: "617DD83DAD109C53"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "18D999ECF22529CA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 108.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-382703855
+										21188133
+										-1391863493
+										1577436540
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":80}]"
+							heavy: 108.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "iceandfire:dragonsteel_lightning_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&e龙霆钢剑"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			id: "5315ED5E732D6E4E"
+			rewards: [{
+				id: "705A3CBA97644BB3"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B76D1D3542F61B8"
+				item: {
+					Count: 1
+					id: "eeeabsmobs:netherworld_katana"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 100
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.3d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·黯雷炼狱太刀\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			id: "2557781AC81C4D4A"
+			rewards: [{
+				id: "4EAAFA82D44B5C18"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4D0BD8DA82C7476A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 108.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										1609496812
+										1676233009
+										-1982042437
+										1027595794
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":80}]"
+							heavy: 108.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "jinghui:ruyijingubang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&e如意金箍棒"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			id: "70F53766F42FEF7E"
+			rewards: [{
+				id: "47E9D20CE5787FD3"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "16530A30FF4CBA6F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 128.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-297509737
+										-489733382
+										-1126627043
+										-324768953
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":80}]"
+							heavy: 128.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "jinghui:sjq"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&e三尖两刃枪"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			description: [""]
+			id: "1BB8EDC2E5AD4B60"
+			rewards: [{
+				id: "01ECF08B1317BDA3"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1C3563928173E362"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 108.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-1303152539
+										-951300139
+										-1712846565
+										892302587
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":80}]"
+							heavy: 108.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "iceandfire:dread_queen_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&e悚怖女皇魔剑"
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			id: "79EF4E9F7D3D4640"
+			rewards: [{
+				id: "7D7BE2942ECE757B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "539965ABC6A49122"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_sword"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 68
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.3d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·以太阔剑\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			id: "61B99F5FEDADF2E0"
+			rewards: [{
+				id: "25A1D7CCE9684208"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "35077C78A448E734"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 118.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										1149392242
+										1146244431
+										-1507103477
+										-868576931
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":80}]"
+							heavy: 118.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "iceandfire:dragonsteel_fire_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6龙炎钢斧"
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			id: "089D4613EC616FF3"
+			rewards: [{
+				id: "0AF381A6F6D5C4B6"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "583D1B6520CB2C25"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 118.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-1447808238
+										1631995910
+										-1761338503
+										827488875
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":80}]"
+							heavy: 118.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "iceandfire:dragonsteel_ice_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&e龙霜钢斧"
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			id: "5AC0A82CFF0D643A"
+			rewards: [{
+				id: "52A20251EF6CF91A"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "25616E1CA20CDA20"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 118.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-835977348
+										-1641790542
+										-1984325928
+										1941626872
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":80}]"
+							heavy: 118.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "iceandfire:dragonsteel_lightning_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&e龙霆钢斧"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			id: "2C1C267CA9A373F3"
+			rewards: [{
+				id: "227C8FAA00F91408"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6420123C4A2761CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 68.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-882989966
+										732317579
+										-1164387972
+										1879527889
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":80}]"
+							heavy: 68.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "eeeabsmobs:guardian_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&e守卫者战斧"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "446B2F23EB49C6F3"
+			rewards: [{
+				id: "4E029640BEBB3042"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4298CDFFD6720BB6"
+				item: {
+					Count: 1
+					id: "cataclysm:the_incinerator"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 100
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·炎葬\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "369AACFDC444DC1D"
+			rewards: [{
+				id: "7123290827CADCFD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "4AB458573A1CC6E7"
+				title: "&6特殊武器"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "32E1377DAA0A7A30"
+			rewards: [{
+				id: "2128EF0EBD14754F"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "181685383F07074A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 24.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										2107608106
+										-1176548399
+										-2000989764
+										249505616
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":30}]"
+							heavy: 24.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:enigma"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			id: "157816503E0E5C19"
+			rewards: [{
+				id: "0AD5BA337E6B62BF"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "369316EBBD78625C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 10.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-695124482
+										-664452162
+										-1486236191
+										1486748468
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":12}]"
+							heavy: 10.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:emberlash"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			id: "6CCCCAEA3F87FF09"
+			rewards: [{
+				id: "6ECCAA897025C9D9"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "110DCDEE34362C78"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 18.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										1635616720
+										1055280713
+										-1262914430
+										1561101826
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":22}]"
+							heavy: 18.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:soulrender"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "286CCA9E78153989"
+			rewards: [{
+				id: "1DC99441919A0EA9"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "528996ADBE736354"
+				item: {
+					Count: 1
+					id: "cataclysm:soul_render"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 68
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·断魂战戟\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			id: "7E1ABB0C00143386"
+			rewards: [{
+				id: "3294C9BDE6EB05DE"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3FFE5EF3BE07CCF1"
+				item: {
+					Count: 1
+					id: "cataclysm:the_annihilator"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 70
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·歼灭战锤\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			id: "29C068208D20FFC6"
+			rewards: [{
+				id: "5DED1E1B8DA584F7"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0A8ECA96E7249DBA"
+				item: {
+					Count: 1
+					id: "cataclysm:cursed_bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 60
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									1
+								]
+							}
+							{
+								Amount: 0.2d
+								AttributeName: "generic.movement_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									2
+								]
+							}
+							{
+								Amount: 14
+								AttributeName: "generic.max_health"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									3
+								]
+							}
+							{
+								Amount: 10
+								AttributeName: "generic.armor"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									4
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.armor_toughness"
+								Operation: 0
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									5
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1
+									0
+									0
+									6
+								]
+							}
+							{
+								Amount: 0.5d
+								AttributeName: "generic.attack_speed"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									1
+									0
+									0
+									7
+								]
+							}
+						]
+						Unbreakable: 1
+						affix_data: {
+							sockets: 1
+						}
+						display: {
+							Name: "{\"text\":\"真·咒魂弓\",\"color\":\"dark_red\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			id: "203EDF24935B4125"
+			rewards: [{
+				id: "64E17E2B45230C5D"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "542F2BB8FB1F336A"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			title: "&e凋零突击炮"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			description: [""]
+			id: "1C2DE70570A03461"
+			rewards: [{
+				id: "69D385C394108ECD"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0533C0106EC9A8B9"
+				item: {
+					Count: 1
+					id: "cataclysm:gauntlet_of_guard"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 62
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·守卫者护手\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: [""]
+			id: "7D94223CF9C96A67"
+			rewards: [{
+				id: "3FE5CBA8F21C1724"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "33557F87CD5544FE"
+				item: {
+					Count: 1
+					id: "goety:death_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6死神之镰"
+			x: 9.0d
+			y: 25.0d
+		}
+		{
+			id: "10AEEB3711A5F648"
+			rewards: [{
+				id: "109B6BA0303A84D2"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0C18F7A1A9DA6743"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 26.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-571030787
+										-2082976182
+										-1820479284
+										-1324544978
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":32}]"
+							heavy: 26.0d
+							recordPunishmentAttributeModifier: {
+								attack_damage: {
+									Amount: -0.9d
+									Name: ""
+									Operation: 2
+									UUID: [I;
+										13778745
+										-2092019979
+										-1801876447
+										754203973
+									]
+								}
+								attack_speed: {
+									Amount: -0.9d
+									Name: ""
+									Operation: 2
+									UUID: [I;
+										1236769832
+										2096974159
+										-2147057347
+										-1023350694
+									]
+								}
+								ranged_damage: {
+									Amount: -0.9d
+									Name: ""
+									Operation: 2
+									UUID: [I;
+										-1835068616
+										1458258782
+										-1363506799
+										64733578
+									]
+								}
+							}
+						}
+					}
+					id: "simplyswords:hearthflame"
+					tag: {
+						Damage: 0
+						itemModifier: "modifiers:swift"
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			id: "39B9EA8AE4FFACE6"
+			rewards: [{
+				id: "6FB27387CC593053"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "70ADC32EB55CE1F8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 16.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										266244571
+										-1929361069
+										-1972625724
+										-305660135
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":20}]"
+							heavy: 16.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:emberblade"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			id: "70647EC79BAF65EF"
+			rewards: [{
+				id: "350225925D53C142"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7A250C5453FB8FC6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 16.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										1978837427
+										-34324245
+										-1695195768
+										-1793568236
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":20}]"
+							heavy: 16.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:storms_edge"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			id: "2EA38B1D3FE411FF"
+			rewards: [{
+				id: "1CEC3F350067AB64"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1226C062C1236BB7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 22.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-952770662
+										1571832073
+										-1920621174
+										1256735502
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":27}]"
+							heavy: 22.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:waxweaver"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 17.0d
+		}
+		{
+			id: "2F86E3FEC16CA1B7"
+			rewards: [{
+				id: "257335C1FC1CAFAC"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4D53CFEFBEBAFBCB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 16.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										1451429016
+										1276199619
+										-1244707715
+										-1597457509
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":20}]"
+							heavy: 16.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:sunfire"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 19.0d
+		}
+		{
+			id: "1B4656CC3A1585CB"
+			rewards: [{
+				id: "5060A96293482385"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "534B04ACB10E2757"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 16.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										100807373
+										1647986892
+										-1424725675
+										2088338441
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":20}]"
+							heavy: 16.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:watching_warglaive"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 15.0d
+		}
+		{
+			id: "557560CD45454E52"
+			rewards: [{
+				id: "55C66CE8C1CC64AC"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6C8F8620B7A31AB4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 22.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										1040517304
+										1798916991
+										-1476543665
+										1950830686
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":27}]"
+							heavy: 22.0d
+							recordPunishmentAttributeModifier: {
+								attack_damage: {
+									Amount: -0.9d
+									Name: ""
+									Operation: 2
+									UUID: [I;
+										-2070184301
+										638666256
+										-1656762458
+										1653743465
+									]
+								}
+								attack_speed: {
+									Amount: -0.9d
+									Name: ""
+									Operation: 2
+									UUID: [I;
+										-116385361
+										1955676401
+										-2007060906
+										986533350
+									]
+								}
+								ranged_damage: {
+									Amount: -0.9d
+									Name: ""
+									Operation: 2
+									UUID: [I;
+										1359151177
+										-1427681999
+										-1118860508
+										-1029343483
+									]
+								}
+							}
+						}
+					}
+					id: "simplyswords:brimstone_claymore"
+					tag: {
+						Damage: 0
+						itemModifier: "modifiers:vicious"
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 17.0d
+		}
+		{
+			id: "796BC4F3AFAA1A8A"
+			rewards: [{
+				id: "366354F0486D7B1D"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1D06BE7B205F43B4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 16.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										904697402
+										-606125352
+										-1429823207
+										-1279307975
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":20}]"
+							heavy: 16.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:stormbringer"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 15.0d
+		}
+		{
+			id: "766BFE3214B79D2B"
+			rewards: [{
+				id: "7EBC6AA4E2D8A823"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "34EAD72E848CE666"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 16.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										1075599762
+										-1540667596
+										-1464061976
+										-902566439
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":20}]"
+							heavy: 16.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:toxic_longsword"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			id: "053E9D48E49F0ACC"
+			rewards: [{
+				id: "645987E6569F9AA6"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "62A903C4AA81D49A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 16.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-484147848
+										-126204886
+										-2030560635
+										2058287531
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":20}]"
+							heavy: 16.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:tainted_relic"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 19.0d
+		}
+		{
+			id: "1C84EBF1EC06E4A0"
+			rewards: [{
+				id: "4CA836EC071E3624"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4947115E05E82D03"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 18.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-715292251
+										-593605220
+										-1473736930
+										614192288
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":22}]"
+							heavy: 18.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:wickpiercer"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			id: "61F9E29C52ED992E"
+			rewards: [{
+				id: "5FF37242E00EA9BC"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1C94BFC9CF45F3D1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 16.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-1774795531
+										-555201373
+										-2133595385
+										-1552054636
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":20}]"
+							heavy: 16.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:whisperwind"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			id: "38CFD695D8485791"
+			rewards: [{
+				id: "7D4532D92331384A"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4B0ABAC8B680AC13"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 24.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										960852868
+										-103659892
+										-1280733636
+										-195352593
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":30}]"
+							heavy: 24.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:slumbering_lichblade"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			id: "06FCADD961A61FEC"
+			rewards: [{
+				id: "6122A88FFEE267FC"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2666F40757DCD46A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 22.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										788501119
+										294864043
+										-1494897692
+										481035617
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":27}]"
+							heavy: 22.0d
+							recordPunishmentAttributeModifier: {
+								attack_damage: {
+									Amount: -0.9d
+									Name: ""
+									Operation: 2
+									UUID: [I;
+										1078055874
+										-470790598
+										-1499258665
+										1922557502
+									]
+								}
+								attack_speed: {
+									Amount: -0.9d
+									Name: ""
+									Operation: 2
+									UUID: [I;
+										1861970583
+										1161512142
+										-1763614759
+										1054734209
+									]
+								}
+								ranged_damage: {
+									Amount: -0.9d
+									Name: ""
+									Operation: 2
+									UUID: [I;
+										1442533843
+										1303265292
+										-1988698468
+										-830839592
+									]
+								}
+							}
+						}
+					}
+					id: "simplyswords:watcher_claymore"
+					tag: {
+						Damage: 0
+						itemModifier: "modifiers:damaged"
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			id: "6053D4E8731CA219"
+			rewards: [{
+				id: "5F8A16A91C1D3D7F"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4591B3B925BA443B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 24.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-1658272585
+										846940490
+										-1540195555
+										2085242546
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":30}]"
+							heavy: 24.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:waking_lichblade"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			id: "61DC27607529AC34"
+			rewards: [{
+				id: "4C49F7E6F5FBF19E"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3035E8795366344A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 16.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-1830006406
+										-848279659
+										-1935903090
+										801982929
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":20}]"
+							heavy: 16.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:stars_edge"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			id: "74CF1FEFCD9F3667"
+			rewards: [{
+				id: "0B26247F33E3CDE8"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7096CCF621DBAFD5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 24.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-936786954
+										-1328591964
+										-1765595766
+										-866209601
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":30}]"
+							heavy: 24.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:hiveheart"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			id: "3FF1F037D4C6218F"
+			rewards: [{
+				id: "0D5808E8B0F3925F"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1005D8ED2F1B280B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 24.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										748861073
+										-1637725794
+										-1602891264
+										-1278064373
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":30}]"
+							heavy: 24.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:awakened_lichblade"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			id: "6310A3C9D524D179"
+			rewards: [{
+				id: "59FB1A53D91186C4"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2773F5D37665C7A4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 16.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-1316780192
+										869354363
+										-1306382009
+										-1968592652
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":20}]"
+							heavy: 16.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:dormant_relic"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 17.0d
+		}
+		{
+			id: "4DB84337F17FC751"
+			rewards: [{
+				id: "4438A70C3365CF20"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "061B5E81D03FFC9C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 16.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-116739644
+										939477563
+										-1274163143
+										366667236
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":20}]"
+							heavy: 16.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:righteous_relic"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 17.0d
+		}
+		{
+			id: "3530581A356C0EB4"
+			rewards: [{
+				id: "2F89BB1496FD75CF"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1606EC986B096721"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 16.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										697000023
+										-113752577
+										-1976779110
+										1174786823
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":20}]"
+							heavy: 16.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:harbinger"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 19.0d
+		}
+		{
+			id: "10A00D6F9A08635B"
+			rewards: [{
+				id: "65B02CFD668B3119"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "123F77DFDD2C1397"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 6.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										1805009503
+										871907578
+										-1775063278
+										-286311851
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":7}]"
+							heavy: 6.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:shadowsting"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.0d
+		}
+		{
+			id: "34909AD9396DC9ED"
+			rewards: [{
+				id: "3D52F1F69CF521C9"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3918E868689D9A8C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 24.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										1829152389
+										443174492
+										-1972413892
+										-787770279
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":30}]"
+							heavy: 24.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:soulpyre"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			id: "59CF004F51F62F99"
+			rewards: [{
+				id: "21860235D9F9E93B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "75DC12C90FC3DEF7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 18.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-1026912554
+										1412580327
+										-1725860707
+										-1560732317
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":22}]"
+							heavy: 18.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:molten_edge"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			id: "7BF3DC7E428DE581"
+			rewards: [{
+				id: "293B5F7E0B8B493C"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "361F5DE0060EB0C6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 20.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										1784886941
+										-99924050
+										-1915770769
+										-370025562
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":25}]"
+							heavy: 20.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:frostfall"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			id: "18A2D23068A1A34D"
+			rewards: [{
+				id: "10D565DB5D1DD7E6"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "42F71888744A5F85"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 18.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-1402961416
+										-1248770590
+										-1508080508
+										-1116109920
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":22}]"
+							heavy: 18.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:livyatan"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			id: "767A30B45DE7CF24"
+			rewards: [{
+				id: "7E2E741AFBA11F90"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "55391D81F9031B1F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 16.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-408871314
+										1562331548
+										-1471136066
+										1049605569
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":20}]"
+							heavy: 16.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:mjolnir"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			id: "37DFC1E56243BF23"
+			rewards: [{
+				id: "387702D9330DC4CD"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1ACA78BA23F88019"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 24.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										441302275
+										34556247
+										-1748151977
+										-270375947
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":30}]"
+							heavy: 24.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:icewhisper"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			id: "3A808756B48681AB"
+			rewards: [{
+				id: "356200F960F2433D"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "22D60D3885BCEC8E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 24.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										784904781
+										-439006214
+										-1340866816
+										1814135993
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":30}]"
+							heavy: 24.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:arcanethyst"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			id: "2D05F3E5889D8E6D"
+			rewards: [{
+				id: "4DAD0941176AD326"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7270EA088F0C461B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 24.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-709788464
+										1692159142
+										-1908645645
+										-1303348569
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":30}]"
+							heavy: 24.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:thunderbrand"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			id: "16D20A012425ECDA"
+			rewards: [{
+				id: "0C67FD2814FB5CE1"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2F2A1F270F73AFAD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 10.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-1868929583
+										-63878498
+										-1100043234
+										1927445078
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":12}]"
+							heavy: 10.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:soulstealer"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			id: "23273C601CAEF9CF"
+			rewards: [{
+				id: "5BCEC8E1C5297E15"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2E3F4183DAAEC015"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 18.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										572791507
+										-2004729822
+										-1342234850
+										1741326658
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":22}]"
+							heavy: 18.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:twisted_blade"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 15.0d
+		}
+		{
+			id: "28659BA5EE745EC6"
+			rewards: [{
+				id: "5A477BF3381BE29B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "58DAE395F743EC2E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 26.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-1883823835
+										134564798
+										-1347571919
+										-1636027103
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":32}]"
+							heavy: 26.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:soulkeeper"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			id: "078E014BDC9AD97D"
+			rewards: [{
+				id: "261FF6D9183E56A5"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0629D09118F87AE1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 22.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										686531804
+										1370244410
+										-1986339469
+										818716159
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":27}]"
+							heavy: 22.0d
+							recordPunishmentAttributeModifier: {
+								attack_damage: {
+									Amount: -0.9d
+									Name: ""
+									Operation: 2
+									UUID: [I;
+										-2085960433
+										-1279834831
+										-1186294006
+										-142277463
+									]
+								}
+								attack_speed: {
+									Amount: -0.9d
+									Name: ""
+									Operation: 2
+									UUID: [I;
+										-43120538
+										1194738848
+										-1535018785
+										-1885210167
+									]
+								}
+								ranged_damage: {
+									Amount: -0.9d
+									Name: ""
+									Operation: 2
+									UUID: [I;
+										1956826816
+										245124445
+										-1716331220
+										794389965
+									]
+								}
+							}
+						}
+					}
+					id: "simplyswords:caelestis"
+					tag: {
+						Damage: 0
+						itemModifier: "modifiers:damaged"
+						nether_power: "no_socket"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			id: "5F6422DE6AA94193"
+			rewards: [{
+				id: "033BB3E289E9ACC4"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "720A2DFF379ACB97"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 16.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										847753523
+										-1408350785
+										-1622072138
+										718553062
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":20}]"
+							heavy: 16.0d
+							recordPunishmentAttributeModifier: {
+								attack_damage: {
+									Amount: -0.9d
+									Name: ""
+									Operation: 2
+									UUID: [I;
+										-1554464817
+										157828341
+										-1681472874
+										-1486572743
+									]
+								}
+								attack_speed: {
+									Amount: -0.9d
+									Name: ""
+									Operation: 2
+									UUID: [I;
+										-1286255383
+										279924363
+										-1999776674
+										1639585220
+									]
+								}
+								ranged_damage: {
+									Amount: -0.9d
+									Name: ""
+									Operation: 2
+									UUID: [I;
+										-52676636
+										1271416363
+										-1866199794
+										-571879968
+									]
+								}
+							}
+						}
+					}
+					id: "simplyswords:magiblade"
+					tag: {
+						Damage: 0
+						itemModifier: "modifiers:vicious"
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			id: "2765E92C184BB006"
+			rewards: [{
+				id: "1C0B9A2F988D923B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "14F6081EE9446374"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 18.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										1557827298
+										41042709
+										-1717183180
+										1670416042
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":22}]"
+							heavy: 18.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:magispear"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			id: "37A8165E3CC27A1A"
+			rewards: [{
+				id: "4128697BDE9D53A3"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "078CA8A0FFB47323"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 18.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-1806045996
+										810568763
+										-1720631925
+										11238134
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":22}]"
+							heavy: 18.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:decaying_relic"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.0d
+		}
+		{
+			id: "1D0D78DAD7BAFA8F"
+			rewards: [{
+				id: "7FE024CD2AAA5352"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6FA87BCAFC0C77B2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 18.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										1825592814
+										777929700
+										-1246380177
+										-1433086098
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":22}]"
+							heavy: 18.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:magiscythe"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.0d
+		}
+		{
+			id: "61FAA046BDEB9169"
+			rewards: [{
+				id: "7CFAE316A3F0E8B6"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3631EC5092D7589E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 24.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-654537499
+										309281625
+										-1330453165
+										910748479
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":30}]"
+							heavy: 24.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:ribboncleaver"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 17.0d
+		}
+		{
+			id: "6A4B40DC1AB752A9"
+			rewards: [{
+				id: "5D50CDEB29964738"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "772D608F26733C2F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 16.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										194214608
+										1584284316
+										-1080125408
+										1865436143
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":20}]"
+							heavy: 16.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:flamewind"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			id: "4171745BF69698CE"
+			rewards: [{
+				id: "09EE2CEF72D61E43"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7D739C819CD64AC1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 10.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										-1963335316
+										839011477
+										-1516133303
+										1474629258
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":12}]"
+							heavy: 10.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:tempest"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 17.0d
+		}
+		{
+			id: "6485EFBCAE823B1D"
+			rewards: [{
+				id: "522A77790B635910"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6E83BF0E547688C0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"lhmiracleroad:punishment_cap": {
+							attribute: {
+								heavy: {
+									Amount: 16.0d
+									Name: ""
+									Operation: 0
+									UUID: [I;
+										1683243183
+										682574382
+										-1427642690
+										-1404580107
+									]
+								}
+							}
+							attributeNeed: "[{\"attribute_id\":\"power\",\"need_points\":20}]"
+							heavy: 16.0d
+							recordPunishmentAttributeModifier: { }
+						}
+					}
+					id: "simplyswords:bramblethorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			id: "084E654B2F7CB9C7"
+			rewards: [{
+				id: "4D3F2DCD938A3DF5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "33FC49B3894517DF"
+				title: "&6T0武器"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -13.0d
+		}
+		{
+			id: "08F33FC2F40F6C82"
+			rewards: [{
+				id: "7318F7D0A2D8C0E4"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3545F2265EFAEE3C"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&e饕餮之锅"
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			id: "577694DDDDE98415"
+			rewards: [{
+				id: "025EB72697EC9687"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "558CBDDA732EBC45"
+				item: {
+					Count: 1
+					id: "cataclysm:tidal_claws"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 60
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·潮汐利爪\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			id: "5DACB17AF9CA5000"
+			rewards: [{
+				id: "72F21A2BB9F1D3BD"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "643FEF9D65F1CC92"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 64
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						affix_data: {
+							sockets: 0
+						}
+						display: {
+							Name: "{\"text\":\"真·炼狱锻锤\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			description: [""]
+			id: "3195C34B6AFC35C4"
+			rewards: [{
+				id: "4B28C12A691E8244"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4823C7C20545F09A"
+				item: {
+					Count: 1
+					id: "cataclysm:ancient_spear"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 85
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·远古之矛\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "6DE48DB2780B57E7"
+			rewards: [{
+				id: "206265AF6597B311"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6C80F810292A7827"
+				item: {
+					Count: 1
+					id: "cataclysm:astrape"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 64
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·神怒长槊\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "575813DD5B16F8CE"
+			rewards: [{
+				id: "3944227767BDBD1F"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4054D66C1E4ED1AC"
+				item: {
+					Count: 1
+					id: "cataclysm:ceraunus"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 64
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·霆浪锚戟\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "69F7E67D5CD714EE"
+			rewards: [{
+				id: "763B0FCECC3CE98A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "21239A1778839D78"
+				title: "&6T1武器"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			id: "5EDFE6C01D4084CB"
+			rewards: [{
+				id: "7C60C01F80BA11AD"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "116554FCE74B2A52"
+				item: {
+					Count: 1
+					id: "brutality:terratomere"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 19.0d
+		}
+		{
+			id: "5AE7458C48F3B849"
+			rewards: [{
+				id: "67928A4B32ADFB29"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "746FA8FA87F60775"
+				item: {
+					Count: 1
+					id: "brutality:exoblade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 19.0d
+		}
+		{
+			id: "2DBB2170B772AB5F"
+			rewards: [{
+				id: "61A26EDEDC52E2C3"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "101FC1F67A136C33"
+				item: {
+					Count: 1
+					id: "brutality:depth_crusher"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 19.0d
+		}
+		{
+			id: "3F1489244FEAFC29"
+			rewards: [{
+				id: "7467C24E9AD25415"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "21180905E901EAC7"
+				item: {
+					Count: 1
+					id: "brutality:supernova"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:knockback"
+							lvl: 3s
+						}]
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 19.0d
+		}
+		{
+			id: "33B4D6B22FD456A1"
+			rewards: [{
+				id: "2F01493D888790FD"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "57DBBF1A5C531848"
+				item: {
+					Count: 1
+					id: "brutality:dull_knife"
+					tag: {
+						CustomModelData: 0
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 21.0d
+		}
+		{
+			id: "1048B207F3D9F2DE"
+			rewards: [{
+				id: "07EFE98B06ECD0D8"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "497E6601569B2C39"
+				item: {
+					Count: 1
+					id: "brutality:royal_guardian_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 21.0d
+		}
+		{
+			id: "00230AAA82C501EA"
+			rewards: [{
+				id: "5CD19603254A7F04"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "69B04E305874C6A0"
+				item: {
+					Count: 1
+					id: "brutality:atomic_judgement"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 21.0d
+		}
+		{
+			id: "41F6AAE8138B34BF"
+			rewards: [{
+				id: "1568C076BFE4F275"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B0DE91C3083203C"
+				item: {
+					Count: 1
+					id: "brutality:blade_of_the_ruined_king"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 21.0d
+		}
+		{
+			id: "5CCCA433C4050CB6"
+			rewards: [{
+				id: "0EC2CF576E349CA8"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "18476A7A27F2A271"
+				item: {
+					Count: 1
+					id: "brutality:darkin_blade"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 21.0d
+		}
+		{
+			id: "4D01FDBE6A24D69B"
+			rewards: [{
+				id: "12C08741BE9B79C3"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4D78243901F543F4"
+				item: {
+					Count: 1
+					id: "brutality:darkin_scythe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 21.0d
+		}
+		{
+			id: "207D168E01F233E3"
+			rewards: [{
+				id: "104FE13BB72DDBFD"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0B44789B971C10F3"
+				item: {
+					Count: 1
+					id: "brutality:rhitta"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 21.0d
+		}
+		{
+			id: "20C5D4538E2AFA40"
+			rewards: [{
+				id: "4057A3DBA2440D85"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "78CE981FCEE64DE6"
+				item: {
+					Count: 1
+					id: "brutality:event_horizon"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 23.0d
+		}
+		{
+			id: "5C94937947D32FA0"
+			rewards: [{
+				id: "4C774DD6CE79E679"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "516F2C6822320C31"
+				item: {
+					Count: 1
+					id: "brutality:frostmourne"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 23.0d
+		}
+		{
+			id: "2DB9BB02D4E1D906"
+			rewards: [{
+				id: "74E919CFA4DFEB1B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "542847C09C0069D6"
+				item: {
+					Count: 1
+					id: "brutality:gungnir"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:loyalty"
+							lvl: 4s
+						}]
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 23.0d
+		}
+		{
+			id: "3C7C8A16F4467959"
+			rewards: [{
+				id: "00E1F09047FF07D6"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "49CA96B0DD1D5720"
+				item: {
+					Count: 1
+					id: "brutality:jackpot"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 23.0d
+		}
+		{
+			id: "617CAD8EF4AE8036"
+			rewards: [{
+				id: "5E8C3B5E5BE5776A"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0A675E073F98FDBA"
+				item: {
+					Count: 1
+					id: "brutality:hf_murasama"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 23.0d
+		}
+		{
+			id: "73ABEF8EFDD0648E"
+			rewards: [{
+				id: "2A1549D578DF4675"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "59B4ED074549FD92"
+				item: {
+					Count: 1
+					id: "brutality:providence"
+					tag: {
+						Damage: 0
+						GeckoLibID: 6L
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 25.0d
+		}
+		{
+			id: "1139FF9FD302116E"
+			rewards: [{
+				id: "320E4FDC11B2BC09"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1E5A4F11470D342D"
+				item: {
+					Count: 1
+					id: "brutality:seventh_star"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 23.0d
+		}
+		{
+			id: "40FC134789068EB0"
+			rewards: [{
+				id: "457EAB97A1E8EF9B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5AD6933B5589409B"
+				item: {
+					Count: 1
+					id: "brutality:double_down"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 25.0d
+		}
+		{
+			id: "270EA1A87F3F0B56"
+			rewards: [{
+				id: "6999D4B11434E352"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "022BED3921DA8A94"
+				item: {
+					Count: 1
+					id: "brutality:old_gpu"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 25.0d
+		}
+		{
+			id: "75C032B09818D003"
+			rewards: [{
+				id: "26A1FE958C6BAD5E"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "57D80C7557A5AA9A"
+				item: {
+					Count: 1
+					id: "brutality:whisperwaltz"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 23.0d
+		}
+		{
+			id: "63A4CA8A0A8BB9B5"
+			rewards: [{
+				id: "14DD0CBA50512F28"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "46FAF18EE890FA34"
+				item: {
+					Count: 1
+					id: "brutality:void_knife"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 25.0d
+		}
+		{
+			description: [""]
+			id: "342BF4FECAF808B9"
+			rewards: [{
+				id: "17DDCAB068BE1DB7"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "339ADC4EFB8D3E60"
+				item: {
+					Count: 1
+					id: "traveloptics:scourge_of_the_sands"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:stele_cascade"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			description: [""]
+			id: "797DA00A44EEAADB"
+			rewards: [{
+				id: "46F9AA9294E9D18B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "18FC19A292084D87"
+				item: {
+					Count: 1
+					id: "cataclysm:ancient_spear"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 85
+								AttributeName: "generic.attack_damage"
+								Name: "Damage Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									1
+								]
+							}
+							{
+								Amount: -0.4d
+								AttributeName: "generic.attack_speed"
+								Name: "Speed Penalty"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									2
+								]
+							}
+							{
+								Amount: 5
+								AttributeName: "generic.reach_distance"
+								Name: "Reach Boost"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									5
+									5
+									5
+									3
+								]
+							}
+						]
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:glowing"
+							lvl: 1
+						}]
+						Unbreakable: 1
+						display: {
+							Name: "{\"text\":\"真·远古之矛\",\"color\":\"#FFC0CB\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "04CD6BE5E0090A4B"
+			rewards: [{
+				id: "6CFBC124B8C3A3BF"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "457F2701DCFEE419"
+				item: {
+					Count: 1
+					id: "traveloptics:abyssal_tidecaller"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:shadowed_miasma"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "385E7B9D4841B533"
+			rewards: [{
+				id: "54AD4CE0E2FF4537"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "185C544B4D01A5B3"
+				item: {
+					Count: 1
+					id: "traveloptics:cursed_wraithblade"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:cursed_blast"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "04A372D6CF804690"
+			rewards: [{
+				id: "1328F8BA878D6E9D"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5F842929C47289A6"
+				item: {
+					Count: 1
+					id: "traveloptics:flames_of_eldritch"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:burning_judgment"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "3159002C8F82579C"
+			rewards: [{
+				id: "5D00FCE21A424D94"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4B587D26761FCC23"
+				item: {
+					Count: 1
+					id: "traveloptics:thorns_of_oblivion"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blight"
+								index: 0
+								level: 8
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [""]
+			id: "1E8D9C05649F8340"
+			rewards: [{
+				id: "0173889CAE5D1E04"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "55444803A22E471A"
+				item: {
+					Count: 1
+					id: "traveloptics:harbingers_wrath"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:em_pulse"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "0109CDB51DE6E400"
+			rewards: [{
+				id: "3765C45CFC51BC90"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "38F4A507C363A75C"
+				item: {
+					Count: 1
+					id: "traveloptics:voidstrike_reaper"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:vortex_punch"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: [""]
+			id: "00828C76A6CFBEF7"
+			rewards: [{
+				id: "48E674997AB625DB"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "497D864C4E88A3A4"
+				item: {
+					Count: 1
+					id: "traveloptics:titanlord_scepter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			description: [""]
+			id: "17E1961ED7216E38"
+			rewards: [{
+				id: "04A21F8FD6A2ECF0"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4FB44336BB093B51"
+				item: {
+					Count: 1
+					id: "traveloptics:titanlord_scepter_retro"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			description: [""]
+			id: "701753F624C12F3B"
+			rewards: [{
+				id: "0E52876AD79A71CC"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "27EE4F4DBE26B1C8"
+				item: {
+					Count: 1
+					id: "traveloptics:titanlord_scepter_tectonic"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			description: [""]
+			id: "3479E067BE3DFFFE"
+			rewards: [{
+				id: "3B574A5B8925F965"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6937258BB4CAEB34"
+				item: {
+					Count: 1
+					id: "lethality:starlight"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+	]
+	title: "&6兵器谱"
+}

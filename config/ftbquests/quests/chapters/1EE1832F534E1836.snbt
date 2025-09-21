@@ -1,0 +1,2178 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1EE1832F534E1836"
+	group: "4B900E5177C2D185"
+	icon: "enigmaticaddons:totem_of_malice"
+	id: "1EE1832F534E1836"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "664ACB6A686B4CFE"
+			shape: "rsquare"
+			tasks: [{
+				id: "3F63C7676B555F4F"
+				item: "l2hostility:ring_of_incarceration"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "71A4F2503329687E"
+			shape: "rsquare"
+			tasks: [{
+				id: "1BE12D9E5F311F8A"
+				item: "l2hostility:ring_of_corrosion"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "11EE5FC4848EA74E"
+			shape: "rsquare"
+			tasks: [{
+				id: "4E1F0CEAA216E2BB"
+				item: "l2hostility:ring_of_healing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "737A03902A96229B"
+			shape: "rsquare"
+			tasks: [{
+				id: "54B7E12E50AA5066"
+				item: "l2hostility:ring_of_ocean"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			id: "4323EDB3E284E2A8"
+			shape: "rsquare"
+			tasks: [{
+				id: "6D7FF0FF12BDDD58"
+				item: "l2hostility:ring_of_life"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			id: "5802AC4159BD40CD"
+			shape: "rsquare"
+			tasks: [{
+				id: "483B63D674875D96"
+				item: "l2hostility:ring_of_divinity"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			id: "6688F5F526EE5099"
+			shape: "rsquare"
+			tasks: [{
+				id: "47BA1DDC1DD44908"
+				item: "l2hostility:ring_of_reflection"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "6A39F75AEBADA8B2"
+			shape: "rsquare"
+			tasks: [{
+				id: "3917FD8EA38E1EE5"
+				item: "l2hostility:flaming_thorn"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "2230451C76D38761"
+			shape: "rsquare"
+			tasks: [{
+				id: "70ADD717DCFA13DD"
+				item: "l2hostility:infinity_glove"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "227C7E63799FD86F"
+			shape: "rsquare"
+			tasks: [{
+				id: "1B29496B9225F709"
+				item: "l2hostility:divinity_cross"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "43FB86BE75F2158E"
+			shape: "rsquare"
+			tasks: [{
+				id: "1D07492386A6F994"
+				item: "l2hostility:abyssal_thorn"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "12689FFA54EF97D1"
+			shape: "rsquare"
+			tasks: [{
+				id: "7AF102E2BE123ADA"
+				item: "l2hostility:triple_strip_cape"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			id: "63F72E84A9589CF2"
+			shape: "rsquare"
+			tasks: [{
+				id: "2D2848CE9FBE0D14"
+				item: {
+					Count: 1
+					id: "l2hostility:pocket_of_restoration"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			id: "720DA5A131DFCE83"
+			shape: "rsquare"
+			tasks: [{
+				id: "6E3CDF91D17179B8"
+				item: "l2hostility:platinum_star"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "00C6C47A7E62BBC3"
+			shape: "rsquare"
+			tasks: [{
+				id: "0F457D3D9E870E0F"
+				item: "l2hostility:divinity_light"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "7AFD0700815CAF41"
+			shape: "rsquare"
+			tasks: [{
+				id: "39104B3A414F5915"
+				item: "l2hostility:oddeyes_glasses"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "7972021755D9659E"
+			shape: "rsquare"
+			tasks: [{
+				id: "7A77E4FD3B0F3A13"
+				item: "l2hostility:abrahadabra"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			id: "11C43ABE2A7F0E4C"
+			shape: "rsquare"
+			tasks: [{
+				id: "517E33548745FB8B"
+				item: "l2hostility:imagine_breaker"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7A0BB6D806A2D0A1"
+			rewards: [{
+				id: "1EE4C2A3B61FE237"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			tasks: [{
+				id: "29F8BC75484ABA74"
+				title: "莱特兰恶意—诅咒饰品"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7A0BB6D806A2D0A1"]
+			id: "572FC9C91BA0170E"
+			shape: "rsquare"
+			tasks: [{
+				id: "1C47ECC576456148"
+				item: "l2hostility:curse_of_lust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7A0BB6D806A2D0A1"]
+			id: "24DAF780A11FC1F3"
+			shape: "rsquare"
+			tasks: [{
+				id: "49511854BC4E5E1D"
+				item: "l2hostility:curse_of_gluttony"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7A0BB6D806A2D0A1"]
+			id: "5CA631B75DC98F8F"
+			shape: "rsquare"
+			tasks: [{
+				id: "22553C4CAC52068D"
+				item: "l2hostility:curse_of_wrath"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7A0BB6D806A2D0A1"]
+			description: [""]
+			id: "6BC71D93336AF582"
+			shape: "rsquare"
+			subtitle: "&e已禁用"
+			tasks: [{
+				id: "6D92D5BC3BEB962E"
+				item: "l2hostility:curse_of_pride"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7A0BB6D806A2D0A1"]
+			description: [""]
+			id: "7AF87696EB84EFFD"
+			shape: "rsquare"
+			subtitle: "&e无法合成"
+			tasks: [{
+				id: "3CF4EF160908D230"
+				item: "l2hostility:curse_of_sloth"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7A0BB6D806A2D0A1"]
+			id: "564E203AA5808ED4"
+			shape: "rsquare"
+			tasks: [{
+				id: "5F650EDF2609B7E9"
+				item: "l2hostility:curse_of_envy"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7A0BB6D806A2D0A1"]
+			id: "0B87F7F74D381740"
+			shape: "rsquare"
+			tasks: [{
+				id: "0C97FCD421BDABE5"
+				item: "l2hostility:curse_of_greed"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7A0BB6D806A2D0A1"]
+			id: "52C415AFA614A3FC"
+			shape: "rsquare"
+			tasks: [{
+				id: "1BDC8BD5941DB2F3"
+				item: "l2hostility:greed_of_nidhoggur"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "l2hostility:hostility_guide"
+				}
+			}
+			id: "0FE15AB68B7CA3AB"
+			shape: "square"
+			subtitle: "&e该模组提供了不同难度的词条"
+			tasks: [{
+				id: "52795FFF216F53CA"
+				title: "莱特兰恶意"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -20.0d
+		}
+		{
+			id: "43348B6F685770D1"
+			shape: "rsquare"
+			subtitle: "&e已禁用"
+			tasks: [{
+				id: "73D62B88B4E5790C"
+				item: "l2hostility:regenerate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -18.5d
+		}
+		{
+			id: "321AAF46BDBEE74F"
+			shape: "rsquare"
+			subtitle: "&e使怪物免疫火焰并灼烧攻击者，点燃攻击者和被攻击者 5 秒，怪物免疫火焰伤害，常驻获得抗火效果。"
+			tasks: [{
+				id: "1D241EE35D88AED1"
+				item: "l2hostility:fiery"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -18.5d
+		}
+		{
+			id: "265D901A4665BF72"
+			shape: "rsquare"
+			subtitle: "&e使怪物拥有隐身的效果，怪物常驻隐身效果，护甲自带遁隐。"
+			tasks: [{
+				id: "4DE0963CFED9A6AA"
+				item: "l2hostility:invisible"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -18.5d
+		}
+		{
+			description: [""]
+			id: "5A0AC9B5EAFAABB0"
+			shape: "rsquare"
+			subtitle: "&e使怪物拥有抗性提升的效果，怪物常驻抗性提升 效果，每级使效果等级+1"
+			tasks: [{
+				id: "538A638F86AC8754"
+				item: "l2hostility:protection"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -18.5d
+		}
+		{
+			description: [""]
+			id: "5088908721FEBB18"
+			shape: "rsquare"
+			subtitle: "&e提升怪物的移动速度，每级提升 20% 的移动速度。"
+			tasks: [{
+				id: "0EAD1369D85C98F2"
+				item: "l2hostility:speedy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -18.5d
+		}
+		{
+			id: "6CD1EF8C47E70B72"
+			shape: "rsquare"
+			subtitle: "&e使怪物获得强大的同类伤害减免的效果，每级使怪物能够记忆的伤害类型 +1，受到来自记忆类型的伤害时降低50%的该伤害（可无限叠加）。"
+			tasks: [{
+				id: "4C413B5DE63D3D72"
+				item: "l2hostility:adaptive"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -18.5d
+		}
+		{
+			id: "4ABE969066463D3D"
+			shape: "rsquare"
+			subtitle: "&e使怪物拥有反弹近战伤害的能力，怪物能够将直接的伤害以魔法伤害反射给攻击者，每级增加 30% 的反射量。"
+			tasks: [{
+				id: "2EA9B83FD1CA1CAB"
+				item: "l2hostility:reflect"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -18.5d
+		}
+		{
+			id: "37D6687A4896CCFE"
+			shape: "rsquare"
+			subtitle: "&e使怪物拥有发射潜影弹的能力，怪物能够以 2.0秒 的频率发射潜影弹，潜影弹会携带怪物所拥有的词条的能力。"
+			tasks: [{
+				id: "0622441A23C2D74A"
+				item: "l2hostility:shulker"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -18.5d
+		}
+		{
+			description: [""]
+			id: "4495CEE6F57C834A"
+			shape: "square"
+			subtitle: "&e提升怪物的血量与护甲值,每级提升 50% 的生命上限。"
+			tasks: [{
+				id: "02FF559BA4CDCD87"
+				item: "l2hostility:tank"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -17.0d
+		}
+		{
+			id: "13A3E8A1B2B673BF"
+			shape: "rsquare"
+			subtitle: "&e怪物攻击时施加虚弱效果，每级使药水效果等级+1，持续 10 秒。"
+			tasks: [{
+				id: "42A728251A8B1393"
+				item: "l2hostility:weakness"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -15.5d
+		}
+		{
+			id: "352775BA32E8CA76"
+			shape: "rsquare"
+			subtitle: "&e怪物免疫魔法伤害，伤害穿透魔法保护（比如摄魂），攻击时随机选择【词条等级】个装备附魔其封印【词条等级】* 10秒（大部分提供耐久和保护物品的附魔不会受到影响）。"
+			tasks: [{
+				id: "56796DCE70B50B03"
+				item: "l2hostility:dispell"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -14.0d
+		}
+		{
+			id: "38F0015E426F9180"
+			shape: "rsquare"
+			subtitle: "&e使史莱姆类的怪物能够变得更大，史莱姆获得再生的词条，会在满血后变大，词条等级决定了其最大的体积，分裂的史莱姆只有一只会继承该词条并且词条等级 -1 。"
+			tasks: [{
+				id: "4FE97DD23637B896"
+				item: "l2hostility:growth"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -12.5d
+		}
+		{
+			id: "72FBCA352914FD42"
+			shape: "rsquare"
+			subtitle: "&e提升怪物的移动速度，每级提升 20% 的移动速度。"
+			tasks: [{
+				id: "1EFE682B4FEF1CE9"
+				item: "l2hostility:master"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -17.0d
+		}
+		{
+			id: "2A723E9064EC0E0B"
+			shape: "rsquare"
+			subtitle: "&e已禁用"
+			tasks: [{
+				id: "7946FA3E4E190ACC"
+				item: "l2hostility:undying"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -12.5d
+		}
+		{
+			id: "78CF0E00E43E6F06"
+			shape: "rsquare"
+			subtitle: "&e使怪物能够像史莱姆一样分裂，怪物在死亡时分裂，分裂的怪物会继承所有词条并且词条等级 -1，拥有装备的怪物分裂出来的装备会降级 。"
+			tasks: [{
+				id: "7B831EA9CC4EDD32"
+				item: "l2hostility:split"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -14.0d
+		}
+		{
+			id: "4802BB347C8D519F"
+			shape: "rsquare"
+			subtitle: "&e药水词条，使怪物攻击能够施加魂火效果，怪物攻击时施加魂火效果，每级使药水效果等级+1，持续 3 秒。"
+			tasks: [{
+				id: "5951E49D4CFF44B0"
+				item: "l2hostility:soul_burner"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.5d
+		}
+		{
+			id: "11B53345AD986CC8"
+			shape: "rsquare"
+			subtitle: "&e药水词条，使怪物攻击能够施加反胃效果，怪物攻击时施加反胃效果，每级使药水效果持续时间 +10 秒。"
+			tasks: [{
+				id: "3E9AE7233E5E7504"
+				item: "l2hostility:nausea"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -17.0d
+		}
+		{
+			id: "24E3A99F9761E76B"
+			shape: "rsquare"
+			subtitle: "&e药水词条，使怪物攻击能够施加缓慢效果，怪物攻击时施加缓慢效果，每级使药水效果等级+1，持续 10 秒。"
+			tasks: [{
+				id: "497D9BBDD5814D48"
+				item: "l2hostility:slowness"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -15.5d
+		}
+		{
+			id: "18D9B7856CDEE763"
+			shape: "rsquare"
+			subtitle: "&e拥有该词条的怪物将免疫物理伤害与弹射物（即使弹射物是魔法伤害），其攻击时造成的伤害将附带穿甲标签并不是魔法伤害，只是附带了穿甲标签，玩家如果没有魔法防御手段（例如原版的保护附魔，本模组的屹立不倒之戒等）将会面临高额直伤。（一些科技模组中的盔甲无法被附魔也无法抵挡穿甲伤害，会被一击杀死）"
+			tasks: [{
+				id: "2294ECD51BFB26CA"
+				item: "l2hostility:dementor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -14.0d
+		}
+		{
+			id: "467E1A5B5A5B68EC"
+			shape: "rsquare"
+			subtitle: "&e药水词条，使怪物攻击能够施加中毒效果，怪物攻击时施加诅咒效果，每级使药水效果持续时间 +10 秒。"
+			tasks: [{
+				id: "50B2887859C37559"
+				item: "l2hostility:poison"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -15.5d
+		}
+		{
+			id: "2A19BF840F814BD6"
+			shape: "rsquare"
+			subtitle: "&e怪物会排斥周围 10 格内所有对自己有敌意的生物，并且免疫弹射物伤害，只能在远程敌人身上发现。"
+			tasks: [{
+				id: "0EB5F05A2DA17D1D"
+				item: "l2hostility:repelling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -17.0d
+		}
+		{
+			id: "712E79A4C4EC83CD"
+			shape: "rsquare"
+			subtitle: "&e使怪物能够重创拥有大量附魔装备的目标。怪物会复制目标身上装备的所有附魔，目标的每级附魔提升 2% 的伤害（ x级附魔提供 2x 的附魔点数），且当攻击达到最大附魔等级X（默认）或以上的生物时，复印将额外获得虚空之触20和消失诅咒。"
+			tasks: [{
+				id: "0F210A88898F04BD"
+				item: "l2hostility:reprint"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -17.0d
+		}
+		{
+			id: "60CFCA33F0CE010B"
+			shape: "rsquare"
+			subtitle: "&e使怪物周围的玩家无法放置和破坏方块，怪物会对范围内所有生物（包括自身）施加领域压制，拥有领域压制的玩家无法放置和破坏方块，只会受到拥有领域压制实体的伤害。"
+			tasks: [{
+				id: "582A87F2CA3A79E0"
+				item: "l2hostility:arena"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			id: "66277D62C13CEF2B"
+			shape: "rsquare"
+			subtitle: "&e药水词条，使怪物攻击能够施加凋零效果，怪物攻击时施加凋零效果，每级使药水效果等级+1，持续 10 秒。"
+			tasks: [{
+				id: "1B740EEF61B5771D"
+				item: "l2hostility:wither"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -15.5d
+		}
+		{
+			id: "6BF3E0BE3C657C2F"
+			shape: "rsquare"
+			subtitle: "&e使怪物周围的生物跳跃高度提升，怪物会对范围内所有生物（包括自身）施加等同于词条等级的月步效果，提高能够跳跃的高度。"
+			tasks: [{
+				id: "5EC156EC31E4AF2C"
+				item: "l2hostility:moonwalk"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -14.0d
+		}
+		{
+			id: "14C69A7652A7F807"
+			shape: "rsquare"
+			subtitle: "&e怪物会吸引周围 10 格内所有对自己有敌意的生物，只能在近战敌人身上发现。"
+			tasks: [{
+				id: "0B398313373D734A"
+				item: "l2hostility:pulling"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -17.0d
+		}
+		{
+			id: "41F5F5B2950B9E0F"
+			shape: "rsquare"
+			subtitle: "&e药水词条，使怪物攻击能够施加漂浮效果，怪物攻击时施加漂浮效果，每级使药水效果持续时间 +10 秒。"
+			tasks: [{
+				id: "3F21322E98862BBA"
+				item: "l2hostility:levitation"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -15.5d
+		}
+		{
+			id: "0CB01305A5B1F815"
+			shape: "rsquare"
+			subtitle: "&e使怪物周围的生物跳跃高度降低，怪物会对范围内所有生物（包括自身）施加等同于词条等级的重力效果，降低能够跳跃的高度。"
+			tasks: [{
+				id: "7FCD17F726390809"
+				item: "l2hostility:gravity"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -14.0d
+		}
+		{
+			id: "6C9862936D078AA8"
+			shape: "rsquare"
+			subtitle: "&e怪物每 6 -【词条等级】秒对周围 6 格范围的玩家造成【词条等级】* 10 的魔法伤害并施加词条效果。"
+			tasks: [{
+				id: "62E0150E61BC1663"
+				item: "l2hostility:killer_aura"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -17.0d
+		}
+		{
+			id: "72B29C372F50D592"
+			shape: "rsquare"
+			subtitle: "&e怪物击中目标时随机封印【词条等级】个饰品和装备，需要像吃食物一样使用【词条等级】秒来解封，不会封印部分饰品与所有能够提供饰品栏位的装备和饰品。"
+			tasks: [{
+				id: "6B74BFF549FF63B6"
+				item: "l2hostility:ragnarok"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -17.0d
+		}
+		{
+			id: "05253D68CC00BB49"
+			shape: "rsquare"
+			subtitle: "&e怪物会像末影人一样通过传送躲避远程攻击，也会通过传送来接近目标和躲开非魔法伤害。"
+			tasks: [{
+				id: "7B75595F8628550F"
+				item: "l2hostility:teleport"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -15.5d
+		}
+		{
+			description: [""]
+			id: "3CA8240808FF3D4B"
+			shape: "rsquare"
+			subtitle: "&e药水词条，使怪物攻击能够施加失明效果，怪物攻击时施加失明效果，每级使药水效果持续时间 +10 秒。"
+			tasks: [{
+				id: "63358302FAF4DB36"
+				item: "l2hostility:blindness"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -15.5d
+		}
+		{
+			id: "038473B7720165EB"
+			shape: "rsquare"
+			subtitle: "&e使怪物更容易攻击到目标，怪物受到攻击时朝攻击者冲刺。"
+			tasks: [{
+				id: "2FDAA089DE76F7A3"
+				item: "l2hostility:counter_strike"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -14.0d
+		}
+		{
+			id: "65982C56AA7470EE"
+			shape: "square"
+			subtitle: "&e使怪物能够移除正面效果并使你拥有更严重的负面效果，怪物获得相同等级的随机药水词条，击中目标时会移除目标【词条等级】个正面效果，目标每有一个负面效果使伤害提升【词条等级】* 10%，负面效果延长【词条等级】* 50%，最多延长至【词条等级】* 60秒。"
+			tasks: [{
+				id: "33928A620878145B"
+				item: "l2hostility:drain"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -14.0d
+		}
+		{
+			id: "062A4C7C278B4254"
+			shape: "rsquare"
+			subtitle: "&e使怪物能够快速破坏目标的装备，怪物会随机选择【词条等级】个玩家的装备，消耗其【词条等级】* 10% 的当前耐久，每少一件提升【词条等级】* 25% 的伤害。"
+			tasks: [{
+				id: "17DAD3B9A715E70D"
+				item: "l2hostility:erosion"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.5d
+		}
+		{
+			id: "6E0E20F3D46627D4"
+			shape: "rsquare"
+			subtitle: "&e使怪物能够快速破坏目标的装备，怪物会随机选择【词条等级】个玩家的装备，消耗其【词条等级】* 30% 的已损失耐久，每少一件提升【词条等级】* 25% 的伤害。"
+			tasks: [{
+				id: "3EAC3632AC518A63"
+				item: "l2hostility:corrosion"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -12.5d
+		}
+		{
+			id: "42229BB47CA17794"
+			shape: "rsquare"
+			subtitle: "&e使怪物拥有发射会爆炸的潜影弹的能力，怪物能够发射会爆炸的潜影弹，在上一个子弹消失后的 3.0秒发射下一个，爆炸不会破坏方块，每级使爆炸威力额外增加。 "
+			tasks: [{
+				id: "4F2BB193EEDAD72F"
+				item: "l2hostility:grenade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -15.5d
+		}
+		{
+			id: "736B66961B277231"
+			shape: "rsquare"
+			subtitle: "&e药水词条，使怪物攻击能够施加寒流效果，怪物攻击时施加寒流效果，每级使药水效果持续时间 +10 秒。"
+			tasks: [{
+				id: "0A5C36B4B08A2EA5"
+				item: "l2hostility:freezing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -12.5d
+		}
+		{
+			id: "5AFEE5D46712B98B"
+			shape: "rsquare"
+			subtitle: "&e药水词条，使怪物攻击能够施加诅咒效果，怪物攻击时施加诅咒效果，每级使药水效果持续时间 +10 秒。"
+			tasks: [{
+				id: "2242CC644AE7CC6B"
+				item: "l2hostility:cursed"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.5d
+		}
+		{
+			id: "3DEA8CAE8A2669A1"
+			shape: "square"
+			tasks: [{
+				id: "70A4725130DC170A"
+				item: "l2hostility:charm_of_looting_1"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "047910BD2EAAD5A2"
+			shape: "rsquare"
+			tasks: [{
+				id: "082F9234CC58FA64"
+				item: "l2hostility:gravity"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "7C3F5417F428F409"
+			shape: "rsquare"
+			tasks: [{
+				id: "353E627A2AA22148"
+				item: "l2hostility:tank"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "23D8660128EDF1FE"
+			shape: "rsquare"
+			tasks: [{
+				id: "18EF4CB2D11D1B4E"
+				item: "l2hostility:blindness"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "5AFCACEB2C854239"
+			shape: "rsquare"
+			tasks: [{
+				id: "5BB9CA38C5FC206B"
+				item: "l2hostility:speedy"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "07DB24C1AB55F36C"
+			shape: "rsquare"
+			tasks: [{
+				id: "12D5472E9043482A"
+				item: "l2hostility:grenade"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "4A24265177493E57"
+			shape: "rsquare"
+			tasks: [{
+				id: "4654AC47B15D48B6"
+				item: "l2hostility:weakness"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "6A5FA202C9C1549B"
+			shape: "rsquare"
+			tasks: [{
+				id: "3999556079E54B5A"
+				item: "l2hostility:nausea"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "7FFA3CB8CAB841FA"
+			shape: "square"
+			tasks: [{
+				id: "1E4DEDAE7772CC40"
+				item: "l2hostility:protection"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "4B0A085DAF82847B"
+			shape: "rsquare"
+			tasks: [{
+				id: "2665A0EE4E84FCB3"
+				item: "l2hostility:poison"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "18F9DF40864B60FA"
+			shape: "rsquare"
+			tasks: [{
+				id: "611EA63065CFE6DF"
+				item: "l2hostility:fiery"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "3A60882C183A7436"
+			shape: "rsquare"
+			tasks: [{
+				id: "1EEED7000F12924E"
+				item: "l2hostility:invisible"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "3E2B1410D3EC13E8"
+			shape: "rsquare"
+			tasks: [{
+				id: "5502E927E7093418"
+				item: "l2hostility:cursed"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "5EB102F97219AD87"
+			shape: "rsquare"
+			tasks: [{
+				id: "0F440526AF0377A5"
+				item: "l2hostility:growth"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "27A554D01E909A85"
+			shape: "rsquare"
+			tasks: [{
+				id: "48FFE2AC630821C8"
+				item: "l2hostility:slowness"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "4550FB2D3A122E49"
+			shape: "rsquare"
+			tasks: [{
+				id: "1A128195114F4B69"
+				item: "l2hostility:moonwalk"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "734D700CCC47182F"
+			shape: "rsquare"
+			tasks: [{
+				id: "42819980CD0620FC"
+				item: "l2hostility:undying"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "2F4642A8A458FB23"
+			shape: "rsquare"
+			tasks: [{
+				id: "6A91BB534DE028E7"
+				item: "l2hostility:wither"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3DEA8CAE8A2669A1"]
+			id: "7FDB162A90AFFE85"
+			shape: "rsquare"
+			tasks: [{
+				id: "2A16035F5C503788"
+				item: "l2hostility:regenerate"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["7C3F5417F428F409"]
+			id: "2CFBC57B3A55DD5F"
+			shape: "rsquare"
+			tasks: [{
+				id: "1AD8D568BBD90C3F"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["7C3F5417F428F409"]
+			icon: "minecraft:netherite_scrap"
+			id: "4098F5E4DC5AC051"
+			shape: "rsquare"
+			tasks: [{
+				id: "5D3988D259724CAF"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["047910BD2EAAD5A2"]
+			id: "3A58976FF49AFD27"
+			shape: "rsquare"
+			tasks: [{
+				id: "465AE570D18160A5"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["5AFCACEB2C854239"]
+			id: "28A63766E2130CCE"
+			shape: "rsquare"
+			tasks: [{
+				id: "33E525FC6CD6B060"
+				item: "minecraft:rabbit_foot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["23D8660128EDF1FE"]
+			id: "0DABD52BD181124A"
+			shape: "rsquare"
+			tasks: [{
+				id: "3263820D1D918BEC"
+				item: "minecraft:ink_sac"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["07DB24C1AB55F36C"]
+			id: "73511FCB2F788A03"
+			shape: "rsquare"
+			tasks: [{
+				id: "2FFACE0AEAC9595B"
+				item: "minecraft:creeper_head"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["734D700CCC47182F"]
+			id: "135439F2910E73C8"
+			shape: "rsquare"
+			tasks: [{
+				id: "4ABBABF6827D32FF"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["7FDB162A90AFFE85"]
+			id: "17700CBC01724F8C"
+			shape: "rsquare"
+			tasks: [{
+				id: "4ECEA2E149B8F979"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["2F4642A8A458FB23"]
+			id: "24ABC5111E58478C"
+			shape: "rsquare"
+			tasks: [{
+				id: "4A3E9FE56C764008"
+				item: "minecraft:wither_rose"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["4A24265177493E57"]
+			id: "203F22B6E2F67766"
+			shape: "rsquare"
+			tasks: [{
+				id: "1DC2FDA2863A7924"
+				item: "minecraft:fermented_spider_eye"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["6A5FA202C9C1549B"]
+			id: "1E1663F8D2C43C65"
+			shape: "rsquare"
+			tasks: [{
+				id: "79A5C30091F9F286"
+				item: "minecraft:pufferfish"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["7FFA3CB8CAB841FA"]
+			id: "5E1E1513E2963561"
+			shape: "rsquare"
+			tasks: [{
+				id: "76D2B44348A66BAA"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["4B0A085DAF82847B"]
+			id: "4CFA3275829FF368"
+			shape: "rsquare"
+			tasks: [{
+				id: "6454E71EE5F15932"
+				item: "minecraft:scute"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["18F9DF40864B60FA"]
+			id: "131DEDD9B499B156"
+			shape: "rsquare"
+			tasks: [{
+				id: "32C46D387254C651"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3A60882C183A7436"]
+			id: "7DB53324E760A21E"
+			shape: "rsquare"
+			tasks: [{
+				id: "56C114F9CF26D5D7"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3E2B1410D3EC13E8"]
+			id: "38F22F3F42D4F436"
+			shape: "rsquare"
+			tasks: [{
+				id: "1F004401D8E596C7"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "l2complements:curse"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5EB102F97219AD87"]
+			id: "09E0A3842E04F030"
+			shape: "rsquare"
+			tasks: [{
+				id: "6B8C6C43D86CF1DA"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["27A554D01E909A85"]
+			id: "4B03266CF3B53E0A"
+			shape: "rsquare"
+			tasks: [{
+				id: "26D5EBB2C71875EB"
+				item: "minecraft:cobweb"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4550FB2D3A122E49"]
+			id: "1E4DB43340166266"
+			shape: "rsquare"
+			tasks: [{
+				id: "77B7A64B82126DDE"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4B0A085DAF82847B"]
+			id: "3065267331CB1B25"
+			shape: "rsquare"
+			tasks: [{
+				id: "2091B72B7AFC08DA"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4550FB2D3A122E49"]
+			id: "4D9C7CDC2AD76689"
+			shape: "rsquare"
+			tasks: [{
+				id: "4A40B32CB4C7AD5E"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["07DB24C1AB55F36C"]
+			id: "210F699AE6032834"
+			shape: "rsquare"
+			tasks: [{
+				id: "667834711EEC6A3A"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -19.5d
+		}
+		{
+			id: "515E71D8EA1AA754"
+			shape: "square"
+			tasks: [{
+				id: "1E05132F18D367D2"
+				item: "l2hostility:charm_of_looting_2"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["515E71D8EA1AA754"]
+			id: "673E729382821225"
+			shape: "rsquare"
+			tasks: [{
+				id: "1E530ED082677C20"
+				item: "l2hostility:protection"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["515E71D8EA1AA754"]
+			id: "6B88AD8E6FECBC97"
+			shape: "rsquare"
+			tasks: [{
+				id: "62157382E1D327B2"
+				item: "l2hostility:reflect"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["515E71D8EA1AA754"]
+			id: "0AA282982E6A0C48"
+			shape: "rsquare"
+			tasks: [{
+				id: "24B7BAD2ED7531BF"
+				item: "l2hostility:levitation"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["515E71D8EA1AA754"]
+			id: "0869FA19F78C52AD"
+			shape: "rsquare"
+			tasks: [{
+				id: "0A66BA53286D736B"
+				item: "l2hostility:undying"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["515E71D8EA1AA754"]
+			id: "0C6802336A57493F"
+			shape: "rsquare"
+			tasks: [{
+				id: "1E394DBC9ED34BE9"
+				item: "l2hostility:drain"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["515E71D8EA1AA754"]
+			id: "3F368734384DDDC1"
+			shape: "rsquare"
+			tasks: [{
+				id: "379E0CD10944145C"
+				item: "l2hostility:corrosion"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["515E71D8EA1AA754"]
+			id: "4391C030333574EF"
+			shape: "rsquare"
+			tasks: [{
+				id: "2BE4DE66A699F65D"
+				item: "l2hostility:erosion"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["515E71D8EA1AA754"]
+			id: "6F5E574D477197BA"
+			shape: "rsquare"
+			tasks: [{
+				id: "195B785078BE04A7"
+				item: "l2hostility:regenerate"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["515E71D8EA1AA754"]
+			id: "59D872FAD3A6C9D3"
+			shape: "rsquare"
+			tasks: [{
+				id: "357480EC7753B285"
+				item: "l2hostility:soul_burner"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["515E71D8EA1AA754"]
+			id: "3B7096F0DC38BCF9"
+			shape: "rsquare"
+			tasks: [{
+				id: "4DA9AE8848FCD5FC"
+				item: "l2hostility:shulker"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["515E71D8EA1AA754"]
+			id: "124418EC70C4ED03"
+			shape: "rsquare"
+			tasks: [{
+				id: "67F3007CA13C20B7"
+				item: "l2hostility:cursed"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["515E71D8EA1AA754"]
+			id: "35BEA5264F3F70AC"
+			shape: "rsquare"
+			tasks: [{
+				id: "7DB2EE0903EEBBB6"
+				item: "l2hostility:freezing"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["515E71D8EA1AA754"]
+			id: "7DCE0E9821688B22"
+			shape: "rsquare"
+			tasks: [{
+				id: "2366D914694B8E4A"
+				item: "l2hostility:counter_strike"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["515E71D8EA1AA754"]
+			id: "3A16990FB551B5B3"
+			shape: "rsquare"
+			tasks: [{
+				id: "59FB41C22F289460"
+				item: "l2hostility:split"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["515E71D8EA1AA754"]
+			id: "7A3FE5AF2909C221"
+			shape: "rsquare"
+			tasks: [{
+				id: "603C742339448831"
+				item: "l2hostility:tank"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["515E71D8EA1AA754"]
+			id: "18758ACD3B001320"
+			shape: "rsquare"
+			tasks: [{
+				id: "072CCF83A9985CD4"
+				item: "l2hostility:adaptive"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0AA282982E6A0C48"]
+			id: "0C66985CB22D5E8A"
+			shape: "rsquare"
+			tasks: [{
+				id: "0DF2BA53EDF135BF"
+				item: "l2complements:captured_shulker_bullet"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6B88AD8E6FECBC97"]
+			id: "5854BC388CB1B3B7"
+			shape: "rsquare"
+			tasks: [{
+				id: "1BA0DC5E4800F97B"
+				item: "l2complements:explosion_shard"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["673E729382821225"]
+			id: "78B88D283ECC65D1"
+			shape: "rsquare"
+			tasks: [{
+				id: "6A226E294F5CA2ED"
+				item: "l2complements:shulkerate_nugget"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0C6802336A57493F"]
+			id: "4211C728B7F2516F"
+			shape: "rsquare"
+			tasks: [{
+				id: "6AA26D982EBB6FA6"
+				item: "l2hostility:witch_droplet"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7A3FE5AF2909C221"]
+			id: "280DAB91E8299BF3"
+			shape: "rsquare"
+			tasks: [{
+				id: "459A36063C65EDFF"
+				item: "l2complements:shulkerate_nugget"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["18758ACD3B001320"]
+			id: "7E2FA349B0AACAA3"
+			shape: "rsquare"
+			tasks: [{
+				id: "7C770AE416AC4A33"
+				item: "l2complements:cursed_droplet"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3A16990FB551B5B3"]
+			id: "41045F1F4E15B54A"
+			shape: "rsquare"
+			tasks: [{
+				id: "6779944D1DDD5354"
+				item: "l2complements:guardian_eye"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0869FA19F78C52AD"]
+			id: "7E75F67E39593585"
+			shape: "rsquare"
+			tasks: [{
+				id: "3474840A1FBF829C"
+				item: "l2complements:life_essence"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["673E729382821225"]
+			id: "74BFF21C4BDD0C6C"
+			shape: "rsquare"
+			tasks: [{
+				id: "7BD12EB189CFFB89"
+				item: "l2complements:shulkerate_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6F5E574D477197BA"]
+			id: "29E6565AEA3E1ACF"
+			shape: "rsquare"
+			tasks: [{
+				id: "4A442B97AC461913"
+				item: "l2complements:life_essence"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["59D872FAD3A6C9D3"]
+			id: "11212816E7A219BF"
+			shape: "rsquare"
+			tasks: [{
+				id: "14E17CCAF8EC014B"
+				item: "l2complements:soul_flame"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B7096F0DC38BCF9"]
+			id: "1080C92360F3651F"
+			shape: "rsquare"
+			tasks: [{
+				id: "63FCE41600A0255D"
+				item: "l2complements:captured_shulker_bullet"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["124418EC70C4ED03"]
+			id: "62FD3DFD5DBD0FE3"
+			shape: "rsquare"
+			tasks: [{
+				id: "4698B0B7E65437B1"
+				item: "l2complements:cursed_droplet"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7DCE0E9821688B22"]
+			id: "2029D738B7D10276"
+			shape: "rsquare"
+			tasks: [{
+				id: "6472EC9BE3208293"
+				item: "l2complements:explosion_shard"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["35BEA5264F3F70AC"]
+			id: "77B13B0BA4C4415E"
+			shape: "rsquare"
+			tasks: [{
+				id: "66D4BD001CFC6108"
+				item: "l2complements:hard_ice"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["280DAB91E8299BF3"]
+			id: "7D9CAF69EEE97735"
+			shape: "rsquare"
+			tasks: [{
+				id: "0197CCD64428D44F"
+				item: "l2complements:shulkerate_ingot"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4391C030333574EF"]
+			id: "00C77463167A5DED"
+			shape: "rsquare"
+			tasks: [{
+				id: "76087FE37FA38B84"
+				item: "l2complements:cursed_droplet"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F368734384DDDC1"]
+			id: "1B47D92C7562B55F"
+			shape: "rsquare"
+			tasks: [{
+				id: "0B2842A6F6D4D8C1"
+				item: "l2complements:cursed_droplet"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			id: "67EEC1A05215E9D3"
+			shape: "square"
+			tasks: [{
+				id: "279CA6BA59E0C2F0"
+				item: "l2hostility:charm_of_looting_3"
+				type: "item"
+			}]
+			x: 33.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["67EEC1A05215E9D3"]
+			id: "2EB37168E6C43FD3"
+			shape: "rsquare"
+			tasks: [{
+				id: "35AA7EB053FE2EEC"
+				item: "l2hostility:grenade"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["67EEC1A05215E9D3"]
+			id: "1E14DB09CA36A08A"
+			shape: "rsquare"
+			tasks: [{
+				id: "55D2744DA7226CD3"
+				item: "l2hostility:regenerate"
+				type: "item"
+			}]
+			x: 33.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["67EEC1A05215E9D3"]
+			id: "7FF041C4903B3796"
+			shape: "rsquare"
+			tasks: [{
+				id: "467C39E3F5CA31E9"
+				item: "l2hostility:pulling"
+				type: "item"
+			}]
+			x: 35.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["67EEC1A05215E9D3"]
+			id: "1FA4FED3ABA6053E"
+			shape: "rsquare"
+			tasks: [{
+				id: "4180CED8501DB3BD"
+				item: "l2hostility:speedy"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["67EEC1A05215E9D3"]
+			id: "6DD79BF6C526E085"
+			shape: "rsquare"
+			tasks: [{
+				id: "17F123D2FE786537"
+				item: "l2hostility:tank"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["67EEC1A05215E9D3"]
+			id: "33E0F703315BC3F2"
+			shape: "rsquare"
+			tasks: [{
+				id: "62CD96085ED20179"
+				item: "l2hostility:speedy"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["67EEC1A05215E9D3"]
+			id: "041E88ACC848DE94"
+			shape: "rsquare"
+			tasks: [{
+				id: "7B3765D6B9A169B9"
+				item: "l2hostility:reprint"
+				type: "item"
+			}]
+			x: 33.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["67EEC1A05215E9D3"]
+			id: "089728BC86EA4D0A"
+			shape: "rsquare"
+			tasks: [{
+				id: "1B0E9F486D8C9D93"
+				item: "l2hostility:repelling"
+				type: "item"
+			}]
+			x: 35.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["33E0F703315BC3F2"]
+			id: "5FBB605637440C6C"
+			shape: "rsquare"
+			tasks: [{
+				id: "1B2D2FD2C648520D"
+				item: "l2complements:sculkium_nugget"
+				type: "item"
+			}]
+			x: 37.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["6DD79BF6C526E085"]
+			id: "49576D91E3AB9F5D"
+			shape: "rsquare"
+			tasks: [{
+				id: "296964FCC9792989"
+				item: "l2complements:sculkium_nugget"
+				type: "item"
+			}]
+			x: 29.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["041E88ACC848DE94"]
+			id: "52217B0895678F76"
+			shape: "rsquare"
+			tasks: [{
+				id: "18BC99BB5414CDFF"
+				item: "l2hostility:book_of_reprint"
+				type: "item"
+			}]
+			x: 33.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["089728BC86EA4D0A"]
+			id: "35867539AE335906"
+			shape: "rsquare"
+			tasks: [{
+				id: "317FF1D97E30A235"
+				item: "l2complements:force_field"
+				type: "item"
+			}]
+			x: 36.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1FA4FED3ABA6053E"]
+			id: "6AA0BF26C5FAC3F5"
+			shape: "rsquare"
+			tasks: [{
+				id: "68EF716EB4B376A2"
+				item: "l2complements:captured_wind"
+				type: "item"
+			}]
+			x: 28.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["2EB37168E6C43FD3"]
+			id: "7CCFDB68E79BFA71"
+			shape: "rsquare"
+			tasks: [{
+				id: "1D5E1EFA4799D08F"
+				item: "l2complements:storm_core"
+				type: "item"
+			}]
+			x: 29.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["7FF041C4903B3796"]
+			id: "38D20B514D2877B6"
+			shape: "rsquare"
+			tasks: [{
+				id: "2E74F2C792487FF7"
+				item: "l2complements:blackstone_core"
+				type: "item"
+			}]
+			x: 36.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["1E14DB09CA36A08A"]
+			id: "0BFED4B3D4139C2F"
+			shape: "rsquare"
+			tasks: [{
+				id: "63D5D75A04CCC03B"
+				item: "l2complements:totemic_gold_nugget"
+				type: "item"
+			}]
+			x: 33.0d
+			y: -21.0d
+		}
+		{
+			id: "56B2079C067755B7"
+			shape: "square"
+			tasks: [{
+				id: "2C09BF058A759388"
+				item: "l2hostility:charm_of_looting_4"
+				type: "item"
+			}]
+			x: 33.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["56B2079C067755B7"]
+			id: "120E2CF094607D57"
+			shape: "rsquare"
+			tasks: [{
+				id: "20DB08B0D28016F7"
+				item: "l2hostility:killer_aura"
+				type: "item"
+			}]
+			x: 33.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["56B2079C067755B7"]
+			id: "2152104CEDE4E1BC"
+			shape: "rsquare"
+			tasks: [{
+				id: "3E6FD5FFDB3F79CD"
+				item: "l2hostility:dispell"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["56B2079C067755B7"]
+			id: "73260757AE642F46"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "4BA79C0A41610877"
+					item: "l2hostility:killer_aura"
+					type: "item"
+				}
+				{
+					id: "501A5035E61E9ADF"
+					item: "l2hostility:dementor"
+					type: "item"
+				}
+				{
+					id: "15B2D5DD057E9058"
+					item: "l2hostility:ragnarok"
+					type: "item"
+				}
+			]
+			x: 35.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["56B2079C067755B7"]
+			id: "056569352414C5BE"
+			shape: "rsquare"
+			tasks: [{
+				id: "59B4E31A411FAB2C"
+				item: "l2hostility:teleport"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["56B2079C067755B7"]
+			id: "5BEFF1D263ED6F1E"
+			shape: "rsquare"
+			tasks: [{
+				id: "1F1B280455593819"
+				item: "l2hostility:arena"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["56B2079C067755B7"]
+			id: "1A185279F3A655FF"
+			shape: "square"
+			tasks: [{
+				id: "438419E933AF667D"
+				item: "l2hostility:master"
+				type: "item"
+			}]
+			x: 33.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56B2079C067755B7"]
+			id: "65B598F8A120C795"
+			shape: "rsquare"
+			tasks: [{
+				id: "5510324D3698C33C"
+				item: "l2hostility:dementor"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56B2079C067755B7"]
+			id: "2557775BC14AD7CB"
+			shape: "rsquare"
+			tasks: [{
+				id: "2A47A2C4BAF83E15"
+				item: "l2hostility:ragnarok"
+				type: "item"
+			}]
+			x: 35.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A185279F3A655FF"]
+			id: "06F12D2598F105EF"
+			shape: "rsquare"
+			tasks: [{
+				id: "0BED1D73CBD40E99"
+				item: "l2hostility:chaos_ingot"
+				type: "item"
+			}]
+			x: 33.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["65B598F8A120C795"]
+			id: "22D619BB88609F5B"
+			shape: "rsquare"
+			tasks: [{
+				id: "310F574BD1982F5F"
+				item: "l2complements:sun_membrane"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2557775BC14AD7CB"]
+			id: "2D1FC97FDEDF3CE2"
+			shape: "rsquare"
+			tasks: [{
+				id: "7CCFA19A537CDCA0"
+				item: "l2complements:eternium_nugget"
+				type: "item"
+			}]
+			x: 36.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["056569352414C5BE"]
+			id: "7A7D659E2280F7C3"
+			shape: "rsquare"
+			tasks: [{
+				id: "687A565152E37AF8"
+				item: "l2complements:void_eye"
+				type: "item"
+			}]
+			x: 37.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5BEFF1D263ED6F1E"]
+			id: "6F8B7719176E40DD"
+			shape: "rsquare"
+			tasks: [{
+				id: "0A6D0EC1B23773D0"
+				item: "l2hostility:chaos_ingot"
+				type: "item"
+			}]
+			x: 28.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["120E2CF094607D57"]
+			id: "76DBF05C892D9890"
+			shape: "rsquare"
+			tasks: [{
+				id: "3FFBF213B23F880C"
+				item: "l2complements:heirophant_green"
+				type: "item"
+			}]
+			x: 33.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2152104CEDE4E1BC"]
+			id: "62137F770D263687"
+			shape: "rsquare"
+			tasks: [{
+				id: "2B4FE5551C178D41"
+				item: "l2hostility:imagine_breaker"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2152104CEDE4E1BC"]
+			id: "37A442756993052A"
+			shape: "rsquare"
+			tasks: [{
+				id: "4810DB466517093A"
+				item: "l2complements:resonant_feather"
+				type: "item"
+			}]
+			x: 29.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["73260757AE642F46"]
+			id: "3B4ED7F5C298981D"
+			shape: "rsquare"
+			tasks: [{
+				id: "67FFFE9EB61C931B"
+				item: "l2hostility:chaos_ingot"
+				type: "item"
+			}]
+			x: 36.5d
+			y: -8.5d
+		}
+	]
+	title: "&6莱特兰恶意"
+}

@@ -1,0 +1,4038 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1C90A593BB9221A7"
+	group: ""
+	icon: "goety_revelation:curios_storage_crystal"
+	id: "1C90A593BB9221A7"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			id: "407BB007CB4B3DE0"
+			rewards: [{
+				id: "199963DEE8D3748F"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6ABA0393C525D070"
+				item: "confluence:sun_stone"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			id: "7B9D27CAA9D1D37F"
+			rewards: [{
+				id: "5AEF075D04134335"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "00E764EEDF54B5CF"
+				item: "confluence:moon_stone"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			id: "0294803C1E26F994"
+			rewards: [{
+				id: "25A2132A326F52C0"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "675E5B8FE657271A"
+				item: "confluence:celestial_stone"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			id: "31D57F3C3FBBE6D6"
+			rewards: [{
+				id: "55E18EB01E730E4C"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0C265B28F84DB26D"
+				item: {
+					Count: 1
+					id: "confluence:ankh_shield"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			id: "431E25924BC105E9"
+			rewards: [{
+				id: "4D1A89CA2714ACFF"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4807BD7D8D2F57FA"
+				item: "confluence:cobalt_shield"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			id: "22ECCE4197264CDD"
+			rewards: [{
+				id: "52C4139E0232E151"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "434A760F5120F702"
+				item: "confluence:explorers_equipment"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			id: "6ED2D946901E38FC"
+			rewards: [{
+				id: "3F615CC7F9C0B9C9"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "418A6557C454300E"
+				item: "confluence:paladins_shield"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			id: "2531B3154A616D7C"
+			rewards: [{
+				id: "3606C50D664F3163"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1FC2F6ED5F669FB3"
+				item: "confluence:destroyer_emblem"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			id: "0AC94E5133FA45FE"
+			rewards: [{
+				id: "4F64B25903A7985A"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4F2A16A15F0D6AF9"
+				item: "confluence:avenger_emblem"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			id: "162151E1D8DDCDD9"
+			rewards: [{
+				id: "1B6FCE571C98C10C"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2C761C31A3EEE199"
+				item: "confluence:frozen_turtle_shell"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			id: "701B48E24D1FA4FF"
+			rewards: [{
+				id: "3E73A68765B0D2B3"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "42BFD32F97F110F4"
+				item: "confluence:berserkers_glove"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "0B1D19AC2C60838B"
+			rewards: [{
+				id: "11572142E05749FC"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "55DADCF7503A4A14"
+				item: "confluence:flesh_knuckles"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			id: "54FD5D1F5030B0FD"
+			rewards: [{
+				id: "31F79D1376D7671E"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3735F2FDE9AEF3AC"
+				item: "confluence:hand_of_creation"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			id: "003EFF9C5611E78E"
+			rewards: [{
+				id: "448FEF6A2FC04E5F"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5755D35BDE8EC7B7"
+				item: "confluence:hero_shield"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			id: "2E6331219330282E"
+			rewards: [{
+				id: "418CFB85D1F450FB"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0252385013A6C2F7"
+				item: "confluence:bundle_of_horseshoe_balloons"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			id: "1B1C736E3421A14C"
+			rewards: [{
+				id: "0719A34857BAD49B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "41298E3C59FFC802"
+				item: {
+					Count: 1
+					id: "brutality:dueling_glove_hands"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "1AD321D21D808576"
+			rewards: [{
+				id: "7ED7B6A88A23E9E3"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "45EEC741E30B06BD"
+				item: {
+					Count: 1
+					id: "brutality:resplendent_feather_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "2DEF4F60D8787A2E"
+			rewards: [{
+				id: "2DE240BEDA3CA2B6"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "188C7EDC5BECA635"
+				item: {
+					Count: 1
+					id: "brutality:portable_mining_rig_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "3808B2CD8C026D65"
+			rewards: [{
+				id: "0B0B2A4B4226E017"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "10CF9CE6B6C23E24"
+				item: {
+					Count: 1
+					id: "brutality:crypto_wallet_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "0F97970BB81DFA3A"
+			rewards: [{
+				id: "57DEF13BFC10A699"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "457FB5FF67DE7BB5"
+				item: {
+					Count: 1
+					id: "brutality:scientific_calculator_belt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "7A42AA7FFFB10489"
+			rewards: [{
+				id: "57E65A4448705D44"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "30D71C0AA48232F6"
+				item: "confluence:ankh_charm"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -7.0d
+		}
+		{
+			id: "48CFE0CE95468A59"
+			rewards: [{
+				id: "2A3731051B67B67C"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "61EF9C16A853FC7F"
+				item: "confluence:frozen_shield"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			id: "69F74CCEA934CF61"
+			rewards: [{
+				id: "3E266EE4A641A838"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1E362C13FD095319"
+				item: "confluence:fire_gauntlet"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			id: "7FB5CEA9FA898057"
+			rewards: [{
+				id: "2AB3229388000DAC"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1CA65B479A1280C1"
+				item: {
+					Count: 1
+					id: "brutality:nanomachines_hands"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			id: "0F5D54910CC8E35A"
+			rewards: [{
+				id: "6348CF5315512FB9"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0D09186EF46371A1"
+				item: {
+					Count: 1
+					id: "confluence:obsidian_shield"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			id: "7A11B9C41E5F8479"
+			rewards: [{
+				id: "23FE6799BB3D4BCB"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "49758CC7FA4F6FBD"
+				item: "confluence:mechanical_glove"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			id: "35533FCADCFDAA1B"
+			rewards: [{
+				id: "38F5C0E53806AB0A"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "76D5DAF39A66E533"
+				item: {
+					Count: 1
+					id: "confluence:terraspark_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			id: "35019173251560AC"
+			rewards: [{
+				id: "21482049BFD78558"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1E7C9639205B93D9"
+				item: {
+					Count: 1
+					id: "brutality:plunder_chest_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			id: "7DFC91DC1CAC3632"
+			rewards: [{
+				id: "2BC7F4988724DA9A"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0B0973EA61E40E8E"
+				item: {
+					Count: 1
+					id: "brutality:abyssal_necklace"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			id: "6D200A4BDC2A12AE"
+			rewards: [{
+				id: "787820471BCE4E64"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "48CC23B750C3D248"
+				item: {
+					Count: 1
+					id: "brutality:dragonheart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			id: "7CB72E73CF3DDB97"
+			rewards: [{
+				id: "300A09C85A2ABA99"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3C5CCF5928A083C8"
+				item: {
+					Count: 1
+					id: "brutality:uvogre_heart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			id: "2553A61794FF132A"
+			rewards: [{
+				id: "4210A3A89DD97480"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1CA7CC3F99AE0837"
+				item: {
+					Count: 1
+					id: "brutality:zombie_heart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "5A4178DDB947564B"
+			rewards: [{
+				id: "38BE8957F194594A"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "29D722662E99B645"
+				item: {
+					Count: 1
+					id: "brutality:pi_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "666D7217F63AABE8"
+			rewards: [{
+				id: "25B5945AB4788893"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "48565180DDF021BF"
+				item: {
+					Count: 1
+					id: "brutality:exponential_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			id: "1661AB734F58A490"
+			rewards: [{
+				id: "57C2C876DEFD6897"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0492C1B7359FEDB4"
+				item: {
+					Count: 1
+					id: "brutality:addition_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			id: "6F1772EC842B24CE"
+			rewards: [{
+				id: "246FCA2B016280DB"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3BAC6D0799DF5CF9"
+				item: {
+					Count: 1
+					id: "brutality:subtraction_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			id: "5D75C5BA6D22DE51"
+			rewards: [{
+				id: "29A2E473875A9C68"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "24D2A5A552B4B0F4"
+				item: {
+					Count: 1
+					id: "brutality:frozen_heart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "6816844BD53069FA"
+			rewards: [{
+				id: "465AE9B4A0BE443E"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0CF448144F89A486"
+				item: {
+					Count: 1
+					id: "brutality:multiplication_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "64199DDA1E5DFD58"
+			rewards: [{
+				id: "322681E1B45ECAD4"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "79091668687FA51F"
+				item: {
+					Count: 1
+					id: "brutality:heart_of_gold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "44CFD053560079B3"
+			rewards: [{
+				id: "28D7AA7CAD042344"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "588A7575924BFD77"
+				item: {
+					Count: 1
+					id: "brutality:second_heart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			id: "44D4C8699B4674A5"
+			rewards: [{
+				id: "5049978923561A3E"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "69250B5B5359CC94"
+				item: {
+					Count: 1
+					id: "brutality:division_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "366D671D9A6EF6C5"
+			rewards: [{
+				id: "6B54533C83982168"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6CC86E35B35C9741"
+				item: {
+					Count: 1
+					id: "brutality:sum_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "45F0B09512304ECE"
+			rewards: [{
+				id: "262C96261F5B8CD0"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "00FC1D6160754E3E"
+				item: {
+					Count: 1
+					id: "brutality:sine_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "2F1FB93839AE7390"
+			rewards: [{
+				id: "06B61C005992993A"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "155EA23D5F6C4DAC"
+				item: {
+					Count: 1
+					id: "brutality:cosine_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "2729FC30E634E3D3"
+			rewards: [{
+				id: "5EE286063001ECD1"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "35BF74D5305654C9"
+				item: {
+					Count: 1
+					id: "darkdoppelganger:doppelganger_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "17EAE5B99F81E41A"
+			rewards: [{
+				id: "6B6BE168B991DCAF"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "00E8DD0362C895A4"
+				item: {
+					Count: 1
+					id: "darkdoppelganger:elder_necklace"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			id: "0B323975DD73C082"
+			rewards: [{
+				id: "27C3096E05C32EFF"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "78CE61D9BA2AF191"
+				item: "gobber2:gobber2_ring_curing"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			id: "7E19AB94AFAC0836"
+			rewards: [{
+				id: "44A031B7AEA5199F"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0CC28044949D5EB5"
+				item: "gobber2:gobber2_ring_haste"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			id: "5D5DE85AAA13C77A"
+			rewards: [{
+				id: "63AA77333BE4340E"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0081D137F0EA76CF"
+				item: "gobber2:gobber2_ring_repair"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "23C57E36D19B8D55"
+			rewards: [{
+				id: "7ECDFD4691C3FA32"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "549F5154B3268F85"
+				item: "gobber2:gobber2_medallion_breathing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "309C25BC223BEB57"
+			rewards: [{
+				id: "21E0AF6D20CE469D"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3ED55AB8ABFC2423"
+				item: "gobber2:gobber2_medallion_healing3"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "6178471131C637EA"
+			rewards: [{
+				id: "33D84F61FAE91A00"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5DDC8F36B1B5780C"
+				item: "gobber2:gobber2_medallion_healing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "42F7F9B79965F058"
+			rewards: [{
+				id: "0D9CEC045F7B7C94"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7B9335C483042291"
+				item: "gobber2:gobber2_medallion_healing2"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "30FA4AEECC5B865E"
+			rewards: [{
+				id: "03954BC508C359E4"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "28F62C8062B928D2"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_medallion_exp"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "13D4455F0CAE147A"
+			rewards: [{
+				id: "5ED859C8B5270B4D"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "26E1EB99C53EAEBE"
+				item: {
+					Count: 1
+					id: "goety_revelation:the_needle"
+					tag: {
+						isRealNeedle: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			id: "4C9E46D6E670D4B9"
+			rewards: [{
+				id: "02EF5681558A937D"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7F8E36D0ACC1D23F"
+				item: "goety_revelation:dimensional_will"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			id: "698265C04B0F4FCA"
+			rewards: [{
+				id: "2DDD293429FA2D24"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "633B21C67C84DDC2"
+				item: {
+					Count: 1
+					id: "l2hostility:ring_of_healing"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			id: "28F7E50CDFFFB68B"
+			rewards: [{
+				id: "3F0E9DF872F728F5"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "374DA68E86B45E0E"
+				item: "l2hostility:flaming_thorn"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			id: "62A0D6C874502A4D"
+			rewards: [{
+				id: "445B4F2EADA35C13"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0E76503DD550F442"
+				item: {
+					Count: 1
+					id: "goety_revelation:eternal_watch"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			id: "6A4B7F6AD928C747"
+			rewards: [{
+				id: "3B3861E2D5B38708"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "34170DE24A5D1A34"
+				item: "l2hostility:infinity_glove"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			id: "15A0B3BE4DB43E23"
+			rewards: [{
+				id: "2FD3EF07DE225B38"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2B25A5F7EE709A7D"
+				item: "goety_revelation:blessing_scroll"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			id: "07C8C7C07FD3F673"
+			rewards: [{
+				id: "49C577C5171148AA"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2BD912141AA3F562"
+				item: "l2hostility:platinum_star"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			id: "795F142A474B6FED"
+			rewards: [{
+				id: "7A1BBFFFAF9086EB"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5F689BCCBD7E5657"
+				item: {
+					Count: 1
+					id: "l2hostility:curse_of_wrath"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "6BEA8E2DFF4178FF"
+			rewards: [{
+				id: "1A2C36238D34896C"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "71F7414B47E7DB59"
+				item: "l2hostility:imagine_breaker"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			id: "057E9353421793F1"
+			rewards: [{
+				id: "3CACB0BD52482F68"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "05CE922F63B8C5AA"
+				item: {
+					Count: 1
+					id: "l2hostility:ring_of_life"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "1D71AE0784629F1C"
+			rewards: [{
+				id: "144E5EDCB91447DD"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4501392DE14A6562"
+				item: "l2hostility:oddeyes_glasses"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			id: "30D83650FB7202DE"
+			rewards: [{
+				id: "501AB27F91F2F79C"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0A3B2CA3EDEEF3C9"
+				item: {
+					Count: 1
+					id: "l2hostility:ring_of_divinity"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "6C38E2C412860FC6"
+			rewards: [{
+				id: "53D49A2C57BC71D2"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "30270F84021D151F"
+				item: {
+					Count: 1
+					id: "l2hostility:pocket_of_restoration"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			id: "13239CF26340DBB7"
+			rewards: [{
+				id: "69A3EE5AA9F4BD30"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "74D8BB8D572F24B7"
+				item: {
+					Count: 1
+					id: "l2hostility:ring_of_ocean"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "01F9976FD4E937DD"
+			rewards: [{
+				id: "604045A1543CA9C3"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "291E142F2853BF70"
+				item: "l2hostility:triple_strip_cape"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "7D0CAFA807B295A1"
+			rewards: [{
+				id: "6D26C05B86413CED"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "382A33D547275A07"
+				item: {
+					Count: 1
+					id: "l2hostility:ring_of_reflection"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "078533013F8ED76F"
+			rewards: [{
+				id: "5D9AA052AD5C07C1"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "73DBEBEBCB6F9F88"
+				item: {
+					Count: 1
+					id: "l2hostility:divinity_cross"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			id: "4371CEE2EE606D4E"
+			rewards: [{
+				id: "2ABB20A5A663F491"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "542FA96498CEE9F1"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:berserk_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 9.0d
+		}
+		{
+			icon: "enigmaticaddons:etherium_core"
+			id: "6936E04FCEB6297F"
+			rewards: [{
+				id: "4D948F3E42E5E224"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "759BD7B2B1C42EC6"
+				item: "enigmaticaddons:etherium_core"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			id: "1C78B453D651FAA1"
+			rewards: [{
+				id: "6030476CAAE95848"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "36C0735CB9E7B95B"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			id: "5BDE91D3313509F9"
+			rewards: [{
+				id: "72AAE45A11C8BBEC"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5052631AC9BBA55F"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ascension_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			id: "22C8154225F45BD7"
+			rewards: [{
+				id: "505F9C46015DB0B2"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0452258A1A7F913A"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:insignia"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			id: "79965F0AE9DDFA05"
+			rewards: [{
+				id: "5145932219A51A7C"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "528E9BFD03888126"
+				item: "enigmaticaddons:hell_blade_charm"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			id: "7051005BF31CD54F"
+			rewards: [{
+				id: "258C1F0779861FC4"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "04651BF784AB8727"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:chaos_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			id: "55CD266965070B4F"
+			rewards: [{
+				id: "2CF8711CA4D89573"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7E6F74CA2782604E"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			id: "69F7928070B56CCF"
+			rewards: [{
+				id: "6574B36F09047EB1"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "12B47E62CB2E4DD6"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:violence_scroll"
+					tag: {
+						LastHolder: [I;
+							0
+							12291
+							-1718661093
+							-867114758
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			id: "17A3CFCF73BD6D01"
+			shape: "square"
+			tasks: [{
+				id: "76DF0D48EA60F04D"
+				title: "&4后期饰品"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			id: "6FD8DBCD95A847FA"
+			rewards: [{
+				id: "17244184AF7222BD"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5714E0E6B05077C8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:silver_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -17.0d
+		}
+		{
+			id: "68252620D7387A7B"
+			rewards: [{
+				id: "24FE199A7A352B1A"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "010F5234F5519E40"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cast_time_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -19.0d
+		}
+		{
+			id: "5A03FF7A19820530"
+			rewards: [{
+				id: "566AB1E7FB216ACB"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "365C92807F0C50C4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cooldown_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -19.0d
+		}
+		{
+			id: "5D7DA0449591A762"
+			rewards: [{
+				id: "24BA7737BFB10165"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "362188022C9EF3EA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:emerald_stoneplate_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -19.0d
+		}
+		{
+			id: "0F5C0993653E2864"
+			rewards: [{
+				id: "162FBC4FC8ABC8AA"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6488EA4C553AA1CF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:fireward_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -19.0d
+		}
+		{
+			id: "31B4DB07EA489743"
+			rewards: [{
+				id: "7D86B32894109FE4"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6D2E61A12C3F65A4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:frostward_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -19.0d
+		}
+		{
+			id: "505D3ACE9A7EE5B6"
+			rewards: [{
+				id: "445068338BBBC302"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "32934619F8E8BE23"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:mana_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -17.0d
+		}
+		{
+			id: "3BE33216B233D793"
+			rewards: [{
+				id: "6DB93C84587D4DC9"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3E30EA8522F23143"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:heavy_chain_necklace"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -19.0d
+		}
+		{
+			id: "655FD5C6D90F7A30"
+			rewards: [{
+				id: "3853E06DA3B09D6D"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "545ADA6711C6596C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:concentration_amulet"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -19.0d
+		}
+		{
+			id: "3E1F7536BCB00406"
+			rewards: [{
+				id: "6B1003F6F518EFF7"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "68B3A0E8F5C6D7BC"
+				item: "enigmaticaddons:forger_gem"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -13.0d
+		}
+		{
+			id: "73D7C51982C45F87"
+			rewards: [{
+				id: "786A90B73D8E89B1"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2C8698A7ACF0600B"
+				item: "enigmaticlegacy:enchanter_pearl"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -13.0d
+		}
+		{
+			id: "2C9D1FDA49C32BF7"
+			rewards: [{
+				id: "0DA2BBF5E7D39A0D"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1003B971CC59C8B5"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -15.0d
+		}
+		{
+			id: "734BCFAC2840D26F"
+			rewards: [{
+				id: "2716D2C2A976D755"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1776D34601C09BD4"
+				item: {
+					Count: 1
+					id: "relics:leather_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									charm: 1.11428d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -17.0d
+		}
+		{
+			id: "7285B05B2DC90D53"
+			rewards: [{
+				id: "59311623AEED949B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "00C04ED1C5F46022"
+				item: {
+					Count: 1
+					id: "relics:midnight_robe"
+					tag: {
+						abilities: {
+							backstab: {
+								points: 0
+								stats: {
+									damage: 1.64344d
+									distance: 17.73137d
+								}
+							}
+							vanish: {
+								points: 0
+								stats: {
+									light: 1.91136d
+									speed: 0.28024d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -17.0d
+		}
+		{
+			id: "3DC7222652CCDDA3"
+			rewards: [{
+				id: "665A05392449D4BB"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "272258A3134F892C"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -15.0d
+		}
+		{
+			id: "7A8ECAB7F748DB61"
+			rewards: [{
+				id: "3142384FA379B299"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3F429216E7195C1B"
+				item: {
+					Count: 1
+					id: "relics:hunter_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									charm: 1.6898d
+								}
+							}
+							training: {
+								points: 0
+								stats: {
+									damage: 1.79286d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -17.0d
+		}
+		{
+			id: "456D3D0144C018FE"
+			rewards: [{
+				id: "44C04F698BE4F105"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "01D075A5AE3F1861"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -15.0d
+		}
+		{
+			id: "38F5AEF7D63116DB"
+			rewards: [{
+				id: "6CF4D8414EC3D56B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0B40F70A4F59A5FE"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.0d
+		}
+		{
+			id: "5D5050E89E676F8D"
+			rewards: [{
+				id: "3E55DC9F2D8E95EC"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3149E2FADE7EC41F"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -13.0d
+		}
+		{
+			id: "4425577F57BCC331"
+			rewards: [{
+				id: "47B88BF38035D8D4"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5558DE3143C3E7BE"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -15.0d
+		}
+		{
+			id: "5AC850A4AC8B5CA8"
+			rewards: [{
+				id: "6EA87C4E7C34619A"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B056A8ECEA7F126"
+				item: {
+					Count: 1
+					id: "relics:infinity_ham"
+					tag: {
+						abilities: {
+							autophagy: {
+								points: 0
+								stats: {
+									feed: 1.4739d
+								}
+							}
+							infusion: {
+								points: 0
+								stats: {
+									duration: 2.659d
+								}
+							}
+						}
+						pieces: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -17.0d
+		}
+		{
+			id: "6D99C008F11AF368"
+			rewards: [{
+				id: "7877EF4225FE9CA2"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1D0C795DB4A7A757"
+				item: {
+					Count: 1
+					id: "artifacts:superstitious_hat"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -17.0d
+		}
+		{
+			id: "4B454BF65974AF94"
+			rewards: [{
+				id: "76083D26367CAFA7"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7937F5D303804511"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -15.0d
+		}
+		{
+			id: "02EC79E694510D73"
+			rewards: [{
+				id: "19ECE16276659BA7"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "26D30F645E049F8C"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -11.0d
+		}
+		{
+			id: "3CE70E63F75F20F3"
+			rewards: [{
+				id: "703A38113978FCD2"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "18207B427A19C00C"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -11.0d
+		}
+		{
+			id: "4BCD03ED0B6FBE38"
+			rewards: [{
+				id: "4B4A10132497BE00"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "50259BD95861DC75"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:quartz_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -13.0d
+		}
+		{
+			id: "0A8CB6972B6C7775"
+			rewards: [{
+				id: "1B172BFE1E9FE3B7"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "51655C9B6646029A"
+				item: {
+					Count: 1
+					id: "artifacts:cross_necklace"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -15.0d
+		}
+		{
+			id: "009F7491280CCC86"
+			rewards: [{
+				id: "0E10789146804A8B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3B994717BABEF707"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:mining_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -13.0d
+		}
+		{
+			id: "2F0A4CD841D8BD63"
+			rewards: [{
+				id: "33CCCE78FFF80B6F"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "04D58F1246A8E18A"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -15.0d
+		}
+		{
+			id: "1BAF16A4D124F192"
+			rewards: [{
+				id: "6D21BF03B72854E5"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "413A8BA99FB52A16"
+				item: {
+					Count: 1
+					id: "artifacts:crystal_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -15.0d
+		}
+		{
+			id: "4568319447F49EDB"
+			rewards: [{
+				id: "170B347542A4914D"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5EA329E7418316CF"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -15.0d
+		}
+		{
+			id: "7682EC229769755A"
+			rewards: [{
+				id: "0FCB581D4EF9FC67"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4BE8B30DA193CD77"
+				item: "enigmaticaddons:adventure_charm"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			id: "6DE678FB1E9426D6"
+			rewards: [{
+				id: "2A0FB0C5A20315A2"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1970D92D4D734FC3"
+				item: "enigmaticaddons:illusion_lantern"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			id: "5A50114B2252032F"
+			rewards: [{
+				id: "16E8692C26C96AFA"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2D561CF8F3B2F929"
+				item: "enigmaticaddons:forgotten_ice"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			id: "6BAA8750E8C25A6D"
+			rewards: [{
+				id: "4298F7B3BEDADA36"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "51B534D83782F9FF"
+				item: "enigmaticaddons:lost_engine"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -13.0d
+		}
+		{
+			id: "3EB0F3A202F4788B"
+			rewards: [{
+				id: "06B52A5813FBAEB2"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "78844EFF581875E4"
+				item: "enigmaticlegacy:monster_charm"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -13.0d
+		}
+		{
+			id: "729B82E239347B6A"
+			rewards: [{
+				id: "0FCB991A5F4CEF1B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1F8EFA85294D5BCF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:amethyst_resonance_charm"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -19.0d
+		}
+		{
+			id: "0AE71756CB2F86F9"
+			rewards: [{
+				id: "10C06354157DF5EE"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "094B6A9C1819E8BA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:affinity_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -17.0d
+		}
+		{
+			id: "59848719179B93FB"
+			rewards: [{
+				id: "10B6F05EE2C4E8F2"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "10744A8B859BB3EB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:conjurers_talisman"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -19.0d
+		}
+		{
+			id: "32D5D26379A0F8F7"
+			rewards: [{
+				id: "1ACD28408C32B7DF"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "37DAA65ECD7E5B70"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:poisonward_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -17.0d
+		}
+		{
+			id: "21C2F9FA7B8A669B"
+			rewards: [{
+				id: "49D539C6FA53F76B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5EFD625BA23B59DE"
+				item: {
+					Count: 1
+					id: "terramity:diamond_gauntlet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -21.0d
+		}
+		{
+			id: "4CA93C30F6E49517"
+			rewards: [{
+				id: "2A6B99236847D866"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "248FDAB1E60C9627"
+				item: {
+					Count: 1
+					id: "terramity:diamond_pendant"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -21.0d
+		}
+		{
+			id: "61B9A133194F3572"
+			rewards: [{
+				id: "69C63D3962E3C79F"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2648D83209897696"
+				item: {
+					Count: 1
+					id: "terramity:diamond_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -21.0d
+		}
+		{
+			id: "5F2F5019B6998E4B"
+			rewards: [{
+				id: "41DA4B5307605BDF"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1268654C74F5213A"
+				item: {
+					Count: 1
+					id: "skilltree:armored_quiver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -21.0d
+		}
+		{
+			id: "14E8C07267C21782"
+			rewards: [{
+				id: "2C2B2F2171AE4029"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4AE9D7A0CF103796"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:desolation_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			id: "54DE298A355F5C37"
+			rewards: [{
+				id: "7CA18EB6635C048B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7FD8D76F897D4737"
+				item: "enigmaticaddons:thunder_scroll"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 11.0d
+		}
+		{
+			id: "6C239E164096716A"
+			rewards: [{
+				id: "0DA067942D3158B6"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "558BD146AA4BC052"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 11.0d
+		}
+		{
+			id: "2803C25BD9322CBA"
+			rewards: [{
+				id: "07E2ABD1A5F30C70"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0093C19E70031D93"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:bless_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			id: "0F99096DBFB63608"
+			rewards: [{
+				id: "03F1CF919B3E1365"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "479EE9AE950E65A3"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:avarice_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			id: "194863B1D582D1BB"
+			rewards: [{
+				id: "411E8EA82F0F900A"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "051BFA89434FAB86"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			id: "384124FC3AD61438"
+			rewards: [{
+				id: "37FBC00A1AED5FBC"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1AE6EBB4ADD60E11"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			id: "1B0672D3403DA643"
+			rewards: [{
+				id: "6AA414E565DCE6AD"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "24B39A6D5C67DED3"
+				item: "enigmaticaddons:revival_leaf"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			id: "4C33F69E1CD539A8"
+			rewards: [{
+				id: "1EEA124966035356"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2BFA84F41C4D9FDC"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:earth_promise"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			id: "411724944AC8E79E"
+			rewards: [{
+				id: "5224EDB4927F696C"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "02984AEAC639BC47"
+				item: "goety:warlock_robe"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 13.0d
+		}
+		{
+			id: "0884046839CF4473"
+			rewards: [{
+				id: "4D12F546EF8F567C"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5C1E4EDD9D82C728"
+				item: "goety:warlock_robe_dark"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			id: "626117ADC038A9F2"
+			rewards: [{
+				id: "1CFC16CC55E8F212"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3F3D8EDF45AA62AE"
+				item: "goety:frost_robe_cryo"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.0d
+		}
+		{
+			id: "41348BB514F973B1"
+			rewards: [{
+				id: "74AB6F38F6AF06C8"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "605E2881DC0CF9B6"
+				item: {
+					Count: 1
+					id: "goety:frost_robe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			id: "1546106F7AA93D7F"
+			rewards: [{
+				id: "1E6A9BD4C397B5D6"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3F02B9106DD0564B"
+				item: "goety:nether_robe_warped"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			id: "5B91BA74BE7EDA3B"
+			rewards: [{
+				id: "1190A77C659D57A4"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "72657744F62B71D3"
+				item: "goety:nether_robe"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			id: "77791BF98F85CEFA"
+			rewards: [{
+				id: "6B0B2BEA2D857C70"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "10F12E0557D49CEA"
+				item: "goety:grand_robe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			id: "5BD15AEF32D0A809"
+			rewards: [{
+				id: "71B7AA5A467F47A7"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1479A9BA619A5C5F"
+				item: "goety:storm_robe"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			id: "5EC898D39E1F9103"
+			rewards: [{
+				id: "25B8DEA7085B2DB6"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3E58D1A332F8C91B"
+				item: {
+					Count: 1
+					id: "goety:dark_hat"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -21.0d
+		}
+		{
+			id: "25C238495B6B4D70"
+			rewards: [{
+				id: "56DD371E9155240F"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5BC2581DEF87CE26"
+				item: "enigmaticdelicacy:curse_crystal_pendant"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 13.0d
+		}
+		{
+			id: "23A27D1DA8698BAC"
+			rewards: [{
+				id: "7D70746DAB85BB5A"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1D1A6B4D30ACA3E8"
+				item: "enigmaticdelicacy:gluttony_charm"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -21.0d
+		}
+		{
+			id: "2743527162DF30FC"
+			rewards: [{
+				id: "7C8130C8B324E219"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0AE31C4153198CF7"
+				item: "enigmaticdelicacy:weapon_charm"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -21.0d
+		}
+		{
+			id: "5A9688142E2D1648"
+			rewards: [{
+				id: "2234F845DE4AB16F"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5AEDBCAD7CE99F17"
+				item: {
+					Count: 1
+					id: "enigmaticdelicacy:hungry_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -21.0d
+		}
+		{
+			id: "3E726F58DF89CFB3"
+			rewards: [{
+				id: "14576986BB7263D2"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5EDAF44C312441A5"
+				item: "terramity:diamond_studded_belt"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -21.0d
+		}
+		{
+			id: "11967AC649AAE776"
+			rewards: [{
+				id: "280F4CC5F1CAA941"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "674D7276E5621BA5"
+				item: "terramity:headhunter_talisman_plus"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -23.0d
+		}
+		{
+			id: "05466D8420A98C2F"
+			rewards: [{
+				id: "02663766923170B8"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "021C7EB597E82528"
+				item: "terramity:headhunter_talisman"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -23.0d
+		}
+		{
+			id: "4079B4152A18E76D"
+			rewards: [{
+				id: "200B19711041582B"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7AE45208652F30A0"
+				item: "terramity:amp_shield"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -23.0d
+		}
+		{
+			id: "61855ABB3C519513"
+			rewards: [{
+				id: "3674E3B297C0BFDA"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6505A3BF647D4768"
+				item: {
+					Count: 1
+					id: "terramity:exodium_shield_amulet"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -25.0d
+		}
+		{
+			id: "7FF5340E9ECACF76"
+			rewards: [{
+				id: "32E5F83CBF36B03C"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B97CA2F0F00064A"
+				item: {
+					Count: 1
+					id: "terramity:blastguard_pendant"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -25.0d
+		}
+		{
+			id: "24A3E226C3506E01"
+			rewards: [{
+				id: "26172C510DBDBA01"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "226360C0D49FAA51"
+				item: {
+					Count: 1
+					id: "terramity:solar_safeguard_pendant"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -25.0d
+		}
+		{
+			id: "36E309D0EB7AEA18"
+			rewards: [{
+				id: "1C03F579D9D1F5F0"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1E8A638B73A01E74"
+				item: {
+					Count: 1
+					id: "terramity:holy_heart_necklace"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -25.0d
+		}
+		{
+			id: "2D57D64EED1FF4D3"
+			rewards: [{
+				id: "385E035E6B16E241"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2CC297E87DEBB151"
+				item: "terramity:steel_shell"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -23.0d
+		}
+		{
+			id: "752F2D8CCF5A16A1"
+			rewards: [{
+				id: "17B4160375A1E7C8"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "64C34EB31AEF1BCF"
+				item: "terramity:radiant_honey"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -23.0d
+		}
+		{
+			id: "55577226762358AF"
+			rewards: [{
+				id: "3EFFCEE3F831635A"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "36C8A92D4CAEACAC"
+				item: {
+					Count: 1
+					id: "terramity:flameguard_pendant"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -25.0d
+		}
+		{
+			id: "1044972B15A1BB11"
+			rewards: [{
+				id: "648CD9828921F10E"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "19519FFB9C3DBCF5"
+				item: {
+					Count: 1
+					id: "terramity:purity_pendant"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -25.0d
+		}
+		{
+			id: "41EEFE1C8781619B"
+			rewards: [{
+				id: "17987DB397C7C061"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "496D7EA612F8EFF3"
+				item: "terramity:celestial_brew"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -23.0d
+		}
+		{
+			id: "1AD8618C74A2B9D2"
+			rewards: [{
+				id: "14A304E00E79F166"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3B9471FBB2B431C3"
+				item: {
+					Count: 1
+					id: "terramity:honey_necklace"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -25.0d
+		}
+		{
+			id: "30FE7C6830C7F52E"
+			rewards: [{
+				id: "3082FB88EF543846"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "56A59A2E01E3FD59"
+				item: "terramity:ambrosia"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -23.0d
+		}
+		{
+			id: "4711B13A879E9AE0"
+			rewards: [{
+				id: "570D8FB80C99BB49"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "73DBC2911CF3D229"
+				item: {
+					Count: 1
+					id: "terramity:dragon_band"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -23.0d
+		}
+		{
+			id: "73F0D3946C61EA6A"
+			rewards: [{
+				id: "4523B896FDA8443C"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "018D441A6F8AE143"
+				item: {
+					Count: 1
+					id: "terramity:poisonguard_pendant"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -25.0d
+		}
+		{
+			id: "339EC1F0E0173A77"
+			rewards: [{
+				id: "2AD26EAD5BEE5E1A"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3F29C34D6567BD94"
+				item: "terramity:eyepatch"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -25.0d
+		}
+		{
+			id: "0431169FB7C22221"
+			rewards: [{
+				id: "233983CA6F970F1E"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "499D33958E4E96B7"
+				item: "terramity:shinobi_sash"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -23.0d
+		}
+		{
+			id: "40AC52D4E5F993DC"
+			rewards: [{
+				id: "0D19A8758C21AB1E"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "648C5BBF52A659B0"
+				item: {
+					Count: 1
+					id: "terramity:tearstone_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -27.0d
+		}
+		{
+			id: "405B63EA7107F791"
+			rewards: [{
+				id: "770DE21BD3A74DF3"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1A9B8C142E45CA17"
+				item: {
+					Count: 1
+					id: "terramity:band_of_power"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -27.0d
+		}
+		{
+			id: "5AD80BC707ACE984"
+			rewards: [{
+				id: "6E30A3D7C444A3EC"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3FBDF3C15FEA0A9E"
+				item: {
+					Count: 1
+					id: "terramity:band_of_power_plus"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -27.0d
+		}
+		{
+			id: "0AD7A453EE88EB5B"
+			rewards: [{
+				id: "3FEE771403231795"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "311D8AF4E2340953"
+				item: "terramity:exodium_twin_bracelets"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -29.0d
+		}
+		{
+			id: "055C8EB136BFE42B"
+			rewards: [{
+				id: "2A97C5AFCB6E78D7"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6DF557F74F7AF03C"
+				item: "terramity:power_bracelets"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -29.0d
+		}
+		{
+			id: "175027DEB2D579EC"
+			rewards: [{
+				id: "06F5580A91E3C54E"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "502F6E5CB922BE57"
+				item: "terramity:lava_gauntlet"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -29.0d
+		}
+		{
+			id: "6BCA7A9097F04B3E"
+			rewards: [{
+				id: "5F5CC6E1D439A369"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "144948CEB82FF9BE"
+				item: "terramity:prismatic_gauntlet"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -29.0d
+		}
+		{
+			id: "7FC45F86D77DE62E"
+			rewards: [{
+				id: "11EFF83749D6C3B7"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4CA7D28BBC0B5E69"
+				item: {
+					Count: 1
+					id: "terramity:life_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -27.0d
+		}
+		{
+			id: "0754D8EEC611013A"
+			rewards: [{
+				id: "4F9FC68A10321B96"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "395613D92189D9DA"
+				item: {
+					Count: 1
+					id: "terramity:life_ring_plus"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -27.0d
+		}
+		{
+			id: "4C4130615708C46F"
+			rewards: [{
+				id: "66E45F614416BB39"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3C59F1F2A000546C"
+				item: {
+					Count: 1
+					id: "terramity:experience_sapping_gauntlet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -29.0d
+		}
+		{
+			id: "25FC5DF3EF5DC86A"
+			rewards: [{
+				id: "426F381E4E6942DF"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "26AAAE6454DF8336"
+				item: "terramity:gauntlet_of_decay"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -29.0d
+		}
+		{
+			id: "7ECF9BF289A35191"
+			rewards: [{
+				id: "41F3E04DD551F848"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4AD532C611DCE5C2"
+				item: {
+					Count: 1
+					id: "terramity:ring_of_rejuvenation"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -27.0d
+		}
+		{
+			id: "26A25D0DCA733AE9"
+			rewards: [{
+				id: "013FF0D44BD6C9B9"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "599672A71C6646F1"
+				item: {
+					Count: 1
+					id: "terramity:ring_of_rejuvenation_plus"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -27.0d
+		}
+		{
+			id: "390DB9D3FB55E274"
+			rewards: [{
+				id: "5D352BCED2679B43"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "69639FFB56A11D91"
+				item: "terramity:famine_gauntlet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -29.0d
+		}
+		{
+			id: "176A665BD9AD5684"
+			rewards: [{
+				id: "2BD13000FB607728"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "296B49A47C3A7FD5"
+				item: {
+					Count: 1
+					id: "terramity:gold_medal"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -29.0d
+		}
+		{
+			id: "0C9AC17AF9CB085F"
+			rewards: [{
+				id: "0371647FC4159FFD"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "582BD187C4D79657"
+				item: {
+					Count: 1
+					id: "terramity:supercharged_speed_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -27.0d
+		}
+		{
+			id: "2E7D23CAD23AA080"
+			rewards: [{
+				id: "4E010275E7E6B4A8"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "46A3C621177B7C01"
+				item: "terramity:sacred_speed_bracelets"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -27.0d
+		}
+		{
+			id: "03D1F470DC9E3EC8"
+			rewards: [{
+				id: "2893C8C662FF92E1"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2080E026948D324F"
+				item: {
+					Count: 1
+					id: "terramity:prismatic_scarf"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -29.0d
+		}
+		{
+			id: "78293E022480C421"
+			rewards: [{
+				id: "29E0BCFE0144B297"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0A85E80C14FC8426"
+				item: "terramity:proximity_badge"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -31.0d
+		}
+		{
+			id: "777D7B21AD0CE0E5"
+			rewards: [{
+				id: "7256842CE47CAAD0"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4B39C17035201197"
+				item: "terramity:chthonic_cursemark"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -31.0d
+		}
+		{
+			id: "293FC11DBE5CC8B1"
+			rewards: [{
+				id: "28E35554DB78BCCA"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4150FB0CFD31FDFB"
+				item: "terramity:stygian_safety_talisman"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -31.0d
+		}
+		{
+			id: "3E5EA75CF952695C"
+			rewards: [{
+				id: "3B36E93B2CF82625"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7D5C657EA796C342"
+				item: {
+					Count: 1
+					id: "terramity:sharpening_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -31.0d
+		}
+		{
+			id: "03B7D49959A40DC2"
+			rewards: [{
+				id: "3EB5CCAA702E710A"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5ADA5FB990BAC695"
+				item: "terramity:lucky_dice"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -33.0d
+		}
+		{
+			id: "06EDE32DE78A731B"
+			rewards: [{
+				id: "67E65B69041E3398"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "130416EBECAA90F7"
+				item: "terramity:die_of_revival"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -33.0d
+		}
+		{
+			id: "72E8807FB432341F"
+			rewards: [{
+				id: "75A17D077C75C11F"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3872D451BEEC4713"
+				item: "terramity:magma_stone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -31.0d
+		}
+		{
+			id: "74A737039F15B799"
+			rewards: [{
+				id: "2BFC8E9EBB690ACF"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7B3405FCFA0E8C2B"
+				item: {
+					Count: 1
+					id: "terramity:shadowflame_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -31.0d
+		}
+		{
+			id: "5D71235E1A7A61FA"
+			rewards: [{
+				id: "3890679661DAD5DE"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0644BE20BFFD1C49"
+				item: "terramity:fateful_coin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -31.0d
+		}
+		{
+			id: "292B741675E36A7B"
+			rewards: [{
+				id: "3F2ADA08C03DE198"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "10E77881E24B734A"
+				item: "terramity:ultra_sniffer_fur"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -31.0d
+		}
+		{
+			id: "05840B17360781C6"
+			rewards: [{
+				id: "0F53B222B25B24A7"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "79FE0E375CC37916"
+				item: {
+					Count: 1
+					id: "terramity:energized_core"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -31.0d
+		}
+		{
+			id: "2399CA60F11B75BF"
+			rewards: [{
+				id: "3D505F1A1A36DFC1"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5D45BF14B01D2390"
+				item: "terramity:weighted_die"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -33.0d
+		}
+		{
+			id: "72A777809B46214C"
+			rewards: [{
+				id: "54F6BF467C224EFE"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1A3C67F07A8500F8"
+				item: "terramity:nullifying_dice"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -33.0d
+		}
+		{
+			id: "72BD191B8489C159"
+			rewards: [{
+				id: "0524000ACC44E62F"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "123D45879CFF9A6C"
+				item: "terramity:devils_dice"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -33.0d
+		}
+		{
+			id: "6F3D221002B53B0D"
+			shape: "square"
+			tasks: [{
+				id: "2667572A1F1A8C56"
+				title: "&4前中期饰品"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -35.0d
+		}
+		{
+			id: "3F8C0202060E6D75"
+			rewards: [{
+				id: "4DE64545D3A9BB34"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "34CD5DC614DAADB6"
+				item: {
+					Count: 1
+					id: "goety_revelation:ascension_halo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 15.0d
+		}
+		{
+			id: "61E2CBDA7645F5B9"
+			rewards: [{
+				id: "52AA0DF7EF571AA3"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3D85064D429AD85C"
+				item: {
+					Count: 1
+					id: "skilltree:assassin_necklace"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -33.0d
+		}
+		{
+			id: "5F4DC3C7BA6A4755"
+			rewards: [{
+				id: "4EACEC6DF138B07F"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "29AA06ABACA1CC39"
+				item: {
+					Count: 1
+					id: "skilltree:diamond_quiver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -33.0d
+		}
+		{
+			id: "5E1868AFC8672CBD"
+			rewards: [{
+				id: "0718E57BE45B7A9E"
+				item: "currency:twenty_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7F18E867772CD8F6"
+				item: {
+					Count: 1
+					id: "skilltree:bone_quiver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -33.0d
+		}
+		{
+			id: "64AC01E1887773DB"
+			shape: "rsquare"
+			tasks: [{
+				id: "38FA5D87523DFC21"
+				item: {
+					Count: 1
+					id: "skilltree:fiery_quiver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -33.0d
+		}
+	]
+	title: "&6饰品推荐"
+}
