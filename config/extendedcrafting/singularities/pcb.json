@@ -1,0 +1,10 @@
+{
+  "name": "PCB",
+  "colors": [
+    "4db757",
+    "bfd352"
+  ],
+  "ingredient": {
+    "item": "pneumaticcraft:printed_circuit_board"
+  }
+}

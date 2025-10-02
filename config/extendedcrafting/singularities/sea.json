@@ -1,0 +1,10 @@
+{
+  "name": "Sea",
+  "colors": [
+    "00dcff",
+    "00aaff"
+  ],
+  "ingredient": {
+    "item": "minecraft:heart_of_the_sea"
+  }
+}

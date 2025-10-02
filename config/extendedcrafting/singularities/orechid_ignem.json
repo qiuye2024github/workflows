@@ -1,0 +1,10 @@
+{
+  "name": "Orechid Ignem",
+  "colors": [
+    "c10144",
+    "01c195"
+  ],
+  "ingredient": {
+    "item": "botania:orechid_ignem"
+  }
+}

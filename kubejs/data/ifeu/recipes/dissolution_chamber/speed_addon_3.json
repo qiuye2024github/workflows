@@ -1,0 +1,35 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "kubejs:t2speed"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "tag": "forge:gears/netherite"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:gears/netherite"
+    }
+  ],
+  "inputFluid": "{Amount:1000,FluidName:\"industrialforegoing:essence\"}",
+  "output": {
+    "count": 1,
+    "item": "kubejs:t3speed"
+  },
+  "processingTime": 200
+}

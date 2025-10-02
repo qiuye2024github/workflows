@@ -1,0 +1,15 @@
+filename = "Create More Recipes-1.20.1-1.2.1.jar"
+name = "Create More Recipes"
+side = "both"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "9ef78440e679d5555c03021bafc04bdad314b58f"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6682/790/Create More Recipes-1.20.1-1.2.1.jar"
+
+[update.curseforge]
+file-id = 6682790
+project-id = 1103188

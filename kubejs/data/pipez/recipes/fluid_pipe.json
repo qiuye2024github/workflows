@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "BRB",
+    "III"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "I": {
+      "item": "pneumaticcraft:plastic"
+    },
+    "R": {
+      "tag": "forge:gems/lapis"
+    }
+  },
+  "result": {
+    "item": "pipez:fluid_pipe",
+    "count": 16
+  }
+}

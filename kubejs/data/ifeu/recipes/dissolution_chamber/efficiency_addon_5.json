@@ -1,0 +1,35 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "kubejs:t4eff"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "inputFluid": "{Amount:1000,FluidName:\"ifeu:liquid_sculk_matter\"}",
+  "output": {
+    "count": 1,
+    "item": "kubejs:t5eff"
+  },
+  "processingTime": 200
+}

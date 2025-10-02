@@ -1,0 +1,10 @@
+{
+  "name": "Hyper Experience",
+  "colors": [
+    "00d4ff",
+    "00ff0f"
+  ],
+  "ingredient": {
+    "item": "kubejs:hyper_experience_block"
+  }
+}

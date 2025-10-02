@@ -1,0 +1,15 @@
+filename = "ifeu-1.20.1-2.3.009.jar"
+name = "Industrial Foregoing: Extra Upgrades"
+side = "both"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "beta"
+
+[download]
+hash = "dc4b5f111764bdf3de4e927f9b907d674fcf17ac"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6870/730/ifeu-1.20.1-2.3.009.jar"
+
+[update.curseforge]
+file-id = 6870730
+project-id = 1161049

@@ -1,0 +1,10 @@
+{
+  "name": "Water",
+  "colors": [
+    "000fff",
+    "d5d4b2"
+  ],
+  "ingredient": {
+    "item": "botania:rune_water"
+  }
+}

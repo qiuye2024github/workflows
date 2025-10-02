@@ -1,0 +1,15 @@
+filename = "mekpipezfix-1.20.1-1.0.0-all.jar"
+name = "Mekanism Pipez Fix"
+side = "server"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "78458c817afebb75f79946fd737065ddb6580107"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6376/734/mekpipezfix-1.20.1-1.0.0-all.jar"
+
+[update.curseforge]
+file-id = 6376734
+project-id = 1233861

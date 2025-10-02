@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fluxnetworks",
+  "pattern": [
+    "aca",
+    "cbc",
+    "aca"
+  ],
+  "key": {
+    "c": {
+      "item": "powah:ender_core"
+    },
+    "b": {
+      "item": "fluxnetworks:flux_block"
+    },
+    "a": {
+      "item": "thermal:enderium_ingot"
+    }
+  },
+  "result": {
+    "item": "fluxnetworks:flux_point",
+    "count": 4
+  }
+}

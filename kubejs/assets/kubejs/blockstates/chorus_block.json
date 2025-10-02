@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "kubejs:block/chorus_block"
+      },
+      {
+        "model": "kubejs:block/chorus_block",
+        "y": 90
+      },
+      {
+        "model": "kubejs:block/chorus_block",
+        "y": 180
+      },
+      {
+        "model": "kubejs:block/chorus_block",
+        "y": 270
+      }
+    ]
+  }
+}

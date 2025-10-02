@@ -1,0 +1,35 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "forge:dusts/redstone"
+    },
+    {
+      "tag": "forge:dusts/redstone"
+    },
+    {
+      "tag": "forge:glass_panes/colorless"
+    },
+    {
+      "tag": "forge:glass_panes/colorless"
+    },
+    {
+      "tag": "forge:gears/sculk"
+    },
+    {
+      "tag": "forge:gears/sculk"
+    },
+    {
+      "item": "kubejs:t3apple"
+    },
+    {
+      "item": "ifeu:apple_core"
+    }
+  ],
+  "inputFluid": "{Amount:2000,FluidName:\"ifeu:liquid_malic_acid\"}",
+  "output": {
+    "count": 1,
+    "item": "kubejs:t4apple"
+  },
+  "processingTime": 200
+}

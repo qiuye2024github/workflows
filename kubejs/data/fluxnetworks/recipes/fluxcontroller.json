@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fluxnetworks",
+  "pattern": [
+    "bcb",
+    "faf",
+    "bbb"
+  ],
+  "key": {
+    "c": {
+      "item": "powah:ender_core"
+    },
+    "b": {
+      "item": "fluxnetworks:flux_block"
+    },
+    "a": {
+      "item": "powah:dielectric_casing"
+    },
+    "f": {
+      "item": "fluxnetworks:flux_dust"
+    }
+  },
+  "result": {
+    "item": "fluxnetworks:flux_controller"
+  }
+}

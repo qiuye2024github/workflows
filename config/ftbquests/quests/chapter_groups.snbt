@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "4B900E5177C2D185", title: "玩法补充" }]
+	chapter_groups: [
+		{ id: "508759EEAEE5212F", title: "Side Quest" }
+		{ id: "6849AC78BABB1CAF", title: "Main Quest" }
+	]
 }

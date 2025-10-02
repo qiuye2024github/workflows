@@ -1,0 +1,10 @@
+{
+  "name": "Mana",
+  "colors": [
+    "c900ff",
+    "d5d4b2"
+  ],
+  "ingredient": {
+    "item": "botania:rune_mana"
+  }
+}

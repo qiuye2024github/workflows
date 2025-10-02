@@ -1,0 +1,35 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "forge:dusts/redstone"
+    },
+    {
+      "tag": "forge:dusts/redstone"
+    },
+    {
+      "tag": "forge:glass_panes/colorless"
+    },
+    {
+      "tag": "forge:glass_panes/colorless"
+    },
+    {
+      "tag": "forge:gears/netherite"
+    },
+    {
+      "tag": "forge:gears/netherite"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "kubejs:t2heal"
+    }
+  ],
+  "inputFluid": "{Amount:1000,FluidName:\"industrialforegoing:essence\"}",
+  "output": {
+    "count": 1,
+    "item": "kubejs:t3heal"
+  },
+  "processingTime": 200
+}

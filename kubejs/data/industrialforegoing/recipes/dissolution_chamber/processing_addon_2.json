@@ -1,0 +1,35 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "kubejs:t1proc"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "tag": "forge:gears/diamond"
+    },
+    {
+      "item": "minecraft:furnace"
+    },
+    {
+      "tag": "forge:gears/diamond"
+    }
+  ],
+  "inputFluid": "{Amount:1000,FluidName:\"industrialforegoing:pink_slime\"}",
+  "output": {
+    "count": 1,
+    "item": "kubejs:t2proc"
+  },
+  "processingTime": 200
+}

@@ -1,0 +1,35 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "kubejs:t3proc"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "tag": "forge:gears/sculk"
+    },
+    {
+      "item": "minecraft:furnace"
+    },
+    {
+      "tag": "forge:gears/sculk"
+    }
+  ],
+  "inputFluid": "{Amount:1000,FluidName:\"industrialforegoing:ether_gas\"}",
+  "output": {
+    "count": 1,
+    "item": "kubejs:t4proc"
+  },
+  "processingTime": 200
+}

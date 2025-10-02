@@ -1,0 +1,15 @@
+filename = "Create Encased-1.20.1-1.7.2-fix1.jar"
+name = "Create Encased"
+side = "both"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "cf2d2f0fb117f1759d0e193f8fcad47b1d882b4d"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6767/414/Create Encased-1.20.1-1.7.2-fix1.jar"
+
+[update.curseforge]
+file-id = 6767414
+project-id = 829380

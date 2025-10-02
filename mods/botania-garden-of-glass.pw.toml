@@ -1,0 +1,15 @@
+filename = "gardenofglass-1.13.jar"
+name = "Botania: Garden of Glass"
+side = "both"
+x-prismlauncher-loaders = ["neoforge", "forge", "quilt", "fabric"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "b9cefb719b932db6d3fa2907fbd5aac0196f38c8"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6172/289/gardenofglass-1.13.jar"
+
+[update.curseforge]
+file-id = 6172289
+project-id = 232502

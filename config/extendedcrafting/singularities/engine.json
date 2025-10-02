@@ -1,0 +1,10 @@
+{
+  "name": "Engine",
+  "colors": [
+    "e3c45c",
+    "d5a151"
+  ],
+  "ingredient": {
+    "item": "create_sa:steam_engine"
+  }
+}

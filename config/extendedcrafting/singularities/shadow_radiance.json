@@ -1,0 +1,10 @@
+{
+  "name": "Shadow Radiance",
+  "colors": [
+    "3f2c3f",
+    "f3f3f3"
+  ],
+  "ingredient": {
+    "item": "createqol:shadow_radiance"
+  }
+}

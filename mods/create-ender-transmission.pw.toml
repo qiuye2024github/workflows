@@ -1,0 +1,15 @@
+filename = "createendertransmission-2.1.0-1.20.1.jar"
+name = "Create: Ender Transmission"
+side = "both"
+x-prismlauncher-loaders = ["neoforge", "forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "06778b1d18ede45b775623628428160959e15803"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6275/714/createendertransmission-2.1.0-1.20.1.jar"
+
+[update.curseforge]
+file-id = 6275714
+project-id = 737302

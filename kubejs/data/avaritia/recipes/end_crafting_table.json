@@ -1,0 +1,48 @@
+{
+  "type": "avaritia:shaped_table",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "avaritia:nether_crafting_table"
+    },
+    "b": {
+      "item": "minecraft:end_crystal"
+    },
+    "c": {
+      "item": "minecraft:end_portal_frame"
+    },
+    "d": {
+      "item": "minecraft:obsidian"
+    },
+    "e": {
+      "item": "ifeu:dragon_star"
+    },
+    "f": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "g": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "h": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "i": {
+      "item": "minecraft:ender_eye"
+    },
+    "j": {
+      "item": "minecraft:dragon_egg"
+    }
+  },
+  "pattern": [
+    "bcccb",
+    "dfifd",
+    "dgagd",
+    "dhjhd",
+    "beeeb"
+  ],
+  "result": {
+    "item": "avaritia:end_crafting_table"
+  },
+  "show_notification": true,
+  "tier": 2
+}

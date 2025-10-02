@@ -1,12 +1,15 @@
 {
+  "framedblocks": {
+    "framed_item_frame": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -51,15 +54,33 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "l2hostility": {
-    "mob": true
+  "create_mechanical_chicken": {
+    "data": true
   },
-  "champions": {
-    "enable_affix_compact": true
+  "entangled": {
+    "entangled_block_component": true
   },
-  "crockpot": {
-    "birdcage": true,
-    "crock_pot": true
+  "mekanismcardboardtooltip": {
+    "cardboard_box": true
+  },
+  "mekanismcovers": {
+    "cover_component": true
+  },
+  "avaritia": {
+    "extreme_smithing": true,
+    "crafting_table": true,
+    "compressor": true
+  },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
+  },
+  "createsifter": {
+    "sifter_data": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -69,10 +90,9 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "apotheosis": {
-    "adventure": true,
-    "ench": true,
-    "spawner": true
+  "expatternprovider": {
+    "jade_chamber": true,
+    "jade_wireless": true
   },
   "balm": {
     "jade": true
@@ -89,29 +109,38 @@
     "crafting_monitor": true,
     "part_name": true
   },
-  "touhou_little_maid": {
-    "maid": true,
-    "shrine_lamp": true
+  "extendedcrafting": {
+    "elite_auto_table": true,
+    "ender_crafter": true,
+    "basic_auto_table": true,
+    "flux_crafter": true,
+    "advanced_table": true,
+    "auto_ender_crafter": true,
+    "ultimate_table": true,
+    "ultimate_auto_table": true,
+    "elite_table": true,
+    "basic_table": true,
+    "crafting_core": true,
+    "advanced_auto_table": true,
+    "compressor": true
   },
-  "twilightforest": {
-    "quest_ram_wool": true
+  "projecte": {
+    "emc_provider": true
   },
-  "waystones": {
-    "waystone": true
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "remove_builtin": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true,
+    "tooltip_renderer": true
   },
-  "goety_revelation": {
-    "rune_reactor_id": true,
-    "runestone_id": true
+  "pipez": {
+    "pipe": true
   },
-  "goety": {
-    "block_owner": true,
-    "soul_energy": true,
-    "raider_leader": true,
-    "servant_mode": true,
-    "zombie_villager": true,
-    "villager_profession": true,
-    "train_to": true,
-    "summon_lifespan": true,
-    "trainable": true
+  "corpse": {
+    "corpse": true
   }
 }

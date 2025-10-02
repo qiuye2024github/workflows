@@ -1,0 +1,15 @@
+filename = "createsifter-1.20.1-1.8.6-6.0.6.jar"
+name = "Create Sifting"
+side = "both"
+x-prismlauncher-loaders = ["neoforge", "forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+
+[download]
+hash = "392d21477c1bba6c47f2a5fced662875b016a09e"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6657/399/createsifter-1.20.1-1.8.6-6.0.6.jar"
+
+[update.curseforge]
+file-id = 6657399
+project-id = 661938
