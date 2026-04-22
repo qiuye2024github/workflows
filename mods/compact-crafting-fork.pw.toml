@@ -1,0 +1,17 @@
+filename = "compactcrafting-4.0.5.jar"
+name = "Compact Crafting Fork"
+side = "server"
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "compactcrafting-4.0.5.jar"
+
+[download]
+hash = "4dc2967b59137bd3d9e1de93036c8cde6e261534"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/7353/044/compactcrafting-4.0.5.jar"
+
+[update.curseforge]
+file-id = 7353044
+project-id = 1388983

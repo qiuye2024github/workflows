@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:metallurgic_infusing",
+    "chemicalInput": {
+        "amount": 20,
+        "tag": "mekanism:redstone"
+    },
+    "itemInput": {
+        "ingredient": {
+            "item": "pneumaticcraft:empty_pcb"
+        }
+    },
+    "output": {
+        "item": "pneumaticcraft:unassembled_pcb"
+    }
+}

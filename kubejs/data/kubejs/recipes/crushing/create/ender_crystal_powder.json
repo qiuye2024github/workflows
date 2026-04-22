@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "enderio:ender_crystal"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "enderio:ender_crystal_powder"
+    }
+  ]
+}

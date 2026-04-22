@@ -1,0 +1,13 @@
+{
+    "type": "immersivetechnology:solar_tower",
+    "input": {
+        "amount": 50,
+        "tag": "kubejs:sunshine_fluid"
+    },
+    "output": {
+        "amount": 25,
+        "fluid": "enderio:liquid_sunshine"
+    },
+    "requiredTemp": 400.0,
+    "time": 25
+}

@@ -1,0 +1,19 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "advgenerators:syngas",
+      "amount": 2000
+    },
+    {
+      "item": "minecraft:end_stone"
+    }
+  ],
+  "result": [
+    {
+      "item": "kubejs:end_stone_catalyst",
+      "count": 1
+    }
+  ],
+  "energy": 10000
+}

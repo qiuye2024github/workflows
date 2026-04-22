@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "exnihilosequentia:crushed_end_stone"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "occultism:crushed_end_stone"
+    }
+  ]
+}

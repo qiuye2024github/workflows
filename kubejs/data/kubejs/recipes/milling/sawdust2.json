@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+    }
+  ],
+  "processingTime": 70,
+  "results": [
+    {
+      "chance": 0.5,
+      "item": "thermal:sawdust"
+    }
+  ]
+}

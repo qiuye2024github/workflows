@@ -1,0 +1,15 @@
+{
+  "type": "thermal:refinery",
+  "ingredient": {
+    "fluid": "enderio:cloud_seed",
+    "amount": 100
+  },
+  "result": [
+    {
+      "fluid": "enderio:cloud_seed_concentrated",
+      "amount": 20
+    }
+  ],
+  "energy": 5000,
+  "experience": 0
+}

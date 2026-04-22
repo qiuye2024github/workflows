@@ -1,0 +1,37 @@
+{
+    "type": "ars_nouveau:enchanting_apparatus",
+    "keepNbtOfReagent": false,
+    "output": {
+        "item": "projecte:high_covalence_dust",
+        "count": 8
+    },
+    "pedestalItems": [
+        {
+            "item": "minecraft:coal"
+        },
+        {
+            "item": "minecraft:coal"
+        },
+        {
+            "item": "minecraft:coal"
+        },
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "bloodmagic:reagentwater"
+        },
+        {
+            "item": "bloodmagic:reagentlava"
+        }
+    ],
+    "reagent": [
+        {
+            "item": "enderio:ender_crystal_powder"
+        }
+    ],
+    "sourceCost": 500
+}

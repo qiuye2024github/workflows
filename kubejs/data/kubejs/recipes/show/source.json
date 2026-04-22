@@ -1,0 +1,15 @@
+{
+    "type": "lychee:block_clicking",
+    "item_in": [
+        {
+            "item": "starbunclemania:source_condenser"
+        }
+    ],
+    "block_in": "kubejs:can_be_crafted_by_these_item",
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "starbunclemania:source_fluid_bucket"
+        }
+    ]
+}

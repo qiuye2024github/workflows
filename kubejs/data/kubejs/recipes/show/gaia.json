@@ -1,0 +1,23 @@
+{
+    "type": "lychee:block_clicking",
+    "item_in": [
+        {
+            "item": "botania:gaia_pylon"
+        },
+        [
+            {
+                "item": "botania:terrasteel_ingot"
+            },
+            {
+                "item": "botania:gaia_ingot"
+            }
+        ]
+    ],
+    "block_in": "kubejs:can_be_crafted_by_these_item",
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "botania:life_essence"
+        }
+    ]
+}

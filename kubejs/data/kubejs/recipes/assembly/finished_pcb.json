@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:assembled_pcb"
+  },
+  "program": "laser",
+  "result": {
+    "count": 1,
+    "item": "pneumaticcraft:printed_circuit_board"
+  }
+}

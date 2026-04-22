@@ -1,0 +1,37 @@
+{
+    "type": "ars_nouveau:enchanting_apparatus",
+    "keepNbtOfReagent": false,
+    "output": {
+            "item": "projecte:low_covalence_dust",
+            "count": 8
+        },
+    "pedestalItems": [
+        {
+            "item": "minecraft:cobblestone"
+        },
+        {
+            "item": "minecraft:cobblestone"
+        },
+        {
+            "item": "minecraft:cobblestone"
+        },
+        {
+            "item": "minecraft:charcoal"
+        },
+        {
+            "item": "minecraft:charcoal"
+        },
+        {
+            "item": "bloodmagic:reagentwater"
+        },
+        {
+            "item": "bloodmagic:reagentsight"
+        }
+    ],
+    "reagent": [
+        {
+        "item": "enderio:vibrant_powder"
+    }
+    ],
+    "sourceCost": 500
+}

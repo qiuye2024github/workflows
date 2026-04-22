@@ -1,0 +1,28 @@
+{
+    "type": "powah:energizing",
+    "ingredients": [
+        {
+            "item": "enderio:pulsating_crystal"
+        },
+        {
+            "item": "enderio:pulsating_crystal"
+        },
+        {
+            "item": "enderio:pulsating_crystal"
+        },
+        {
+            "item": "rftoolsbase:infused_enderpearl"
+        },
+        {
+            "item": "rftoolsbase:infused_enderpearl"
+        },
+        {
+            "item": "powah:ender_core"
+        }
+    ],
+    "energy": 80000,
+    "result": {
+        "item": "enderio:ender_crystal",
+        "count": 3
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "lychee:block_clicking",
+    "item_in": [
+        {
+            "item": "mob_grinding_utils:nutritious_chicken_feed"
+        },{
+            "item": "minecraft:chicken_spawn_egg"
+        }
+    ],
+    "block_in": "kubejs:can_be_crafted_by_these_item",
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "mob_grinding_utils:golden_egg"
+        }
+    ]
+}

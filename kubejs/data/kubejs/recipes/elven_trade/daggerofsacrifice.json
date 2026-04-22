@@ -1,0 +1,13 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "delightful:manasteel_knife"
+    }
+  ],
+  "output": [
+    {
+      "item": "bloodmagic:daggerofsacrifice"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "extendedcrafting:combination",
+    "powerCost": 10000,
+    "input": {
+        "item": "kubejs:emptyscribetool"
+    },
+    "ingredients": [
+        {
+            "item": "ars_nouveau:abjuration_essence"
+        },
+        {
+            "item": "ars_nouveau:abjuration_essence"
+        },
+        {
+            "item": "ars_nouveau:abjuration_essence"
+        },
+        {
+            "item": "ars_nouveau:abjuration_essence"
+        },
+        {
+            "item": "mythicbotany:alfheim_rune"
+        }
+    ],
+    "result": {
+        "item": "bloodmagic:duskscribetool"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 1600,
+    "input": {
+        "item": "enderio:ender_crystal"
+    },
+    "result": {
+        "item": "enderio:ender_crystal_powder"
+    },
+    "secondaries": []
+}

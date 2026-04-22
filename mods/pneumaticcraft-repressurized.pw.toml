@@ -1,15 +1,17 @@
-filename = "pneumaticcraft-repressurized-6.0.20+mc1.20.1.jar"
+filename = "pneumaticcraft-repressurized-6.0.22+mc1.20.1.jar"
 name = "PneumaticCraft: Repressurized"
-side = "both"
+side = ""
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = ["neoforge", "forge"]
 x-prismlauncher-mc-versions = ["1.20.1"]
 x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "pneumaticcraft-repressurized-6.0.22+mc1.20.1.jar"
 
 [download]
-hash = "3c0a07fe8366f340944e436dd02f5a3c9f6b31cc"
+hash = "cbe2d3c5df7c2770ac59eb6f02489d8917627c03"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/6142/963/pneumaticcraft-repressurized-6.0.20+mc1.20.1.jar"
+url = "https://edge.forgecdn.net/files/7307/654/pneumaticcraft-repressurized-6.0.22+mc1.20.1.jar"
 
 [update.curseforge]
-file-id = 6142963
+file-id = 7307654
 project-id = 281849

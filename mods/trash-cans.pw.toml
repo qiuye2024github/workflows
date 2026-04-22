@@ -1,9 +1,10 @@
 filename = "trashcans-1.0.18b-forge-mc1.20.jar"
 name = "Trash Cans"
-side = "both"
+side = ""
 x-prismlauncher-loaders = ["neoforge", "forge"]
 x-prismlauncher-mc-versions = ["1.20", "1.20.1", "1.20.2", "1.20.3", "1.20.4"]
 x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "Trash Cans 1.0.18b for Forge 1.20"
 
 [download]
 hash = "4bc991b861a981921d06b731368239ce6ea571d3"
@@ -13,3 +14,19 @@ url = "https://edge.forgecdn.net/files/4712/179/trashcans-1.0.18b-forge-mc1.20.j
 [update.curseforge]
 file-id = 4712179
 project-id = 394535
+
+[[x-prismlauncher-dependencies]]
+addonId = "438332"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "454372"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "238222"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "268560"
+type = "OPTIONAL"

@@ -1,0 +1,87 @@
+{
+	id: "2DE5C9D516CC0A5F"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "artifacts:vampiric_glove" }
+		{ item: "artifacts:golden_hook" }
+		{ item: "artifacts:onion_ring" }
+		{ item: "artifacts:pickaxe_heater" }
+		{ item: "artifacts:aqua_dashers" }
+		{ item: "artifacts:bunny_hoppers" }
+		{ item: "artifacts:running_shoes" }
+		{ item: "artifacts:kitty_slippers" }
+		{ item: "artifacts:snowshoes" }
+		{ item: "ars_nouveau:ring_of_lesser_discount" }
+		{ item: "artifacts:plastic_drinking_hat" }
+		{ item: "artifacts:snorkel" }
+		{ item: "artifacts:night_vision_goggles" }
+		{ item: "artifacts:villager_hat" }
+		{ item: "artifacts:superstitious_hat" }
+		{ item: "artifacts:cowboy_hat" }
+		{ item: "artifacts:anglers_hat" }
+		{ item: "artifacts:lucky_scarf" }
+		{ item: "artifacts:scarf_of_invisibility" }
+		{ item: "artifacts:cross_necklace" }
+		{ item: "artifacts:panic_necklace" }
+		{ item: "artifacts:shock_pendant" }
+		{ item: "artifacts:flame_pendant" }
+		{ item: "artifacts:thorn_pendant" }
+		{ item: "artifacts:charm_of_sinking" }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{ item: "artifacts:obsidian_skull" }
+		{ item: "artifacts:antidote_vessel" }
+		{ item: "artifacts:universal_attractor" }
+		{ item: "artifacts:crystal_heart" }
+		{ item: "artifacts:chorus_totem" }
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:feral_claws" }
+		{ item: "artifacts:power_glove" }
+		{ item: "artifacts:fire_gauntlet" }
+		{ item: "artifacts:pocket_piston" }
+		{ item: "artifacts:steadfast_spikes" }
+		{ item: "artifacts:flippers" }
+		{ item: "artifacts:rooted_boots" }
+		{ item: "artifacts:whoopee_cushion" }
+		{ item: "botania:magnet_ring" }
+		{ item: "botania:monocle" }
+		{ item: "darkutils:charm_portal" }
+		{ item: "darkutils:charm_sleep" }
+		{ item: "immersiveengineering:earmuffs" }
+		{ item: "naturesaura:eye" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						SelectedSlot: 0
+						Size: 6
+					}
+				}
+				id: "supplementaries:quiver"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ars_elemental:curio_bag"
+				tag: { }
+			}
+			weight: 0.5f
+		}
+		{ item: "botania:mana_ring", weight: 0.75f }
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Potion: "apotheosis:extra_long_flying"
+				}
+			}
+			weight: 0.25f
+		}
+	]
+	title: "饰品"
+}

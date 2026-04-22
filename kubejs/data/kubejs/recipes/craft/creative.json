@@ -1,0 +1,88 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCDDDCBA",
+    "BEFGHGIEB",
+    "CFJKLKJIC",
+    "DMKNOPKMD",
+    "DQLRSRLQD",
+    "DMKTUNKMD",
+    "CIJKLKJVC",
+    "BEIWHWVEB",
+    "ABCDDDCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "advanced_ae:shattered_singularity"
+    },
+    "B": {
+      "item": "ae2:singularity"
+    },
+    "C": {
+      "item": "draconicevolution:awakened_core"
+    },
+    "D": {
+      "item": "ae2:quartz_vibrant_glass"
+    },
+    "E": {
+      "item": "mekanism:teleportation_core"
+    },
+    "F": {
+      "item": "ae2:logic_processor"
+    },
+    "G": {
+      "item": "advanced_ae:quantum_processor"
+    },
+    "H": {
+      "item": "powah:energy_cell_nitro"
+    },
+    "I": {
+      "item": "ae2:engineering_processor"
+    },
+    "J": {
+      "item": "immersiveengineering:component_electronic_adv"
+    },
+    "K": {
+      "item": "bloodmagic:reagentsuppression"
+    },
+    "L": {
+      "item": "voidminers:ultimate_stellar_core"
+    },
+    "M": {
+      "item": "appflux:energy_processor"
+    },
+    "N": {
+      "item": "mekmm:uu_matter"
+    },
+    "O": {
+      "item": "projectexpansion:final_power_flower"
+    },
+    "P": {
+      "item": "mekanismmoremachine:crystal_energy"
+    },
+    "Q": {
+      "item": "mekanism:ultimate_induction_provider"
+    },
+    "R": {
+      "item": "advanced_ae:data_entangler"
+    },
+    "S": {
+      "item": "kubejs:unused_cell_component_creative"
+    },
+    "T": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "U": {
+      "item": "draconicevolution:reactor_core"
+    },
+    "V": {
+      "item": "ae2:calculation_processor"
+    },
+    "W": {
+      "item": "megacells:accumulation_processor"
+    }
+  },
+  "result": {
+    "item": "kubejs:cell_component_creative"
+  }
+}

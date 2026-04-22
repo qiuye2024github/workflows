@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "thermal:earth_charge"
+  },
+  "result": [
+    {
+      "fluid": "kubejs:fluid_petrotheum",
+      "amount": 25
+    }
+  ],
+  "energy": 75000
+}

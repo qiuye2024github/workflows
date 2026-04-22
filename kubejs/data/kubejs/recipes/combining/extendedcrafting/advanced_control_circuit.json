@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:combination",
+    "powerCost": 10000,
+    "input": {
+        "item": "mekanism:basic_control_circuit"
+    },
+    "ingredients": [
+        {
+            "item": "mekanism:alloy_infused"
+        },
+        {
+            "item": "mekanism:alloy_infused"
+        },
+        {
+            "item": "advgenerators:controller"
+        },
+        {
+            "item": "extendedcrafting:redstone_ingot"
+        }
+    ],
+    "result": {
+        "item": "mekanism:advanced_control_circuit"
+    }
+}

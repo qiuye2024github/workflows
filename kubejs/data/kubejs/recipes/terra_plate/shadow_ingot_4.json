@@ -1,0 +1,21 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "item": "botanicalextramachinery:saffron_ingot"
+    },
+    {
+      "tag": "extrabotany:photonium_ingots"
+    },
+    {
+      "tag": "extrabotany:photonium_ingots"
+    },
+    {
+      "item": "mekanism:ingot_refined_obsidian"
+    }
+  ],
+  "mana": 1500000,
+  "result": {
+    "item": "botanicalextramachinery:shadow_ingot"
+  }
+}

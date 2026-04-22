@@ -1,0 +1,15 @@
+{
+    "type": "mekanism:injecting",
+    "chemicalInput": {
+        "amount": 3,
+        "tag": "mekanism:water_vapor"
+    },
+    "itemInput": {
+        "ingredient": {
+            "item": "exnihilosequentia:dust"
+        }
+    },
+    "output": {
+        "item": "minecraft:clay"
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:gems/vibrant_crystal"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "enderio:vibrant_powder"
+    }
+  ]
+}

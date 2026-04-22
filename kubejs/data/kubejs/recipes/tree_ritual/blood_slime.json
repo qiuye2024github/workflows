@@ -1,0 +1,30 @@
+{
+    "type": "naturesaura:tree_ritual",
+    "ingredients": [
+        {
+            "item": "minecraft:slime_block"
+        },
+        {
+            "item": "naturesaura:gold_leaf"
+        },
+        {
+            "item": "minecraft:lava_bucket"
+        },
+        {
+            "item": "minecraft:nether_wart_block"
+        },
+        {
+            "item": "minecraft:magma_block"
+        },
+        {
+            "tag": "forge:ingots/pig_iron"
+        }
+    ],
+    "sapling": {
+        "item": "minecraft:crimson_fungus"
+    },
+    "output": {
+        "item": "tconstruct:blood_slime_sapling"
+    },
+    "time": 500
+}

@@ -1,0 +1,16 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "enderio:energetic_alloy_block"
+	},
+	{
+	  "item": "thermal:invar_block"
+	}
+  ],
+  "energy": 90000,
+  "result": {
+	"item": "powah:energized_steel_block",
+	"count": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "thermal:smelter",
+    "ingredients": [
+        {
+            "item": "psi:psimetal",
+            "count": 1
+        },
+        {
+            "tag": "forge:ingots/silver",
+            "count": 1
+        }
+    ],
+    "result": [
+        {
+            "item": "occultism:iesnium_ingot",
+            "count": 1
+        }
+    ],
+    "energy": 800
+}

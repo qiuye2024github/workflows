@@ -1,0 +1,23 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "thermal:glowstone_mushroom_spores"
+    },
+    "categories": [
+        "phytosoil"
+    ],
+    "growthTicks": 3600,
+    "display": {
+        "block": "thermal:glowstone_mushroom"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "thermal:glowstone_mushroom_spores"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        }
+    ]
+}

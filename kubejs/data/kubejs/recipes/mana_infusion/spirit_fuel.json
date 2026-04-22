@@ -1,0 +1,14 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botanicadds:terra_catalyst"
+  },
+  "input": {
+    "item": "create:refined_radiance"
+  },
+  "mana": 1000,
+  "output": {
+    "item": "extrabotany:spirit_fuel"
+  }
+}

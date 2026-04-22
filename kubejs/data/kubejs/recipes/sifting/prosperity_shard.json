@@ -1,0 +1,23 @@
+{
+  "type": "exnihilosequentia:sifting",
+  "input": {
+    "item": "minecraft:sand"
+  },
+  "result": {
+    "item": "mysticalagriculture:prosperity_shard"
+  },
+  "rolls": [
+    {
+      "chance": 0.05,
+      "mesh": "iron"
+    },
+    {
+      "chance": 0.08,
+      "mesh": "diamond"
+    },
+    {
+      "chance": 0.13,
+      "mesh": "emerald"
+    }
+  ]
+}

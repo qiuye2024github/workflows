@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:refinery",
+    "catalyst": {
+        "item": "minecraft:sculk"
+    },
+    "energy": 80,
+    "input0": {
+        "amount": 1,
+        "tag": "industrialforegoing:ether_gas"
+    },
+    "input1": {
+        "amount": 100,
+        "tag": "starbunclemania:source_fluid"
+    },
+    "result": {
+        "amount": 1000,
+        "fluid": "bloodmagic:life_essence_fluid"
+    }
+}

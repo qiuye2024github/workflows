@@ -1,0 +1,247 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "langquestwelcomemain"
+	group: ""
+	id: "056810A3938AE10E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["欢迎游玩&oProject Arc Light：The Hanging Pavilion&r 《弧光计划：空中楼阁》！祝你玩得开心！"]
+			id: "7974055075CAA636"
+			rewards: [
+				{
+					id: "592F9272AE31606F"
+					table_id: 2557014390258655841L
+					team_reward: false
+					type: "random"
+				}
+				{
+					id: "22A0FDD8DDED16B7"
+					item: "akashictome:tome"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "7AC54D93602FFE94"
+					table_id: 4887006096378810986L
+					team_reward: false
+					type: "random"
+				}
+				{
+					id: "1A6F048285A41DE4"
+					item: "morphtool:tool"
+					team_reward: false
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44822C6471A0EA60"
+					table_id: 3307271418421185119L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2EFF5A154C5B1878"
+				title: "欢迎"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7974055075CAA636"]
+			description: [
+				"注意：任务中每章任务中大号的圆形任务代表开始，大号的方形任务代表一章的结束，小号方形任务代表下接本章节其他任务，菱形代表有着本章的其他前置任务"
+				"序章可以不用全部完成！"
+				""
+				"前排提醒：本整合包具有一定的难度哦~"
+			]
+			id: "4808928D13CDD0CC"
+			rewards: [{
+				count: 16
+				id: "7DF7CB130B305338"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "705EAC0988D09732"
+				title: "任务说明"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7974055075CAA636"]
+			description: ["在建立世界时，默认为建立空岛。若创建的世界不是空岛，请手动选择“世界类型：空岛”"]
+			id: "05D30261E0AE4102"
+			rewards: [{
+				count: 64
+				id: "7B013D53B3A2E536"
+				item: "minecraft:bone_meal"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "7914A98657733384"
+				title: "世界类型"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7974055075CAA636"]
+			description: [
+				"你可以选择这些辅助性模组，这些模组是整合包不带有的，可以减少部分操作"
+				"&bAE2自动样板上传（AE2 Auto Pattern Upload）&r 会在样板终端中添加一个小小的上传按钮，让你可以一键把编码好的样板直接发送到已连接的样板供应器，大幅减少后期AE2自动化中“手动搬运样板”的重复操作"
+				"&bAE2UEL 智能样板系统（Smart Pattern System）&r 通过矿物辞典实现通配符匹配，让单个样板可以自动匹配整个矿物辞典系列"
+				"&bEMI快速编码（EMI Patternizer）&r 搭配 &bEMI&r 可以直接从EMI的配方树中选择任何配方，并自动生成AE2的样板，包括合成样板、处理样板等类型"
+				""
+				"如果你的电脑使用NVIDIA GPU，并且GPU基于Turing或更新架构（例如GeForce GTX 1630及更高型号、Quadro T系列及后续产品），可尝试使用&bNvidium&r模组以提高帧率。但请注意，&e该模组依赖OpenGL网格着色器（mesh shader），并且会直接操作显存，因此存在不稳定性，严重时可能导致程序崩溃或系统死机。&r"
+				""
+				"最近，Mojang宣布在未来版本将图形渲染器从OpenGL换成Vulkan。AMD GPU支持Vulkan 1.2的最低型号为 HD 7730。NVIDIA GPU系列中 Windows使用官方驱动（441.99以上版本） 可支持 GTX 750 及更高型号，Linux使用第三方驱动可降至 GTX 600"
+			]
+			id: "51FD41FAFD82F5B4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "363B253B0625102A"
+					table_id: 5433659840057552662L
+					team_reward: false
+					type: "choice"
+				}
+				{
+					id: "1A8ACD9ECA297E68"
+					item: {
+						Count: 1
+						id: "constructionwand:iron_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				disable_toast: true
+				id: "3FD104F4AAB8DAD9"
+				title: "模组与游玩说明"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"我躺在一片......草地上？身下是柔软、带着奇异触感的植被。这是哪？"
+				""
+				"我身处于一座岛上，一座悬浮在无边灰白虚空中的浮岛。算了，既然哪都去不了，那就在这个岛安家吧。"
+				""
+				"这......究竟是哪？而我，又是谁？"
+			]
+			id: "7C2DF223CC838EDD"
+			rewards: [
+				{
+					id: "1F934AADE30845D0"
+					item: "mekanism:hazmat_mask"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "2351BEFD6DBB27C8"
+					item: "mekanism:hazmat_gown"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "334969643C391D3A"
+					item: "mekanism:hazmat_pants"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "763CA0B05FC71C0D"
+					item: "mekanism:hazmat_boots"
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CC1511FDED4A9C8"
+				title: "背景故事"
+				type: "checkmark"
+			}]
+			title: "我的自述"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"如果游戏崩了，怎么办？"
+				""
+				"不要慌。一般情况下，如果是小问题启动器会告诉你原因。但遇到一些复杂的情况，启动器可能无法提供具体的崩溃原因。这时，你需要："
+				""
+				"1.打开游戏所在的文件夹，找到crash-reports文件夹，然后找到名字类似 &l&bcrash-xxxx-xx-xx_xx.xx.xx.txt&r&r 的文件（注意：文件夹里可能有多个，一定要选择最新修改时间的那个）。之后退回到游戏所在的文件夹，找到logs文件夹，找到 &l&blatest.log&r&r 文件。"
+				""
+				"2.如需AI分析，请打开crash文件，复制全文后向AI提问“我的游戏崩了，帮忙分析原因”并粘贴内容，它会帮你分析。你也可以同时提供latest.log的内容，让AI结合分析。"
+				"如果你想请大佬帮忙分析，请把这两个文件发到《我的世界》相关的QQ群，或者私发给熟悉的大佬，同时说明游戏是怎么崩溃的（比如放了什么方块、打开了什么机器等），通常热心的大佬会帮你找出原因。"
+				""
+				"当然，这些方法不仅适用于这个整合包，所有《我的世界》的游戏都可以这样操作。"
+			]
+			id: "0AF4034DD8B8E802"
+			rewards: [{
+				id: "18A38EDB4F8068EC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "solonion:lunchbag"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BA42E82810A78EB"
+				title: "游戏崩了怎么办"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7974055075CAA636"]
+			description: [
+				"多人游戏中，使用&a/skyblock create <name> <players>&r可以创建自己的岛屿，如果没有提供名称，将随机生成一个名字"
+				"想加入一个岛屿，可以使用&a/skyblock join <team>&r命令。可使用&a/skyblock team accept <player>&r接受或&a/skyblock team deny <player>&r拒绝。同样的，可以使用&a/skyblock invite <player>&r接受邀请"
+			]
+			id: "4C6F4456127AAF8F"
+			rewards: [{
+				id: "0619AA4375FA8AE8"
+				item: {
+					Count: 1
+					id: "rechiseled:chisel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "351ED2EB148AB4DD"
+				title: "多人游戏说明"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+	]
+	title: "{lang.quest.welcome.main}"
+}

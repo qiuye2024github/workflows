@@ -1,0 +1,11 @@
+{
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": {
+            "item": "enderio:ender_crystal"
+        }
+    },
+    "output": {
+        "item": "enderio:ender_crystal_powder"
+    }
+}

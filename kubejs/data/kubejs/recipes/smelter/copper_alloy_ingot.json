@@ -1,0 +1,20 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot",
+      "count": 1
+    },
+    {
+      "tag": "forge:silicon",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "enderio:copper_alloy_ingot",
+      "count": 1
+    }
+  ],
+  "energy": 800
+}

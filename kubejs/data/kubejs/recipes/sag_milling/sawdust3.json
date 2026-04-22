@@ -1,0 +1,22 @@
+{
+  "type": "enderio:sag_milling",
+  "bonus": "none",
+  "energy": 2400,
+  "input": [{
+    "tag": "minecraft:wooden_slabs"
+  },{
+    "tag": "forge:rods/wooden"
+  },{
+    "item": "minecraft:bamboo"
+  }],
+  "outputs": [
+    {
+      "chance": 0.25,
+      "item": {
+        "count": 2,
+        "item": "thermal:sawdust"
+      },
+      "optional": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "ingredient": {
+            "item": "create:sturdy_sheet"
+        },
+        "amount": 1
+    },
+    "mainInput": {
+        "ingredient": [
+            {
+                "item": "create:brass_casing"
+            }
+        ]
+    },
+    "output": {
+        "item": "create:railway_casing",
+        "count": 1
+    }
+}

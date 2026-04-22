@@ -1,0 +1,19 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "thermal:redstone",
+      "amount": 400
+    },
+    {
+      "tag": "forge:ingots/invar"
+    }
+  ],
+  "result": [
+    {
+      "item": "thermal:redstone_servo",
+      "count": 1
+    }
+  ],
+  "energy": 20000
+}

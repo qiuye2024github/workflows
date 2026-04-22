@@ -1,0 +1,22 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "ingredient": {
+            "item": "advanced_ae:quantum_alloy_plate"
+        },
+        "amount": 1
+    },
+    "mainInput": {
+        "ingredient": [
+            {
+                "item": "draconicevolution:draconium_core"
+            }
+            
+        ],
+        "amount": 2
+    },
+    "output": {
+        "item": "draconicevolution:wyvern_core",
+        "count": 2
+    }
+}

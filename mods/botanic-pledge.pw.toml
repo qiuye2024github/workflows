@@ -1,0 +1,36 @@
+filename = "botanicpledge-1.20.1-0.8.2.jar"
+name = "Botanic Pledge"
+side = "server"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "BotanicPledge-1.20.1-0.8.2"
+
+[download]
+hash = "2501dee7ef0a6d2abb782eb4402971fd193f4b68"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6181/355/botanicpledge-1.20.1-0.8.2.jar"
+
+[update.curseforge]
+file-id = 6181355
+project-id = 664074
+
+[[x-prismlauncher-dependencies]]
+addonId = "413079"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "400058"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "225643"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "309927"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "238222"
+type = "OPTIONAL"

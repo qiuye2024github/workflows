@@ -1,0 +1,14 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botanicadds:terra_catalyst"
+  },
+  "input": {
+    "item": "minecraft:lapis_lazuli"
+  },
+  "mana": 5000,
+  "output": {
+    "item": "thermal:sapphire"
+  }
+}

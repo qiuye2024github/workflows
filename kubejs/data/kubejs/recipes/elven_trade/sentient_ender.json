@@ -1,0 +1,26 @@
+{
+    "type": "botania:elven_trade",
+    "ingredients": [
+        {
+            "item": "enderio:ender_resonator"
+        },
+        {
+            "item": "enderio:ender_resonator"
+        },
+        {
+            "item": "enderio:ender_resonator"
+        },
+        {
+            "item": "enderio:ender_resonator"
+        },
+        {
+            "item": "botanicalextramachinery:shadow_ingot"
+        }
+    ],
+    "output": [
+        {
+            "item": "enderio:sentient_ender",
+            "count": 4
+        }
+    ]
+}

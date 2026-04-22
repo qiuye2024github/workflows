@@ -1,0 +1,18 @@
+{
+  "type": "thermal:bottler",
+  "ingredients": [
+    {
+      "item": "bloodmagic:reagentbinding"
+    },
+    {
+      "fluid": "enderio:rocket_fuel",
+      "amount": 150
+    }
+  ],
+  "result": [
+    {
+      "item": "bloodmagic:reagentsuppression"
+    }
+  ],
+  "experience": 0
+}

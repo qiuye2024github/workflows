@@ -1,0 +1,14 @@
+{
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": [
+            {
+                "tag": "minecraft:logs"
+            }
+        ]
+    },
+    "output": {
+        "item": "mekanism:sawdust",
+        "count":2
+    }
+}

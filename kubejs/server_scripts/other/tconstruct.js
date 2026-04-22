@@ -1,0 +1,13 @@
+ServerEvents.recipes(event => {
+    event.remove({ id: 'tconstruct:smeltery/melting/metal/iron/chain_boots' })
+    event.remove({ id: 'tconstruct:smeltery/melting/metal/iron/chain_chestplate' })
+    event.remove({ id: 'tconstruct:smeltery/melting/metal/iron/chain_helmet' })
+    event.remove({ id: 'tconstruct:smeltery/melting/metal/iron/chain_leggings' })
+    event.remove({ id: 'tconstruct:smeltery/melting/metal/iron/ore_singular' })
+    event.remove({ id: 'tconstruct:smeltery/melting/metal/iron/raw' })
+    event.remove({ id: 'tconstruct:smeltery/melting/metal/iron/raw_block' })
+    event.remove({ id: 'tconstruct:common/slime/ender/crystal_growing' })
+    event.remove({ id: 'tconstruct:common/slime/earth/crystal_growing' })
+    event.remove({ id: 'tconstruct:common/slime/sky/crystal_growing' })
+    event.remove({ id: 'tconstruct:common/slime/ichor/crystal_growing' })
+})

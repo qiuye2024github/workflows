@@ -1,0 +1,11 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+        "item": "forge:bitumen"
+    },
+    "result": [
+        {
+            "item": "immersivepetroleum:petcoke"
+        }
+    ]
+}

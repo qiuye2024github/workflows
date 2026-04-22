@@ -1,0 +1,18 @@
+{
+    "type": "createdieselgenerators:compression_molding",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/hop_graphite"
+        },
+        {
+            "tag": "forge:ingots/hop_graphite"
+        }
+    ],
+    "mold": "createdieselgenerators:lines",
+    "results": [
+        {
+            "item": "immersiveengineering:graphite_electrode",
+            "nbt": "{graphDmg:48000}"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "type": "thermal:rock_gen",
+    "adjacent": "minecraft:glowstone",
+    "below": "kubejs:end_stone_catalyst",
+    "result": {
+        "item": "minecraft:end_stone"
+    }
+}

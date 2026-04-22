@@ -1,0 +1,31 @@
+{
+    "type": "extendedcrafting:combination",
+    "powerCost": 100000,
+    "input": {
+        "item": "botanicalextramachinery:saffron_ingot"
+    },
+    "ingredients": [
+        {
+            "item": "powah:crystal_nitro"
+        },
+        {
+            "item": "powah:crystal_niotic"
+        },
+        {
+            "item": "minecraft:glowstone_dust"
+        },
+        {
+            "item": "minecraft:glowstone_dust"
+        },
+        {
+            "item": "powah:crystal_niotic"
+        },
+        {
+            "item": "minecraft:redstone_block"
+        }
+    ],
+    "result": {
+        "item": "voidminers:solar_rubetine",
+        "count": 6
+    }
+}

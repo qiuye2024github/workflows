@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "a": {
+            "tag": "forge:stone"
+        },
+        "o": {
+            "type": "bloodmagic:bloodorb",
+            "orb_tier": 1
+        },
+        "s": {
+            "item": "bloodmagic:blankslate"
+        },
+        "b": {
+            "item": "botania:rune_mana"
+        },
+        "c": {
+            "item": "minecraft:smooth_stone"
+        }
+    },
+    "pattern": [
+        "aba",
+        "sos",
+        "aca"
+    ],
+    "result": {
+        "item": "bloodmagic:blankrune",
+        "count": 2
+    },
+    "show_notification": true
+}

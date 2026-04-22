@@ -1,0 +1,19 @@
+{
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+        {
+            "type": "pneumaticcraft:stacked_item",
+            "count": 2,
+            "tag": "forge:plates/steel"
+        },
+        {
+            "tag": "forge:ingots/copper"
+        }
+    ],
+    "pressure": -0.25,
+    "results": [
+        {
+            "item": "immersiveengineering:component_steel"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "kubejs:calcinated_carbon"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "immersiveengineering:dust_coke"
+    }
+  ]
+}

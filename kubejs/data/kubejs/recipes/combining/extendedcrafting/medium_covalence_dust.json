@@ -1,0 +1,34 @@
+{
+    "type": "extendedcrafting:combination",
+    "powerCost": 20000,
+    "input": {
+        "item": "enderio:prescient_powder"
+    },
+    "ingredients": [
+        {
+            "item": "minecraft:redstone"
+        },
+        {
+            "item": "minecraft:redstone"
+        },
+        {
+            "item": "minecraft:redstone"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "bloodmagic:reagentair"
+        },
+        {
+            "item": "bloodmagic:reagentlava"
+        }
+    ],
+    "result": {
+        "item": "projecte:medium_covalence_dust",
+        "count": 8
+    }
+}

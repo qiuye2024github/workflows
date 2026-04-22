@@ -1,12 +1,12 @@
-name = "Technological-Ascent"
+name = "ProjectArcLight-TheHangingPavilion"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "abde3c0629d2760ac3f44aecbde28a6c01d81be0175e2dd613259a78950da046"
+hash = "ca4b6584ee8b35d96379701c1da51896f03fb9f04b708477bf802b7fb062e626"
 
 [versions]
-forge = "47.4.0"
+forge = "47.4.6"
 minecraft = "1.20.1"

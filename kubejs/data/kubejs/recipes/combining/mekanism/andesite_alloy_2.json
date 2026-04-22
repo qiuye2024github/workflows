@@ -1,0 +1,20 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "ingredient": {
+            "item": "minecraft:andesite"
+        },
+        "amount": 1
+    },
+    "mainInput": {
+        "ingredient":[ {
+            "item": "minecraft:iron_nugget"
+        },{
+            "tag": "forge:nuggets/zinc"
+        }]
+    },
+    "output": {
+        "item": "create:andesite_alloy",
+        "count": 1
+    }
+}

@@ -1,0 +1,11 @@
+{
+	id: "766D73B79E6E1E8A"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 4, item: "bloodmagic:sacrificerune" }
+		{ count: 4, item: "bloodmagic:selfsacrificerune" }
+		{ count: 4, item: "bloodmagic:dislocationrune" }
+	]
+	title: "符文"
+}

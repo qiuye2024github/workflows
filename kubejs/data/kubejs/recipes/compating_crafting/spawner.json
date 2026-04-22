@@ -1,0 +1,53 @@
+{
+    "type": "compactcrafting:miniaturization",
+    "version": 1,
+    "recipeSize": 3,
+    
+    "layers":[{
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["A","B","A"],
+            ["B","C","B"],
+            ["A","B","A"]
+        ]
+    },{
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["B","C","B"],
+            ["C","D","C"],
+            ["B","C","B"]
+        ]
+    },{
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["A","B","A"],
+            ["B","C","B"],
+            ["A","B","A"]
+        ]
+    }],
+    "catalyst": {
+        "id": "naturesaura:birth_spirit"
+    },
+    "components": {
+        "A": {
+            "type": "compactcrafting:block",
+            "block": "create:shadow_steel_casing"
+        },
+        "B": {
+            "type": "compactcrafting:block",
+            "block": "enderio:dark_steel_bars"
+        },
+        "C": {
+            "type": "compactcrafting:block",
+            "block": "enderio:end_steel_bars"
+        },
+        "D": {
+            "type": "compactcrafting:block",
+            "block": "enderio:ensouled_chassis"
+        }
+    },
+    "outputs": [{
+        "count": 1,
+        "id": "minecraft:spawner"
+    }]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "altarSyphon": 3000,
+  "consumptionRate": 20,
+  "drainRate": 5,
+  "input": {
+    "item": "bloodmagic:strong_tau"
+  },
+  "output": {
+    "item": "bloodmagic:weakbloodshard"
+  },
+  "upgradeLevel": 2
+}

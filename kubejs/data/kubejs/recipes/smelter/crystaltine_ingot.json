@@ -1,0 +1,24 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "psi:psimetal",
+      "count": 3
+    },
+    {
+      "item": "botanicalextramachinery:crystal_ingot",
+      "count": 1
+    },
+    {
+      "item": "thermalendergy:prismalium_ingot",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "extendedcrafting:crystaltine_ingot",
+      "count": 3
+    }
+  ],
+  "energy": 800
+}

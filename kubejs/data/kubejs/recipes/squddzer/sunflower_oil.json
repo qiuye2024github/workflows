@@ -1,0 +1,11 @@
+{
+    "type": "immersiveengineering:squeezer",
+    "energy": 6400,
+    "fluid": {
+        "amount": 50,
+        "fluid": "kubejs:sunflower_oil"
+    },
+    "input": {
+        "item": "minecraft:sunflower"
+    }
+}

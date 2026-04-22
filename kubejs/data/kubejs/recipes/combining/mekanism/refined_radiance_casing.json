@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "ingredient": {
+            "item": "create:refined_radiance"
+        },
+        "amount": 1
+    },
+    "mainInput": {
+        "ingredient": [
+            {
+                "tag": "forge:stripped_wood"
+            },
+            {
+                "tag": "forge:stripped_logs"
+            }
+        ]
+    },
+    "output": {
+        "item": "create:refined_radiance_casing",
+        "count": 1
+    }
+}

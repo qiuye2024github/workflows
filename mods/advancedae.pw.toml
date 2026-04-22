@@ -1,0 +1,24 @@
+filename = "AdvancedAE-1.3.4-1.20.1.jar"
+name = "AdvancedAE"
+side = "server"
+x-prismlauncher-loaders = ["neoforge", "forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "AdvancedAE-1.3.4-1.20.1"
+
+[download]
+hash = "5090d166ff79ab0fcaa6146de3c9c0fd2c4d3f78"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/7849/215/AdvancedAE-1.3.4-1.20.1.jar"
+
+[update.curseforge]
+file-id = 7849215
+project-id = 1084104
+
+[[x-prismlauncher-dependencies]]
+addonId = "388172"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "223794"
+type = "REQUIRED"

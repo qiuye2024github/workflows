@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "ingredient": {
+            "item": "create:andesite_alloy"
+        },
+        "amount": 1
+    },
+    "mainInput": {
+        "ingredient": [
+            {
+                "tag": "forge:stripped_wood"
+            },
+            {
+                "tag": "forge:stripped_logs"
+            }
+        ]
+    },
+    "output": {
+        "item": "create:andesite_casing",
+        "count": 1
+    }
+}

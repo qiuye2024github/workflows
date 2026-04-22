@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "ingredient": {
+            "item": "minecraft:copper_ingot"
+        },
+        "amount": 1
+    },
+    "mainInput": {
+        "ingredient": [
+            {
+                "tag": "forge:stripped_wood"
+            },
+            {
+                "tag": "forge:stripped_logs"
+            }
+        ]
+    },
+    "output": {
+        "item": "create:copper_casing",
+        "count": 1
+    }
+}

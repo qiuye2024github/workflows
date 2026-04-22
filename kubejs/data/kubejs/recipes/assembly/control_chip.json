@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "ae2:logic_processor"
+  },
+  "program": "laser",
+  "result": {
+    "count": 1,
+    "item": "create_connected:control_chip"
+  }
+}

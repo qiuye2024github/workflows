@@ -1,0 +1,20 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "minecraft:glowstone_dust",
+      "count": 1
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "enderio:clayed_glowstone",
+      "count": 2
+    }
+  ],
+  "energy": 800
+}

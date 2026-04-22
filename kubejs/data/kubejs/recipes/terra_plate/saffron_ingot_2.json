@@ -1,0 +1,18 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "item": "botanicalextramachinery:malachite_ingot"
+    },
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "naturesaura:sky_ingot"
+    }
+  ],
+  "mana": 1000000,
+  "result": {
+    "item": "botanicalextramachinery:saffron_ingot"
+  }
+}

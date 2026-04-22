@@ -1,0 +1,15 @@
+{
+  "type": "ars_nouveau:crush",
+  "input": {
+    "item": "minecraft:netherrack"
+  },
+  "output": [
+    {
+      "chance": 1.0,
+      "count": 1,
+      "item": "exnihilosequentia:crushed_netherrack",
+      "maxRange": 1
+    }
+  ],
+  "skip_block_place": false
+}

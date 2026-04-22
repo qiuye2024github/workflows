@@ -1,0 +1,10 @@
+ServerEvents.recipes(event => {
+    event.remove({ id: 'starbunclemania:fluid/lava_to_source' })
+    event.remove({ id: 'ars_nouveau:sourcestone' })
+    event.remove({ id: 'ars_elemental:imbuement_mark_of_mastery' })
+    event.remove({ id: 'ars_elemental:air_upstream' })
+    event.remove({ id: 'ars_nouveau:manipulation_essence_to_cascading_sapling' })
+    event.remove({ id: 'ars_nouveau:manipulation_essence_to_blazin_sapling' })
+    event.remove({ id: 'ars_nouveau:manipulation_essence_to_vexing_sapling' })
+    event.remove({ id: 'ars_nouveau:manipulation_essence_to_flourishing_sapling' })
+})

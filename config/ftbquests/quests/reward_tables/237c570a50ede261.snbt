@@ -1,0 +1,34 @@
+{
+	id: "237C570A50EDE261"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "thermal:satchel"
+				tag: { }
+			}
+			weight: 64.0f
+		}
+		{ item: "sophisticatedbackpacks:backpack", weight: 512.0f }
+		{ item: "sophisticatedbackpacks:copper_backpack", weight: 256.0f }
+		{ item: "sophisticatedbackpacks:iron_backpack", weight: 128.0f }
+		{ item: "sophisticatedbackpacks:gold_backpack", weight: 8.0f }
+		{ item: "sophisticatedbackpacks:diamond_backpack", weight: 2.0f }
+		{ item: "sophisticatedbackpacks:netherite_backpack" }
+		{
+			item: {
+				Count: 1
+				id: "occultism:satchel"
+				tag: {
+					spiritName: "Zedwornvine"
+				}
+			}
+			weight: 4.0f
+		}
+		{ item: "mekanism:personal_chest", weight: 32.0f }
+		{ count: 2, item: "enderstorage:ender_chest", weight: 16.0f }
+	]
+	title: "背包"
+}

@@ -1,0 +1,14 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 1600,
+    "input": {
+        "tag": "forge:gems/vibrant_crystal"
+    },
+    "result": {
+        "base_ingredient": {
+            "item": "enderio:vibrant_powder"
+        },
+        "count": 1
+    },
+    "secondaries": []
+}

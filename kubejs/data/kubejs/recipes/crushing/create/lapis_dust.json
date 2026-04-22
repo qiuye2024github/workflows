@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "thermal:lapis_dust"
+    }
+  ]
+}

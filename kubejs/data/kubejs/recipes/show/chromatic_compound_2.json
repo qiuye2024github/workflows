@@ -1,0 +1,17 @@
+{
+    "type": "lychee:block_clicking",
+    "item_in": [
+        {
+            "item": "create:chromatic_compound"
+        },{
+            "item": "minecraft:light"
+        }
+    ],
+    "block_in": "kubejs:can_be_crafted_by_these_item",
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "create:refined_radiance"
+        }
+    ]
+}

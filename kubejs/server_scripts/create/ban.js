@@ -1,0 +1,10 @@
+ServerEvents.recipes(event => {
+    event.remove({ id: 'createnuclear:mixing/steel' })
+    event.remove({ id: 'create:crafting/materials/andesite_alloy' })
+    event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc' })
+    event.remove({ id: 'create:milling/gravel' })
+    event.remove({ id: 'createaddition:compat/tconstruct/slimesteel' })
+    event.remove({ id: 'createaddition:compat/mekanism/rose_quartz_metallurgic_infusing' })
+    event.remove({ id: 'create:crafting/materials/rose_quartz' })
+    event.remove({ type: 'createdieselgenerators:distillation' })
+})

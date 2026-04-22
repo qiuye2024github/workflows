@@ -1,15 +1,20 @@
-filename = "BotanyPots-Forge-1.20.1-13.0.41.jar"
+filename = "BotanyPots-Forge-1.20.1-13.0.43.jar"
 name = "Botany Pots"
-side = "both"
+side = "server"
 x-prismlauncher-loaders = ["neoforge", "forge"]
 x-prismlauncher-mc-versions = ["1.20.1"]
 x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "BotanyPots-Forge-1.20.1-13.0.43.jar"
 
 [download]
-hash = "0b536c6238a1708a6b98cbc84df0f01845036a36"
+hash = "36d5c12071293df90a3599df6076b974e94b26d3"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/6348/581/BotanyPots-Forge-1.20.1-13.0.41.jar"
+url = "https://edge.forgecdn.net/files/7612/402/BotanyPots-Forge-1.20.1-13.0.43.jar"
 
 [update.curseforge]
-file-id = 6348581
+file-id = 7612402
 project-id = 353928
+
+[[x-prismlauncher-dependencies]]
+addonId = "228525"
+type = "REQUIRED"

@@ -1,0 +1,23 @@
+{
+  "type": "exnihilosequentia:sifting",
+  "input": {
+    "item": "exnihilosequentia:dust"
+  },
+  "result": {
+    "item": "draconicevolution:draconium_dust"
+  },
+  "rolls": [
+    {
+      "chance": 0.05,
+      "mesh": "diamond"
+    },
+    {
+      "chance": 0.1,
+      "mesh": "emerald"
+    },
+    {
+      "chance": 0.12,
+      "mesh": "netherite"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        [
+            {
+                "item": "bloodmagic:reagentbinding"
+            }
+        ],
+        {
+            "amount": 150,
+            "fluidTag": "enderio:dew_of_the_void"
+        }
+    ],
+    "results": [
+        {
+            "item": "bloodmagic:reagentteleposition"
+        }
+    ]
+}

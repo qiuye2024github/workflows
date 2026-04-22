@@ -1,0 +1,16 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "exothermic": true,
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 240,
+    "tag": "kubejs:molten_slicon"
+  },
+  "item_output": {
+    "item": "kubejs:silicon_boule"
+  },
+  "speed": 0.5,
+  "temperature": {
+    "max_temp": 873
+  }
+}

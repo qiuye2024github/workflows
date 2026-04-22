@@ -1,0 +1,98 @@
+{
+	id: "43D22226F5D3D26A"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 8, item: "farmersdelight:fried_egg" }
+		{ count: 8, item: "farmersdelight:cake_slice" }
+		{ count: 8, item: "farmersdelight:apple_pie_slice" }
+		{ count: 8, item: "farmersdelight:sweet_berry_cheesecake_slice" }
+		{ count: 8, item: "farmersdelight:chocolate_pie_slice" }
+		{ count: 8, item: "farmersdelight:sweet_berry_cookie" }
+		{ count: 8, item: "farmersdelight:honey_cookie" }
+		{ count: 8, item: "farmersdelight:melon_popsicle" }
+		{ count: 8, item: "farmersdelight:glow_berry_custard" }
+		{ count: 8, item: "farmersdelight:fruit_salad" }
+		{ count: 8, item: "farmersdelight:mixed_salad" }
+		{ count: 8, item: "farmersdelight:nether_salad" }
+		{ count: 8, item: "farmersdelight:barbecue_stick" }
+		{ count: 8, item: "farmersdelight:egg_sandwich" }
+		{ count: 8, item: "farmersdelight:chicken_sandwich" }
+		{ count: 8, item: "farmersdelight:hamburger" }
+		{ count: 8, item: "farmersdelight:bacon_sandwich" }
+		{ count: 8, item: "farmersdelight:mutton_wrap" }
+		{ count: 8, item: "farmersdelight:dumplings" }
+		{ count: 8, item: "farmersdelight:stuffed_potato" }
+		{ count: 8, item: "farmersdelight:cabbage_rolls" }
+		{ count: 8, item: "farmersdelight:salmon_roll" }
+		{ count: 8, item: "farmersdelight:cod_roll" }
+		{ count: 8, item: "farmersdelight:kelp_roll_slice" }
+		{ count: 8, item: "farmersdelight:cooked_rice" }
+		{ count: 8, item: "farmersdelight:bone_broth" }
+		{ count: 8, item: "farmersdelight:beef_stew" }
+		{ count: 8, item: "farmersdelight:chicken_soup" }
+		{ count: 8, item: "farmersdelight:vegetable_soup" }
+		{ count: 8, item: "farmersdelight:fish_stew" }
+		{ count: 8, item: "farmersdelight:fried_rice" }
+		{ count: 8, item: "farmersdelight:pumpkin_soup" }
+		{ count: 8, item: "farmersdelight:baked_cod_stew" }
+		{ count: 8, item: "farmersdelight:noodle_soup" }
+		{ count: 8, item: "farmersdelight:bacon_and_eggs" }
+		{ count: 8, item: "farmersdelight:pasta_with_meatballs" }
+		{ count: 8, item: "farmersdelight:mushroom_rice" }
+		{ count: 8, item: "farmersdelight:roasted_mutton_chops" }
+		{ count: 8, item: "farmersdelight:vegetable_noodles" }
+		{ count: 8, item: "farmersdelight:steak_and_potatoes" }
+		{ count: 8, item: "farmersdelight:ratatouille" }
+		{ count: 8, item: "farmersdelight:squid_ink_pasta" }
+		{ count: 8, item: "farmersdelight:grilled_salmon" }
+		{ count: 8, item: "farmersdelight:roast_chicken" }
+		{ count: 8, item: "farmersdelight:stuffed_pumpkin" }
+		{ count: 8, item: "farmersdelight:honey_glazed_ham" }
+		{ count: 8, item: "farmersdelight:shepherds_pie" }
+		{ count: 8, item: "delightful:source_berry_ice_cream" }
+		{ count: 8, item: "delightful:matcha_milkshake" }
+		{ count: 8, item: "delightful:salmonberry_milkshake" }
+		{ count: 8, item: "delightful:source_berry_milkshake" }
+		{ count: 8, item: "delightful:salmonberry_pie_slice" }
+		{ count: 8, item: "delightful:pumpkin_pie_slice" }
+		{ count: 8, item: "delightful:source_berry_pie_slice" }
+		{ count: 8, item: "delightful:source_berry_cookie" }
+		{ count: 8, item: "delightful:glow_jam_cookie" }
+		{ count: 8, item: "delightful:baklava_slice" }
+		{ count: 8, item: "delightful:roasted_acorn" }
+		{ count: 8, item: "delightful:cactus_steak" }
+		{ count: 8, item: "delightful:cactus_chili" }
+		{ count: 8, item: "delightful:cactus_soup" }
+		{ count: 8, item: "delightful:sinigang" }
+		{ count: 8, item: "delightful:field_salad" }
+		{ item: "delightful:matcha_latte" }
+		{ item: "delightful:berry_matcha_latte" }
+		{ item: "delightful:jam_jar" }
+		{ item: "delightful:glow_jam_jar" }
+		{ item: "delightful:nut_butter_bottle" }
+		{ count: 8, item: "delightful:nut_butter_and_jam_sandwich" }
+		{ count: 8, item: "delightful:cheeseburger" }
+		{ count: 8, item: "delightful:deluxe_cheeseburger" }
+		{ count: 8, item: "delightful:smore" }
+		{ count: 8, item: "delightful:crab_rangoon" }
+		{ count: 8, item: "delightful:cantaloupe_bread" }
+		{ count: 8, item: "delightful:wrapped_cantaloupe" }
+		{ count: 8, item: "delightful:cantaloupe_popsicle" }
+		{ count: 8, item: "delightful:stuffed_cantaloupe" }
+		{ count: 8, item: "delightful:source_berry_gummy" }
+		{ count: 8, item: "thermal:green_bean_pie" }
+		{ count: 8, item: "thermal:pbj_sandwich" }
+		{ count: 8, item: "thermal:stuffed_pepper" }
+		{ count: 8, item: "thermal:sushi_maki" }
+		{ item: "thermal:spring_salad" }
+		{ count: 8, item: "thermal:hearty_stew" }
+		{ count: 8, item: "minecraft:cooked_beef" }
+		{ count: 8, item: "minecraft:pumpkin_pie" }
+		{ count: 8, item: "minecraft:golden_carrot" }
+		{ count: 8, item: "minecraft:bread" }
+		{ count: 8, item: "minecraft:baked_potato" }
+		{ count: 8, item: "extrabotany:fried_chicken" }
+	]
+	title: "食物"
+}

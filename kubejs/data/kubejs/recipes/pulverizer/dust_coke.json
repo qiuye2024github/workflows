@@ -1,0 +1,14 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": [
+        {
+            "item": "kubejs:calcinated_carbon"
+        }
+    ],
+    "result": [
+        {
+            "item": "immersiveengineering:dust_coke",
+            "count": 1
+        }
+    ]
+}

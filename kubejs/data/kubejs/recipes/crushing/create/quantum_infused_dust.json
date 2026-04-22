@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "advanced_ae:shattered_singularity"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "advanced_ae:quantum_infused_dust"
+    }
+  ]
+}

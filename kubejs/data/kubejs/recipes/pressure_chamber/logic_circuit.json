@@ -1,0 +1,25 @@
+{
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+        {
+            "item": "pneumaticcraft:unassembled_pcb"
+        },
+        {
+            "type": "pneumaticcraft:stacked_item",
+            "count": 1,
+            "item": "create_connected:control_chip"
+        },
+        {
+            "type": "pneumaticcraft:stacked_item",
+            "count": 2,
+            "tag": "immersiveengineering:circuits/logic"
+        }
+    ],
+    "pressure": -0.5,
+    "results": [
+        {
+            "item": "immersiveengineering:logic_circuit",
+            "count": 1
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+filename = "Delightful-1.20.1-3.7.8.jar"
+name = "Delightful"
+side = "server"
+x-prismlauncher-loaders = ["neoforge", "forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "Delightful 3.7.8 - 1.20.1"
+
+[download]
+hash = "a38eddfdc078f481dd9179e070cf5c470da4dfbd"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/7410/747/Delightful-1.20.1-3.7.8.jar"
+
+[update.curseforge]
+file-id = 7410747
+project-id = 637529
+
+[[x-prismlauncher-dependencies]]
+addonId = "636321"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "1084995"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "689630"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "1027563"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "807101"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "637808"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "941186"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "859262"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "398521"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "1372501"
+type = "OPTIONAL"

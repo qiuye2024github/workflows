@@ -1,0 +1,22 @@
+{
+    "type": "immersiveengineering:arc_furnace",
+    "additives": [
+        {
+            "item": "megacells:sky_steel_ingot"
+        },
+        {
+            "tag": "forge:ingots/hop_graphite"
+        }
+    ],
+    "energy": 51200,
+    "input": {
+        "item": "minecraft:iron_ingot"
+    },
+    "results": [
+        {
+            "item": "extendedcrafting:black_iron_ingot",
+            "count":3
+        }
+    ],
+    "time": 100
+}

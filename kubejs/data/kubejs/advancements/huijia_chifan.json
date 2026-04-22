@@ -1,0 +1,31 @@
+{
+    "parent": "minecraft:end/levitate",
+    "criteria": {
+        "chifan": {
+            "conditions": {
+                "distance": {
+                    "y": {
+                        "min": 100.0
+                    }
+                }
+            },
+            "trigger": "minecraft:levitation"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": "利用潜影贝向上漂浮100格",
+        "hidden": false,
+        "frame": "challenge",
+        "icon": {
+            "item": "minecraft:shulker_shell"
+        },
+        "title": "还回家吃饭吗"
+    },
+    "requirements": [
+        [
+            "chifan"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

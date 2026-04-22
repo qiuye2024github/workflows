@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "amount": 1,
+        "fluid": "enderio:dew_of_the_void"
+    },
+    "fluidOutput": {
+        "amount": 1,
+        "fluid": "enderio:dew_of_the_void"
+    },
+    "gasInput": {
+        "amount": 1,
+        "gas": "kubejs:dew_of_the_void"
+    },
+    "gasOutput": {
+        "amount": 1,
+        "gas": "kubejs:dew_of_the_void"
+    }
+}

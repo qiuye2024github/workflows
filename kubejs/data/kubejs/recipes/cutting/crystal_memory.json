@@ -1,0 +1,14 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+        {
+            "item": "kubejs:silicon_boule"
+        }
+    ],
+    "results": [
+        {
+            "item": "kubejs:crystal_memory",
+            "count": 4
+        }
+    ]
+}

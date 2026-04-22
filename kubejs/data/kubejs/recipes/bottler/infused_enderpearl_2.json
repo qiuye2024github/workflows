@@ -1,0 +1,19 @@
+{
+  "type": "thermal:bottler",
+  "ingredients": [
+    {
+      "item": "occultism:dimensional_matrix"
+    },
+    {
+      "fluid": "tconstruct:molten_ender",
+      "amount": 1000
+    }
+  ],
+  "result": [
+    {
+      "item": "rftoolsbase:infused_enderpearl",
+      "count":3
+    }
+  ],
+  "experience": 0
+}

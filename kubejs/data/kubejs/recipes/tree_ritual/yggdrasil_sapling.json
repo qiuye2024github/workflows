@@ -1,0 +1,35 @@
+{
+    "type": "naturesaura:tree_ritual",
+    "ingredients": [
+        {
+            "item": "naturesaura:sky_ingot"
+        },
+        {
+            "item": "naturesaura:gold_leaf"
+        },
+        [
+            {
+                "item": "botania:dreamwood"
+            },
+            {
+                "item": "botania:dreamwood_log"
+            }
+        ],
+        {
+            "item": "botania:world_seed"
+        },
+        {
+            "item": "mythicbotany:dreamwood_leaves"
+        },
+        {
+            "item": "botanicalextramachinery:crystal_dragonstone"
+        }
+    ],
+    "sapling": {
+        "item": "minecraft:jungle_sapling"
+    },
+    "output": {
+        "item": "botanicpledge:yggdrasil_sapling"
+    },
+    "time": 500
+}

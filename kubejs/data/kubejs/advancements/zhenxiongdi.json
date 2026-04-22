@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "kill_mimic": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": "难  ！ 得  ！ 有  ！ 几  ！ 个  ！ 真  ！ 兄  ！ 弟",
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "show_toast": true,
+        "title": "剥蒜的情谊"
+    },
+    "requirements": [
+        [
+            "kill_mimic"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

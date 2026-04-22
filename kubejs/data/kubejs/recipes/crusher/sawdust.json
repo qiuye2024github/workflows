@@ -1,0 +1,14 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 1600,
+    "input": {
+        "tag": "minecraft:logs"
+    },
+    "result": {
+        "base_ingredient": {
+            "item": "immersiveengineering:dust_wood"
+        },
+        "count": 2
+    },
+    "secondaries": []
+}

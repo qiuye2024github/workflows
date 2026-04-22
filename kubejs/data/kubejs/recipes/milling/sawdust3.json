@@ -1,0 +1,21 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "minecraft:wooden_slabs"
+        },
+        {
+            "tag": "forge:rods/wooden"
+        },
+        {
+            "item": "minecraft:bamboo"
+        }
+    ],
+    "processingTime": 70,
+    "results": [
+        {
+            "chance": 0.25,
+            "item": "thermal:sawdust"
+        }
+    ]
+}

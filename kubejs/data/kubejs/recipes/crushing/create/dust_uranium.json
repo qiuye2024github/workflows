@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/uranium"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "immersiveengineering:dust_uranium"
+    }
+  ]
+}

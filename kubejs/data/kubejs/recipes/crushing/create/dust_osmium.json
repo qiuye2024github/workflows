@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/osmium"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "mekanism:dust_osmium"
+    }
+  ]
+}

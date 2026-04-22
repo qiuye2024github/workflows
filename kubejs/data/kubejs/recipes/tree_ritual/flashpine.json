@@ -1,0 +1,24 @@
+{
+    "type": "naturesaura:tree_ritual",
+    "ingredients": [
+        {
+            "item": "minecraft:cocoa_beans"
+        },
+        {
+            "item": "naturesaura:gold_leaf"
+        },
+        {
+            "item": "minecraft:wheat_seeds"
+        },
+        {
+            "item": "minecraft:potato"
+        }
+    ],
+    "sapling": {
+        "item": "ars_elemental:yellow_archwood_sapling"
+    },
+    "output": {
+        "item": "ars_elemental:flashpine_pod"
+    },
+    "time": 500
+}

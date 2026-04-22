@@ -1,0 +1,16 @@
+{
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": [
+            {
+                "tag": "forge:coal_coke"
+            },
+            {
+                "item": "kubejs:calcinated_carbon"
+            }
+        ]
+    },
+    "output": {
+        "item": "immersiveengineering:dust_coke"
+    }
+}

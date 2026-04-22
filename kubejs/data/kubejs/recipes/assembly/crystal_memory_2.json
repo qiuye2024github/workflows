@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:silicon_boule"
+  },
+  "program": "laser",
+  "result": {
+    "count": 4,
+    "item": "kubejs:crystal_memory"
+  }
+}

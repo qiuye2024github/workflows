@@ -1,0 +1,18 @@
+{
+  "type": "enderio:sag_milling",
+  "bonus": "none",
+  "energy": 2400,
+  "input": {
+    "tag": "minecraft:planks"
+  },
+  "outputs": [
+    {
+      "chance": 0.5,
+      "item": {
+        "count": 1,
+        "item": "thermal:sawdust"
+      },
+      "optional": false
+    }
+  ]
+}

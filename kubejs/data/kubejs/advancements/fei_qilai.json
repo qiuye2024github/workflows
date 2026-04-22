@@ -1,0 +1,30 @@
+{
+    "parent": "minecraft:end/find_end_city",
+    "criteria": {
+        "feiqilai": {
+            "conditions": {
+                "distance": {
+                    "y": {
+                        "min": 1.0
+                    }
+                }
+            },
+            "trigger": "minecraft:levitation"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": "潜影贝：敢不敢和我比划比划，让你知道什么叫黑手\n玩家：MC失重感强烈",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:shulker_shell"
+        },
+        "title": "让你飞起来！"
+    },
+    "requirements": [
+        [
+            "feiqilai"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

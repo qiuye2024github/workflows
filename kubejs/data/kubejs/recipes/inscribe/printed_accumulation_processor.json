@@ -1,0 +1,15 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "tag": "forge:ingots/black_iron"
+    },
+    "top": {
+      "item": "megacells:accumulation_processor_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "megacells:printed_accumulation_processor"
+  }
+}

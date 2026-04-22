@@ -1,0 +1,14 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": [
+        {
+            "tag": "minecraft:planks"
+        }
+    ],
+    "result": [
+        {
+            "item": "thermal:sawdust",
+            "chance": 0.5
+        }
+    ]
+}

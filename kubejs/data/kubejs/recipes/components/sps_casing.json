@@ -1,0 +1,42 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "count": 4,
+    "item": "mekanismgenerators:fission_reactor_casing"
+  },
+  "ingredients": [
+    {
+      "item": "mekanism:pellet_polonium"
+    },
+    {
+      "item": "mekanism:hdpe_sheet"
+    },
+    {
+      "item": "mekanism:pellet_polonium"
+    },
+    {
+      "item": "mekanism:hdpe_sheet"
+    },
+    {
+      "item": "mekanism:pellet_polonium"
+    },
+    {
+      "item": "mekanism:hdpe_sheet"
+    },
+    {
+      "item": "mekanism:pellet_plutonium"
+    },
+    {
+      "item": "mekanism:hdpe_sheet"
+    },
+    {
+      "item": "extrabotany:photonium_ingot"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "mekanism:sps_casing"
+  },
+  "tier": "DRACONIUM",
+  "total_energy": 64000
+}

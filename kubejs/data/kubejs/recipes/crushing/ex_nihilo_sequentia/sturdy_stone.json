@@ -1,0 +1,13 @@
+{
+  "type": "exnihilosequentia:crushing",
+  "input": {
+    "item": "quark:sturdy_stone"
+  },
+  "results": [
+    {
+      "chance": 1.0,
+      "count": 9,
+      "item": "minecraft:gravel"
+    }
+  ]
+}

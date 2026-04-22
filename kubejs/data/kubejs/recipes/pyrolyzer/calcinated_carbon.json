@@ -1,0 +1,15 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+        "item": "minecraft:charcoal"
+    },
+    "result": [
+        {
+            "item": "kubejs:calcinated_carbon"
+        },
+        {
+            "fluid": "immersiveengineering:creosote",
+            "amount": 50
+        }
+    ]
+}

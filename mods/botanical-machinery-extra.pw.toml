@@ -1,0 +1,44 @@
+filename = "botanicalextramachinery-1.20.1-1.1.2.jar"
+name = "Botanical Machinery Extra"
+side = "server"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "botanicalextramachinery-1.20.1-1.1.2.jar"
+
+[download]
+hash = "62fdbea77633733a8210e4036fddf41cafc9809d"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/5967/158/botanicalextramachinery-1.20.1-1.1.2.jar"
+
+[update.curseforge]
+file-id = 5967158
+project-id = 1131545
+
+[[x-prismlauncher-dependencies]]
+addonId = "238222"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "610632"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "400058"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "223794"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "395617"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "225643"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "412525"
+type = "REQUIRED"

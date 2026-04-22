@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:red_sand"
+    },
+    {
+      "amount": 500,
+      "fluidTag": "forge:ink"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:oil_red_sand"
+    }
+  ]
+}

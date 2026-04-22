@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/tin"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "thermal:tin_dust"
+    }
+  ]
+}

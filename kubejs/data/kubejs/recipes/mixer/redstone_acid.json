@@ -1,0 +1,23 @@
+{
+    "type": "immersiveengineering:mixer",
+    "energy": 1600,
+    "fluid": {
+        "amount": 500,
+        "tag": "forge:diesel"
+    },
+    "inputs": [
+        {
+            "tag": "forge:dusts/redstone"
+        },
+        {
+            "tag": "forge:dusts/redstone"
+        },
+        {
+            "item": "thermal:redstone_mushroom_spores"
+        }
+    ],
+    "result": {
+        "amount": 500,
+        "fluid": "immersiveengineering:redstone_acid"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "forge:slimeballs"
+    }
+  ],
+  "inputFluid": "{Amount:300,FluidName:\"industrialforegoing:pink_slime\"}",
+  "output": {
+    "count": 1,
+    "item": "industrialforegoing:pink_slime"
+  },
+  "outputFluid": "{Amount:150,FluidName:\"minecraft:milk\"}",
+  "processingTime": 200
+}

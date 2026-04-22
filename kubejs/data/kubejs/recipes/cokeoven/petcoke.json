@@ -1,0 +1,11 @@
+{
+    "type": "immersiveengineering:coke_oven",
+    "creosote": 0,
+    "input": {
+        "tag": "forge:bitumen"
+    },
+    "result": {
+        "item": "immersivepetroleum:petcoke"
+    },
+    "time": 800
+}

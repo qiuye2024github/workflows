@@ -1,0 +1,13 @@
+{
+  "type": "exnihilosequentia:crushing",
+  "input": {
+    "item": "exnihilosequentia:crushed_end_stone"
+  },
+  "results": [
+    {
+      "chance": 1.0,
+      "count": 1,
+      "item": "occultism:crushed_end_stone"
+    }
+  ]
+}

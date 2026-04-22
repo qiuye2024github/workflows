@@ -1,0 +1,30 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "bloodmagic:waterscribetool"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "botania:rune_water"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "kubejs:emptyscribetool"
+    }
+  ],
+  "sourceCost": 4000
+}

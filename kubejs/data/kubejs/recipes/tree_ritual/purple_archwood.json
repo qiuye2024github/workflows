@@ -1,0 +1,30 @@
+{
+    "type": "naturesaura:tree_ritual",
+    "ingredients": [
+        {
+            "item": "minecraft:wheat_seeds"
+        },
+        {
+            "item": "naturesaura:gold_leaf"
+        },
+        {
+            "tag": "minecraft:small_flowers"
+        },
+        {
+            "item": "ars_nouveau:sourceberry_bush"
+        },
+        {
+            "tag": "minecraft:leaves"
+        },
+        {
+            "item": "minecraft:poisonous_potato"
+        }
+    ],
+    "sapling": {
+        "item": "minecraft:jungle_sapling"
+    },
+    "output": {
+        "item": "ars_nouveau:purple_archwood_sapling"
+    },
+    "time": 500
+}

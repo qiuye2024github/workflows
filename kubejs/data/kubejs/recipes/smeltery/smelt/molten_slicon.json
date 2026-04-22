@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:silicon"
+  },
+  "result": {
+    "amount": 60,
+    "fluid": "kubejs:molten_slicon"
+  },
+  "temperature": 750,
+  "time": 120
+}

@@ -1,0 +1,15 @@
+{
+  "type": "immersiveindustry:electrolyzer",
+  "input": {
+    "item": "appflux:redstone_crystal"
+  },
+  "fluid": {
+    "tag": "forge:redstone_acid",
+    "amount": 250
+  },
+  "result": {
+    "item": "appflux:charged_redstone",
+    "count": 1
+  },
+  "time": 160
+}

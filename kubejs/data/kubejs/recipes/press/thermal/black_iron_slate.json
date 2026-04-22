@@ -1,0 +1,15 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "extendedcrafting:black_iron_ingot"
+    }
+  ],
+  "result": [
+    {
+      "item": "extendedcrafting:black_iron_slate"
+    }
+  ],
+  "energy": 500,
+  "experience": 0
+}

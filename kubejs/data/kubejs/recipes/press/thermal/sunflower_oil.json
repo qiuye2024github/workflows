@@ -1,0 +1,16 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "minecraft:sunflower"
+    }
+  ],
+  "result": [
+    {
+      "fluid": "kubejs:sunflower_oil",
+      "amount": 50
+    }
+  ],
+  "energy": 500,
+  "experience": 0
+}

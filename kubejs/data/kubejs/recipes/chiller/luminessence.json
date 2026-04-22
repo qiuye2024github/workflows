@@ -1,0 +1,19 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "advgenerators:syngas",
+      "amount": 100
+    },
+    {
+      "item": "thermal:lumium_dust"
+    }
+  ],
+  "result": [
+    {
+      "item": "extendedcrafting:luminessence",
+      "count": 1
+    }
+  ],
+  "energy": 3500
+}

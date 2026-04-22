@@ -1,0 +1,17 @@
+filename = "MekanismMoreMachine-1.20.1-1.0.jar"
+name = "Mekanism More Machine"
+side = ""
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = ["neoforge", "forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "MekanismMoreMachine-1.20.1-1.0.jar"
+
+[download]
+hash = "371e8c66dbc2fce373f5333d2eec90f985d9414e"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6220/155/MekanismMoreMachine-1.20.1-1.0.jar"
+
+[update.curseforge]
+file-id = 6220155
+project-id = 1205233

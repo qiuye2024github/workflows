@@ -1,0 +1,11 @@
+{
+    "type": "mekanism:activating",
+    "input": {
+        "amount": 10,
+        "gas": "kubejs:fire_water"
+    },
+    "output": {
+        "amount": 1,
+        "gas": "kubejs:dew_of_the_void"
+    }
+}

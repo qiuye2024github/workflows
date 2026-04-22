@@ -1,0 +1,42 @@
+{
+    "entity": "draconicevolution:draconic_guardian",
+    "variants": [],
+    "name": "entity.draconicevolution.draconic_guardian",
+    "name_color": "#C000C0",
+    "gui_scale": 0.25,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0.5,
+    "gui_z_offset": 0,
+    "sim_cost": 8192,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:end_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.draconic_guardian",
+    "fabricator_drops": [
+        {
+            "item": "draconicevolution:medium_chaos_frag",
+            "count": 3
+        },
+        {
+            "item": "minecraft:dragon_egg",
+            "count": 1
+        },
+        {
+            "item": "draconicevolution:dragon_heart",
+            "count": 1
+        },
+        {
+            "item": "draconicevolution:draconium_dust",
+            "count": 32
+        }
+    ],
+    "data_per_kill": [
+        3,
+        12,
+        30,
+        45
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "immersivepetroleum:petcoke"
+        }
+    ],
+    "processingTime": 250,
+    "results": [
+        {
+            "item": "immersivepetroleum:petcoke_dust"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "type": "compactcrafting:miniaturization",
+    "version": 1,
+    "recipeSize": 3,
+    
+    "layers":[{
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["A","B","A"],
+            ["B","C","B"],
+            ["A","B","A"]
+        ]
+    },{
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["B","C","B"],
+            ["C","D","C"],
+            ["B","C","B"]
+        ]
+    },{
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["A","B","A"],
+            ["B","C","B"],
+            ["A","B","A"]
+        ]
+    }],
+    "catalyst": {
+        "id": "create:precision_mechanism"
+    },
+    "components": {
+        "A": {
+            "type": "compactcrafting:block",
+            "block": "extendedcrafting:black_iron_block"
+        },
+        "B": {
+            "type": "compactcrafting:block",
+            "block": "create:shadow_steel_casing"
+        },
+        "C": {
+            "type": "compactcrafting:block",
+            "block": "connectedglass:clear_glass"
+        },
+        "D": {
+            "type": "compactcrafting:block",
+            "block": "kubejs:machine_frame"
+        }
+    },
+    "outputs": [{
+        "count": 8,
+        "id": "extendedcrafting:frame"
+    }]
+}

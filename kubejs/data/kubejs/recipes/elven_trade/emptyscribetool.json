@@ -1,0 +1,13 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "occultism:chalk_white_impure"
+    }
+  ],
+  "output": [
+    {
+      "item": "kubejs:emptyscribetool"
+    }
+  ]
+}

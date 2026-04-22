@@ -1,0 +1,100 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "langquestlearnmain"
+	group: "621F41FBF3F8564B"
+	id: "58510A96E448BE51"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"想要大量开采原油，首先，使用原油探测器探测出流体储层的地点，之后搭建抽油机。下面是抽油机的一个示例："
+				"{image:kubejs:textures/painting/oil.png width:160 height:90 align:center}"
+				"放置一个抽油机轴承，之后放置另一个抽油机轴承，用扳手扳一下变成抽油机轴承B，新放的轴承B下面要放置曲柄，这两个轴承之间的距离称为&a后段&r；之后放置驴头，驴头下面放置油泵，油泵要在有油的区块内，侧面的轴承和驴头之间的距离称为&a前段&r。&b后段必须为3或4格长，前段与后段的比值（前段÷后段）越大，抽油效率越高&r。油泵和曲柄可以在轴承的同一侧，曲柄和轴承最少间隔1格。"
+				""
+				"建好抽油机之后，打好强力胶，放置基岩，把油泵和基岩之间用流体管道连接，接入动力即可从油泵处取油"
+				""
+				"tips：基岩不小心放错时请去商店购买基岩移除器，左键基岩即可使基岩被破坏，大油田(7w桶以上储量)在平原、森林、海洋群系会有"
+				"{image:quest:textures/painting/jinpen.png width:144 height:68 align:center}"
+			]
+			icon: "immersivepetroleum:crudeoil_bucket"
+			id: "2968DFC306A265B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BA55773EEC09152"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6132A21D1130A270"
+				title: "原油开采"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"幽匿催发体可以吸收生物死后掉落的经验并将其催化为幽匿方块。"
+				""
+				"当在以幽匿催发体为中心的8*8的区域有生物死亡（无论是否被玩家杀死），幽匿催发体顶部会出现动态声波图案和灵魂粒子，并将其掉落的经验将附近带有&b'#minecraft:sculk_replaceable'&r标签的方块转换为幽匿块、幽匿感测体或幽匿尖啸体（由此生成的幽匿尖啸体无法召唤监守者），若方块无法转换则会在上面生成幽匿脉络"
+			]
+			id: "475E30FC79A78AEF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13791361C2465A59"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2AFC5E0089D61852"
+				item: "minecraft:sculk_catalyst"
+				type: "item"
+			}]
+			title: "幽匿感染"
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"放下微缩力场投影仪，工作空间与投影仪需要间隔2格，出现橙色空间即搭建成功"
+				"{image:kubejs:textures/painting/compating_crafting.png width:160 height:90 align:center}"
+				"之后通过在JEI查看到的配方摆放物品，并将催化剂从工作空间外丢向工作空间，然后机器会开始工作。"
+				""
+				"可以使用辅助方块进行作业，放置前需用该方块右击一个成型微缩力场的四个投影仪中的一个即可绑定到该力场"
+				"&b微缩力场代理（匹配）(Field Proxy (Match))&r会判断绑定的力场的状态，如果绑定的力场中有符合配方的结构或者正在合成中的结构，那么则会发出强度为15的红石信号，可用于对压缩合成催化剂的投掷进行自动化。"
+				"&b微缩力场代理（重扫描）(Field Proxy (Rescan))&r会在给该方块通入一个红石信号激活即可对绑定的微缩力场触发一次强制扫描，主要解决有时自动放置的方块无法触发微缩力场的更新扫描，从而导致无法识别配方，进而影响自动化合成"
+				""
+				"部分自动化的思路请见下文（仅供参考）"
+				"{@pagebreak}"
+				"&d自动化方法一&r"
+				"当动态结构上的机械手内的过滤器为已部署的蓝图时，机械手会调用动态结构存储空间内的方块按照蓝图进行放置。这可以用于制作“3D打印机”。可以使用可编程齿轮箱或者矿车结构来触发"
+				""
+				"&d自动化方法二&r"
+				"使用复制粘贴小帮手复制已经成型的结构"
+				""
+				"&d自动化方法三&r"
+				"能工智人&m（内个科技）&r"
+				"{@pagebreak}"
+				"这是一个自动化的示例，可供参考。"
+				"{image:kubejs:textures/painting/compating_crafting_show.png width:160 height:90 align:center}"
+				"（看不清图片可在游戏文件里面\\kubejs\\assets\\kubejs\\textures\\painting中找到原图）"
+				""
+				"样板供应器使用“锁定供应器，直到主产物返回自身”模式。每一份合成表需要使用蓝图保存结构，之后给动态结构上3*3的机械手标记（每个蓝图使用一整面的机械手，可以向后无限延伸），在最后面的机械手放上接触式红石感应器来激活投掷器投出物品开始合成。"
+				""
+				"样板供应器首先发送物品至两个箱子（分别为需要放置和需要投掷），并且他们与移动式物品接口/投掷器使用漏斗相连（保证连接投掷器的箱子漏下的速度不会太快）。当需要放置的箱子收到物品时，比较器检测到有物品从而锁住通往投掷器的漏斗。当全部物品漏入动态结构时，比较器解锁，剩余物品漏入投掷器。当动态结构开始工作，所有方块摆放完毕后，接触式红石信号发生器检测到动态结构的位置后，发出红石信号激活投掷器开始合成，最后吸收掉落物开始下一轮循环"
+			]
+			id: "2AE66E39991C4CEC"
+			tasks: [{
+				id: "0D885A2AA3FC45AA"
+				item: "compactcrafting:field_projector"
+				type: "item"
+			}]
+			title: "压缩合成及自动化"
+			x: -3.0d
+			y: -8.5d
+		}
+	]
+	title: "其他"
+}

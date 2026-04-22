@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:array",
+  "addedinput": {
+    "item": "botania:apothecary_livingrock"
+  },
+  "baseinput": {
+    "item": "extrabotany:nightmare_fuel"
+  },
+  "output": {
+    "item": "extrabotany:pedestal_livingrock"
+  },
+  "texture": "bloodmagic:textures/models/alchemyarrays/spikearray.png"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "immersiveindustry:rotary_kiln",
+  "input": {
+    "tag": "forge:bitumen"
+  },
+  "result": {
+    "item": "immersivepetroleum:petcoke"
+  },
+  "time": 200,
+  "tickEnergy": 56
+}

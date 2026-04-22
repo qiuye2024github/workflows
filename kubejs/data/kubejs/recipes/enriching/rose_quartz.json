@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "item": "botania:quartz_red"
+        },
+        "amount": 2
+    },
+    "output": {
+        "item": "create:rose_quartz"
+    }
+}

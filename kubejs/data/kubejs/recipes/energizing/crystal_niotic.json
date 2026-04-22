@@ -1,0 +1,22 @@
+{
+    "type": "powah:energizing",
+    "ingredients": [
+        {
+            "item": "rftoolsbase:infused_diamond"
+        },
+        {
+            "item": "rftoolsbase:infused_diamond"
+        },
+        {
+            "item": "rftoolsbase:infused_diamond"
+        },
+        {
+            "item": "tconstruct:sky_slime_crystal"
+        }
+    ],
+    "energy": 900000,
+    "result": {
+        "item": "powah:crystal_niotic",
+        "count": 3
+    }
+}

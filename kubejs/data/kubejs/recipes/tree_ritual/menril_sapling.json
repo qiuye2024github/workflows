@@ -1,0 +1,35 @@
+{
+    "type": "naturesaura:tree_ritual",
+    "ingredients": [
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "item": "naturesaura:gold_leaf"
+        },
+        {
+            "item": "minecraft:lapis_lazuli"
+        },
+        {
+            "item": "integrateddynamics:crystalized_chorus_chunk"
+        },
+        [
+            {
+                "tag": "forge:glass/colorless"
+            },
+            {
+                "tag": "forge:glass/light_blue"
+            }
+        ],
+        {
+            "tag": "minecraft:leaves"
+        }
+    ],
+    "sapling": {
+        "item": "ars_nouveau:blue_archwood_sapling"
+    },
+    "output": {
+        "item": "integrateddynamics:menril_sapling"
+    },
+    "time": 500
+}

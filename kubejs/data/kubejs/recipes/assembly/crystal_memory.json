@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "tag": "forge:silicon"
+  },
+  "program": "laser",
+  "result": {
+    "count": 1,
+    "item": "kubejs:crystal_memory"
+  }
+}

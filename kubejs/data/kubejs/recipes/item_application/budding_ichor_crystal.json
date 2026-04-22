@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "tag": "minecraft:budding"
+    },
+    {
+      "item": "tconstruct:ichor_slime_crystal_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:budding_ichor_slime_crystal"
+    }
+  ]
+}

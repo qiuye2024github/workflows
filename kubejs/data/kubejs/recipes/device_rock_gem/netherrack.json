@@ -1,0 +1,8 @@
+{
+    "type": "thermal:rock_gen",
+    "adjacent": "minecraft:redstone_block",
+    "below": "kubejs:netherrack_catalyst",
+    "result": {
+      "item": "minecraft:netherrack"
+    }
+  }

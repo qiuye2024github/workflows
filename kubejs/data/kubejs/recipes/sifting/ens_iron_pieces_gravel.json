@@ -1,0 +1,31 @@
+{
+  "type": "exnihilosequentia:sifting",
+  "input": {
+    "item": "minecraft:gravel"
+  },
+  "result": {
+    "item": "exnihilosequentia:iron_pieces"
+  },
+  "rolls": [
+    {
+      "chance": 0.05,
+      "mesh": "flint"
+    },
+    {
+      "chance": 0.1,
+      "mesh": "iron"
+    },
+    {
+      "chance": 0.15,
+      "mesh": "diamond"
+    },
+    {
+      "chance": 0.2,
+      "mesh": "emerald"
+    },
+    {
+      "chance": 0.23,
+      "mesh": "netherite"
+    }
+  ]
+}

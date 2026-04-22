@@ -1,15 +1,17 @@
-filename = "balm-forge-1.20.1-7.3.35-all.jar"
+filename = "balm-forge-1.20.1-7.3.38-all.jar"
 name = "Balm"
-side = "both"
+side = ""
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = ["forge"]
 x-prismlauncher-mc-versions = ["1.20", "1.20.1"]
 x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "balm-forge-1.20.1-7.3.38-all.jar"
 
 [download]
-hash = "1af2f40a77ea8a140d498fcf846cba58c9c6bce5"
+hash = "515905f87268f1eb5af2a9878a84914517efe552"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/6978/679/balm-forge-1.20.1-7.3.35-all.jar"
+url = "https://edge.forgecdn.net/files/7420/617/balm-forge-1.20.1-7.3.38-all.jar"
 
 [update.curseforge]
-file-id = 6978679
+file-id = 7420617
 project-id = 531761

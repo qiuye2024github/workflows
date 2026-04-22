@@ -1,0 +1,18 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "item": "kubejs:heart_ingot"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    }
+  ],
+  "mana": 250000,
+  "result": {
+    "item": "draconicevolution:dragon_heart"
+  }
+}

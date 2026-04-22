@@ -1,0 +1,28 @@
+filename = "artifacts-forge-9.5.18.jar"
+name = "Artifacts"
+side = ""
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "artifacts-forge-9.5.18.jar"
+
+[download]
+hash = "fac07c939841b0e931d0fc14076af35ca06572da"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/7880/372/artifacts-forge-9.5.18.jar"
+
+[update.curseforge]
+file-id = 7880372
+project-id = 312353
+
+[[x-prismlauncher-dependencies]]
+addonId = "309927"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "348521"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "419699"
+type = "REQUIRED"

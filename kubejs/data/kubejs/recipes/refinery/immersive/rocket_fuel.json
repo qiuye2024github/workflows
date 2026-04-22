@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:refinery",
+    "catalyst": {
+        "tag": "forge:dusts/niter"
+    },
+    "energy": 80,
+    "input0": {
+        "amount": 10,
+        "tag": "kubejs:fluid_pyrotheum"
+    },
+    "input1": {
+        "amount": 10,
+        "tag": "forge:kerosene"
+    },
+    "result": {
+        "amount": 10,
+        "fluid": "enderio:rocket_fuel"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "tconstruct:sky_slime",
+      "amount": 250
+    },
+    {
+      "item": "thermal:chiller_ball_cast"
+    }
+  ],
+  "result": [
+    {
+      "item": "tconstruct:sky_slime_ball",
+      "count": 1
+    }
+  ],
+  "energy": 4800
+}

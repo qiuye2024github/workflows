@@ -1,0 +1,19 @@
+{
+  "type": "exnihilosequentia:sifting",
+  "input": {
+    "item": "exnihilosequentia:crushed_netherrack"
+  },
+  "result": {
+    "item": "kubejs:cobalt_pieces"
+  },
+  "rolls": [
+    {
+      "chance": 0.1,
+      "mesh": "iron"
+    },
+    {
+      "chance": 0.15,
+      "mesh": "diamond"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "thermal:bitumen"
+  },
+  "result": [
+    {
+      "item": "immersivepetroleum:bitumen",
+      "chance": 0.75,
+      "locked": true
+    },
+    {
+      "fluid": "thermal:crude_oil",
+      "amount": 50
+    }
+  ],
+  "energy": 10000,
+  "experience": 1.0
+}

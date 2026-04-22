@@ -1,0 +1,11 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "tag": "forge:stone"
+  },
+  "output": "ars_nouveau:sourcestone",
+  "pedestalItems": [
+  ],
+  "source": 500
+}

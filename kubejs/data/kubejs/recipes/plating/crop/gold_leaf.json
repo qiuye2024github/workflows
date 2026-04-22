@@ -1,0 +1,22 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "naturesaura:gold_fiber"
+    },
+    "categories": [
+        "leaves"
+    ],
+    "growthTicks": 1500,
+    "display": {
+        "type": "botanypots:aging",
+        "block": "naturesaura:golden_leaves"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "naturesaura:gold_leaf"
+            }
+        }
+    ]
+}

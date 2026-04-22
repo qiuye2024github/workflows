@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "tconstruct:sky_slime_crystal_block"
+  },
+  "result": [
+    {
+      "fluid": "tconstruct:sky_slime",
+      "amount": 1000
+    }
+  ],
+  "energy": 80000
+}

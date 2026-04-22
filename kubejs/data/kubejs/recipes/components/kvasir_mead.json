@@ -1,0 +1,142 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "mythicbotany:kvasir_blood"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "mekmm:uu_matter"
+    },
+    {
+      "item": "mekmm:uu_matter"
+    },
+    {
+      "item": "mekmm:uu_matter"
+    },
+    {
+      "item": "mekmm:uu_matter"
+    },
+    {
+      "item": "bloodmagic:reagentvoid"
+    },
+    {
+      "item": "bloodmagic:reagentvoid"
+    },
+    {
+      "item": "bloodmagic:reagentvoid"
+    },
+    {
+      "item": "bloodmagic:reagentvoid"
+    },
+    {
+      "item": "bloodmagic:reagentvoid"
+    },
+    {
+      "item": "bloodmagic:reagentvoid"
+    },
+    {
+      "item": "bloodmagic:reagentvoid"
+    },
+    {
+      "item": "bloodmagic:reagentvoid"
+    },
+    {
+      "item": "naturesaura:spring"
+    },
+    {
+      "item": "voidminers:ultimate_stellar_core"
+    },
+    {
+      "item": "voidminers:ultimate_stellar_core"
+    },
+    {
+      "item": "voidminers:ultimate_stellar_core"
+    },
+    {
+      "item": "voidminers:ultimate_stellar_core"
+    },
+    {
+      "item": "mekanismmoremachine:crystal_energy"
+    },
+    {
+      "item": "mekanismmoremachine:crystal_energy"
+    },
+    {
+      "item": "mekanismmoremachine:crystal_energy"
+    },
+    {
+      "item": "mekanismmoremachine:crystal_energy"
+    },
+    {
+      "item": "draconicevolution:chaotic_core"
+    },
+    {
+      "item": "draconicevolution:chaotic_core"
+    },
+    {
+      "item": "projectexpansion:compact_sun"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "mysticalagriculture:awakened_supremium_ingot_block"
+    },
+    {
+      "item": "mysticalagriculture:awakened_supremium_ingot_block"
+    },
+    {
+      "item": "botanicalextramachinery:crimson_spark"
+    },
+    {
+      "item": "mekanism:pellet_antimatter"
+    },
+    {
+      "item": "projectexpansion:final_power_flower"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "extrabotany:the_universe"
+    },
+    {
+      "item": "extrabotany:the_universe"
+    },
+    {
+      "item": "botanicpledge:first_relic"
+    },
+    {
+      "item": "ars_elemental:air_upstream"
+    }
+  ],
+  "result": {
+    "item": "mythicbotany:kvasir_mead"
+  },
+  "tier": "CHAOTIC",
+  "total_energy": 128000000
+}

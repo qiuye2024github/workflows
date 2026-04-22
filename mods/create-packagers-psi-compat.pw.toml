@@ -1,0 +1,20 @@
+filename = "packagerspsic-1.0.0.jar"
+name = "Create: Packagers PSI Compat"
+side = "server"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "Packagers PSI Compat 1.0.0  Forge 1.20.1"
+
+[download]
+hash = "49eb46e3ac2edabf70602bae0d3a631cc2a1d0f4"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6529/447/packagerspsic-1.0.0.jar"
+
+[update.curseforge]
+file-id = 6529447
+project-id = 1259651
+
+[[x-prismlauncher-dependencies]]
+addonId = "328085"
+type = "REQUIRED"

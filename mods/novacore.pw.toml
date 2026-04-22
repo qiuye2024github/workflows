@@ -1,0 +1,17 @@
+filename = "novacore-1.20.1-1.0.0-build.3.jar"
+name = "NovaCore"
+side = ""
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = ["neoforge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "novacore-1.20.1-1.0.0-build.3.jar"
+
+[download]
+hash = "7fa54a78798b43e128bbbc724f012fda6e99a513"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/4815/411/novacore-1.20.1-1.0.0-build.3.jar"
+
+[update.curseforge]
+file-id = 4815411
+project-id = 923669

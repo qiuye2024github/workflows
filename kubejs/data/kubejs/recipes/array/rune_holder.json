@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:array",
+  "addedinput": {
+    "item": "botania:mana_powder"
+  },
+  "baseinput": {
+    "item": "create:metal_bracket"
+  },
+  "output": {
+    "item": "mythicbotany:rune_holder"
+  },
+  "texture": "bloodmagic:textures/models/alchemyarrays/spikearray.png"
+}

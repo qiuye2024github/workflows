@@ -1,0 +1,24 @@
+{
+    "type": "naturesaura:tree_ritual",
+    "ingredients": [
+        {
+            "item": "minecraft:cocoa_beans"
+        },
+        {
+            "item": "naturesaura:gold_leaf"
+        },
+        {
+            "item": "minecraft:wheat_seeds"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        }
+    ],
+    "sapling": {
+        "item": "ars_nouveau:blue_archwood_sapling"
+    },
+    "output": {
+        "item": "ars_nouveau:frostaya_pod"
+    },
+    "time": 500
+}

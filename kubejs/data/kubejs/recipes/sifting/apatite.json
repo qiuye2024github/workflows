@@ -1,0 +1,23 @@
+{
+  "type": "exnihilosequentia:sifting",
+  "input": {
+    "item": "minecraft:sand"
+  },
+  "result": {
+    "item": "thermal:apatite"
+  },
+  "rolls": [
+    {
+      "chance": 0.05,
+      "mesh": "flint"
+    },
+    {
+      "chance": 0.15,
+      "mesh": "iron"
+    },
+    {
+      "chance": 0.20,
+      "mesh": "diamond"
+    }
+  ]
+}

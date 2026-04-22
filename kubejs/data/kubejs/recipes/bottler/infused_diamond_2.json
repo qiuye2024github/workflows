@@ -1,0 +1,19 @@
+{
+  "type": "thermal:bottler",
+  "ingredients": [
+    {
+      "item": "occultism:dimensional_matrix"
+    },
+    {
+      "fluid": "tconstruct:molten_diamond",
+      "amount": 400
+    }
+  ],
+  "result": [
+    {
+      "item": "rftoolsbase:infused_diamond",
+      "count":3
+    }
+  ],
+  "experience": 0
+}

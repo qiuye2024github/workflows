@@ -1,0 +1,11 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 1600,
+    "input": {
+        "item": "thermal:lumium_ingot"
+    },
+    "result": {
+        "item": "thermal:lumium_dust"
+    },
+    "secondaries": []
+}

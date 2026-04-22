@@ -1,0 +1,48 @@
+{
+    "type": "compactcrafting:miniaturization",
+    "version": 1,
+    "recipeSize": 3,
+    "layers":[{
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            [" "," "," "],
+            [" ","C"," "],
+            [" "," "," "]
+        ]
+    },{
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            [" "," "," "],
+            [" ","B"," "],
+            [" "," "," "]
+        ]
+    },{
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            [" ","A"," "],
+            ["A","A","A"],
+            [" ","A"," "]
+        ]
+    }],
+    "catalyst": {
+        "id": "ae2:fluix_pearl"
+    },
+    "components": {
+        "A": {
+            "type": "compactcrafting:block",
+            "block": "minecraft:iron_block"
+        },
+        "B": {
+            "type": "compactcrafting:block",
+            "block": "ae2:quartz_block"
+        },
+        "C": {
+            "type": "compactcrafting:block",
+            "block": "ae2:fluix_block"
+        }
+    },
+    "outputs": [{
+        "count": 2,
+        "id": "ae2:wireless_receiver"
+    }]
+}

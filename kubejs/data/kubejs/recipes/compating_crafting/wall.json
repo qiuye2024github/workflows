@@ -1,0 +1,33 @@
+{
+    "type": "compactcrafting:miniaturization",
+    "version": 1,
+    "recipeSize": 3,
+    "layers":[{
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["B"]
+        ]
+    },{
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["A"]
+        ]
+    }],
+    "catalyst": {
+        "id": "minecraft:redstone"
+    },
+    "components": {
+        "A": {
+            "type": "compactcrafting:block",
+            "block": "minecraft:iron_block"
+        },
+        "B": {
+            "type": "compactcrafting:block",
+            "block": "minecraft:redstone_wire"
+        }
+    },
+    "outputs": [{
+        "count": 8,
+        "id": "compactmachines:wall"
+    }]
+}

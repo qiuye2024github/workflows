@@ -1,0 +1,468 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "717E16F1534B03F6"
+	group: "621F41FBF3F8564B"
+	id: "717E16F1534B03F6"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:item/stone_hoe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/crafting_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"使用植物盆栽可以种植植物"
+				""
+				"右键可以打开植物盆栽的GUI，GUI内上面格子是种子，下面是土壤，放上后就可以开始种。每个植物都有自己的基础生长时间，土壤决定了生长速度的倍率。把他们相乘就是最终需要生长的时间。"
+				""
+				"等生长完毕后，右键一下就可以获取产物了。漏式植物盆栽会在生长完成后自动收获，并存入下方的容器内"
+			]
+			id: "3B8B0006BE55F52E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5016831D40850EFB"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "15929DC878857716"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(botanypots:all_botany_pots)"
+					}
+				}
+				title: "Any #botanypots:all_botany_pots"
+				type: "item"
+			}]
+			title: "植物盆"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"对着泥土、草方块或土径使用锄类工具可将其犁成耕地。"
+				""
+				"耕地可用于种植农作物，部分农作物对于土壤有特殊需求"
+				""
+				"当耕地周围4格内有水时，其颜色会变深，此时表明土壤已经湿润，更适宜种植，下雨也能湿润耕地方块。如果耕地周围4格内没有水，且其上没有种植作物时，会退化为泥土。玩家或部分生物在没有缓降效果的情况下跳到或掉到耕地上时也会将其退化"
+			]
+			id: "78F4D41635EC9C24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74DE62F8BE8174D9"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:farmland"
+				id: "537B3706030236DB"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:farmland"
+				type: "observation"
+			}]
+			title: "耕地"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"园艺玻璃罩是用于自动种植作物的设备，速度快于自然生长数倍。工作消耗8RF/t，必须提供电能、种子、土壤和水才能工作，缺少任何一个，园艺玻璃罩将无法工作。顶面和侧面可以输入电，正面下方、底面和背面可以输入水和肥料，正面橙色接口可以输出产物（会自动弹出）"
+				""
+				"GUI中间上方的格子放置种子，下方放置泥土等土壤，工作时间随作物种类有变动。水槽下方的空位可以放置肥料，加速植物生长"
+			]
+			id: "0C22BC4E5175BC2E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "536BF6C86F9B725B"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "01F1F686DECF00C9"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"种植站是一种可以消耗营养液快速种植作物的机器。"
+				""
+				"种植时，营养液将持续消耗。一种可行做法是种植一种作物专门生产营养液，用产线循环供给其他种植站"
+			]
+			id: "5013C6235C6B039E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "464D0057F2D3D450"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1ADCEF0119AD2DEA"
+				item: "mekmm:planting_station"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"有机灌注器可通过消耗RF能量、水及化肥（可选）在机器内部培植作物并输出对应产物"
+				""
+				"一种可行做法是安装循环处理升级，可压缩整体结构的体积"
+			]
+			id: "70BD760FCEFFE2D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D581311F4466F3C"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6A8C594A83B9AD9A"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			description: ["基础的植物可由筛子筛出"]
+			id: "68565C798F014BCE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "141D4DD953033355"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7EBD6E980D184AEC"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(exnihilosequentia:sieves)"
+					}
+				}
+				title: "Any #exnihilosequentia:sieves"
+				type: "item"
+			}]
+			title: "筛制"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["利用森林仪式可制造出部分不常见的植物"]
+			id: "7CDA98AE48BD2719"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27640A6F78FDB943"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "798C04925FEAB1AB"
+				item: "naturesaura:wood_stand"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			description: ["利用炼金催化剂可以转化部分植物"]
+			id: "79F80E21D8DF303A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25314567D874CC15"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2771B319DE333B75"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"水培床本身相当于一个耕地，可以种植所有能种在耕地、沙子和灵魂沙上的农作物。"
+				""
+				"该机器每5秒消耗500RF和10mb水（下界作物用熔岩）对上方的作物进行1次灌溉，每次灌溉会使该作物当前生长阶段的生长进度增加25%（亮度不满15时效果会降低，无亮度时无法种植），完全成熟再次灌溉会消耗以太气体自动收割并补种产物(甘蔗和仙人掌例外)，产品会缓存在输出槽中"
+				""
+				"&6注意：当前版本种植西瓜和南瓜时不会结出西瓜块/南瓜，需要1.21及以上版本&r"
+			]
+			id: "550C182C286CA1CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "343D67E4B632A744"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "20698CF03CF544EC"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"风转草可以生产植物类材料"
+				""
+				"通过在野生风转草旁生长树木获得风转草碎片，可用于合成风转草护符。对任意花朵使用风转草护符可将其转化为风转草之花并在一段粒子效果后召唤风转草。风转草会将召唤水晶任意方向10格之内认作自己的家"
+				""
+				"只有在风转草之花附近有箱子时才能产生物品。自然材料的掉落率由幸福度、多样性和风转草家中方块的比例决定。召唤出的风转草必须要开心才会有效率地产出材料，而且她们的情绪是根据家中自然材料的数量和多样性决定的。你可以对风转草使用方块来得知风转草是否喜欢这种方块。空手与风转草交互会告诉你关于风转草幸福度的额外信息"
+				""
+				"注意：放置方块后风转草的情绪可能需要数分种才能更新"
+			]
+			id: "69745AE727CEC57B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "149B8C479FE4A678"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0AC4CBD474F75BE1"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"星宝石兽会拾取附近的掉落物并将其放到附近的容器内，还会收获附近完全长成的魔源浆果丛，不会受到浆果丛的伤害。可通过给予野生星宝石兽物品金粒获得星宝石兽碎片，合成星宝石兽护符"
+				""
+				"要让星宝石兽向目标箱子放置物品，先对星宝石兽，再对目标容器使用支配之杖。要从容器中拿出物品，则是先对容器，再对星宝石兽使用支配之杖。可以使用物品卷轴和物品展示框指示物品的种类"
+				""
+				"对星宝石兽使用某种方块后，其在区域间移动时便倾向于走在这种方块上。不过，这种方块不在路上时它们不会走上去。自然情况下，星宝石兽倾向于走在土径上。使用支配之杖还能将星宝石兽绑定到魔花床上。被绑定后，它们没有任务时就会在床上休息。这一绑定有两个用途：避免它们挡路，或者让它们能在空闲时主动回到物品掉落的地点"
+			]
+			id: "0F1F9CAE1A33C311"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "517FD94351DE9FB3"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "694E29C7E0375B85"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"树汁提取器是一种可从紧旁的树木中提取流体的设备，不同树木提取的流体种类和数量各不相同"
+				""
+				"首先种下一棵树，再在树根位置放置树汁提取器，若摆放正确则正面颜色会改变。"
+				""
+				"树汁提取器附近有其他树汁提取器时效率会相应降低。速度判断是判断以树根为中心而非提取器的3*3个方块有几个提取器，每多一个就在500tick的基础上多250tick，最大1000tick。可以使用骨粉或植育一号提高产量"
+			]
+			id: "412B1CFAD2CF4830"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CABE232824B586C"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "000445ADDC0CD74D"
+				item: "thermal:device_tree_extractor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"为泥土注入植育一号即可制得通量植育土，种植于上方的植物生长速度提升。"
+				""
+				"被植育土注能机充能时会发出7级光照并额外提升上方植物生长速度。充能持续约30秒，充能结束之前再次被充能会重置持续时间并叠加一次充能层数，最高叠加至4层，当有0/1/2/3/4层充能时分别会使上方植物生长速度提升100%/200%/300%/400%/500%。"
+				""
+				"与普通的泥土类似，通量植育土必须事先作耕耘处理方可栽种农作物"
+			]
+			id: "19277E53ECF665C1"
+			tasks: [{
+				id: "7FBDB0C35010FFE7"
+				item: "thermal:phytosoil"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"植育土注能机可将RF能量注入作用范围内的通量植育土或通量植育耕地中，借此催熟种植于其上的作物。"
+				""
+				"在工作期间持续以80RF/t的速率耗能，每隔10秒使工作范围内所有通量植育土或通量植育耕地叠加一层充能。基础作用范围为以自身为中心的3x3x3空间，加装增强后上限最大为9x3x9"
+			]
+			id: "460142513AE3A09A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "464A52A0B2E3D056"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "48DF7120A6D8E8C4"
+				item: "thermal:device_soil_infuser"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"树液提取器从树木原木中提取胶乳的设备，是制作塑料片的必备设备"
+				""
+				"树液提取机本身不会消耗任何能量，但是通入能量可以使其工作速度提升。在产生胶乳的过程中，原木会显示裂缝，之后转化成去皮的对应木材，产出减半，最终被破坏。一个原木连接多个树液提取机时，破坏速度会更快"
+			]
+			id: "58962BBEA34ADB91"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D7663797B4C57CA"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "28C0CDCB8084F18D"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"播种机是自动播种种子、放置树苗的机器"
+				""
+				"工作范围为其上方的第二格，所以它必须放置在地下，并且需要放在整个农场的中间。不过这样的话刚好就可以在其上方放一格水"
+			]
+			id: "77C559AFFEB188EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02D00093A716FFFD"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "234A9A1BF8D8BCB8"
+				item: "industrialforegoing:plant_sower"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"给施肥机提供能量和肥料后，施肥机可以为工作范围内的农作物加速生长。"
+				""
+				"肥料可以使用骨粉、工业先锋的肥料和林业模组的肥料"
+			]
+			id: "667A8CD27FD0806D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D0CAA9EB53D63E7"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4AC3B2E81DBEAE3E"
+				item: "industrialforegoing:plant_fertilizer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"蘑菇孢子繁殖器可以繁殖蘑菇"
+				""
+				"给机器通入能量和水后，每消耗500mb的水和一个蘑菇，可以得到两个蘑菇"
+			]
+			id: "31C53DB731CE38F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0479F1E926A3B36D"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "58EE83AC71AD15FE"
+				item: "industrialforegoing:spores_recreator"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"给收割机提供能量后，收割机默认会收割工作范围内成熟的作物、植物或树木原木。"
+				""
+				"收割机可以收割播种机能种的所有植物，除此之外还可以收割花、草之类的东西。收割时会在机器的流体缓存槽里产生污泥，污泥可以提供给污泥精炼机用于生产各种泥土类材料。可以使用叶片剪切插件以获取树叶"
+			]
+			id: "612D968CA8C1BFBA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B668321FBD99F86"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C8277B88B6A6B13"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			description: ["催生器被可以加速相邻的赛特斯石英母岩生产赛特斯石英的速度。同样的，催生器除了可以加快相邻赛特斯石英母岩生产赛特斯石英水晶的进度以外，还可以催生其相邻的植物（如小麦、竹子、西瓜、树苗等）。其原理是通过对相邻方块施加随机刻，以及自然发生的随机刻来实现。理论上，一个催生器可以使植物的生长速度变为正常的90倍左右。加速效果可以叠加。可以使用木质曲柄为催生器提供能源。"]
+			id: "69D77CED32A717B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67F62A746859F940"
+				table_id: 4887006096378810986L
+				type: "random"
+			}]
+			tasks: [{
+				id: "317CBF3F6A980463"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+	]
+	title: "资源获取：植物"
+}

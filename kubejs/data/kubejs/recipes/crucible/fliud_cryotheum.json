@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "thermal:ice_charge"
+  },
+  "result": [
+    {
+      "fluid": "kubejs:fluid_cryotheum",
+      "amount": 25
+    }
+  ],
+  "energy": 75000
+}

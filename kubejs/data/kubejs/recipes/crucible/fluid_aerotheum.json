@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "thermal:lightning_charge"
+  },
+  "result": [
+    {
+      "fluid": "kubejs:fluid_aerotheum",
+      "amount": 25
+    }
+  ],
+  "energy": 75000
+}

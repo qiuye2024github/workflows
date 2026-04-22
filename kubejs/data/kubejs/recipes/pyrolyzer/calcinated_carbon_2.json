@@ -1,0 +1,16 @@
+{
+    "type": "thermal:pyrolyzer",
+    "ingredient": {
+        "tag": "forge:storage_blocks/charcoal"
+    },
+    "result": [
+        {
+            "item": "kubejs:calcinated_carbon",
+            "count": 9
+        },
+        {
+            "fluid": "immersiveengineering:creosote",
+            "amount": 450
+        }
+    ]
+}

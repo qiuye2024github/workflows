@@ -1,0 +1,11 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 1600,
+    "input": {
+        "item": "minecraft:diamond"
+    },
+    "result": {
+        "item": "thermal:diamond_dust"
+    },
+    "secondaries": []
+}

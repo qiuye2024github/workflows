@@ -1,0 +1,16 @@
+JEIEvents.hideItems(event => {
+    event.hide('easy_villagers:auto_trader')
+    event.hide('apotheosis:treasure_shelf')
+    event.hide('kubejs:can_be_crafted_by_these_item')
+    event.hide('functionalstorage:ender_drawer')
+    event.hide('industrialforegoing:meat_feeder')
+    event.hide('easy_villagers:incubator')
+    event.hide('easy_villagers:converter')
+    event.hide('easy_villagers:breeder')
+    event.hide('naturesaura:projectile_generator')
+    event.hide('ae2:spatial_io_port')
+    event.hide('ae2:spatial_storage_cell_128')
+    event.hide('ae2:spatial_storage_cell_16')
+    event.hide('ae2:spatial_storage_cell_2')
+    event.hide('rftoolsutility:syringe')
+})//

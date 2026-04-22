@@ -1,0 +1,129 @@
+{
+	id: "6CC074852B63C6B1"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "integrateddynamics:on_the_dynamics_of_integration" }
+		{ item: "ars_nouveau:worn_notebook" }
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "mysticalagriculture:guide"
+				}
+			}
+		}
+		{ item: "solonion:food_book" }
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "pneumaticcraft:book"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+				}
+			}
+		}
+		{ item: "tconstruct:fantastic_foundry" }
+		{ item: "ftbquests:book" }
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "apotheosis:apoth_chronicle"
+				}
+			}
+		}
+		{ item: "immersiveengineering:manual" }
+		{ item: "tconstruct:puny_smelting" }
+		{ item: "powah:book" }
+		{ item: "rftoolsbase:manual" }
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "modularrouters:book"
+				}
+			}
+		}
+		{ item: "tconstruct:tinkers_gadgetry" }
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "extendedcrafting:guide"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "industrialforegoing:industrial_foregoing"
+				}
+			}
+		}
+		{ item: "tconstruct:materials_and_you" }
+		{ item: "akashictome:tome" }
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "thermal:guidebook"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "occultism:dictionary_of_spirits"
+				tag: {
+					"modonomicon:book_id": "occultism:dictionary_of_spirits"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+		}
+		{ item: "botania:lexicon" }
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "naturesaura:book"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "packagedauto:guide"
+				}
+			}
+		}
+	]
+	title: "书"
+}

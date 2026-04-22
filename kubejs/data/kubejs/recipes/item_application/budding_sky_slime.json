@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "tag": "minecraft:budding"
+    },
+    {
+      "item": "tconstruct:sky_slime_crystal_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:budding_sky_slime_crystal"
+    }
+  ]
+}

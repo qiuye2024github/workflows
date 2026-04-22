@@ -1,0 +1,15 @@
+{
+  "type": "thermal:refinery",
+  "ingredient": {
+    "fluid": "industrialforegoing:meat",
+    "amount": 100
+  },
+  "result": [
+    {
+      "fluid": "mekanism:nutritional_paste",
+      "amount": 200
+    }
+  ],
+  "energy": 5000,
+  "experience": 0
+}

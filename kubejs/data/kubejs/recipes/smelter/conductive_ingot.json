@@ -1,0 +1,24 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "enderio:copper_alloy_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:redstone",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "enderio:conductive_alloy_ingot",
+      "count": 1
+    }
+  ],
+  "energy": 1000
+}

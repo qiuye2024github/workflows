@@ -1,0 +1,19 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "kubejs:fluid_petrotheum",
+      "amount": 50
+    },
+    {
+      "item": "bloodmagic:reagentbinding"
+    }
+  ],
+  "result": [
+    {
+      "item": "bloodmagic:reagentsight",
+      "count": 1
+    }
+  ],
+  "energy": 7500
+}

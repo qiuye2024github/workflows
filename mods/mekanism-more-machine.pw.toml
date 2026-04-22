@@ -1,0 +1,44 @@
+filename = "mekmm-1.20.1-1.2.1.jar"
+name = "Mekanism:More Machine"
+side = "server"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "beta"
+x-prismlauncher-version-number = "mekmm-1.20.1-1.2.1.jar"
+
+[download]
+hash = "66699594f36bdc28972afe7a37003d14e774d8df"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/7884/538/mekmm-1.20.1-1.2.1.jar"
+
+[update.curseforge]
+file-id = 7884538
+project-id = 1275257
+
+[[x-prismlauncher-dependencies]]
+addonId = "268560"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "246640"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "231951"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "236307"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "223794"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "1230085"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "401955"
+type = "OPTIONAL"

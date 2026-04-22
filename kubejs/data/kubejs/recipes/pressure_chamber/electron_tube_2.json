@@ -1,0 +1,24 @@
+{
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+        {
+            "tag": "forge:glass"
+        },
+        {
+            "tag": "forge:plates/nickel"
+        },
+        {
+            "tag": "forge:wires/copper"
+        },
+        {
+            "tag": "forge:dusts/redstone"
+        }
+    ],
+    "pressure": -0.25,
+    "results": [
+        {
+            "item": "immersiveengineering:electron_tube",
+            "count": 3
+        }
+    ]
+}

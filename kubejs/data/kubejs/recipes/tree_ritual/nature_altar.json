@@ -1,0 +1,36 @@
+{
+    "type": "naturesaura:tree_ritual",
+    "ingredients": [
+        {
+            "item": "minecraft:smooth_stone"
+        },
+        {
+            "item": "minecraft:smooth_stone"
+        },
+        {
+            "item": "ars_elemental:lesser_earth_focus"
+        },
+        {
+            "item": "naturesaura:gold_leaf"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "naturesaura:token_joy"
+        },
+        {
+            "item": "botania:lens_gravity"
+        },
+        {
+            "item": "botania:terrasteel_ingot"
+        }
+    ],
+    "sapling": {
+        "item": "ars_nouveau:green_archwood_sapling"
+    },
+    "output": {
+        "item": "naturesaura:nature_altar"
+    },
+    "time": 600
+}

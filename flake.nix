@@ -25,7 +25,7 @@
         packages = {
           curseforge = pkgs.stdenvNoCC.mkDerivation {
             inherit (pack) version;
-            name = "Realm-of-Destiny";
+            name = "ProjectArcLight-TheHangingPavilion";
             src = ./.;
             buildInputs = with pkgs; [ packwiz ];
             phases = [ "unpackPhase" "buildPhase" "installPhase" ];
@@ -43,7 +43,7 @@
 
           forge = let
             minecraftVersion = "1.20.1";
-            forgeVersion = "47.4.0";
+            forgeVersion = "47.4.6";
             version = "${minecraftVersion}-${forgeVersion}";
           in pkgs.runCommandNoCC "forge-${version}" {
             inherit version;
@@ -60,7 +60,7 @@
 
           modpack = buildPackwizModpack {
             src = ./.;
-            name = "Realm-of-Destiny";
+            name = "ProjectArcLight-TheHangingPavilion";
             # packwiz may record file metadata that not gets managed by git
             allowMissingFile = true;
 
@@ -70,7 +70,7 @@
 
           modpack-client = buildPackwizModpack {
             src = ./.;
-            name = "Realm-of-Destiny";
+            name = "ProjectArcLight-TheHangingPavilion";
             # packwiz may record file metadata that not gets managed by git
             allowMissingFile = true;
             side = "client";
@@ -83,7 +83,7 @@
           server = let inherit (self.packages.${system}) forge modpack;
           in pkgs.stdenvNoCC.mkDerivation {
             inherit (pack) version;
-            pname = "Realm-of-Destiny-server";
+            pname = "ProjectArcLight-TheHangingPavilion-server";
 
             dontUnpack = true;
             dontConfigure = true;

@@ -1,0 +1,27 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "tconstruct:ichor_slime_crystal"
+  },
+  "pedestalItems": [
+    {
+      "item": "bloodmagic:vengefulcrystal"
+    },
+    {
+      "item": "tconstruct:ichor_slime_ball"
+    },
+    {
+      "item": "tconstruct:ichor_slime_ball"
+    },
+    {
+      "item": "industrialforegoing:pink_slime"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "sourceCost": 5000
+}

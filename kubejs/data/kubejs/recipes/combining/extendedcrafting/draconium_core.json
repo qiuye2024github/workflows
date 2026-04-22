@@ -1,0 +1,44 @@
+{
+    "type": "extendedcrafting:combination",
+    "powerCost": 20000,
+    "input": {
+        "item": "pneumaticcraft:unassembled_pcb"
+    },
+    "ingredients": [
+        {
+            "item": "draconicevolution:draconium_ingot"
+        },
+        {
+            "item": "draconicevolution:draconium_ingot"
+        },
+        {
+            "item": "draconicevolution:draconium_ingot"
+        },
+        {
+            "item": "draconicevolution:draconium_ingot"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "quark:diamond_heart"
+        },
+        {
+            "item": "quark:diamond_heart"
+        },
+        [
+            {
+                "tag": "forge:pellets/plutonium"
+            },
+            {
+                "tag": "forge:pellets/polonium"
+            }
+        ]
+    ],
+    "result": {
+        "item": "draconicevolution:draconium_core"
+    }
+}

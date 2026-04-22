@@ -1,0 +1,29 @@
+{
+    "type": "industrialforegoing:dissolution_chamber",
+    "input": [
+        {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        {
+            "item": "botanicalextramachinery:shadow_ingot"
+        },
+        {
+            "item": "botanicalmachinery:mana_emerald"
+        },
+        {
+            "item": "kubejs:mana_ingot"
+        },
+        {
+            "item": "powah:crystal_niotic"
+        },
+        {
+            "item": "powah:crystal_niotic"
+        }
+    ],
+    "inputFluid": "{Amount:500,FluidName:\"immersivepetroleum:napalm\"}",
+    "output": {
+        "count": 6,
+        "item": "quark:diamond_heart"
+    },
+    "processingTime": 200
+}

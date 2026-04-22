@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 100,
+    "fluidInput": {
+        "amount": 100,
+        "tag": "enderio:fluid_fuel/staff_of_levity"
+    },
+    "gasInput": {
+        "amount": 150,
+        "gas": "kubejs:chaos_fluid"
+    },
+    "itemInput": {
+        "ingredient": [
+            {
+                "item": "minecraft:prismarine_shard"
+            }
+        ]
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "draconicevolution:medium_chaos_frag"
+    }
+}

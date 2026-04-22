@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:refinery",
+    "catalyst": {
+        "item": "quark:bottled_cloud"
+    },
+    "energy": 80,
+    "input0": {
+        "amount": 10,
+        "tag": "immersivetechnology:heated_salt_slurry"
+    },
+    "input1": {
+        "amount": 10,
+        "tag": "forge:naphtha"
+    },
+    "result": {
+        "amount": 10,
+        "fluid": "enderio:cloud_seed"
+    }
+}

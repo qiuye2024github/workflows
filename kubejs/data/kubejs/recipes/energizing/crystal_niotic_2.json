@@ -1,0 +1,22 @@
+{
+    "type": "powah:energizing",
+    "ingredients": [
+        {
+            "item": "botania:mana_diamond"
+        },
+        {
+            "item": "botania:mana_diamond"
+        },
+        {
+            "item": "botania:mana_diamond"
+        },
+        {
+            "item": "tconstruct:sky_slime_crystal"
+        }
+    ],
+    "energy": 1500000,
+    "result": {
+        "item": "powah:crystal_niotic",
+        "count": 3
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": [
+        {
+            "tag": "minecraft:logs"
+        }
+    ],
+    "result": [
+        {
+            "item": "thermal:sawdust",
+            "count": 2
+        }
+    ]
+}

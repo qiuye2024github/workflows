@@ -1,0 +1,34 @@
+{
+    "parent": "ars_nouveau:enchanting_apparatus",
+    "criteria": {
+        "chaotic_chestpiece": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "ars_nouveau:alchemists_crown"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": "真的力竭了？",
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "ars_nouveau:alchemists_crown"
+        },
+        "show_toast": true,
+        "title": "力竭了"
+    },
+    "requirements": [
+        [
+            "chaotic_chestpiece"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

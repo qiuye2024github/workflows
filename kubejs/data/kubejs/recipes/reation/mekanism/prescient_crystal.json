@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 100,
+    "fluidInput": {
+        "amount": 100,
+        "tag": "enderio:hootch"
+    },
+    "gasInput": {
+        "amount": 150,
+        "gas": "mekanism:hydrogen_chloride"
+    },
+    "itemInput": {
+        "ingredient": [
+            {
+                "item": "enderio:pulsating_crystal"
+            }
+        ]
+    },
+    "itemOutput": {
+        "count": 1,
+        "item": "enderio:prescient_crystal"
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botanicadds:terra_catalyst"
+  },
+  "input": {
+    "item": "create:shadow_steel"
+  },
+  "mana": 1000,
+  "output": {
+    "item": "extrabotany:nightmare_fuel"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "mythicbotany:infuser",
+  "fromColor": 16711821,
+  "group": "infuser",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/elementium"
+    },
+    {
+      "item": "naturesaura:tainted_gold_block"
+    },
+    {
+      "item": "powah:energized_steel_block"
+    }
+  ],
+  "mana": 13500000,
+  "output": {
+    "count": 1,
+    "item": "mythicbotany:alfsteel_block"
+  },
+  "toColor": 16750080
+}

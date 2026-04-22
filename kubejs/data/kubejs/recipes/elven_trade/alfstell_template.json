@@ -1,0 +1,25 @@
+{
+    "type": "botania:elven_trade",
+    "ingredients": [
+        {
+            "item": "mythicbotany:alfsteel_ingot"
+        },
+        {
+            "item": "mythicbotany:alfsteel_ingot"
+        },
+        {
+            "item": "mythicbotany:alfsteel_ingot"
+        },
+        {
+            "item": "mythicbotany:alfsteel_ingot"
+        },
+        {
+            "item": "minecraft:netherite_upgrade_smithing_template"
+        }
+    ],
+    "output": [
+        {
+            "item": "mythicbotany:alfsteel_template"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+filename = "CreateCyberGoggles-1.20.1-7.2.2-Forge.jar"
+name = "Create: Cyber Goggles"
+side = ""
+x-prismlauncher-loaders = ["neoforge", "forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "[Forge] 7.2.2 for Create 1.20.1-6.0.7"
+
+[download]
+hash = "77de5346fd2f619523995232d4b0fd45fa05dfbf"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/7826/445/CreateCyberGoggles-1.20.1-7.2.2-Forge.jar"
+
+[update.curseforge]
+file-id = 7826445
+project-id = 1233804
+
+[[x-prismlauncher-dependencies]]
+addonId = "328085"
+type = "REQUIRED"

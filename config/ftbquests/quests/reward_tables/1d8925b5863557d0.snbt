@@ -1,0 +1,17 @@
+{
+	id: "1D8925B5863557D0"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 2, item: "botania:mana_pool" }
+		{
+			item: {
+				Count: 1
+				id: "appbot:mana_storage_cell_4k"
+				tag: { }
+			}
+		}
+		{ count: 16, item: "botania:blacker_lotus" }
+	]
+	title: "魔力"
+}

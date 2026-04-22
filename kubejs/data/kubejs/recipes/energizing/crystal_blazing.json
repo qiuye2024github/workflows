@@ -1,0 +1,25 @@
+{
+    "type": "powah:energizing",
+    "ingredients": [
+        {
+            "item": "botania:blaze_block"
+        },
+        {
+            "item": "minecraft:blaze_powder"
+        },
+        {
+            "item": "minecraft:blaze_powder"
+        },
+        {
+            "item": "minecraft:blaze_powder"
+        },
+        {
+            "item": "tconstruct:ichor_slime_crystal"
+        }
+    ],
+    "energy": 360000,
+    "result": {
+        "item": "powah:crystal_blazing",
+        "count": 3
+    }
+}

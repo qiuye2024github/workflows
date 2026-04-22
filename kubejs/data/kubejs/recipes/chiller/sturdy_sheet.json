@@ -1,0 +1,19 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "minecraft:lava",
+      "amount": 500
+    },
+    {
+      "tag": "forge:dusts/refined_obsidian"
+    }
+  ],
+  "result": [
+    {
+      "item": "create:sturdy_sheet",
+      "count": 1
+    }
+  ],
+  "energy": 8000
+}

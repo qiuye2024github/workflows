@@ -1,9 +1,10 @@
 filename = "AE2-Things-1.2.1.jar"
 name = "AE2 Things [Forge]"
-side = "both"
+side = ""
 x-prismlauncher-loaders = ["forge"]
 x-prismlauncher-mc-versions = ["1.20.1"]
 x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "AE2 Things v1.2.1"
 
 [download]
 hash = "9862284af52931df937980f199a401bfe6651587"
@@ -13,3 +14,7 @@ url = "https://edge.forgecdn.net/files/4616/683/AE2-Things-1.2.1.jar"
 [update.curseforge]
 file-id = 4616683
 project-id = 609977
+
+[[x-prismlauncher-dependencies]]
+addonId = "223794"
+type = "REQUIRED"

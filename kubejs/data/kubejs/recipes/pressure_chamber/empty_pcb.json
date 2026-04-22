@@ -1,0 +1,30 @@
+{
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+        {
+            "item": "immersiveengineering:circuit_board"
+        },
+        {
+            "type": "pneumaticcraft:stacked_item",
+            "count": 1,
+            "tag": "pneumaticcraft:plastic_sheets"
+        },
+        {
+            "type": "pneumaticcraft:stacked_item",
+            "count": 3,
+            "tag": "forge:nuggets/copper"
+        },
+        {
+            "type": "pneumaticcraft:stacked_item",
+            "count": 2,
+            "tag": "forge:dusts/redstone"
+        }
+    ],
+    "pressure": 2,
+    "results": [
+        {
+            "item": "pneumaticcraft:empty_pcb",
+            "count": 2
+        }
+    ]
+}

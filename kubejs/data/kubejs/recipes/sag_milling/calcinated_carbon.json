@@ -1,0 +1,18 @@
+{
+  "type": "enderio:sag_milling",
+  "bonus": "none",
+  "energy": 2400,
+  "input": {
+    "item": "kubejs:calcinated_carbon"
+  },
+  "outputs": [
+    {
+      "chance": 1.0,
+      "item": {
+        "count": 1,
+        "item": "immersiveengineering:dust_coke"
+      },
+      "optional": false
+    }
+  ]
+}

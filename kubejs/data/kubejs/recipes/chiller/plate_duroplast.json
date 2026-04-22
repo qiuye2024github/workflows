@@ -1,0 +1,16 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "immersiveengineering:phenolic_resin",
+      "amount": 250
+    }
+  ],
+  "result": [
+    {
+      "item": "immersiveengineering:plate_duroplast",
+      "count": 1
+    }
+  ],
+  "energy": 5000
+}

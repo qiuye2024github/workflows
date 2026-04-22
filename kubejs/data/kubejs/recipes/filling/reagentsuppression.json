@@ -1,0 +1,19 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        [
+            {
+                "item": "bloodmagic:reagentbinding"
+            }
+        ],
+        {
+            "amount": 150,
+            "fluidTag": "enderio:rocket_fuel"
+        }
+    ],
+    "results": [
+        {
+            "item": "bloodmagic:reagentsuppression"
+        }
+    ]
+}

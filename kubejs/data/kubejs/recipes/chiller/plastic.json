@@ -1,0 +1,16 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "pneumaticcraft:plastic",
+      "amount": 1000
+    }
+  ],
+  "result": [
+    {
+      "item": "pneumaticcraft:plastic",
+      "count": 1
+    }
+  ],
+  "energy": 5000
+}

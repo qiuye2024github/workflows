@@ -1,0 +1,28 @@
+{
+    "type": "powah:energizing",
+    "ingredients": [
+        {
+            "item": "extendedcrafting:flux_star"
+        },
+        {
+            "item": "extendedcrafting:redstone_ingot"
+        },
+        {
+            "item": "extendedcrafting:redstone_ingot"
+        },
+        {
+            "item": "tconstruct:ender_slime_crystal"
+        },
+        {
+            "item": "powah:crystal_blazing"
+        },
+        {
+            "item": "powah:crystal_blazing"
+        }
+    ],
+    "energy": 20000000,
+    "result": {
+        "item": "powah:crystal_nitro",
+        "count": 8
+    }
+}

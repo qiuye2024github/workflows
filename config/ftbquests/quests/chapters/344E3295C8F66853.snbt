@@ -1,0 +1,2220 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "344E3295C8F66853"
+	group: "0ECAE774C70FDB68"
+	id: "344E3295C8F66853"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["33FDB4710070DFE2"]
+			dependency_requirement: "all_started"
+			id: "469B3F3AC89442B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1281E0DC970798D0"
+				table_id: 3307271418421185119L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4E1A09D6E37E58E5"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["469B3F3AC89442B2"]
+			description: [
+				"制作时的魔力消耗：500,000mana（0.5魔力池）"
+				""
+				"tips：从现在开始魔力的消耗就增多了"
+				""
+				"tipss：一池魔力（1M）约对应2kB的魔力存储，例如4k的魔力磁盘能储存的魔力量约为2个魔力池。AE系统内魔力存储总量上限约为21亿mana（int最大值，约2147个魔力池，约占4.3MB的存储空间）"
+			]
+			id: "4B23C088FCB57200"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A5CD571F089FFAA"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F91026EBC67B645"
+					table_id: 2128273760480221136L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "720D7A76B07BF7E3"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7F2CFD8FD79F1B7F"]
+			description: [
+				"开启传送门时至少要在两个魔力池中各放入100'000以上的mana，开启的瞬间会从两个魔力池内各抽取100,000mana。维持传送门将不会消耗任何魔力，交易时会扣除一些魔力"
+				""
+				"tips：丢入面包会发生爆炸"
+				""
+				"tips：有了精灵门之后，你就可以大量制作机械类的植物魔法机器了"
+			]
+			id: "7C8286686F57DCC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1942AC88AA770EDE"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "74590BB5B216D622"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					id: "7D1717DE5E176AFC"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C8286686F57DCC3"]
+			id: "0493FA05BE508A0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55F4DB3B98F38B26"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "659167381A26B3D2"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0493FA05BE508A0F"]
+			description: ["制作时的魔力消耗：250,000mana"]
+			id: "0C1696567739C86B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A058AE1B7C59BBA"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "432D883D9BBE02D8"
+				item: "botanicalextramachinery:crystal_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C1696567739C86B"]
+			description: ["tips：你一共有3种血的来法，分别是牺牲匕首、献祭刀、通过机器合成生命源质(life essence fluid)"]
+			id: "4AF5CD7A391E0F49"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C27E73E149B4BA4"
+					table_id: 8533604101411184266L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "79697D10B3305EEA"
+					item: "bloodmagic:bettercapacityrune"
+					type: "item"
+				}
+				{
+					id: "4B1255A4B138D325"
+					item: "bloodmagic:divinationsigil"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41145922D2CFF145"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3FA6843FC971D9EE"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4AF5CD7A391E0F49"]
+			id: "5D75CB5C9D164977"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1506F69D7BF24D88"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "195106A8DD547E76"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+				{
+					id: "139AAE28DB9958A6"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3263087D09E9D182"
+				"4AF5CD7A391E0F49"
+			]
+			dependency_requirement: "one_completed"
+			id: "6E05210D96A10EB5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "607FD98E36F05ED9"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "44A38B666A9B4749"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5D75CB5C9D164977"]
+			description: [
+				"将异彩化合物投入虚空可得暗影钢，投在光源附近可得光辉石"
+				""
+				"tips：这些东西在JEI直接搜是搜不到的"
+			]
+			id: "40D5EF503EB8DBD6"
+			rewards: [
+				{
+					count: 8
+					id: "08BBDB0F047302A5"
+					item: {
+						Count: 1
+						id: "create:chromatic_compound"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B640AF96C125AD1"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3BDB257A69199718"
+				item: {
+					Count: 1
+					id: "create:chromatic_compound"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40D5EF503EB8DBD6"]
+			description: ["将异彩化合物投入虚空获得"]
+			id: "4F444C849C6DA4C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "484B5A0F9EAD4646"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6DDDE299C41C4B59"
+				item: "create:shadow_steel_casing"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4F444C849C6DA4C8"]
+			description: [
+				"tips：有两个合成表"
+				""
+				"tipss：压缩空间自动化没有头绪？不妨前去“指引->其他”章节看看吧"
+			]
+			id: "1559D43BBC99FE5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1293782DDE5CBFA0"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2014860AB62C29C2"
+				item: "extendedcrafting:frame"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["026939027BA84811"]
+			description: [
+				"这是一个多线程的CPU"
+				""
+				"优点：可以单个CPU裂分出多线程，且其RAM跟计算机一样可以多程序共享"
+				"缺点：固定大小(最大7*7*7)，不能像普通CPU一样可以随意调整大小和形状，内部缺失的部分必须使用特定的方块占位"
+				""
+				"所需材料："
+				"&b量子计算机外壳（必须）&r，用于搭建量子计算机的最外层，默认外径最大为7×7×7。"
+				"&b量子计算机核心（必须）&r，只能安装1个，自带256M容量和8并行；"
+				"&b量子合成单元&r，数量不限，可用于占位，不提供任何额外功能；"
+				"&b128M量子计算机合成存储器&r，数量不限，每个为量子计算机提供128M容量；"
+				"&b256M量子计算机合成存储器&r，数量不限，每个为量子计算机提供256M容量；"
+				"&b量子计算机加速器&r，数量不限，每个为量子计算机提供8并行；"
+				"&b量子数据纠缠器&r，最多安装1个，将量子计算机的容量变为4倍；"
+				"&b量子计算机多线程处理器&r，最多安装1个，将量子计算机的并行变为4倍。"
+			]
+			id: "4CDF34DC293DDA07"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "308D7705C5DFFEA0"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6785B6C49B7322D7"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "77233FB58705A341"
+				item: "advanced_ae:quantum_structure"
+				type: "item"
+			}]
+			title: "量子计算机"
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["026939027BA84811"]
+			description: [
+				"这是一个超大型的分子装配室"
+				""
+				"优点：仅占用1个频道，单种类合成时速度比普通方案快"
+				"缺点：大小固定（最大7*7*7），不能像普通的ME样板供应器+分子装配室一样节省材料少量建造或随意扩建；内部材料固定，多余部分必须使用指定的占位符；每个合成样板都共享总的合成池，一旦有单个样板卡住不像分子装配室一样好掏物品"
+				""
+				"所需材料："
+				"&b装配矩阵框架（必须）&r，用于搭建装配矩阵的棱，默认外径最大为7×7×7；"
+				"&b装配矩阵墙壁/装配矩阵玻璃（必须）&r，用于搭建装配矩阵的每一个面。"
+				"&b装配矩阵样板核心（必须）&r，用于为装配矩阵提供样板容量，每个可以容纳36个合成样板；"
+				"&b装配矩阵合成核心（必须）&r，用于让装配矩阵进行合成，每个可以同时执行8个合成任务；"
+				"&b装配矩阵速度核心&r，最多生效5个，相当于加速卡，用于为装配矩阵加速。"
+				""
+				"&e注意：在装配矩阵的外表面上，不能放置任何可用于构成装配矩阵的方块，否则会导致装配矩阵失效&r"
+			]
+			id: "24FB9A10092287F7"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5CF1C74A0E53A497"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CC2D27AC2AF0326"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "29C264F577BD56B7"
+				item: "expatternprovider:assembler_matrix_frame"
+				type: "item"
+			}]
+			title: "装配矩阵"
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1559D43BBC99FE5A"]
+			description: ["tips:有封包"]
+			icon: "extendedcrafting:crafting_core"
+			id: "140197619C782393"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "137CDFDFBE29A181"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1B2F2A636644EE2D"
+					item: "extendedcrafting:crafting_core"
+					type: "item"
+				}
+				{
+					id: "168B8FE9810E8360"
+					item: "extendedcrafting:pedestal"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"6E05210D96A10EB5"
+				"26228DBE9561FBED"
+			]
+			id: "400A4A43120AEEEF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6441B29BFECB340E"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "46CD8E002AD9A592"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["400A4A43120AEEEF"]
+			id: "1EBEA239365770D8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DA5C41B5379BEFA"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C5FE28D31DE4C3B"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3645F9373AB7F53A"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1EBEA239365770D8"]
+			description: [
+				"生育之魂在周围有过量灵气的情况下，由两个被动生物繁殖获得。对于每一个新出生的幼年生物，都有机会在这个过程中创建一些生育之魂"
+				""
+				"tips：压缩空间自动化没有头绪？不妨前去“指引->其他”章节看看吧"
+				""
+				"tipss：刷怪笼的一些机制在“指引->资源获取：生物”有"
+			]
+			id: "6835D145B0D6C08B"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "66E18B53D17D1C74"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "7857914792F34BE0"
+					item: "mob_grinding_utils:mob_swab"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6993EDDC5B497930"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "78835CC22F27A2F1"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5EACF573C0C3BAB5"]
+			id: "6B6CB974C36A486C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A5971D8BC37EB36"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5E3242DE4B2CE128"
+					item: "mekanism:pressurized_reaction_chamber"
+					type: "item"
+				}
+				{
+					id: "0BD50031CCFE4590"
+					item: "mekanism:rotary_condensentrator"
+					type: "item"
+				}
+				{
+					id: "14EEA792A144B73E"
+					item: "mekanism:electrolytic_separator"
+					type: "item"
+				}
+				{
+					id: "4AE4B226EEF90497"
+					item: "mekanism:crusher"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6B6CB974C36A486C"]
+			id: "408DCA2C9A9BC480"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38218E31CE5A884E"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "7221AA46084881CD"
+					item: "mekanism:hdpe_pellet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "168C25F0E71E572B"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4B23C088FCB57200"]
+			description: ["产生灵气的方法有远古树苗（种下）、湮灭玫瑰（击败末影龙）、滞留型吸收器（消耗滞留型药水）、草食性吸收器（消耗花）、树冠减光器（种树）、凡俗解脱之物（杀死动物）、沼泽之霍米（消耗苔石）、烟火凝望（消耗烟花火箭）"]
+			id: "771880B001A84C93"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27AC778555B4785A"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "52B788700B2D9DFB"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["40D5EF503EB8DBD6"]
+			description: ["将异彩化合物投入光源获得"]
+			id: "26228DBE9561FBED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6724153E90996662"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D784508FA9DAE85"
+				item: "create:refined_radiance_casing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["771880B001A84C93"]
+			id: "7F2CFD8FD79F1B7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BC8899BA80945AE"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "633A5E7FB137A499"
+				item: "naturesaura:infused_iron"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["771880B001A84C93"]
+			id: "122A54E1A180A1FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59B13504D37BA5C0"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FF644837C06D6BC"
+				item: "naturesaura:tainted_gold"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"122A54E1A180A1FC"
+				"1E62FE8E41CFEEF9"
+			]
+			description: ["制作时的魔力消耗：1,500,000mana"]
+			id: "7044317C9B138ACB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D9DB2012DF972AE"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "7A04B380CB9C8B81"
+					item: "mythicbotany:mana_infuser"
+					type: "item"
+				}
+				{
+					id: "5E634B62C80DDBFF"
+					item: "mythicbotany:alfsteel_ingot"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7044317C9B138ACB"]
+			description: [
+				"要召唤盖亚守护者，首先先搭建盖亚祭坛"
+				""
+				"首先清理出半径为12的圆，并在中间放置激活的信标。之后，以信标为中心在距离信标斜角的第四格内放置盖亚水晶（一共4个）。如果放置不符合要求，召唤盖亚时会生成红点提示错误位置,并在聊天栏弹出红字警告。"
+				""
+				"搭建完成后，用&b泰拉钢锭&r对仪式所用的信标Shift+右键即可召唤盖亚I，用&b盖亚魂锭&r对仪式所用的信标Shift+右键即可召唤盖亚II，用&b挑战券&r或者&b自然蕴息宝珠&r对准盖亚祭坛的信标Shift+右键即可召唤盖亚III。祭坛范围内玩家数量越多盖亚守护者生命值越高"
+				""
+				"把盖亚水晶换成世界树水晶即可挑战世界树守护者"
+				""
+				"后续页有各盖亚守护者的特性"
+				""
+				"&6警告：挑战盖亚守护者时记得备份存档，小心假死bug（玩家无法正常死亡，没有生命值，使用第三人称视角会发现玩家在不断抽搐，并且无法与物品交互也无法自杀）&r"
+				"{@pagebreak}"
+				"对于盖亚I的特性："
+				""
+				"盖亚免疫火焰伤害，且最高单次仅会受到32点伤害。"
+				"持续时间在8秒以下的增益环境状态效果（例如信标的效果）将失效。"
+				"随机在场地内生成紫色的“盖亚陷阱”，踩上去2秒左右会造成10点伤害，并且给盖亚陷阱内的所有玩家凋零III共6秒，失明1秒。"
+				"使用源质钢斧有7.7%的概率砍下盖亚的头颅（每个时运等级增加7.7%的概率）。"
+				"传送时，它会召唤一个黑色的精灵，飞向玩家并造成8点伤害，同时在场地内随机生成6个盖亚陷阱。"
+				"{@pagebreak}"
+				"对于盖亚II的特性，在盖亚I的基础上多出了："
+				""
+				"盖亚 II 自带 15 点护甲值。"
+				"最开始最多每隔2.25秒瞬移一次。召唤怪物后的阶段最多每1.75秒瞬移一次。"
+				"每隔0.75秒都会发射4枚弹幕，每枚弹幕造成3点伤害。"
+				"每次瞬移，会生成7个盖亚陷阱。"
+				"{@pagebreak}"
+				"对于盖亚III的特性（1.12版本），在盖亚II的基础上多出了："
+				""
+				"只能携带&d我的世界原版、植物魔法、额外植物学&r的物品，液体会被清除，&e除了以上的物品都会在启动祭坛的瞬间就会被全部丢到地上，无法捡起并销毁&r"
+				"盖亚III的绝大多数攻击附加真实伤害。"
+				"盖亚III会发出地雷，一共3种，分别为红色、绿色、蓝色，触发时造成伤害。红色地雷将额外对玩家造成玩家最大生命值百分比的真实伤害，绿色地雷将玩家手持物品以掉落物形式掉落以缴械，蓝色地雷无特殊效果"
+				"盖亚III每隔一段时间会放大范围弹幕攻击，或者抽取一位幸运玩家造成较高伤害"
+				"当盖亚III的生命值低于450点时会在信标附近召唤八把逐渐向下倒插的巨剑，将玩家拉至中心造成大量伤害，被拉扯至中心的玩家无法逃离巨剑围住的圆圈并向玩家投放弹幕攻击，同时召唤仆从。此后不定时盖亚III会再次召唤巨剑和仆从。距离盖亚III较近也有几率被缴械，仆从存在时间过长也会缴械"
+				""
+				"盖亚III相较1.12时的削弱：&a盖亚III没有转阶段，没有强制吸引玩家的结界，战斗过程中没有任何特殊的变化&r"
+			]
+			id: "2FB9BED5F958F1E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F0B8A6083E0079A"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6829AEC6026B6191"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2FB9BED5F958F1E8"]
+			id: "3C219B53FF7323A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "536236A0B0BA7062"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "319664D440C345FE"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"1858B76DFF58F2B2"
+				"7EA35DB7BF3636B0"
+			]
+			id: "06E66F148A5C212D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70E2D70CC2CA364B"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "468844EFF153BF9A"
+				item: "voidminers:rubetine"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["06E66F148A5C212D"]
+			description: [
+				"搭建矿机，需要把矿机的控制端放至地上，此时右键即可查看材料，shift+右键即可查看搭建结构方案。注意：想要矿机能工作，需要确保控制端发出的光线能照射到虚空或者基岩。"
+				"搭建完成后，输入能量即可开始矿物的挖掘。等级越高挖掘速度越快，同时每tick消耗的能量也越多。空白改造器可以用其他改造器替代，以获得加成。搭建完成后右键可查看矿机的当前状态。"
+				"搭建完成后右键即可显示&6状态（STATUS）&r、&e能量（ENERGY）&r、&4电量需求（DEMAND）&r、&b改造器（MODIFIERS）&r、&e电量缺失（DEFICIT）&r、&e输出（OUTPUT）&r、&e当前采掘方块（BLOCKED ITEM）&r"
+				""
+				"tips：机械动力的蓝图文件中有每个阶段的蓝图，但是因为一些原因控制端不在蓝图内，需要自己手动放置"
+			]
+			id: "34ECE974BE4A07F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30A6DA441CFF7091"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65D9CE72285B2F8A"
+				item: "voidminers:rubetine_miner"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["34ECE974BE4A07F0"]
+			id: "2091D32294FDE8AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71229A61EB8C6A6C"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00803B9682FC0316"
+				item: "voidminers:aurantium"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4F444C849C6DA4C8"]
+			id: "7F9D14C2DAE64C0B"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58CFB4C112306481"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27882B5694007DA6"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "35D2597FC15BA5AE"
+					item: "mysticalagriculture:infusion_altar"
+					type: "item"
+				}
+				{
+					id: "7BF09A8F54B354C4"
+					item: "mysticalagriculture:infusion_pedestal"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["408DCA2C9A9BC480"]
+			id: "6AADEF62E18E6231"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D110653DA36BBC6"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "28A6E40FCF1AFBBC"
+				item: "mekanism:hdpe_rod"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6AADEF62E18E6231"]
+			id: "0EECC15821FC7C7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "431A84CF87187EEF"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "37A1ADBD45507D04"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:dielectric_rod)"
+					}
+				}
+				title: "Any #powah:dielectric_rod"
+				type: "item"
+			}]
+			title: "绝缘棒"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"400A4A43120AEEEF"
+				"0EECC15821FC7C7C"
+			]
+			id: "734943290E510A19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F38086C3F14E2E8"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "04F2D42EEAB2DEC4"
+				item: "powah:dielectric_casing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["734943290E510A19"]
+			id: "6098EC518837B63A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DB3663F4991C454"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "01674B4361B4A2EC"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1559D43BBC99FE5A"]
+			description: ["tips:在&b装配平台&r3*3范围内的所有元件都可以被识别，不需要十字形摆放"]
+			icon: "pneumaticcraft:assembly_controller"
+			id: "0669A09813CD3BF1"
+			rewards: [
+				{
+					id: "330E6A804F32365C"
+					item: "pneumaticcraft:assembly_program_drill_laser"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22686EA2DB257AAA"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1C0664DD5073BF9F"
+					item: "pneumaticcraft:assembly_controller"
+					type: "item"
+				}
+				{
+					id: "2EA524AB522AD8EB"
+					item: "pneumaticcraft:assembly_drill"
+					type: "item"
+				}
+				{
+					id: "693F17D845B2A5DE"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					type: "item"
+				}
+				{
+					id: "21DBAC9FB0777229"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+				{
+					id: "6628D4E8A919BDE9"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+				{
+					id: "7A6E954705F24FA1"
+					item: "pneumaticcraft:assembly_platform"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0669A09813CD3BF1"]
+			id: "026939027BA84811"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "058A2A38074CB241"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7AE0BCB1AA067031"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"140197619C782393"
+				"026939027BA84811"
+			]
+			id: "5EACF573C0C3BAB5"
+			rewards: [
+				{
+					count: 10
+					id: "3B92E414F2391E78"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E9BC9C6C6E01612"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3DF7E08E643EFF19"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6098EC518837B63A"]
+			id: "1E62FE8E41CFEEF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "098E3B8F8682EA38"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2232C94C26368669"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1C441B7971C09908"]
+			id: "6CB5FF46D9FF1492"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E23EAF9F10D3985"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "3D32F9878B8AF330"
+					item: "bloodmagic:blankrune"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2FA0EE919D6EC58A"
+				item: "bloodmagic:masterritualstone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3C219B53FF7323A2"]
+			description: [
+				"制作时的魔力消耗：750,000mana"
+				""
+				"tips: 有两个合成表"
+			]
+			id: "1C441B7971C09908"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D082ECBFE644310"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "49A1B4A485AE3EB7"
+				item: "botanicalextramachinery:malachite_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6CB5FF46D9FF1492"]
+			id: "0DC8F66364B8581E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FA786521E9BEA48"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59D023518D9A22C8"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5C4CB2D1FF499BE1"]
+			description: ["tips:水晶有母岩，母岩可以相互转化"]
+			id: "64689A0AFDD3318B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42CD7D022DC4C534"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "78C2533B0286BD49"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tconstruct:slime_crystal)"
+					}
+				}
+				title: "Any #tconstruct:slime_crystal"
+				type: "item"
+			}]
+			title: "黏液水晶"
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0DC8F66364B8581E"]
+			id: "5908F6A0D3DB895D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EE59F80BF0A1D21"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "09370FA9B9732648"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"408DCA2C9A9BC480"
+				"5908F6A0D3DB895D"
+			]
+			id: "351323536E95AFDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07769494E89BA379"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "730594CDDEA910AD"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["351323536E95AFDD"]
+			id: "05FC994691AD5AB9"
+			rewards: [
+				{
+					count: 6
+					id: "40FCB26ADD54649A"
+					item: "mekanism:elite_control_circuit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E24051425167954"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "455A320064477310"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["64689A0AFDD3318B"]
+			id: "1858B76DFF58F2B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "175E5826EB645735"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "66526251E8ABDD5E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:crystal_adv)"
+					}
+				}
+				title: "Any #powah:crystal_adv"
+				type: "item"
+			}]
+			title: "水晶"
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"2091D32294FDE8AE"
+				"792FE691C8A07F72"
+			]
+			id: "4F651F25C4BB08DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "112DA713F2E0A161"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6A6F421A052A73CA"
+				item: "mekanism:thermal_evaporation_controller"
+				type: "item"
+			}]
+			title: "热力蒸馏塔"
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4F651F25C4BB08DC"]
+			id: "1C4998946026AD9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CD465B45507E697"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "793497406821554C"
+				item: "mekanism:dust_lithium"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3C219B53FF7323A2"]
+			id: "1626A46E3F4F53F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E8DC88C9F4FD92B"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "708B1BB48528EC29"
+				item: "naturesaura:offering_table"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1626A46E3F4F53F4"]
+			id: "356A0F138A122C3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "756383A44CD45EC4"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E8AB273566C624F"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["356A0F138A122C3F"]
+			description: ["生育之魂在周围有过量灵气的情况下，由两个被动生物繁殖获得。对于每一个新出生的幼年生物，都有机会在这个过程中创建一些生育之魂"]
+			id: "0318A0497FF2C9C7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3790F3B7666F517F"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69DDAA7B1C68CE28"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "6DCC9D8AEC7BAF2C"
+					item: "naturesaura:birth_spirit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "25C0BA595295C026"
+				item: "naturesaura:animal_spawner"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["05FC994691AD5AB9"]
+			id: "673B428396046A15"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "784FE4FC9552F8AF"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53AB45625101A12B"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2C9216DC9502D747"
+				item: "mekanism:combiner"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"356A0F138A122C3F"
+				"3C219B53FF7323A2"
+				"1C441B7971C09908"
+			]
+			description: [
+				"制作时的魔力消耗：1,000,000mana"
+				""
+				"tips: 有两个合成表"
+			]
+			id: "7EA35DB7BF3636B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7814F17CA7F9388F"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "79F339D1748A3711"
+				item: "botanicalextramachinery:saffron_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["356A0F138A122C3F"]
+			id: "33811FD5516663F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EB93E260AB47F8E"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64DFF6CC5CEE9098"
+				item: "botanicpledge:yggdrasil_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["33811FD5516663F5"]
+			description: ["制作时的魔力消耗：100,000mana"]
+			id: "131A5E6DF09567E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FF9B25A1E8C5AC9"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77367122CB5CA73B"
+				item: "botanicpledge:yggdrasil_shard"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["131A5E6DF09567E5"]
+			description: [
+				"搭建方法可在书中的植魔之契 -> 植魔仪式中查看"
+				""
+				"搭建完成后，按照JEI中摆放物品并向魔力池供给魔力，空手右键启动仪式即可开始合成"
+			]
+			icon: "botanicpledge:ritual_center"
+			id: "60EC46E0BD67E8AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C62AC566A813DB9"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "16A51D44DDDA0B14"
+					item: "botanicpledge:ritual_pedestal"
+					type: "item"
+				}
+				{
+					id: "5E519F49B666027D"
+					item: "botanicpledge:ritual_center"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["60EC46E0BD67E8AF"]
+			description: [
+				"制作时的魔力消耗：250,000mana"
+				""
+				"把盖亚水晶换成世界树水晶即可挑战世界树守护者"
+			]
+			id: "3701C186016EBC9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32AEBBD6A3143470"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E7136805D2EC7C2"
+				item: "botanicpledge:yggdrasil_pylon"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["3701C186016EBC9A"]
+			description: ["挑战世界树守护者获得"]
+			id: "1BEDB2012DAD3F25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F0998E75E5BEE5B"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B482F1B14B8D0A6"
+				item: "botanicpledge:yggdrasil_heart"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["1BEDB2012DAD3F25"]
+			id: "24C22792022E32DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E249A11510AF03A"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "492F85491D78A8BA"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"1C4998946026AD9F"
+				"24C22792022E32DD"
+			]
+			id: "31ED32440CC0565A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B1CAA8DAC5ECC0B"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E415BECC2763840"
+				item: {
+					Count: 1
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5EACF573C0C3BAB5"]
+			id: "6CFB9B7F8F6C815A"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7AEB6D9B6733FB39"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F31AF796EA8F089"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1C50760B66297543"
+					item: "hostilenetworks:sim_chamber"
+					type: "item"
+				}
+				{
+					id: "703D73A4C2E53B4E"
+					item: "hostilenetworks:loot_fabricator"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["31ED32440CC0565A"]
+			description: [
+				"&e这并不是我的想法，或许我不应该有这种想法，应该按照原计划……或许吧&r"
+				"{@pagebreak}"
+				"完成后，任务系统会发生些许变化，当前结局仍可正常完成不受影响"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "mythicbotany:central_rune_holder"
+			id: "122F0EA93800B1DF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "758A5D936F15BF26"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5113C5E0D3496BC6"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "1288C9250BC63E72"
+					item: "mythicbotany:rune_holder"
+					type: "item"
+				}
+				{
+					id: "3EA8A5486AA4DE96"
+					item: "mythicbotany:central_rune_holder"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["0C1696567739C86B"]
+			description: ["tips：合成不返还桶"]
+			id: "297E77A0C26C52CC"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "123992E31117EC99"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "476B2FF2B8993B21"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5E8E467A7512845B"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "minecraft:cobblestone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51AC40E0FF83D451"]
+			id: "559596394C993983"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5ED3065A0915D667"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6300776BF92B959C"
+				item: "mekanismgenerators:fission_reactor_port"
+				type: "item"
+			}]
+			title: "裂变反应堆"
+			x: 8.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["05FC994691AD5AB9"]
+			id: "453AE2A2881B2BCE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DF00A6C250918CB"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "06FB62E7BBFE0B6A"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["453AE2A2881B2BCE"]
+			id: "792FE691C8A07F72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41314D86061C3D29"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50AFDC1B623631F4"
+				item: "mekanism:ingot_refined_glowstone"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"0651CFEFFD717139"
+				"5A1ACD6F4D7DBFEA"
+			]
+			description: [
+				"制作时的魔力消耗：1,500,000mana"
+				""
+				"tips: 有四个合成表"
+			]
+			id: "7F6915A35BA89702"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "462180C0265EB7EB"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "322F79FB84AE0E69"
+				item: "botanicalextramachinery:shadow_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["453AE2A2881B2BCE"]
+			id: "0651CFEFFD717139"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "244648A4FFFA533F"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "21B93C1F8F8AE21A"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7F6915A35BA89702"]
+			id: "51AC40E0FF83D451"
+			rewards: [
+				{
+					count: 4
+					id: "16205547FD9453B0"
+					item: "mekanism:ultimate_control_circuit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5ACEC3CDFA196B8C"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "68248CFCC4A47C36"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["559596394C993983"]
+			id: "0F75BE96A3287E3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29675F78F2FD8FF6"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "691A4FCD7229244A"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:pellets/plutonium)"
+					}
+				}
+				title: "Any #forge:pellets/plutonium"
+				type: "item"
+			}]
+			title: "钚靶丸"
+			x: 10.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0F75BE96A3287E3A"]
+			id: "50C4E8AD48DE1A75"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4218C0E29A183BAE"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "064A6DA801EBB045"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "57EC7C4447E22872"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["6CB5FF46D9FF1492"]
+			description: [
+				"在&b恶魔坩埚&r中通过消耗不同种类的恶魔意志生成&a意志晶簇&r。也可由&b结晶共鸣仪式&r生成获得&a意志晶簇&r。"
+				""
+				"使用&b结晶共鸣&r将生长良好的原始晶体群分裂为独立的预期晶体群，把中间的&a恶魔意志晶体&r分裂到四周变成&a腐蚀意志晶体，复仇意志晶体，破坏意志晶体和坚毅意志晶体&r。使用时在&b主仪式石&r附近放&b恶魔结晶坛&r，同一区块内放恶魔坩埚蒸发意志到空气中等待原生意志晶簇。然后再等待它自己发散到其他四格子变成其他类型的晶簇"
+				""
+				"破坏意志晶簇后掉落对应的意志晶体。"
+			]
+			id: "5C4CB2D1FF499BE1"
+			tasks: [{
+				id: "70DB5E5A06201704"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(bloodmagic:crystals/demon)"
+					}
+				}
+				title: "Any #bloodmagic:crystals/demon"
+				type: "item"
+			}]
+			title: "意志结晶"
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["31ED32440CC0565A"]
+			id: "7E730EAE11F3213A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D454E3DCE762F2B"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6344A4A252F0E943"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(extrabotany:pedestals)"
+					}
+				}
+				title: "Any #extrabotany:pedestals"
+				type: "item"
+			}]
+			title: "祭坛"
+			x: 0.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["7E730EAE11F3213A"]
+			id: "5A1ACD6F4D7DBFEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FA03A60772A82FE"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "092B3397FB06FF05"
+				item: "extrabotany:photonium_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["122F0EA93800B1DF"]
+			description: [
+				"我盯着这座精灵门看了三天。"
+				""
+				"精灵门。我给它起这个名字是因为门框上刻着扭来扭去的符号，像小孩画的藤蔓，又像——说实话，像是某种古老的的图示。每次，我给精灵门里带去某些特定的东西，而对面带来了我想要的。这是交易。单向的，无声的，绝对公平的交换。这意味着什么？意味着对面有需要。有需要就有文明，有文明就有世界。另一个世界！"
+				""
+				"我兴奋了整整两天。在空岛上，兴奋是一种奢侈的情绪——大多数时候我只是坐着，看云，看那些永远不会落下的太阳，看远处浮着的其他岛，永远那么远，永远到不了。"
+				""
+				"这，估计是我见到别人的唯一希望。"
+				"{@pagebreak}"
+				"完成后，任务系统会发生些许变化，其他结局仍可正常完成不受影响"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "1B8364EC024E739E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C803C40212DD84D"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CE8AECD7AD6F5AC"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "29F8ED7FA5324D26"
+				title: "新的发现"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["50C4E8AD48DE1A75"]
+			icon: "draconicevolution:crafting_core"
+			id: "21D6247074D2CE77"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B9377C24D2BF09C"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "278FF91F015C1AD1"
+					item: "draconicevolution:crafting_core"
+					type: "item"
+				}
+				{
+					id: "69D97CE1C147E4D7"
+					item: "draconicevolution:basic_crafting_injector"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"5AC41AF3A9FF7A68"
+				"21D6247074D2CE77"
+			]
+			id: "0499BB3CDFCE3006"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "112C28A4E799EA89"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00366B037C33F51D"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["21D6247074D2CE77"]
+			id: "102C17679E214030"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F6BEC9439D3BF87"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F01EDB6E83CAAC4"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["102C17679E214030"]
+			id: "2D98F1442C704E35"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D30EEE5836D7C9D"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36752358FCA224E2"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["2D98F1442C704E35"]
+			id: "65DBDDA199B23D9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A332FF9C1AECD2D"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "374D18B968549224"
+				item: "mekanism:sps_casing"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["65DBDDA199B23D9E"]
+			id: "09FA1C1768B9888E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "674FD18B7A8A7660"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "542E79D0AA43808D"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "6665C852078A9FFD"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["50C4E8AD48DE1A75"]
+			id: "5AC41AF3A9FF7A68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "749755CD21933557"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A0A64B4BFAE0CB0"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["0499BB3CDFCE3006"]
+			id: "6CE8B2625286914B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E207967CA013CA2"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3131D2B46D67CC4A"
+				item: "draconicevolution:awakened_draconium_block"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["6CE8B2625286914B"]
+			description: [
+				"制作时的魔力消耗：2,000,000mana"
+				""
+				"tips: 一共可以有18种合成表"
+			]
+			id: "4DF38988FF02FB30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A797BC92EF46F4E"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "15B4884B43AC946E"
+				item: "botanicalextramachinery:crimson_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"6CE8B2625286914B"
+				"4DF38988FF02FB30"
+			]
+			id: "07781577A1311F57"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63D46503D339420C"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A6DBD6C88D102D0"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "49578E45BF8218E1"
+				item: "draconicevolution:awakened_crafting_injector"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"07781577A1311F57"
+				"0BD9126023C4E02F"
+			]
+			description: ["tips：此任务非必须"]
+			id: "17E672D36BC2C04D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E240330D0C3BCF4"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "508E618E4736A2AC"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "754C580D50E53BA5"
+				item: "draconicevolution:chaotic_crafting_injector"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["24C22792022E32DD"]
+			description: ["tips：用AE下单转化物品需要非常多内存"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "projecte:philosophers_stone"
+				tag: { }
+			}
+			id: "200787AEEA93A4A9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C200BD5E1DD9DC3"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27E315FC8AC373A7"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3E1381270355C0CC"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(projecte:covalence_dust)"
+						}
+					}
+					title: "Any #projecte:covalence_dust"
+					type: "item"
+				}
+				{
+					id: "65FFA991768202AA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:philosophers_stone"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "共价粉"
+			x: -3.5d
+			y: 18.5d
+		}
+		{
+			description: [
+				"tips：找混沌龙？没有哦~"
+				""
+				"tipss：合成表在小混沌残片找"
+			]
+			id: "0BD9126023C4E02F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E48BEC8EAF28CDC"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6667CC709BD268D1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(draconicevolution:chaos_shard)"
+					}
+				}
+				title: "Any #draconicevolution:chaos_shard"
+				type: "item"
+			}]
+			title: "混沌碎片"
+			x: 2.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["4AF5CD7A391E0F49"]
+			id: "3263087D09E9D182"
+			rewards: [
+				{
+					count: 10
+					id: "5BEE7EA23206F015"
+					item: "bloodmagic:blankslate"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B72458D2C7898CD"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "750DDCDDF840C9F0"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+	]
+	title: "第三章"
+}

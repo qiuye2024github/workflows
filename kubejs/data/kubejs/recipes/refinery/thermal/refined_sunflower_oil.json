@@ -1,0 +1,19 @@
+{
+  "type": "thermal:refinery",
+  "ingredient": {
+    "fluid": "kubejs:sunflower_oil",
+    "amount": 100
+  },
+  "result": [
+    {
+      "fluid": "kubejs:refined_sunflower_oil",
+      "amount": 75
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "chance": 0.15
+    }
+  ],
+  "energy": 6000,
+  "experience": 0.1
+}

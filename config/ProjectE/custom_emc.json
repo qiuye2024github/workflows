@@ -1,4 +1,20 @@
 {
-  "entries": [],
-  "__comment": "Use the in-game commands to edit this file"
+  "entries": [
+    {
+      "item": "bloodmagic:reagentbinding",
+      "emc": 419
+    },
+    {
+      "item": "thermal:blizz_powder",
+      "emc": 768
+    },
+    {
+      "item": "thermal:basalz_powder",
+      "emc": 768
+    },
+    {
+      "item": "thermal:blitz_powder",
+      "emc": 768
+    }
+  ]
 }

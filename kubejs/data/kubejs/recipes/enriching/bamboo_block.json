@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+        "ingredient": {
+            "item": "minecraft:bamboo"
+        },
+        "amount": 9
+    },
+    "output": {
+        "item": "minecraft:bamboo_block"
+    }
+}

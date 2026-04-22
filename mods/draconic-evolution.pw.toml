@@ -1,9 +1,10 @@
 filename = "Draconic-Evolution-1.20.1-3.1.2.621-universal.jar"
 name = "Draconic Evolution"
-side = "both"
+side = ""
 x-prismlauncher-loaders = ["neoforge", "forge"]
 x-prismlauncher-mc-versions = ["1.20.1"]
 x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "Draconic Evolution 1.20.1-3.1.2.621"
 
 [download]
 hash = "8abd0ee849f9654ec91d3ecbd115e2c296f08c73"
@@ -13,3 +14,11 @@ url = "https://edge.forgecdn.net/files/6793/843/Draconic-Evolution-1.20.1-3.1.2.
 [update.curseforge]
 file-id = 6793843
 project-id = 223565
+
+[[x-prismlauncher-dependencies]]
+addonId = "242818"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "231382"
+type = "REQUIRED"

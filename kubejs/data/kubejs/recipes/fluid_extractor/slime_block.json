@@ -1,0 +1,10 @@
+{
+  "type": "industrialforegoing:fluid_extractor",
+  "breakChance": 0.05,
+  "defaultRecipe": false,
+  "input": {
+    "item": "minecraft:slime_block"
+  },
+  "output": "{Amount:12,FluidName:\"industrialforegoing:latex\"}",
+  "result": "minecraft:air"
+}

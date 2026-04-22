@@ -1,0 +1,20 @@
+{
+  "type": "thermal:bottler",
+  "ingredients": [
+    [{
+      "item": "kubejs:mana_ingot"
+    },{
+      "item": "industrialforegoing:pink_slime_ingot"
+    }],
+    {
+      "fluid": "immersiveengineering:redstone_acid",
+      "amount": 125
+    }
+  ],
+  "result": [
+    {
+      "item": "extendedcrafting:redstone_ingot"
+    }
+  ],
+  "experience": 0
+}

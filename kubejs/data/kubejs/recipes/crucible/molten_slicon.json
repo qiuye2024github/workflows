@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:silicon"
+  },
+  "result": [
+    {
+      "fluid": "kubejs:molten_slicon",
+      "amount": 60
+    }
+  ],
+  "energy": 80000
+}

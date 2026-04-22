@@ -1,0 +1,34 @@
+{
+    "type": "extendedcrafting:combination",
+    "powerCost": 20000,
+    "input": {
+        "item": "enderio:ender_crystal_powder"
+    },
+    "ingredients": [
+        {
+            "item": "minecraft:coal"
+        },
+        {
+            "item": "minecraft:coal"
+        },
+        {
+            "item": "minecraft:coal"
+        },
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "bloodmagic:reagentwater"
+        },
+        {
+            "item": "bloodmagic:reagentlava"
+        }
+    ],
+    "result": {
+        "item": "projecte:high_covalence_dust",
+        "count": 8
+    }
+}

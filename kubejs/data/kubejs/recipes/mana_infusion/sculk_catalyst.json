@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "botania:infused_grass"
+  },
+  "mana": 3000,
+  "output": {
+    "item": "minecraft:sculk_catalyst"
+  }
+}

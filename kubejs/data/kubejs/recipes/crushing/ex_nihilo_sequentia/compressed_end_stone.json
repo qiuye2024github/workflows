@@ -1,0 +1,13 @@
+{
+  "type": "exnihilosequentia:crushing",
+  "input": {
+    "item": "kubejs:compressed_end_stone"
+  },
+  "results": [
+    {
+      "chance": 1.0,
+      "count": 9,
+      "item": "exnihilosequentia:crushed_end_stone"
+    }
+  ]
+}

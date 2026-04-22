@@ -1,0 +1,24 @@
+{
+    "type": "thermal:smelter",
+    "ingredients": [
+        {
+            "item": "tconstruct:slimesteel_ingot",
+            "count": 4
+        },
+        {
+            "item": "draconicevolution:dragon_heart",
+            "count": 1
+        },
+        {
+            "tag": "forge:ingots/draconium_awakened",
+            "count": 1
+        }
+    ],
+    "result": [
+        {
+            "item": "kubejs:heart_ingot",
+            "count": 4
+        }
+    ],
+    "energy": 1000
+}

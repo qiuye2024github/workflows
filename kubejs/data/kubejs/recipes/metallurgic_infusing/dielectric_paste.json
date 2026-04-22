@@ -1,0 +1,16 @@
+{
+    "type": "mekanism:metallurgic_infusing",
+    "chemicalInput": {
+        "amount": 20,
+        "tag": "mekanism:carbon"
+    },
+    "itemInput": {
+        "ingredient": {
+            "item": "appflux:insulating_resin"
+        }
+    },
+    "output": {
+        "item": "powah:dielectric_paste",
+        "count": 2
+    }
+}

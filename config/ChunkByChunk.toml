@@ -1,0 +1,23 @@
+
+["Outside Chunk Area, Interaction buffer"]
+	#The number of blocks outside the Chunk Area that the Player can interact with Entities (-1 for no limit)
+	"Entity Right Click" = 2.0
+	#The number of blocks outside the Chunk Area that the Player can melee Entities (-1 for no limit)
+	"Entity Left Click (Direct)" = 2.0
+	#The number of blocks outside the Chunk Area that the Player can attack Entities (-1 for no limit)
+	"Entity Left Click (Indirect)" = -1.0
+	#The number of blocks outside the Chunk Area that the Player can break Blocks (-1 for no limit)
+	"Block Destroy" = 1.0
+	#The number of blocks outside the Chunk Area that the Player can place Blocks (-1 for no limit)
+	"Block Place" = 1.0
+	#The number of blocks outside the Chunk Area that the Player can interact with Blocks (-1 for no limit)
+	"Block Interact" = 1.0
+
+["Chunk Cost"]
+	#Please add any modded Dimensions entries to this list!
+	Dimensions = ["overworld", "the_nether", "the_end"]
+	#Make sure the amount of entries in this List are the same as the Dimensions List
+	"Cost Value" = [55, 160, 316]
+	#The Cost of any Dimension not found on the List above
+	"Default Cost" = 160
+

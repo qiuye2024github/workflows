@@ -1,0 +1,24 @@
+filename = "BotanicAdditions-1.20.1-20.1.3.jar"
+name = "Botanic Additions"
+side = "server"
+x-prismlauncher-loaders = ["neoforge", "forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "[1.20.1] Botanic Additions - 20.1.3"
+
+[download]
+hash = "ed841cf6ddb24940c96abb365b420cd6ee88fbd3"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/6264/713/BotanicAdditions-1.20.1-20.1.3.jar"
+
+[update.curseforge]
+file-id = 6264713
+project-id = 310637
+
+[[x-prismlauncher-dependencies]]
+addonId = "247401"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "225643"
+type = "REQUIRED"

@@ -1,0 +1,19 @@
+{
+  "type": "expatternprovider:circuit_cutter",
+  "fluid_input": {
+    "amount": 50,
+    "ingredient": {
+      "fluid": "minecraft:water"
+    }
+  },
+  "item_input": {
+    "amount": 1,
+    "ingredient": {
+      "item": "appflux:charged_redstone"
+    }
+  },
+  "output": {
+    "count": 1,
+    "item": "appflux:printed_energy_processor"
+  }
+}

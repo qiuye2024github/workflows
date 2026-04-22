@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "top": "kubejs:block/chorus_block_top",
-    "bottom": "kubejs:block/chorus_block_bottom",
-    "side": "kubejs:block/chorus_block_side"
-  }
-}

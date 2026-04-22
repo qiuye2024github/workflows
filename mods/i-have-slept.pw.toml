@@ -1,0 +1,17 @@
+filename = "i_have_slept-forge-1.1.1+mc1.20.1.jar"
+name = "I have slept"
+side = ""
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "i_have_slept-forge-1.1.1+mc1.20.1.jar"
+
+[download]
+hash = "a29e865d2498df9f39fe8e286f7d4e2a9bcf727b"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/5875/232/i_have_slept-forge-1.1.1+mc1.20.1.jar"
+
+[update.curseforge]
+file-id = 5875232
+project-id = 1129410

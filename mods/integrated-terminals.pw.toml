@@ -1,0 +1,32 @@
+filename = "IntegratedTerminals-1.20.1-1.6.20.jar"
+name = "Integrated Terminals"
+side = ""
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "IntegratedTerminals-1.20.1-1.6.20.jar"
+
+[download]
+hash = "0b886d09e68ce56a0a478028c0ea3d7a14ee8a3c"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/7738/431/IntegratedTerminals-1.20.1-1.6.20.jar"
+
+[update.curseforge]
+file-id = 7738431
+project-id = 295910
+
+[[x-prismlauncher-dependencies]]
+addonId = "236307"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "287357"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "232758"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "251389"
+type = "REQUIRED"

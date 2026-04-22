@@ -1,0 +1,20 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "ingredient": {
+            "item": "ae2:logic_processor"
+        },
+        "amount": 1
+    },
+    "mainInput": {
+        "ingredient": [
+            {
+                "item": "pneumaticcraft:unassembled_pcb"
+            }
+        ]
+    },
+    "output": {
+        "item": "immersiveengineering:logic_circuit",
+        "count": 1
+    }
+}

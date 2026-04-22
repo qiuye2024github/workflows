@@ -1,0 +1,35 @@
+{
+  "type": "advanced_ae:reaction",
+  "energy": 75000,
+  "fluid": {
+    "fluidStack": {
+      "Amount": 200,
+      "FluidName": "advanced_ae:quantum_infusion_source"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "enderio:pulsating_crystal"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "botanicalmachinery:mana_emerald"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "psi:ivory_psimetal"
+      }
+    }
+  ],
+  "output": {
+    "#": 1,
+    "#c": "ae2:i",
+    "id": "enderio:vibrant_crystal"
+  }
+}

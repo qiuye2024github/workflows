@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "tconstruct:skyroot_log"
+  },
+  "result": [
+    {
+      "fluid": "tconstruct:sky_slime",
+      "amount": 125
+    }
+  ],
+  "energy": 80000
+}

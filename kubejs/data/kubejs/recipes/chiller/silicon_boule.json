@@ -1,0 +1,16 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "kubejs:molten_slicon",
+      "amount": 240
+    }
+  ],
+  "result": [
+    {
+      "item": "kubejs:silicon_boule",
+      "count": 1
+    }
+  ],
+  "energy": 1000
+}

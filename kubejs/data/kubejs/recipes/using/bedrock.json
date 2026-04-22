@@ -1,0 +1,16 @@
+{
+    "type": "lychee:block_clicking",
+    "item_in": [
+        {
+            "item": "kubejs:bedrock_remove"
+        }
+    ],
+    "block_in": "minecraft:bedrock",
+    "post": [
+        {
+            "type": "place",
+            "offsetY": 0,
+            "block": "minecraft:air"
+        }
+    ]
+}

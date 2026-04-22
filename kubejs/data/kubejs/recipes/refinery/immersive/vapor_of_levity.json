@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:refinery",
+    "catalyst": {
+        "item": "tconstruct:ichor_slime"
+    },
+    "energy": 100,
+    "input0": {
+        "amount": 50,
+        "tag": "enderio:cloud_seed"
+    },
+    "input1": {
+        "amount": 50,
+        "tag": "forge:superheated_sodium"
+    },
+    "result": {
+        "amount": 50,
+        "fluid": "enderio:vapor_of_levity"
+    }
+}

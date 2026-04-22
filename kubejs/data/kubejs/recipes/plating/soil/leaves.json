@@ -1,0 +1,13 @@
+{
+    "type": "botanypots:soil",
+    "input": {
+        "tag": "minecraft:leaves"
+    },
+    "display": {
+        "block": "minecraft:oak_leaves"
+    },
+    "categories": [
+        "leaves"
+    ],
+    "growthModifier": 1.0
+}

@@ -1,0 +1,41 @@
+{
+    "type": "extendedcrafting:combination",
+    "powerCost": 2000,
+    "input": {
+        "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "ingredients": [
+        {
+            "item": "mekanism:ingot_osmium"
+        },
+        {
+            "item": "mekanism:ingot_osmium"
+        },
+        {
+            "item": "minecraft:redstone"
+        },
+        [
+            {
+                "item": "ae2:printed_logic_processor"
+            },
+            {
+                "item": "ae2:printed_calculation_processor"
+            },
+            {
+                "item": "ae2:printed_engineering_processor"
+            },
+            {
+                "item": "ae2:logic_processor"
+            },
+            {
+                "item": "ae2:calculation_processor"
+            },
+            {
+                "item": "ae2:engineering_processor"
+            }
+        ]
+    ],
+    "result": {
+        "item": "mekanism:basic_control_circuit"
+    }
+}

@@ -1,0 +1,12 @@
+{
+	id: "59957CFC9AA66EDD"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ count: 4, item: "ars_nouveau:drygmy_shard" }
+		{ count: 4, item: "ars_nouveau:whirlisprig_shards" }
+		{ count: 4, item: "ars_nouveau:starbuncle_shards" }
+		{ count: 4, item: "ars_nouveau:wixie_shards" }
+	]
+	title: "新生魔艺生产"
+}

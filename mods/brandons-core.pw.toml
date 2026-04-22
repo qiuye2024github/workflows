@@ -1,9 +1,10 @@
 filename = "BrandonsCore-1.20.1-3.2.1.302-universal.jar"
 name = "Brandon's Core"
-side = "both"
+side = ""
 x-prismlauncher-loaders = ["neoforge", "forge"]
 x-prismlauncher-mc-versions = ["1.20.1"]
 x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "Brandons Core 1.20.1-3.2.1.302"
 
 [download]
 hash = "1378ba5f84267c18f945c52d787ac86e40d6c241"
@@ -13,3 +14,7 @@ url = "https://edge.forgecdn.net/files/5422/013/BrandonsCore-1.20.1-3.2.1.302-un
 [update.curseforge]
 file-id = 5422013
 project-id = 231382
+
+[[x-prismlauncher-dependencies]]
+addonId = "242818"
+type = "REQUIRED"

@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "altarSyphon": 1500,
+  "consumptionRate": 20,
+  "drainRate": 5,
+  "input": {
+    "item": "botania:quartz_red"
+  },
+  "output": {
+    "item": "create:rose_quartz"
+  },
+  "upgradeLevel": 1
+}

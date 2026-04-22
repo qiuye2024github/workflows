@@ -1,0 +1,19 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        [
+            {
+                "item": "bloodmagic:reagentteleposition"
+            }
+        ],
+        {
+            "amount": 100,
+            "fluidTag": "enderio:cloud_seed_concentrated"
+        }
+    ],
+    "results": [
+        {
+            "item": "bloodmagic:reagentvoid"
+        }
+    ]
+}

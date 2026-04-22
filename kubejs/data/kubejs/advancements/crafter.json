@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "chaotic_chestpiece": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "quark:crafter"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": "合成一个合成器",
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "quark:crafter"
+        },
+        "show_toast": true,
+        "title": "牛爷爷"
+    },
+    "requirements": [
+        [
+            "chaotic_chestpiece"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

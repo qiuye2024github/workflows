@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+        "ingredient": {
+            "item": "create:shadow_steel"
+        },
+        "amount": 1
+    },
+    "mainInput": {
+        "ingredient": [
+            {
+                "tag": "forge:stripped_wood"
+            },
+            {
+                "tag": "forge:stripped_logs"
+            }
+        ]
+    },
+    "output": {
+        "item": "create:shadow_steel_casing",
+        "count": 1
+    }
+}

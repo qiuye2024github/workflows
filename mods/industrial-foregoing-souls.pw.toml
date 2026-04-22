@@ -1,0 +1,24 @@
+filename = "industrial-foregoing-souls-1.20.1-1.0.7.jar"
+name = "Industrial Foregoing Souls"
+side = ""
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "industrial-foregoing-souls-1.20.1-1.0.7.jar"
+
+[download]
+hash = "dc88933c3c3ed8c6f519dde1ff7ff855f0d1332a"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/5240/383/industrial-foregoing-souls-1.20.1-1.0.7.jar"
+
+[update.curseforge]
+file-id = 5240383
+project-id = 904394
+
+[[x-prismlauncher-dependencies]]
+addonId = "266515"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "287342"
+type = "REQUIRED"

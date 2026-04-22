@@ -1,0 +1,30 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "bloodmagic:firescribetool"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "botania:rune_fire"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "kubejs:emptyscribetool"
+    }
+  ],
+  "sourceCost": 4000
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:netherrack"
+    },
+    {
+      "tag": "exnihilosequentia:hammer"
+    }
+  ],
+  "results": [
+    {
+      "item": "exnihilosequentia:crushed_netherrack"
+    }
+  ]
+}

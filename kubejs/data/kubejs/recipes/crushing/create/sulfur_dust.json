@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:gems/sulfur"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "thermal:sulfur_dust"
+    }
+  ]
+}

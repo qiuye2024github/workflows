@@ -1,0 +1,29 @@
+{
+    "type": "naturesaura:tree_ritual",
+    "ingredients": [
+        [
+            {
+                "item": "industrialforegoing:dryrubber"
+            },
+            {
+                "item": "thermal:rubber"
+            }
+        ],
+        {
+            "item": "naturesaura:gold_leaf"
+        },
+        {
+            "tag": "minecraft:small_flowers"
+        },
+        {
+            "tag": "forge:raw_fishes"
+        }
+    ],
+    "sapling": {
+        "item": "minecraft:jungle_sapling"
+    },
+    "output": {
+        "item": "thermal:rubberwood_sapling"
+    },
+    "time": 500
+}

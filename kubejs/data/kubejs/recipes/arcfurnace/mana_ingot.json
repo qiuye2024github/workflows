@@ -1,0 +1,22 @@
+{
+    "type": "immersiveengineering:arc_furnace",
+    "additives": [
+        {
+            "tag": "forge:dusts/mana"
+        },
+        {
+            "item": "botania:manasteel_ingot"
+        }
+    ],
+    "energy": 51200,
+    "input": {
+        "item": "tconstruct:slimesteel_ingot"
+    },
+    "results": [
+        {
+            "item": "kubejs:mana_ingot",
+            "count":2
+        }
+    ],
+    "time": 100
+}

@@ -1,0 +1,56 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": [
+        {
+            "item": "create:cardboard_block"
+        },
+        {
+            "item": "create:bound_cardboard_block"
+        }
+    ],
+    "loops": 1,
+    "results": [
+        {
+            "item": "mekanism:cardboard_box"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:cutting",
+            "ingredients": [
+                {
+                    "item": "create:cardboard_block"
+                }
+            ],
+            "results": [
+                {
+                    "item": "create:cardboard_block"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "create:cardboard_block"
+                },
+                [
+                    {
+                        "item": "create:super_glue"
+                    },
+                    {
+                        "tag": "forge:slimeballs"
+                    }
+                ]
+            ],
+            "results": [
+                {
+                    "item": "create:cardboard_block"
+                }
+            ]
+        }
+    ],
+    "transitionalItem": {
+        "item": "create:cardboard_block"
+    }
+}

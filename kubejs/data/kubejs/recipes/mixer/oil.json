@@ -1,0 +1,22 @@
+{
+    "type": "immersiveengineering:mixer",
+    "energy": 1600,
+    "fluid": {
+        "amount": 500,
+        "tag": "minecraft:water"
+    },
+    "inputs": [
+        [
+            {
+                "item": "thermal:oil_red_sand"
+            },
+            {
+                "item": "thermal:oil_sand"
+            }
+        ]
+    ],
+    "result": {
+        "amount": 100,
+        "fluid": "immersivepetroleum:crudeoil"
+    }
+}

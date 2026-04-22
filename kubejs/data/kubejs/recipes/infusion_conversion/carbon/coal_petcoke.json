@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:infusion_conversion",
+    "input": {
+        "ingredient": {
+            "tag": "forge:coal_petcoke"
+        }
+    },
+    "output": {
+        "amount": 20,
+        "infuse_type": "mekanism:carbon"
+    }
+}

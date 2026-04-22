@@ -1,15 +1,24 @@
-filename = "ftb-ultimine-forge-2001.1.7.jar"
-name = "FTB Ultimine (Forge)"
-side = "both"
+filename = "ftb-ultimine-forge-2001.1.8.jar"
+name = "FTB Ultimine (NeoForge)"
+side = ""
 x-prismlauncher-loaders = ["forge"]
 x-prismlauncher-mc-versions = ["1.20.1"]
 x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "ftb-ultimine-forge-2001.1.8.jar"
 
 [download]
-hash = "3cbefa29b387cebb85022cb0ff838fd54b67cf82"
+hash = "c2a1eb72c36ad067faafbff4e1618c4db906de74"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/6899/418/ftb-ultimine-forge-2001.1.7.jar"
+url = "https://edge.forgecdn.net/files/7880/472/ftb-ultimine-forge-2001.1.8.jar"
 
 [update.curseforge]
-file-id = 6899418
+file-id = 7880472
 project-id = 386134
+
+[[x-prismlauncher-dependencies]]
+addonId = "404465"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "419699"
+type = "REQUIRED"

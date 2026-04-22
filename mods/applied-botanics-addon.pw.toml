@@ -1,15 +1,24 @@
-filename = "Applied-Botanics-forge-1.5.0.jar"
+filename = "applied-botanics-forge-1.5.2.jar"
 name = "Applied Botanics Addon"
-side = "both"
+side = ""
 x-prismlauncher-loaders = ["forge"]
 x-prismlauncher-mc-versions = ["1.20.1"]
 x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "1.5.2 [FORGE]"
 
 [download]
-hash = "26ef152312f3fa21dfee305a6787f96c065d6831"
+hash = "4129b8379681449779803319a8a8a34e0435084b"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/4904/185/Applied-Botanics-forge-1.5.0.jar"
+url = "https://edge.forgecdn.net/files/7427/985/applied-botanics-forge-1.5.2.jar"
 
 [update.curseforge]
-file-id = 4904185
+file-id = 7427985
 project-id = 610632
+
+[[x-prismlauncher-dependencies]]
+addonId = "225643"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "223794"
+type = "REQUIRED"

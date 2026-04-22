@@ -1,0 +1,11 @@
+{
+    "type": "immersiveengineering:crusher",
+    "energy": 1600,
+    "input": {
+        "item": "enderio:prescient_crystal"
+    },
+    "result": {
+        "item": "enderio:prescient_powder"
+    },
+    "secondaries": []
+}

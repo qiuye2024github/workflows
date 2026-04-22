@@ -1,0 +1,27 @@
+{
+    "type": "extendedcrafting:combination",
+    "powerCost": 10000,
+    "input": {
+        "item": "kubejs:emptyscribetool"
+    },
+    "ingredients": [
+        {
+            "item": "ars_nouveau:fire_essence"
+        },
+        {
+            "item": "ars_nouveau:fire_essence"
+        },
+        {
+            "item": "ars_nouveau:fire_essence"
+        },
+        {
+            "item": "ars_nouveau:fire_essence"
+        },
+        {
+            "item": "botania:rune_fire"
+        }
+    ],
+    "result": {
+        "item": "bloodmagic:firescribetool"
+    }
+}

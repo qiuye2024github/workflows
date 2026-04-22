@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "enderio:prescient_crystal"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "enderio:prescient_powder"
+    }
+  ]
+}

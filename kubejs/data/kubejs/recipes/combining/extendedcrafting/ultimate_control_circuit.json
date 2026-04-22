@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:combination",
+    "powerCost": 100000,
+    "input": {
+        "item": "mekanism:elite_control_circuit"
+    },
+    "ingredients": [
+        {
+            "item": "mekanism:alloy_atomic"
+        },
+        {
+            "item": "mekanism:alloy_atomic"
+        },
+        {
+            "item": "enderio:sentient_ender"
+        },
+        {
+            "item": "industrialforegoing:pink_slime_ingot"
+        }
+    ],
+    "result": {
+        "item": "mekanism:ultimate_control_circuit"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "kubejs:fluid_aerotheum",
+      "amount": 50
+    },
+    {
+      "item": "bloodmagic:reagentbinding"
+    }
+  ],
+  "result": [
+    {
+      "item": "bloodmagic:reagentair",
+      "count": 1
+    }
+  ],
+  "energy": 7500
+}

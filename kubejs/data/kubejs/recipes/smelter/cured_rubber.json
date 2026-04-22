@@ -1,0 +1,20 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "thermal:rubber",
+      "count": 4
+    },
+    {
+      "tag": "forge:dusts/sulfur",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "thermal:cured_rubber",
+      "count": 4
+    }
+  ],
+  "energy": 800
+}

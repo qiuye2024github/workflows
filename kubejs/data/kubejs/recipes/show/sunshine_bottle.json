@@ -1,0 +1,26 @@
+{
+    "type": "lychee:block_clicking",
+    "item_in": [
+        {
+            "item": "naturesaura:bottle_two_the_rebottling"
+        },
+        {
+            "type": "forge:nbt",
+            "item": "minecraft:barrier",
+            "nbt": "{display:{Name:\u0027{\"text\":\"在主世界手持瓶与塞右击空气\"}\u0027}}"
+        }
+    ],
+    "block_in": "kubejs:can_be_crafted_by_these_item",
+    "post": [
+        {
+            "type": "drop_item",
+            "item": {
+                "type": "forge:nbt",
+                "item": "naturesaura:aura_bottle",
+                "nbt": {
+                    "stored_type": "naturesaura:overworld"
+                }
+            }
+        }
+    ]
+}

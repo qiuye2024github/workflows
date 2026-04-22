@@ -1,0 +1,1862 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "78F648A80CC7C3F3"
+	group: "0ECAE774C70FDB68"
+	id: "78F648A80CC7C3F3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"679BEF34E6591769"
+				"0041F55EAE0E39F6"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"tips：这个任务的每个附属任务（除了混凝土），都是重量级"
+				""
+				"tipss：信我，你会在这个地方附近停留挺久的，还不如趁此整备一下"
+			]
+			id: "2D78D80EA8B393D6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E9A287F49D9B1E8"
+					table_id: 3307271418421185119L
+					type: "random"
+				}
+				{
+					id: "74DED17F182D3A1B"
+					item: "minecraft:bedrock"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "3658CD652AE60EB9"
+				item: "immersiveengineering:rs_engineering"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2D78D80EA8B393D6"]
+			description: [
+				"现实中，将木炭置于高温（通常在1200°C以上，部分可达2000-3000°C）下，在隔绝空气的环境中进行长时间加热，在工业上称为煅烧或石墨化处理。"
+				""
+				"石墨化处理的木炭在极高温度下，碳原子获得足够能量进行迁移和重排，微观结构会向更规整的石墨微晶结构转变。温度越高，时间越长，这种有序化程度越高。这种改变可以使得其机械强度和硬度显著提高，表观密度增加，孔隙结构变得更规整、更稳定，表面活性位点减少，化学稳定性增强，也使其从几乎不导电变为良导体。"
+				""
+				"在约1200-1400°C下处理的炭因为经过煅烧，后续活化得到孔隙结构更坚固、性能更稳定的炭，其主要用于高品质活性炭的原料。在2500°C以上处理的炭，碳结构已高度石墨化，这是生产电解铝用阳极、电弧炉炼钢用石墨电极、锂离子电池负极材料等高端碳制品的关键原料"
+				"{@pagebreak}"
+				"石墨是一种经典的层状材料，也是碳的同素异形体之一。其结构、成键和电子性质是理解其广泛应用和独特物理化学行为的基础。"
+				""
+				"1.简述石墨层内碳原子的成键类型（包括键长、键级特点），并解释为何层内导电性优良而层间导电性差。"
+				"2.从化学键和结构的角度，解释为何能用简单的胶带反复剥离法从石墨获得单层石墨烯。"
+			]
+			id: "1C02406967AE9674"
+			rewards: [
+				{
+					count: 32
+					id: "6F60CECFAF799C81"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "7D94EF0E4FA3C0BA"
+					item: "thermal:steel_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0674738A86BC530D"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5BE4945741EF7ACC"
+				item: "immersiveengineering:ingot_hop_graphite"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6887C7D14DE663E4"]
+			description: [
+				"tips：工业电解槽比简易电解槽建设成本大，但是工业电解槽比简易电解槽更省电"
+				"{@pagebreak}"
+				"现实中，霍尔-埃鲁法的冰晶石-氧化铝融盐电解生产铝中的作用原理，学术界存在着不同观点和探讨"
+				""
+				"一篇1959年的经典文献就指出，霍尔法的机理是“一个70年未解的谜”，早期简单的理论已被证明不足以解释所有现象"
+				""
+				"首先，在约950°C下熔解氧化铝，冰晶石提供可迁移的离子（主要为Na⁺）传导电流。目前争议内容是熔融体是简单的离子溶液，还是复杂的胶体/聚合离子体系？"
+				"其次，在直流电作用下，铝在阴极析出，氧在阳极结合碳生成CO₂。争议在于，铝究竟是从氧氟铝酸盐配合物中直接还原，还是这些配合物先在阴极界分解或重组，再以更简单的离子形式（如Al³⁺）放电。反应步骤和中间体尚无统一定论。"
+				"{@pagebreak}"
+				"某新建电解铝厂设计产能为30万吨/年，计划采用400kA预焙阳极电解槽，年工作350天。"
+				"已知 铝的理论电化学当量：0.3355 g/(A·h)， 设计槽电压：4.05 V， 设计电流效率：95%， 阳极净耗：410 kg C/t Al， 氧化铝单耗：1920 kg Al₂O₃/t Al（纯度98%）， 冰晶石单耗：5 kg/t Al， 氟化铝单耗：25 kg/t Al， 电价：0.45元/kWh。"
+				"试求："
+				"1.该厂最少需要多少台电解槽？"
+				"2.计算吨铝直流电耗和吨铝电费成本。"
+				"3.计算全年主要原材料需求量（氧化铝、阳极炭块、冰晶石、氟化铝）。"
+				"4.若要将电流效率提高至96%，槽电压降低至3.95V，计算吨铝可节约的电费（其他条件不变）。"
+				"5.若阳极效应系数从0.2次/槽·日降至0.05次/槽·日，每次效应持续2分钟，效应电压25V，计算吨铝可减少的效应能耗。"
+			]
+			id: "625D40A15E4AEDE0"
+			rewards: [
+				{
+					count: 16
+					id: "0BCAEBEBDE57945B"
+					item: "immersiveengineering:ingot_aluminum"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D52FDB3D0D2FB0D"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "420D3C0123E8A81B"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:dusts/aluminum)"
+						}
+					}
+					optional_task: true
+					title: "Any #forge:dusts/aluminum"
+					type: "item"
+				}
+				{
+					id: "2CA9AB8FA9F0F886"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:ingots/aluminum)"
+						}
+					}
+					title: "Any #forge:ingots/aluminum"
+					type: "item"
+				}
+			]
+			title: "铝锭"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D78D80EA8B393D6"]
+			id: "27D3A8B2C09432B1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "519E9DEE14BC2050"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C28D973F28DF543"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "312AE901850B5E4A"
+				item: "immersiveengineering:concrete_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D78D80EA8B393D6"]
+			id: "281840AC1A5B5C08"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "55C0A27717C7AC77"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "3773549D63EA113A"
+					item: "thermal:steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "10468F535DC09E6B"
+				item: "immersiveengineering:plate_duroplast"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1C02406967AE9674"]
+			description: [
+				"tips：只有电弧炉和电解槽用到石墨电极，而且不一定需要做"
+				"{@pagebreak}"
+				"用铂电极电解200 mL浓度为0.100mol/L 的 CuCl₂ 溶液。电解时通过的电流为1.00A，电解时间为30.0min。假设电流效率为100%，且电解过程中溶液体积变化可忽略不计。试计算："
+				""
+				"(1) 阴极上析出铜的质量；"
+				"(2) 阳极上产生氯气的体积；"
+				"(3) 电解后溶液中 Cl⁻ 离子的浓度。"
+			]
+			id: "6887C7D14DE663E4"
+			rewards: [
+				{
+					count: 64
+					id: "4AF7E06D7B3E5603"
+					item: "thermal:steel_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CE62B3310864B98"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "416C7DE92FF9A575"
+				item: {
+					Count: 1
+					id: "immersiveengineering:graphite_electrode"
+					tag: {
+						graphDmg: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D78D80EA8B393D6"]
+			id: "47DF1BCA838A54CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A0E40A444B4C4C8"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3A533709FB83CC17"
+				item: "thermal:rf_coil"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D78D80EA8B393D6"]
+			description: [
+				"原油有2种来源：沥青砂和开采"
+				""
+				"tips：原油开采相关教学请前往“指引”章节"
+			]
+			id: "6FEA5B4E4F7BC4FC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "366BA1F56E733AEB"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "0E20595AE3F82CE5"
+					item: "thermal:steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18AA0A300955EF95"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:oil_bucket)"
+					}
+				}
+				title: "Any #c:oil_bucket"
+				type: "item"
+			}]
+			title: "原油"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6FEA5B4E4F7BC4FC"
+				"2D78D80EA8B393D6"
+			]
+			dependency_requirement: "one_started"
+			description: ["tips：你的第一份塑料需要使用高压精炼装置"]
+			id: "0A6BF102C7E3AF52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F6876840522C716"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5E00284148BD1DE8"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(pneumaticcraft:plastic_sheets)"
+					}
+				}
+				title: "Any #pneumaticcraft:plastic_sheets"
+				type: "item"
+			}]
+			title: "塑料片"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0A6BF102C7E3AF52"]
+			description: [
+				"tips:"
+				"翻合成表时请记住一个原则：如果有一个物品有多个配方，其中的一个同时符合“便宜、大量、好做、前期可做”这四个条件，那你大概率是看错了（这个在左下角提示也有）"
+			]
+			id: "5A49E1410ACE2E51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F8FD1CD8A9E4779"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5C98EB3602C70ED5"
+				item: "kubejs:machine_frame"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A49E1410ACE2E51"]
+			id: "2AB9A8B49DD75077"
+			optional: true
+			rewards: [
+				{
+					count: 10
+					id: "385C7E914C1A1CAE"
+					item: "pneumaticcraft:volume_upgrade"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36F0518EFD3215E5"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BAFF0F93253873B"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "76DBE556B3C8E2AF"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["64AD02A1B9671DF1"]
+			description: [
+				"tips：资源包文件夹里有新版AE材质。当然，不满意或者不见了你也可以换一个"
+				""
+				"tipss：无线连接器在超过70格之后耗电量比量子环还高"
+				""
+				"tipsss：无线连接器显示的耗电是单个方块的耗电，单个方块的能耗计算式为：&d实际能耗=max(max(实际距离,e)*ln(max(实际距离,e))*(1-0.1*能源卡数量+0.2*大型能源卡数量),1)&r，无线连接器两端都会计算一次能耗，计算时互相独立"
+			]
+			id: "5D289DE466B8F6DA"
+			rewards: [
+				{
+					id: "76F3A74081F0E042"
+					item: "ae2:controller"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "198FCB6681E3C67D"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0B38EAB0B4EEDE4C"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "1D501192622CA027"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3E962AA8BB2513E0"
+					item: "ae2:fluix_smart_dense_cable"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14DFA08B7B2926E2"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "088F986C7A868631"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5D56D6374B3B4C11"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A49E1410ACE2E51"]
+			description: ["没有压印模板和赛特斯母岩？或许该认真检查一下这个岛了......"]
+			id: "2AE316D3A53DF8C2"
+			rewards: [
+				{
+					count: 4
+					id: "288799109264FE26"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74647D32BF919817"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "730829D68B21573E"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D289DE466B8F6DA"]
+			dependency_requirement: "all_started"
+			description: [
+				"部分合成表支持封包作业"
+				"使用时首先需要使用&b封包配方编码器&r给两个样板包储存器编码，然后将其中一个样板包储存器放入&b封包机&r，另一个放入&b解包机&r，并将两台机器都连入&bME网络&r。打包机就会自动接收物品，制作配方包裹，而解包机则会获取配方包裹，将物品输出到相邻机器的物品栏中。两台机器都会根据样板包储存器里的编码告诉ME网络它们能合成什么，当打包机被连接时，将会把所有包裹弹出进入ME网络。"
+				"当然，也可以使用&bME封包供应器&r实现封包机+解包机的二合一功能"
+			]
+			id: "13584CFF194E9DF6"
+			rewards: [
+				{
+					count: 4
+					id: "195F6B12DA86DFCD"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3091DCB7D360174B"
+					item: "megacells:mega_pattern_provider"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "036FD5A05C6FA5A1"
+					item: "expatternprovider:ex_pattern_provider"
+					type: "item"
+				}
+				{
+					id: "54C04F931D6AFF55"
+					item: "advanced_ae:adv_pattern_provider"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55AEB07395DC1DCA"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E5E1475F17B9DB6"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1E6CFC19BBCCAC21"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["13584CFF194E9DF6"]
+			dependency_requirement: "all_started"
+			description: [
+				"在设置数量的界面（例如设置合成数量、设置样板数量）可以直接填入四则运算。"
+				"加号为“+”，减号为“-”，乘号为“*”，除号为“/”，括号为“(”和“)”，可以使用“=”开头，表示设置到该数量"
+				""
+				"例如，下单时想让库存达到325可使用“=（10+3）*5*5”"
+				""
+				"tips：请使用半角的符号！"
+			]
+			id: "338705138436F1C3"
+			rewards: [
+				{
+					count: 32
+					id: "1D86C8FAC8103BD4"
+					item: "ae2:blank_pattern"
+					random_bonus: 96
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5574916DD0A4052E"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6622B8C259DEDB3E"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "65446067DAE31DEC"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5D289DE466B8F6DA"]
+			dependency_requirement: "all_started"
+			id: "613C898FCECC4534"
+			rewards: [
+				{
+					count: 4
+					id: "4F17739137E23007"
+					item: "ae2:interface"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "26F054BE4888AA6E"
+					item: "megacells:mega_interface"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "293155437B0C965B"
+					item: "expatternprovider:ex_interface"
+					type: "item"
+				}
+				{
+					id: "11C4A2302DAD934B"
+					item: "expatternprovider:oversize_interface"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75AC9D708856122E"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "462A7036052B4814"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2DB9051788C1B22B"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D289DE466B8F6DA"]
+			dependency_requirement: "all_started"
+			id: "2212AE5EC1D3A395"
+			rewards: [
+				{
+					count: 2
+					id: "263A17C2A8CFC7C9"
+					item: "ae2:crafting_accelerator"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07DF01DAC173B67B"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06F3C2B7DAA67A2D"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4353182987DD7D31"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"625D40A15E4AEDE0"
+				"11883028F5BAF935"
+			]
+			id: "06238021B26B036D"
+			rewards: [
+				{
+					id: "67DD2BC25BBDEABF"
+					item: "thermal:upgrade_augment_2"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C9EAD74D7D7EEED"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "14950928FCA4335E"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C02406967AE9674"]
+			id: "288EBFA10732EE09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DC3322C3C038E64"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2A1115E66470F471"
+				item: "extendedcrafting:black_iron_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A49E1410ACE2E51"]
+			description: ["tips：Forge有个特性，距离目标方块过远时方块的特殊渲染会失效"]
+			id: "772D98136B379318"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1F9EF1C1B16B588F"
+					item: "functionalstorage:controller_extension"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "615F88CC506E730A"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F819D7BDEF9DF16"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "580357F03A7A624C"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1514F416C756E2E6"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27D3A8B2C09432B1"]
+			dependency_requirement: "all_started"
+			id: "60921CCB3CFC2962"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70D2BC5BD1A9E2DC"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "336A222082C024C6"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3D3C69BA4EB004D0"
+					item: "enderio:conduit_binder_composite"
+					type: "item"
+				}
+				{
+					id: "083922ECDFE0216E"
+					item: "enderio:conduit_binder"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["005DEB23C7DD900D"]
+			dependency_requirement: "all_started"
+			id: "5CD266813A45A52D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E86A377EDD11289"
+				table_id: 3307271418421185119L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5C291F8E9598CD35"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6887C7D14DE663E4"
+				"5CD266813A45A52D"
+			]
+			id: "57B80414E327A264"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D1929CFFEE1DBE6"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3BCAFAC804EA175A"
+				item: "kubejs:mana_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5CD266813A45A52D"]
+			description: ["tips:在符文祭坛中合成时因为合成用的符文不消耗，因此编写样板时可以在副产物栏中写入合成用的符文，以实现符文的循环利用"]
+			id: "360D96F048AF209B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65493A0E01882778"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A84759D39C64ED9"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39FF04F0DAF061F2"]
+			id: "02C4D894CB9DAC8B"
+			rewards: [
+				{
+					count: 2
+					id: "5D085E52D33AE728"
+					item: "thermal:device_rock_gen"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A7FC3B56D29B33F"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "110149B25AB08CAE"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "15F8128FB5548948"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["281840AC1A5B5C08"]
+			description: ["{ \"text\": \"需要任务：铝锭\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"625D40A15E4AEDE0\" } } "]
+			id: "4F746CD203087D58"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0327570BF0EB18D4"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "6F23CFC738D26707"
+					item: "immersiveengineering:component_electronic_adv"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B359C82702484A8"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4F12FA2A9F310136"
+				item: "immersiveengineering:component_electronic_adv"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["281840AC1A5B5C08"]
+			dependency_requirement: "one_completed"
+			id: "7E3FEE10979FFA99"
+			rewards: [
+				{
+					count: 8
+					id: "7A0478B7FE8BEA3E"
+					item: "immersiveengineering:circuit_board"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D2D848E1384FD21"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C43DC71FFC0552C"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0E755A08B916170B"
+				item: "immersiveengineering:circuit_board"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["360D96F048AF209B"]
+			id: "372814E0C46C719F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A381E2FEF12D075"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "38DA032C269AE2BB"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(botania:runes)"
+					}
+				}
+				title: "Any #botania:runes"
+				type: "item"
+			}]
+			title: "符文"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5CD266813A45A52D"]
+			id: "07B84A13ADBE2B3B"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "647BD664DFF82D92"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "435AF667530AB853"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0BBB2CB39762DD34"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:ring)"
+					}
+				}
+				title: "Any #curios:ring"
+				type: "item"
+			}]
+			title: "指环"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"06238021B26B036D"
+				"372814E0C46C719F"
+			]
+			description: ["{ \"text\": \"需要任务：红石通量线圈\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"47DF1BCA838A54CF\" } }"]
+			id: "39ACDE2BB66AA8DF"
+			rewards: [
+				{
+					id: "1FD604B509F62AA1"
+					item: "thermal:slot_seal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "338CC1C3E3F5EE5C"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7878BE9F1A4D39E4"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["13584CFF194E9DF6"]
+			dependency_requirement: "all_started"
+			id: "08731F5833ADFC86"
+			rewards: [
+				{
+					count: 2
+					id: "63A8C0187741A987"
+					item: "ae2:molecular_assembler"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 16
+					id: "51B90F7C5857641C"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E093F01C42DCE5F"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28A244634EDC93A4"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "40D83624FC2972E7"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["60921CCB3CFC2962"]
+			id: "2F11B68408B46D3D"
+			rewards: [
+				{
+					count: 16
+					id: "7FF58DCD4FD0D15F"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "652FE7251E92A673"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "086BF36C9633097A"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7A5B60BEDB279CC4"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["288EBFA10732EE09"]
+			id: "0AD3521F41DDBE6A"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5FA0DC9F42427173"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51FDB1F66A00663D"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "05C8D060D7C1836E"
+				item: "enderio:primitive_alloy_smelter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0A6BF102C7E3AF52"]
+			description: ["{ \"text\": \"需要任务：橡胶\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7F1AAB60363FA8EE\" } }"]
+			id: "11883028F5BAF935"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FC1DB1062190A48"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "495C46B1EA471293"
+				item: "advgenerators:iron_frame"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A49E1410ACE2E51"]
+			description: ["tips：压力表显示的压力是表压"]
+			id: "01652B76BD0BF8D7"
+			rewards: [
+				{
+					count: 10
+					id: "4AF19E10265B99BE"
+					item: "pneumaticcraft:speed_upgrade"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0515B0CD02DC71DD"
+					item: "pneumaticcraft:security_upgrade"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "477E1F63E074F81A"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "17634BD48E1F6655"
+				item: "pneumaticcraft:pressure_chamber_wall"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["47DF1BCA838A54CF"]
+			id: "39FF04F0DAF061F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EBD7D61BBD3A2AC"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1500020538EB10FD"
+				item: "thermal:redstone_servo"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"01652B76BD0BF8D7"
+				"7E3FEE10979FFA99"
+			]
+			description: [""]
+			id: "3400CF16B1FE3349"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0380AB30CB51AE1F"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "13D15A180C2E0021"
+				item: "pneumaticcraft:empty_pcb"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["39ACDE2BB66AA8DF"]
+			id: "1019108C8014B4E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AF2AB84E3FE04DA"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F3C682DCA55242B"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["39FF04F0DAF061F2"]
+			id: "4D98A696D68F8146"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B39FDEC98C03402"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "282356D38185F66F"
+				item: "thermal:device_tree_extractor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4D98A696D68F8146"]
+			description: ["{ \"text\": \"后续任务：铁框架\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11883028F5BAF935\" } }"]
+			id: "7F1AAB60363FA8EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "663E2F247643666D"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5E04CFB22FF6AD23"
+				item: "thermal:rubber"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1019108C8014B4E6"]
+			id: "1267F9EE3188CE16"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "740817D5D2C78A14"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E22E6EC5639066C"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1267F9EE3188CE16"]
+			id: "6D249E97FE9379D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51B4D14E40C3DC68"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "782FFA2BC9195777"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6246C0B872014922"
+				"2AE316D3A53DF8C2"
+			]
+			description: ["tips：负压可以通过真空泵产生"]
+			id: "64AD02A1B9671DF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30882865C8E2CF2C"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7793FC39EDC1CAA7"
+				item: "immersiveengineering:logic_circuit"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3400CF16B1FE3349"]
+			id: "6246C0B872014922"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "07F13E03EEA02508"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "46E2DD465269726A"
+					item: "pneumaticcraft:unassembled_pcb"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B4538584C621903"
+				item: "pneumaticcraft:unassembled_pcb"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6D249E97FE9379D3"
+				"64AD02A1B9671DF1"
+			]
+			id: "6E76EB41069E4C33"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A2C9C07E5A767C9"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FE8197A35910735"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E76EB41069E4C33"]
+			id: "1D5456E301F83662"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2035E383C4CB30AF"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6449F63764E50543"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1D5456E301F83662"]
+			id: "79CE9500210C0BED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "788D97FF4CB6C6D9"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6222EB760A63AE89"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["79CE9500210C0BED"]
+			id: "5FA2046696A7F4DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C515AC57F1745C0"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "796EF9A9956F937D"
+				item: "industrialforegoing:pink_slime_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["372814E0C46C719F"]
+			id: "1001EBFA92CFDC28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B79C960D785A7A4"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "79D474E78F154BB9"
+				item: "ars_nouveau:spell_prism"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1001EBFA92CFDC28"
+				"5FA2046696A7F4DE"
+			]
+			description: [
+				"魔源太多存不下怎么办？"
+				"仙人指路：多建些魔源罐或者存进AE里！&m还有魔力池也可以&r"
+			]
+			id: "1EC80769815D1429"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4687695ED5D5B967"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20AD1669EABB2911"
+					table_id: 6455203065273675485L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EBF7022A02814CD"
+					table_id: 6455203065273675485L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "4C6C84E67D3936B9"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "77F16401FA2A0E91"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["57B80414E327A264"]
+			id: "71FBCEB9CD9DCF14"
+			rewards: [
+				{
+					id: "440B8ECBC7192D3C"
+					item: "occultism:brush"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2912C17C789EA642"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1C52DD0384565F3D"
+				item: "occultism:golden_sacrificial_bowl"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1EC80769815D1429"]
+			id: "78E9CB8025D1444F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5210921918648832"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50BE440C73BE05E3"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(occultism:spirit_attuned)"
+					}
+				}
+				title: "Any #occultism:spirit_attuned"
+				type: "item"
+			}]
+			title: "魔灵同调宝石"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"78E9CB8025D1444F"
+				"71FBCEB9CD9DCF14"
+			]
+			description: ["tips:将魔灵全典改名即可得到固定名称的产物，例如 阿卡什宝典（魔灵全典）"]
+			id: "473B4B43E9C04A83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02CD81AEFB40587C"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55DCB9F0127565C0"
+				item: {
+					Count: 1
+					id: "occultism:dimensional_matrix"
+					tag: {
+						spiritName: "Brynfirmed"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1EC80769815D1429"]
+			id: "15B0BFDA207D921B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41AC4625AF9693E0"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18AE71DBC2F8E5A7"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0FA42B89F699134A"
+				item: "ars_elemental:water_focus"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["15B0BFDA207D921B"]
+			description: ["tips：要合成合成气，首先需要向合成气制造器输入碳源（例如煤炭），之后输入蒸汽即可转化成合成器，或者提供水，在外部热源或者燃烧室内转化成蒸汽，再转化成合成气"]
+			id: "74706EAC767DA327"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C09584968B7FE3B"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F3FB9ECD4B5F17D"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "52772E35923127DE"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["74706EAC767DA327"]
+			id: "19DB817A0A856DAD"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "169A18DAF13AE54E"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21F2A392597B991A"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2B540FF53B348CB8"
+				item: "kubejs:netherrack_catalyst"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["74706EAC767DA327"]
+			id: "6B7BD74FDED2EAE9"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17996049297E0324"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BEDB53DCED53250"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "79F86FD8572BBA12"
+				item: "kubejs:end_stone_catalyst"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"473B4B43E9C04A83"
+				"3A11CF9DB46ED75D"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"tips：不知道怎样获取生物？不妨去“资源获取：生物”章节看看吧"
+				"tipss：想要用工业凝聚板自动化物品，但是槽位不足？不妨升级试试吧！"
+			]
+			id: "33FDB4710070DFE2"
+			rewards: [
+				{
+					count: 12
+					id: "2B55C4D802956B38"
+					item: "botania:blacker_lotus"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A0341655377A2FB"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B5B5D11D6A4E01A"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "41B8B8DFA22E0C8D"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1EC80769815D1429"]
+			id: "3A11CF9DB46ED75D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "199EB5BF8665DA11"
+				table_id: 8095977677662034338L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2DEC61AAD3D3FD60"
+				item: "ars_nouveau:shapers_focus"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["79CE9500210C0BED"]
+			id: "342D532FC79C7296"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52133262B0917565"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "382B750B759EA2C3"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0FBE9BA1084BBBDB"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["342D532FC79C7296"]
+			description: [
+				"可以使用RF或者AE能量工作。使用AE能量工作时，请注意网络的能量存量不要太低，以免工作时机器把网络能量抽干"
+				""
+				"tips：这台机器耗能较高，前期请谨慎使用"
+			]
+			id: "0B3B58C00FBBF66A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0AB2B4CC02CBEB15"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "615F7A2549CD0F27"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5DE75DA496AEDEE9"
+				item: "advanced_ae:reaction_chamber"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["342D532FC79C7296"]
+			id: "49BE05A5052CBAA1"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E6AD5D792646678"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BA3657A6002D50B"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "01AB907171C43E48"
+				item: "industrialforegoing:ether_gas_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["342D532FC79C7296"]
+			id: "158BD859F1BFA202"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "294A14BDCAE37AD8"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B0A6AB600368426"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "78AF84C25933AFF2"
+				item: "expatternprovider:circuit_cutter"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["49BE05A5052CBAA1"]
+			dependency_requirement: "one_started"
+			id: "1D66C3124AE0AC24"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D8FA8C0F0401EB1"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64686E38CF6EEA1F"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "73D08B732BE33607"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["39FF04F0DAF061F2"]
+			description: ["tips：在电量短缺、用不起升级的情况下，它的效率甚至比不上机械手"]
+			id: "6EB019F912708E39"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67857D6EE55DD487"
+					table_id: 8095977677662034338L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F7A67FB90AD3245"
+					table_id: 4887006096378810986L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "048576E6EA2B8A25"
+				item: "exmachinis:flux_sieve"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+	]
+	title: "第二章"
+}

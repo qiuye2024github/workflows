@@ -1,0 +1,21 @@
+{
+    "type": "immersiveengineering:alloy",
+    "input0": {
+        "item": "minecraft:andesite"
+    },
+    "input1": [
+        {
+            "tag": "forge:nuggets/iron"
+        },
+        {
+            "tag": "forge:nuggets/zinc"
+        }
+    ],
+    "result": {
+        "base_ingredient": {
+            "item": "create:andesite_alloy"
+        },
+        "count": 1
+    },
+    "time": 200
+}

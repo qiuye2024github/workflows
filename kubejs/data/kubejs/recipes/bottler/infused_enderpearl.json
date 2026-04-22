@@ -1,0 +1,18 @@
+{
+  "type": "thermal:bottler",
+  "ingredients": [
+    {
+      "item": "rftoolsbase:dimensionalshard"
+    },
+    {
+      "fluid": "tconstruct:molten_ender",
+      "amount": 500
+    }
+  ],
+  "result": [
+    {
+      "item": "rftoolsbase:infused_enderpearl"
+    }
+  ],
+  "experience": 0
+}

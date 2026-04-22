@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:refinery",
+    "catalyst": {
+        "item": "minecraft:glowstone_dust"
+    },
+    "energy": 100,
+    "input0": {
+        "amount": 50,
+        "tag": "thermal:tree_oil"
+    },
+    "input1": {
+        "amount": 50,
+        "tag": "kubejs:refined_sunflower_oil"
+    },
+    "result": {
+        "amount": 100,
+        "fluid": "kubejs:sunshine_fluid"
+    }
+}

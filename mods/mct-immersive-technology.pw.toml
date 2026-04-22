@@ -1,0 +1,28 @@
+filename = "MCT-ImmersiveTechnology-1.20.1-2.0.1-b6037-beta.jar"
+name = "Immersive Technology"
+side = "server"
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "beta"
+x-prismlauncher-version-number = "MCT-ImmersiveTechnology-1.20.1-2.0.1-b6037-beta.jar"
+
+[download]
+hash = "f5891c4972be684c716cb08613d8933da575e0df"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/7750/083/MCT-ImmersiveTechnology-1.20.1-2.0.1-b6037-beta.jar"
+
+[update.curseforge]
+file-id = 7750083
+project-id = 359407
+
+[[x-prismlauncher-dependencies]]
+addonId = "1465236"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "1326199"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "231951"
+type = "REQUIRED"

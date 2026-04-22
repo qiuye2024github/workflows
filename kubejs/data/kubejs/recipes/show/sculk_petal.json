@@ -1,0 +1,21 @@
+{
+    "type": "lychee:block_clicking",
+    "item_in": [
+        {
+            "item": "minecraft:sculk_sensor"
+        },{
+            "item": "botania:manasteel_shears"
+        }
+    ],
+    "block_in": "kubejs:can_be_crafted_by_these_item",
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "botanicadds:sculk_petal"
+        },
+        {
+            "type": "drop_item",
+            "item": "botanicadds:reduced_sculk_sensor"
+        }
+    ]
+}

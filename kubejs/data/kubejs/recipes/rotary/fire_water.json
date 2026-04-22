@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:rotary",
+    "fluidInput": {
+        "amount": 1,
+        "fluid": "enderio:fire_water"
+    },
+    "fluidOutput": {
+        "amount": 1,
+        "fluid": "enderio:fire_water"
+    },
+    "gasInput": {
+        "amount": 1,
+        "gas": "kubejs:fire_water"
+    },
+    "gasOutput": {
+        "amount": 1,
+        "gas": "kubejs:fire_water"
+    }
+}

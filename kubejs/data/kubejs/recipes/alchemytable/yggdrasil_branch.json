@@ -1,0 +1,39 @@
+{
+    "type": "bloodmagic:alchemytable",
+    "input": [
+        {
+            "item": "botanicpledge:world_ash_branch"
+        },
+        {
+            "item": "botanicpledge:world_ash_branch"
+        },
+        [
+            {
+                "item": "botania:glimmering_livingwood_log"
+            },
+            {
+                "item": "botania:glimmering_livingwood"
+            }
+        ],
+        [
+            {
+                "item": "botania:glimmering_livingwood_log"
+            },
+            {
+                "item": "botania:glimmering_livingwood"
+            }
+        ],
+        {
+            "tag": "forge:ingots/terrasteel"
+        },
+        {
+            "item": "botanicpledge:yggdrasilsteel_ingot"
+        }
+    ],
+    "output": {
+        "item": "mythicbotany:yggdrasil_branch"
+    },
+    "syphon": 4000,
+    "ticks": 200,
+    "upgradeLevel": 3
+}

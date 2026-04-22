@@ -1,0 +1,17 @@
+filename = "eventwrapper-forge-1.20.1-1.1.4.jar"
+name = "Event Wrapper"
+side = "server"
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "eventwrapper-forge-1.20.1-1.1.4.jar"
+
+[download]
+hash = "93d6f86a4a2d45b673a13ffb8cf4bc646a9669eb"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/7182/179/eventwrapper-forge-1.20.1-1.1.4.jar"
+
+[update.curseforge]
+file-id = 7182179
+project-id = 1256971

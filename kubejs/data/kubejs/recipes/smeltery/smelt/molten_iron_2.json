@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "minecraft:raw_iron_block"
+  },
+  "result": {
+    "amount": 1080,
+    "fluid": "tconstruct:molten_iron"
+  },
+  "temperature": 800,
+  "time": 1500
+}

@@ -1,0 +1,17 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+        {
+            "item": "minecraft:bamboo"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:stick"
+        },
+        {
+            "item": "thermal:sawdust",
+            "chance": 0.1
+        }
+    ]
+}

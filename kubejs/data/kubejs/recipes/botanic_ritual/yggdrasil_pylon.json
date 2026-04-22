@@ -1,0 +1,37 @@
+{
+  "type": "botanicpledge:botanic_ritual",
+  "reagent": {
+    "item": "botania:gaia_pylon"
+  },
+  "pedestalItems": [
+    {
+      "item": "botania:quartz_mana"
+    },
+    {
+      "item": "botanicpledge:yggdrasil_shard"
+    },
+    {
+      "item": "botania:quartz_mana"
+    },
+    {
+      "item": "botanicpledge:yggdrasilsteel_ingot"
+    },
+    {
+      "item": "botanicpledge:yggdrasilsteel_ingot"
+    },
+    {
+      "item": "botania:quartz_mana"
+    },
+    {
+      "item": "occultism:dimensional_matrix"
+    },
+    {
+      "item": "botania:quartz_mana"
+    }
+  ],
+  "output": {
+    "item": "botanicpledge:yggdrasil_pylon"
+  },
+  "manaCost": 250000,
+  "keepNbtOfReagent": false
+}

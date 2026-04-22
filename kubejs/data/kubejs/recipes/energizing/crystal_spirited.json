@@ -1,0 +1,22 @@
+{
+    "type": "powah:energizing",
+    "ingredients": [
+        {
+            "item": "botanicalmachinery:mana_emerald"
+        },
+        {
+            "item": "botanicalmachinery:mana_emerald"
+        },
+        {
+            "item": "botanicalmachinery:mana_emerald"
+        },
+        {
+            "item": "tconstruct:earth_slime_crystal"
+        }
+    ],
+    "energy": 3000000,
+    "result": {
+        "item": "powah:crystal_spirited",
+        "count": 3
+    }
+}

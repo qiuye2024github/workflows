@@ -1,0 +1,10 @@
+StartupEvents.registry('fluid', event => {
+    event.create('fluid_cryotheum').thickTexture(0x33a7cc).bucketColor(0x33a7cc)
+    event.create('fluid_petrotheum').thickTexture(0x34160D).bucketColor(0x34160D)
+    event.create('fluid_aerotheum').thickTexture(0xbfca20).bucketColor(0xbfca20)
+    event.create('fluid_pyrotheum').thickTexture(0xedcf35).bucketColor(0xedcf35)
+    event.create('molten_slicon').thickTexture(0x423409).bucketColor(0x423409)
+    event.create('sunflower_oil').thickTexture(0xd9a62e).bucketColor(0xd9a62e)
+    event.create('refined_sunflower_oil').thickTexture(0xb98c22).bucketColor(0xb98c22)
+    event.create('sunshine_fluid').thickTexture(0xa98022).bucketColor(0xa98022)
+})

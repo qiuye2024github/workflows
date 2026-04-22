@@ -1,0 +1,20 @@
+{
+    "type": "thermal:smelter",
+    "ingredients": [
+        {
+            "item": "appflux:insulating_resin",
+            "count": 2
+        },
+        {
+            "tag": "forge:rosin",
+            "count": 1
+        }
+    ],
+    "result": [
+        {
+            "item": "appflux:harden_insulating_resin",
+            "count": 2
+        }
+    ],
+    "energy": 1000
+}

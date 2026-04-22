@@ -1,0 +1,27 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "item": "botanicalextramachinery:shadow_ingot"
+    },
+    {
+      "item": "extrabotany:aerialite_ingot"
+    },
+    {
+      "item": "draconicevolution:awakened_draconium_ingot"
+    },
+    {
+      "tag": "botanicalextramachinery:crimson_ingot_craft_2"
+    },
+    {
+      "tag": "botanicalextramachinery:crimson_ingot_craft_2"
+    },
+    {
+      "tag": "botanicalextramachinery:crimson_ingot_craft_1"
+    }
+  ],
+  "mana": 2000000,
+  "result": {
+    "item": "botanicalextramachinery:crimson_ingot"
+  }
+}

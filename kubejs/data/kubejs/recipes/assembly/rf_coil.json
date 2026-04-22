@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "immersiveengineering:rs_engineering"
+  },
+  "program": "drill",
+  "result": {
+    "count": 1,
+    "item": "thermal:rf_coil"
+  }
+}

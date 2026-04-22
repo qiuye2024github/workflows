@@ -1,0 +1,30 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "bloodmagic:duskscribetool"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "item": "mythicbotany:alfheim_rune"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "kubejs:emptyscribetool"
+    }
+  ],
+  "sourceCost": 4000
+}

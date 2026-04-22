@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cooling_time": 137,
+  "fluid": {
+    "amount": 240,
+    "tag": "kubejs:molten_slicon"
+  },
+  "result": {
+    "item": "kubejs:silicon_boule"
+  }
+}

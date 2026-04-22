@@ -1,0 +1,17 @@
+filename = "create_thermal-1.0.0-forge-1.20.1.jar"
+name = "Create Thermal Compat"
+side = ""
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = ["forge"]
+x-prismlauncher-mc-versions = ["1.20.1"]
+x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "create_thermal-1.0.0-forge-1.20.1.jar"
+
+[download]
+hash = "fb421d0ef39c8244afcb6cba1b3d8f51635aa150"
+hash-format = "sha1"
+url = "https://edge.forgecdn.net/files/5561/483/create_thermal-1.0.0-forge-1.20.1.jar"
+
+[update.curseforge]
+file-id = 5561483
+project-id = 1070007

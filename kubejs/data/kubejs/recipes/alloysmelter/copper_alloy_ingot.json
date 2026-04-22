@@ -1,0 +1,16 @@
+{
+    "type": "immersiveengineering:alloy",
+    "input0": {
+        "item": "minecraft:copper_ingot"
+    },
+    "input1": {
+        "tag": "forge:silicon"
+    },
+    "result": {
+        "base_ingredient": {
+            "item": "enderio:copper_alloy_ingot"
+        },
+        "count": 1
+    },
+    "time": 200
+}

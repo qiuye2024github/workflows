@@ -1,0 +1,23 @@
+{
+    "type": "mekanism:reaction",
+    "duration": 100,
+    "fluidInput": {
+        "amount": 100,
+        "tag": "enderio:dew_of_the_void"
+    },
+    "gasInput": {
+        "amount": 15,
+        "gas": "mekmm:unstable_dimensional_gas"
+    },
+    "gasOutput": {
+        "amount": 100,
+        "gas": "kubejs:chaos_fluid"
+    },
+    "itemInput": {
+        "ingredient": [
+            {
+                "item": "kubejs:void_core"
+            }
+        ]
+    }
+}

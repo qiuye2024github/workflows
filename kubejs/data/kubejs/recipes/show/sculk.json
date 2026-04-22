@@ -1,0 +1,27 @@
+{
+    "type": "lychee:block_clicking",
+    "item_in": [
+        {
+            "item": "minecraft:sculk_catalyst"
+        }
+    ],
+    "block_in": "kubejs:can_be_crafted_by_these_item",
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "minecraft:sculk_vein"
+        },
+        {
+            "type": "drop_item",
+            "item": "minecraft:sculk"
+        },
+        {
+            "type": "drop_item",
+            "item": "minecraft:sculk_shrieker"
+        },
+        {
+            "type": "drop_item",
+            "item": "minecraft:sculk_sensor"
+        }
+    ]
+}

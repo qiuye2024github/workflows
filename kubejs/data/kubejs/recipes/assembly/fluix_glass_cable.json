@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:package_glass_cable"
+  },
+  "program": "drill",
+  "result": {
+    "count": 6,
+    "item": "ae2:fluix_glass_cable"
+  }
+}

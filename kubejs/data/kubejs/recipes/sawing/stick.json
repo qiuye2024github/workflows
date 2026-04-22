@@ -1,0 +1,16 @@
+{
+    "type": "mekanism:sawing",
+    "input": {
+        "ingredient": {
+            "item": "minecraft:bamboo"
+        }
+    },
+    "mainOutput": {
+        "count": 1,
+        "item": "minecraft:stick"
+    },
+    "secondaryChance": 0.1,
+    "secondaryOutput": {
+        "item": "mekanism:sawdust"
+    }
+}

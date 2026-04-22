@@ -1,0 +1,21 @@
+{
+    "type": "immersiveengineering:arc_furnace",
+    "additives": [
+        {
+            "tag": "forge:slimeball/sky"
+        },
+        {
+            "item": "tconstruct:seared_brick"
+        }
+    ],
+    "energy": 51200,
+    "input": {
+        "item": "minecraft:iron_ingot"
+    },
+    "results": [
+        {
+            "item": "tconstruct:slimesteel_ingot"
+        }
+    ],
+    "time": 100
+}

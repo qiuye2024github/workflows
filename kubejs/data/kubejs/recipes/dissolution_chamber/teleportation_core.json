@@ -1,0 +1,28 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "minecraft:ender_pearl"
+    },{
+      "item": "mekanism:alloy_atomic"
+    },{
+      "item": "mekanism:alloy_reinforced"
+    },{
+      "item": "mekanism:alloy_reinforced"
+    },{
+      "item": "minecraft:lapis_lazuli"
+    },{
+      "item": "minecraft:lapis_lazuli"
+    },{
+      "item": "minecraft:diamond"
+    },{
+      "item": "minecraft:diamond"
+    }
+  ],
+  "inputFluid": "{Amount:300,FluidName:\"industrialforegoing:ether_gas\"}",
+  "output": {
+    "count": 1,
+    "item": "mekanism:teleportation_core"
+  },
+  "processingTime": 200
+}

@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:sawing",
+    "input": {
+        "ingredient": {
+            "item": "kubejs:silicon_boule"
+        }
+    },
+    "mainOutput": {
+        "count": 4,
+        "item": "kubejs:crystal_memory"
+    }
+}

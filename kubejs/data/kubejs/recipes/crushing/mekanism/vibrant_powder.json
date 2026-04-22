@@ -1,0 +1,11 @@
+{
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": {
+            "tag": "forge:gems/vibrant_crystal"
+        }
+    },
+    "output": {
+        "item": "enderio:vibrant_powder"
+    }
+}

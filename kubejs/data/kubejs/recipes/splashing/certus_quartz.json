@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "ae2:certus_quartz_crystal"
+    }
+  ]
+}

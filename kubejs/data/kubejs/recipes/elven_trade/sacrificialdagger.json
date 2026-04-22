@@ -1,0 +1,13 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "botania:ender_dagger"
+    }
+  ],
+  "output": [
+    {
+      "item": "bloodmagic:sacrificialdagger"
+    }
+  ]
+}

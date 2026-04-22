@@ -1,0 +1,22 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        [
+            {
+                "item": "kubejs:mana_ingot"
+            },
+            {
+                "item": "industrialforegoing:pink_slime_ingot"
+            }
+        ],
+        {
+            "amount": 125,
+            "fluidTag": "forge:redstone_acid"
+        }
+    ],
+    "results": [
+        {
+            "item": "extendedcrafting:redstone_ingot"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "type": "immersiveengineering:coke_oven",
+    "creosote": 50,
+    "input": {
+        "item": "minecraft:charcoal"
+    },
+    "result": {
+        "item": "kubejs:calcinated_carbon"
+    },
+    "time": 800
+}

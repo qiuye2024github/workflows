@@ -1,15 +1,24 @@
-filename = "rechiseledae2-forge-1.20.1-1.0.0.jar"
+filename = "rechiseledae2-forge-1.20-1.20.1-1.1.0.jar"
 name = "Rechiseled: AE2"
-side = "both"
+side = "server"
 x-prismlauncher-loaders = ["forge"]
 x-prismlauncher-mc-versions = ["1.20.1"]
 x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "rechiseledae2-forge-1.20-1.20.1-1.1.0.jar"
 
 [download]
-hash = "967dac43f9af01e3b0588e140a8269d9e122f27d"
+hash = "8abcce2b76dcd5506664cfee18e0b8a80daae135"
 hash-format = "sha1"
-url = "https://edge.forgecdn.net/files/5184/897/rechiseledae2-forge-1.20.1-1.0.0.jar"
+url = "https://edge.forgecdn.net/files/7074/191/rechiseledae2-forge-1.20-1.20.1-1.1.0.jar"
 
 [update.curseforge]
-file-id = 5184897
+file-id = 7074191
 project-id = 987534
+
+[[x-prismlauncher-dependencies]]
+addonId = "558998"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "223794"
+type = "REQUIRED"

@@ -1,9 +1,10 @@
 filename = "xnet-1.20-6.1.6.jar"
 name = "XNet"
-side = "both"
+side = ""
 x-prismlauncher-loaders = ["forge"]
 x-prismlauncher-mc-versions = ["1.20.1"]
 x-prismlauncher-release-type = "release"
+x-prismlauncher-version-number = "XNet - 1.20-6.1.6"
 
 [download]
 hash = "9e0f612a08e1211010cbef71b95846989042fe2c"
@@ -13,3 +14,15 @@ url = "https://edge.forgecdn.net/files/5712/546/xnet-1.20-6.1.6.jar"
 [update.curseforge]
 file-id = 5712546
 project-id = 260912
+
+[[x-prismlauncher-dependencies]]
+addonId = "233105"
+type = "REQUIRED"
+
+[[x-prismlauncher-dependencies]]
+addonId = "245211"
+type = "OPTIONAL"
+
+[[x-prismlauncher-dependencies]]
+addonId = "326041"
+type = "REQUIRED"

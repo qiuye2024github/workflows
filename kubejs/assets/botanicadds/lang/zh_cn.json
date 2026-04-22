@@ -1,0 +1,149 @@
+{
+  "itemGroup.botanicadds": "植物学拓展",
+  "botania.category.botanicadds": "植物学拓展",
+  "botanicadds.text.pools": "约 %s 个魔力池",
+  
+  "block.botanicadds.mana_tesseract": "魔力超立方体",
+  "block.botanicadds.terra_catalyst": "泰拉催化剂",
+  "block.botanicadds.dreamrock": "梦之石",
+  "block.botanicadds.mana_lapis_block": "魔力青金石块",
+  "block.botanicadds.elven_lapis_block": "精灵青金石块",
+  "block.botanicadds.elvenwood_log": "精灵木",
+  "block.botanicadds.elvenwood": "精灵木木板",
+  "block.botanicadds.elven_altar": "精灵祭坛",
+  "block.botanicadds.elven_brewery": "精灵炼药台",
+  "block.botanicadds.dreaming_pool": "梦之魔力池",
+  "block.botanicadds.gaia_plate": "盖亚聚合板",
+  "block.botanicadds.gaiasteel_block": "盖亚钢块",
+  "block.botanicadds.reduced_sculk_sensor": "减敏幽匿感测体",
+  "block.botanicadds.gaiasteel_pylon": "盖亚钢能量塔",
+  "block.botanicadds.elven_fluxfield": "精灵魔力通量场",
+  
+  "block.botanicadds.flowers.necroidus": "死灵花",
+  "block.botanicadds.flowers.rainute": "雨鸣花",
+  "block.botanicadds.flowers.glaciflora": "冰霜花",
+  "block.botanicadds.flowers.tempestea": "风暴花",
+  "block.botanicadds.flowers.vibrantia": "回响花",
+  "block.botanicadds.flowers.apicaria": "静蜂花",
+  "block.botanicadds.flowers.energizera": "充能花",
+  
+  "block.botanicadds.flowers.floating.necroidus": "浮空死灵花",
+  "block.botanicadds.flowers.floating.rainute": "浮空雨鸣花",
+  "block.botanicadds.flowers.floating.glaciflora": "浮空冰霜花",
+  "block.botanicadds.flowers.floating.tempestea": "浮空风暴花",
+  "block.botanicadds.flowers.floating.vibrantia": "浮空回响花",
+  "block.botanicadds.flowers.floating.apicaria": "浮空静蜂花",
+  "block.botanicadds.flowers.floating.energizera": "浮空充能花",
+  
+  "block.botanicadds.flowers.necroidus.reference": "我以死亡为食。",
+  "block.botanicadds.flowers.rainute.reference": "它畅饮雨水。",
+  "block.botanicadds.flowers.glaciflora.reference": "于严寒中茁壮。",
+  "block.botanicadds.flowers.tempestea.reference": "威力惊人！",
+  "block.botanicadds.flowers.vibrantia.reference": "从过去的回响中生成魔力。",
+  "block.botanicadds.flowers.apicaria.reference": "能安抚最凶暴的蜜蜂。",
+  "block.botanicadds.flowers.energizera.reference": "沉默的能量收割者。",
+  
+  "item.botanicadds.rune_tp": "传送符文",
+  "item.botanicadds.rune_energy": "能量符文",
+  "item.botanicadds.mana_lapis": "魔力青金石",
+  "item.botanicadds.elven_lapis": "精灵青金石",
+  "item.botanicadds.gaia_shard": "盖亚碎片",
+  "item.botanicadds.gaiasteel_ingot": "盖亚钢锭",
+  "item.botanicadds.gaiasteel_nugget": "盖亚钢粒",
+  "item.botanicadds.terra_protector": "大地护佑符",
+  "item.botanicadds.aura_ring_gaia": "盖亚光环戒指",
+  "item.botanicadds.mana_ring_gaia": "盖亚魔力戒指",
+  "item.botanicadds.mana_stealer_sword": "魔力汲取之剑",
+  "item.botanicadds.tesseract_attuner": "超立方调谐工具",
+  "item.botanicadds.sculk_petal": "潜声花瓣",
+  
+  "info.botanicadds.dreaming_pool": "一个方块，两个魔力池",
+  "info.botanicadds.mana_tesseract.no_channel": "未设置频道。",
+  "info.botanicadds.mana_tesseract.channel": "频道：%s。",
+  "info.botanicadds.spark_attachable": "可连接火花。",
+  "info.botanicadds.tesseract_attuner1": "重命名以创建频道。",
+  "info.botanicadds.tesseract_attuner2": "潜行点击以切换公开/私有模式。",
+  "info.botanicadds.tesseract_attuner3": "与超立方合成以设置其频道。",
+  "info.botanicadds.tesseract_attuner.mode": "模式：%s。",
+  "info.botanicadds.tesseract_attuner.mode.public": "公开",
+  "info.botanicadds.tesseract_attuner.mode.private": "私有",
+  "info.botanicadds.sculk_petal": "用 %2$s 剪切 %1$s 获得。",
+  
+  "botanicadds.category": "植物学拓展",
+  
+  "botanicadds.page.necroidus0": "$(item)死灵花$(0) 本质上是一个凋零建造者，但使用魔力驱动。你需要将灵魂沙和凋零骷髅头丢在花附近以供其建造。注意：建造将以花上方最多4格的方块为锚点，且建造过程消耗魔力很少。",
+  "botanicadds.page.necroidus1": "凋零小子",
+  
+  "botanicadds.page.rainute0": "$(item)雨鸣花$(0) 在下雨时产生 $(item)魔力$(0)。注意：此花在降雪环境中不产生任何东西。",
+  "botanicadds.page.rainute1": "别让它太湿了！",
+  
+  "botanicadds.page.glaciflora0": "$(item)冰霜花$(0) 是 $(item)雨鸣花$(0) 的替代品，但适用于雪原生物群系。你懂的……",
+  "botanicadds.page.glaciflora1": "触感冰凉！",
+  
+  "botanicadds.page.tempestea0": "$(item)风暴花$(0) 是另一种依赖天气的花，但它是非被动的。当附近发生闪电时，$(item)风暴花$(0) 会生成魔力。随后，它会将闪电引向自身并产生大量魔力。此过程会使花朵发热，需要 $(thing)大约一分钟$(0) 来冷却。",
+  "botanicadds.page.tempestea1": "本质上是一个能量转换器！",
+  
+  "botanicadds.page.vibrantia0": "$(item)回响花$(0) 来自深深的地下，$(thing)潜声$(0) 栖息之地。它利用 $(thing)潜声$(0) 的力量，在感知到附近振动时生成魔力。$(br2)然而，用潜声制作花朵会降低其感知能力，因此它将完全无法感知魔力爆发和其他弹射物。",
+  "botanicadds.page.vibrantia1": "我感知到你了……",
+  
+  "botanicadds.page.apicaria0": "$(item)静蜂花$(0) 是一种令人放松的花。当然不是对你，它负责让你的蜜蜂保持平静。$(br2)它将 $(thing)魔力$(0) 导入被激怒的蜜蜂（你本不该先招惹它们）中，将玩家从蜜蜂的愤怒中解救出来。$(br)当玩家收获 $(item)蜂巢$(0) 内容物时，它也能防止蜜蜂被激怒。",
+  "botanicadds.page.apicaria1": "嗡嗡嗡。",
+  
+  "botanicadds.page.energizera0": "通过精细的能量引导，此花从 $(thing)FE 能量$(0) 中创造出 $(thing)魔力$(0)。$(br2)任何含有 $(thing)FE 能量$(0) 的附近方块都会为花提供能量。",
+  "botanicadds.page.energizera1": "能量即是魔力！",
+  
+  "botanicadds.page.mana_tesseract0": "跨越超远距离，尤其是跨维度传输魔力曾是一个梦想，直到现在！$(item)魔力超立方$(0) 是你传输魔力的新方式！当然它远非完美，但至少能让你启程。要更改频道，你需要重命名 $(item)超立方调谐工具$(0)。",
+  "botanicadds.page.mana_tesseract1": "空间或许已被打破……",
+  "botanicadds.page.mana_tesseract2": "合成 $(item)超立方调谐工具$(0)。",
+  
+  "botanicadds.page.elven_altar0": "$(item)精灵祭坛$(0) 适合进行更快的合成。使用 $(l:alfhomancy/elf_resources)$(item)龙石$(0)$(/l) 和 $(l:botanicadds/dreamrock)$(item)梦之石$(0)$(/l) 改进后，你可以获得一个能够从 $(item)火花$(0) 接收 $(item)魔力$(0) 的祭坛。由于火花传输魔力快得多，这似乎是一个重要的升级装置！",
+  "botanicadds.page.elven_altar1": "合成 $(item)精灵祭坛$(0)。",
+  
+  "botanicadds.entry.elf_resources_extra": "额外的亚尔夫海姆资源",
+  "botanicadds.page.elf_resources_extra0": "$(thing)植物魔法拓展$(0) 扩展了亚尔夫海姆的资源体系，为你提供了更多本模组所需的资源。",
+  "botanicadds.page.elf_resources_extra1": "交易获取 $(item)精灵青金石$(0)",
+  "botanicadds.page.elf_resources_extra2": "交易获取 $(item)梦之石$(0)",
+  "botanicadds.page.elf_resources_extra3": "交易获取 $(item)精灵木$(0)",
+  
+  "botanicadds.entry.basic_resources_extra": "额外资源",
+  "botanicadds.page.basic_resources_extra0": "$(thing)植物魔法拓展$(0) 扩展了材料集，增加了一些符文和其他杂项物品。",
+  "botanicadds.page.basic_resources_extra1": "灌注 $(item)魔力青金石$(0)",
+  "botanicadds.page.basic_resources_extra2": "$(item)传送符文$(0)",
+  "botanicadds.page.basic_resources_extra3": "$(item)能量符文$(0)",
+  "botanicadds.page.basic_resources_extra4": "制作 $(item)精灵木$(0)",
+  
+  "botanicadds.page.gaia_plate0": "获得精灵资源后，何不升级你的 $(item)大地聚合板$(0)？它一直以来都尽职尽责。但也许是时候升级了？$(item)盖亚聚合板$(0) 在制造 $(item)泰拉钢$(0) 方面效率更高，而且它能制造的可不止这个！",
+  "botanicadds.page.gaia_plate1": "合成 $(item)盖亚聚合板$(0)。",
+  "botanicadds.page.gaia_plate3": "盖亚凝聚板",
+  "botanicadds.page.gaia_plate4": "制造 $(item)泰拉钢$(0)",
+  "botanicadds.page.gaia_plate5": "制造 $(item)盖亚钢$(0)",
+  
+  "botanicadds.page.terra_catalyst0": "$(item)泰拉催化剂$(0) 被用作另一种类型的催化剂。它也可用作某些资源（例如 $(item)盖亚之魂$(0)）的分流器。",
+  "botanicadds.page.terra_catalyst1": "合成 $(item)泰拉催化剂$(0)。",
+  "botanicadds.page.terra_catalyst2": "召唤一些 $(item)盖亚碎片$(0)。",
+  
+  "botanicadds.page.dreaming_pool0": "$(item)梦境魔力池$(0) 是另一种魔力池，由 $(item)梦之石$(0) 制成。这个池子的容量是普通魔力池的两倍。尽情享受吧！",
+  "botanicadds.page.dreaming_pool1": "变得离谱了……",
+  
+  "botanicadds.page.mana_stealer_sword0": "$(item)魔力汲取之剑$(0) 是对 $(item)泰拉之刃$(0) 的改进。这次，它造成更多伤害，并且能够从敌方玩家身上汲取魔力！",
+  "botanicadds.page.mana_stealer_sword1": "合成 $(item)魔力汲取之剑$(0)。",
+  
+  "botanicadds.page.elven_brewery0": "$(item)精灵炼药台$(0) 是 $(item)植物炼药台$(0) 的改进版。将其与 $(l:alfhomancy/elf_resources)$(item)龙石$(0)$(/l) 和 $(l:botanicadds/basics/elf_resources_extra)$(item)梦之石$(0)$(/l) 结合，可以为其连接 $(item)火花$(0)，使合成过程快得多。",
+  "botanicadds.page.elven_brewery1": "制作 $(item)精灵炼药台$(0)",
+  
+  "botanicadds.page.aura_ring_gaia0": "$(item)盖亚光环戒指$(0) 是用一块 $(item)盖亚钢$(0) 对 $(l:baubles/aura_ring)$(item)高级光环戒指$(0)$(/l) 的升级。此戒指产生魔力的速度是 $(item)高级光环戒指$(0) 的两倍！",
+  "botanicadds.page.aura_ring_gaia1": "合成 $(item)盖亚光环戒指$(0)。",
+  
+  "botanicadds.page.mana_ring_gaia0": "$(item)盖亚魔力戒指$(0) 是用一块 $(item)盖亚钢$(0) 对 $(l:baubles/mana_ring)$(item)高级魔力戒指$(0)$(/l) 的升级。此戒指存储的魔力大约是 $(item)高级魔力戒指$(0) 的四倍！",
+  "botanicadds.page.mana_ring_gaia1": "合成 $(item)盖亚魔力戒指$(0)。",
+  
+  "botanicadds.page.gaiasteel_pylon0": "$(item)盖亚钢能量塔$(0) 是 $(l:alfhomancy/intro)$(item)自然能量塔$(0)$(/l) 的更好版本。$(br2)将一些 $(l:botanicadds/misc/gaia_plate)$(item)盖亚钢$(0)$(/l) 应用到 $(l:alfhomancy/intro)$(item)自然能量塔$(0)$(/l) 上可以对其进行升级，从而将运行 $(l:alfhomancy/intro)$(item)通往亚尔夫海姆的传送门$(0)$(/l) 所需的任何魔力消耗减少约四倍。",
+  "botanicadds.page.gaiasteel_pylon1": "合成 $(item)盖亚钢能量塔$(0)",
+  
+  "botanicadds.page.elven_fluxfield0": "用精灵资源改进 $(l:mana/rf_generator)$(item)魔力通量场$(0)$(/l)，可以为其连接火花，同时也提高了其整体容量。",
+  "botanicadds.page.elven_fluxfield1": "扭曲魔法模组现实的构造。",
+  
+  "botania.entry.ba_terra_protector": "大地护佑符",
+  "botania.page.ba_terra_protector1": "$(item)大地护佑符$(0) 旨在以消耗魔力为代价提供对任何伤害的完全防护。但它不是橡胶做的，因此可能过热并停止工作。如果不想死，就不要过度使用。演示其效果的一个好方法是拥抱仙人掌。",
+  "botania.page.ba_terra_protector2": "合成 $(item)大地护佑符$(0)。"
+}
